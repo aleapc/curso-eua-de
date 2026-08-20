@@ -1,0 +1,419 @@
+{
+  "versao": 1,
+  "sku": "curso-eua-de",
+  "_changelog": [
+    "1 (2026-08-20): ROSTER RE-DERIVADO PARA O PAR de → en-US, a partir do roster es-MX → en-US (curso-eua-es). O comprador agora é ALEMÃO e o destino continua os ESTADOS UNIDOS. Os dez ids operacionais, as treze casas e o registro americano das cascas foram MANTIDOS — a língua-alvo é a mesma e as casas já obedeciam à LEI do §5.1 —, mas duas coisas mudaram: (a) o TERMO CANÔNICO da peça, de «la fórmula» para «Baustein» (consistência com a coluna alemã do catálogo, ver curso-holanda-de, curso-espanha-de e curso-reinounido-de), (b) toda a justificativa de custo, que agora mede o alemão e não o espanhol mexicano.",
+    "1 (2026-08-20): O TERMO CANÔNICO DA PEÇA PASSA A SER «Baustein». Era «la fórmula» (es-MX). O G15 lê este campo para conferir que a CASA de cada molde NOMEIA a peça, e que o nome não muda de parte para parte. Escolhido por consistência de catálogo com o curso-holanda-de, o curso-espanha-de e o curso-reinounido-de, os outros SKUs de comprador alemão. Uso «Baustein» sem artigo (bare) de propósito: o portão procura a string literal, e «der/den/dem Baustein» todos contêm «Baustein», então a narração pode declinar à vontade sem furar o portão.",
+    "1 (2026-08-20): OS 3 MOLDES SOCIAIS ENTRAM (HERDADOS). ESCOLHA (casa I03), PREFERENCIA (casa I05) e APRECIACAO (casa I07) já vinham autorados no roster es-MX de origem, junto com o bloco M2 completo (I01-I10) — a exceção fechada do PRODUTO §5.1. Teto social 3/3 esgotado. Cada um redispara com encaixe novo dentro do próprio M2 (ESCOLHA→I09, PREFERENCIA→I10, APRECIACAO→I08).",
+    "1 (2026-08-20): A VANTAGEM DO INGLÊS CONTINUA EMBUTIDA NAS CASCAS, mas o custo do aluno agora é o do ALEMÃO. O inglês quase não flexiona: «Do you have ___?», «Can I ___?», «Where's the ___?» têm a cabeça naturalmente invariável, então o buraco recebe a coisa-do-mundo em forma de dicionário sem nenhum cálculo. O alemão tem uma vantagem real de cognato com o inglês (house/Haus, water/Wasser, book/Buch), mas o custo do aluno não é montar a frase — é PRONUNCIAR (vogais, «th», consoante final, acento tônico) e ter o INVENTÁRIO na ponta da língua. Por isso o eixo de drill destes moldes é o encaixe e o shadow de pronúncia, não a gramática; e por isso a pronúncia entra como gesto/shadow (PRODUTO §3.4), nunca como molde."
+  ],
+  "_leia": "O NÚCLEO GERADOR do par de → en-US. Um molde é um encaixe cujo buraco se preenche com uma COISA DO MUNDO (die Toilette, ein Geldautomat, ein Ladegerät) dita em inglês americano — escolha, não cálculo. É o que separa este produto do phrasebook: com inventário fixo o aluno repete as frases que gravamos e trava quando a cena desvia dois graus; com o Baustein ele MONTA a frase que nunca escrevemos. Para o comprador ALEMÃO o molde é barato de montar (o inglês quase não flexiona, e ele já reconhece boa parte das palavras-base por raiz germânica compartilhada) e caro de DIZER — a peça troca, a casca não, e o trabalho dele é pôr a boca inglesa numa frase que os olhos dele já leem.",
+  "_regras": {
+    "teto": "12 moldes OPERACIONAIS + até 3 SOCIAIS = 15 declarados no curso inteiro (PRODUTO §5.1 e INV-14). Este SKU usa 10 operacionais e os 3 sociais (ESCOLHA/PREFERENCIA/APRECIACAO, autorados 2026-08-20 — teto esgotado). A folga operacional restante NÃO é convite para inflar: molde novo só entra quando o corpus o ensinar com ≥2 substituições numa mesma parte (casa) e ele voltar com encaixe novo em ≥2 partes posteriores.",
+    "vocabulario_molde": {
+      "termo": "Baustein",
+      "_": "O nome da peça na voz-guia (de-DE), equivalente ao «the frame» da guia inglesa, ao «molde» em PT-BR e à «fórmula» do curso-eua-es. É lido pelo G15 (valida-tom): a CASA de cada molde tem que NOMEAR a peça com este termo EXATO, e ele não muda de parte para parte. Nunca chamar de «die Formel», «das Muster», «die Struktur», «die Vorlage» — sinônimo instável faz o aluno achar que são peças diferentes. Idêntico ao termo usado no curso-holanda-de, no curso-espanha-de e no curso-reinounido-de, para consistência de catálogo entre os SKUs de comprador alemão."
+    },
+    "casa": "Onde o molde é ENSINADO, com no mínimo 2 substituições na frente do aluno.",
+    "redisparos": "Onde ele volta com encaixe NOVO. LEI DE ORDEM (G9d): todo redisparo vem DEPOIS da casa na ordem canônica (B01…B18 → I01…I10 → A01…A08). Herdado sem alteração do es-MX→en-US: a coluna «forma» e a coluna «exemplos» pertencem ao PAR (alvo americano), não ao comprador.",
+    "previas": "Onde o molde APARECE antes da casa, como frase inteira modelada por nativo. Nunca é redisparo e nunca conta em P5. Campo documental: nenhum portão o lê. Alguns slots que a FUNDACAO listava na coluna de redisparo caem ANTES da casa na ordem canônica (ex.: LOOKING volta a B08, que vem antes de B10) — esses viram prévia, não redisparo, para não quebrar o G9d.",
+    "recusados": [
+      {
+        "forma": "Artigos a / an / the / some",
+        "porque_fora": "O alemão TEM artigo e o usa de forma próxima ao inglês na maioria dos casos, mas o buraco ainda seria uma REGRA a calcular (contável? definido? plural?), não uma coisa do mundo — reprova em P1. Os Bausteine já trazem o artigo fixado na casca: «Can I get A table?», «Where's THE restroom?». Ensinar a escolha viraria o método do avesso."
+      },
+      {
+        "forma": "Phrasal verbs (check in, pick up, drop off, sold out, carry-on…)",
+        "porque_fora": "Idiomáticos e imprevisíveis: o significado não se monta a partir das partes. Entram como INVENTÁRIO FIXO por casa (check-in em B16, pick up em B15), nunca como molde produtivo."
+      },
+      {
+        "forma": "Pronúncia do «th» / vogais longas × curtas / consoante final",
+        "porque_fora": "É o custo REAL deste curso, mas é DRILL DE PRONÚNCIA (gesto e shadow), não molde. Vira o eixo dos passos de shadow e o programa motor de B01, nunca uma fórmula a encaixar."
+      },
+      {
+        "forma": "Contrações (I'm / don't / can't / where's)",
+        "porque_fora": "O aluno OUVE e deve reconhecer, mas produzi-las é opcional: a forma cheia («Can I», «Where is») sempre funciona no balcão. Fica como sinal RECEPTIVO (destrava de ouvido), não regra a aplicar."
+      },
+      {
+        "forma": "Gorjeta como «molde»",
+        "porque_fora": "Gorjeta é FATO (bolso + ficha cultural), não frase a produzir. O aluno não «pede» gorjeta; ele precisa SABER a regra (18–20% é salário; o tip screen de balcão dá para recusar). Vai para o conhecimento, nunca para o roster."
+      }
+    ],
+    "m2": "APROVEITO não introduz molde OPERACIONAL nenhum — o trabalho dele é trocar os encaixes dos moldes plantados em ME VIRO. RESOLVIDO 2026-08-20: a FUNDACAO original dava casa a WHAT-TIME em I01 e WENT-WRONG em I06 (ambos M2), o que chocava com a LEI do PRODUTO §5.1. Corrigido pelo dono: WHAT-TIME→B18 («what time is check-out?»), WENT-WRONG→B16 («my key card isn't working» — reclamar do quarto). Os dois nascem agora em M1, como a lei exige; I01 e I06 seguem como redisparo/recall, não como casa. ATUALIZADO 2026-08-20: a exceção fechada de 3 moldes SOCIAIS (APRECIAÇÃO/I07, ESCOLHA/I03, PREFERÊNCIA/I05) foi usada na autoria do bloco I01-I10 — cada um nasce como CASA na parte nomeada e redispara com encaixe novo dentro do próprio M2 (ESCOLHA→I09, PREFERENCIA→I10, APRECIACAO→I08). Teto social 3/3 esgotado; nenhum quarto social entra sem decisão do dono.",
+    "m3": "LEIO A SALA não produz molde nenhum. A relação dele com os moldes é auditiva — reconhecer, não montar. A01 é exatamente isso: o aluno reencontra as próprias fórmulas com pedaços erodidos pela fala rápida americana.",
+    "ativo_de_par": "O núcleo gerador vive inteiro em ME VIRO e é específico do PAR (língua-guia × EUA). Ele NÃO se amortiza entre compradores: quando outras línguas-guia entram reusando o áudio-ALVO americano, cada uma re-deriva o SEU roster na sua língua-guia. O que ELAS herdam deste arquivo é a coluna «forma» e a coluna «exemplos» — o registro americano já resolvido — e o que cada uma tem de refazer é a justificativa, o termo canônico e a lista de recusados, que medem o custo de UM comprador só."
+  },
+  "moldes": [
+    {
+      "id": "HAVE",
+      "categoria": "operacional",
+      "forma": "Do you have ___?",
+      "encaixe": "qualquer coisa que o outro possa TER ou que exista ali (disponibilidade e existência na mesma casca)",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B06",
+      "redisparos": [
+        "B08",
+        "B11",
+        "B15",
+        "B16",
+        "I03"
+      ],
+      "tiles": [
+        "chegar",
+        "mesa",
+        "compras",
+        "quarto"
+      ],
+      "exemplos": [
+        "wifi",
+        "a restroom",
+        "an ATM",
+        "a charger",
+        "a SIM card",
+        "water",
+        "a table for two",
+        "this in a large"
+      ],
+      "nota": "O de maior alcance do SKU, e nasce na 1ª hora — não na parte de comer. Cobre «vocês têm?» (disponibilidade) e «tem/há?» (existência) com uma casca só. Casca invariável: o inglês não flexiona «have» aqui, então todo o custo do aluno é dizer o «v» de have e a coisa que vem depois. É a fórmula que substitui um vocabulário inteiro de perguntas de balcão por uma."
+    },
+    {
+      "id": "CAN-I",
+      "categoria": "operacional",
+      "forma": "Can I ___?",
+      "encaixe": "qualquer coisa que EU quero fazer e preciso que deixem",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "casa": "B07",
+      "redisparos": [
+        "B10",
+        "B15",
+        "B16",
+        "B18",
+        "I09"
+      ],
+      "tiles": [
+        "chegar",
+        "pagar",
+        "compras",
+        "quarto"
+      ],
+      "exemplos": [
+        "pay by card",
+        "get out here",
+        "try this on",
+        "check in early",
+        "leave my bag here",
+        "get a receipt",
+        "sit here"
+      ],
+      "nota": "A categoria de improviso mais comum do viajante — «isso aqui pode?» —, que existe porque as regras mudam de lugar para lugar. Nasce no trajeto do aeroporto (B07) porque é ali que ele faz duas substituições coladas com o motorista. A forma cheia «Can I» sempre funciona; a contração «can I» ~ «c'n I» entra só como reconhecimento."
+    },
+    {
+      "id": "WHERE",
+      "categoria": "operacional",
+      "forma": "Where's the ___?",
+      "encaixe": "qualquer lugar conhecido que ele precisa alcançar",
+      "tipo": "aberto",
+      "par": true,
+      "tipoBuraco": "lugar",
+      "casa": "B08",
+      "redisparos": [
+        "B10",
+        "B16",
+        "I03"
+      ],
+      "tiles": [
+        "chegar",
+        "transporte"
+      ],
+      "exemplos": [
+        "restroom",
+        "gate",
+        "exit",
+        "subway",
+        "elevator",
+        "front desk",
+        "platform"
+      ],
+      "nota": "«Where's the ___?» pergunta por um lugar DEFINIDO que ele sabe que existe (o banheiro, a saída, o portão). Casa em B08, o slot do «onde fica?». Vem amarrado à escotilha de reparo — «Is it far?» + «Can you show me?» —, porque o aperto desta cena é a RESPOSTA (uma direção falada rápido), não a pergunta. Ensinar a pergunta sem o reparo fabrica o congelamento."
+    },
+    {
+      "id": "LOOKING",
+      "categoria": "operacional",
+      "forma": "I'm looking for ___",
+      "encaixe": "procurar coisa ou lugar sem saber o nome exato em inglês",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B10",
+      "redisparos": [
+        "B15",
+        "B16"
+      ],
+      "previas": [
+        "B08 — aparece dentro da casa de WHERE como frase inteira modelada por nativo, um slot antes; por vir ANTES de B10 é prévia, não redisparo (G9d)."
+      ],
+      "tiles": [
+        "compras",
+        "chegar"
+      ],
+      "exemplos": [
+        "the platform",
+        "a pharmacy",
+        "sunscreen",
+        "the exit",
+        "my gate",
+        "the check-in counter"
+      ],
+      "nota": "O irmão de WHERE para quando o aluno NÃO tem o nome exato: aponta a intenção e deixa o outro completar. Casa em B10 (ler o lugar), onde ele já está decifrando placas e falsos amigos. FUNDACAO listava B08·B16 como redisparo; B08 virou prévia (vem antes da casa) e B15 entra como o segundo redisparo natural — procurar um item na loja. VER RELATÓRIO: precisa de confirmação do dono."
+    },
+    {
+      "id": "GET",
+      "categoria": "operacional",
+      "forma": "Can I get ___?",
+      "encaixe": "pedir ou encomendar no balcão ou à mesa",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B11",
+      "redisparos": [
+        "B12",
+        "B15",
+        "B16"
+      ],
+      "tiles": [
+        "mesa",
+        "compras",
+        "quarto"
+      ],
+      "exemplos": [
+        "a table for two",
+        "the check",
+        "this to go",
+        "a coffee",
+        "two of these",
+        "a bag",
+        "a receipt"
+      ],
+      "nota": "O cavalo de batalha do restaurante e do balcão: «Can I get a table for two?», «Can I get the check?», «Can I get this to go?». A alternativa «I'd like ___» é o registro mais formal, ensinado como variante RECEBIDA (o aluno reconhece), nunca como molde separado — inflaria o roster com a mesma função."
+    },
+    {
+      "id": "WITHOUT",
+      "categoria": "operacional",
+      "forma": "No ___, please · ___ without ___",
+      "encaixe": "tirar ou evitar um item do pedido (sem gelo, sem cebola)",
+      "tipo": "aberto",
+      "tipoBuraco": "ingrediente",
+      "casa": "B12",
+      "redisparos": [
+        "I02",
+        "I03"
+      ],
+      "previas": [
+        "B11 — a primeira rodada já modela «no ice, please» inteiro, um slot antes da casa; por vir antes de B12 é prévia."
+      ],
+      "tiles": [
+        "dieta",
+        "mesa",
+        "saude"
+      ],
+      "exemplos": [
+        "No ice, please",
+        "no onions",
+        "no sugar",
+        "without cilantro",
+        "without mayo",
+        "without whipped cream"
+      ],
+      "nota": "Casa a customização do pedido em B12. «please» faz o trabalho que em alemão o tom cortês faria — o aluno aprende cedo que o politener universal vai colado no fim. RESSALVA DECLARADA: WITHOUT remove uma PREFERÊNCIA e NÃO comunica alergia; B13 troca deliberadamente de ferramenta (aviso-martelo «I'm allergic to ___» + cartão escrito), porque esta fórmula não carrega gravidade. FUNDACAO dava «B11·saúde»: B11 é prévia, «saúde» é tile — os redisparos concretos I02/I03 estão marcados no relatório."
+    },
+    {
+      "id": "HOW-MUCH",
+      "categoria": "operacional",
+      "forma": "How much is ___?",
+      "encaixe": "preço de qualquer coisa",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B15",
+      "redisparos": [
+        "B16",
+        "I10"
+      ],
+      "previas": [
+        "B11 — o preço já aparece de passagem na primeira rodada, quatro slots antes da casa; prévia, não redisparo."
+      ],
+      "tiles": [
+        "compras",
+        "pagar"
+      ],
+      "exemplos": [
+        "this",
+        "the small one",
+        "a day pass",
+        "the room",
+        "a ticket",
+        "it all together"
+      ],
+      "nota": "O preço de etiqueta nos EUA NÃO inclui imposto (sales tax entra só no caixa) — mas isso é FATO de ficha cultural em B14/B15, não parte da fórmula. Casca invariável; o único cuidado é reconhecer o número que volta dito rápido (lado receptivo, B09/B14). FUNDACAO dava «B11·B16·compras»: B11 é prévia, «compras» é tile; I10 entra como o segundo redisparo (o dinheiro sem drama)."
+    },
+    {
+      "id": "WHAT-TIME",
+      "categoria": "operacional",
+      "forma": "What time ___?",
+      "encaixe": "horário — quando abre, quando sai, quando é o check-out",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "casa": "B18",
+      "redisparos": [
+        "I01",
+        "I04",
+        "I09"
+      ],
+      "previas": [],
+      "tiles": [
+        "transporte",
+        "quarto"
+      ],
+      "exemplos": [
+        "does it open",
+        "does it close",
+        "does the last train leave",
+        "is check-out",
+        "does the kitchen close"
+      ],
+      "nota": "Horário é decisão de TEMPO — a que horas eu como, quando fecha a cozinha. RESOLVIDO 2026-08-20: casa movida de I01 (M2, contra a LEI do PRODUTO §5.1) para B18 — «what time is check-out?», o momento canônico de partida, M1. I01 («o relógio deles») vira redisparo natural, não casa. Redisparos I04/I09 mantidos da FUNDACAO original («transporte»)."
+    },
+    {
+      "id": "WENT-WRONG",
+      "categoria": "operacional",
+      "forma": "I lost my ___ · My ___ isn't working",
+      "encaixe": "quando algo dá errado — perdi, quebrou, não funciona",
+      "tipo": "aberto",
+      "tipoBuraco": "objeto-perdido",
+      "casa": "B16",
+      "redisparos": [
+        "I06",
+        "I07"
+      ],
+      "previas": [
+        "B17 — «I lost my passport» aparece na parte de apuro/emergência, logo depois da casa; reforça o molde em cena de risco maior."
+      ],
+      "tiles": [
+        "reparo",
+        "apuro",
+        "quarto"
+      ],
+      "exemplos": [
+        "I lost my passport",
+        "I lost my phone",
+        "my key card isn't working",
+        "the AC isn't working",
+        "my card isn't working"
+      ],
+      "nota": "O passado do inglês aqui é simples e memorizado — «I lost», «I already paid» — então entra como pedaço FIXO, nunca regra a conjugar (o kill-switch do §5.1: se explicar exige dizer «past tense», não está pronto). RESOLVIDO 2026-08-20: casa movida de I06 (M2, contra a LEI do PRODUTO §5.1) para B16 — «my key card isn't working», reclamar do quarto, M1. I06 («contar a viagem») vira redisparo/recall, não casa. Redisparos I06/I07 mantidos."
+    },
+    {
+      "id": "EXCUSE",
+      "categoria": "operacional",
+      "forma": "Excuse me",
+      "encaixe": "abridor universal — chamar, pedir passagem, iniciar uma interação",
+      "tipo": "fechado",
+      "tipoBuraco": "acao",
+      "casa": "B03",
+      "redisparos": [
+        "B08",
+        "B11",
+        "I02"
+      ],
+      "tiles": [
+        "chegar",
+        "mesa",
+        "simpatia"
+      ],
+      "exemplos": [
+        "Excuse me",
+        "Excuse me?",
+        "Excuse me, sorry"
+      ],
+      "nota": "É o abridor que precede quase toda outra fórmula: chamar o garçom, pedir passagem no metrô, iniciar uma pergunta. Na prática é um PEDÁGIO (não tem buraco produtivo — a casca é a frase inteira), mas a FUNDACAO o listou entre os 10 e por isso é declarado como forma FECHADA; o tipoBuraco «acao» descreve a ação social que ele abre, não uma peça trocável. Redispara em praticamente toda cena — os três slots listados são uma amostra representativa depois da casa B03. VER RELATÓRIO: se o dono preferir, sai do roster declarado e vira pedágio ensinado-e-não-declarado (legítimo pelo PRODUTO §5.1), como já é «___, please»."
+    },
+    {
+      "id": "ESCOLHA",
+      "categoria": "social",
+      "forma": "Which do you recommend: ___ or ___?",
+      "encaixe": "duas opções concretas já nomeadas por outra pessoa — pratos, cores, tamanhos — nunca uma pergunta aberta sobre o que é bom em geral",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "I03",
+      "redisparos": [
+        "I09"
+      ],
+      "tiles": [
+        "mesa",
+        "compras"
+      ],
+      "exemplos": [
+        "the salmon or the short rib",
+        "the pasta or the fish",
+        "the blue one or the black one",
+        "the tacos or the tamales"
+      ],
+      "nota": "Exceção fechada e nomeada do PRODUTO §5.1: M2 não introduz molde OPERACIONAL, mas pode plantar até 3 moldes SOCIAIS porque a família apetitiva não tem cena em M1. ESCOLHA nasce em I03 (o prato que não ia pedir) devolvendo ao interlocutor a decisão entre duas coisas que ELE mesmo nomeou — nunca um pedido de opinião solto. Redispara em I09 (mercado) com encaixe novo, satisfazendo P5. Nasceu em 2026-08-20, autoria do bloco I01-I10."
+    },
+    {
+      "id": "PREFERENCIA",
+      "categoria": "social",
+      "forma": "Do you prefer ___ or ___?",
+      "encaixe": "duas coisas concretas em jogo numa plática casual — lugares, cores, bebidas — tanto para perguntar quanto para responder",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "I05",
+      "redisparos": [
+        "I10"
+      ],
+      "tiles": [
+        "simpatia",
+        "compras"
+      ],
+      "exemplos": [
+        "the beach or the mountains",
+        "the red one or the green one",
+        "the IPA or the lager",
+        "the mug or the print"
+      ],
+      "nota": "Exceção fechada e nomeada do PRODUTO §5.1, a segunda dos três moldes sociais de M2. PREFERENCIA nasce em I05 (as perguntas que eles fazem) — a mesma casca serve pra responder sobre si mesmo e pra perguntar sobre o outro, o que a diferencia de ESCOLHA (que sempre devolve a decisão a quem ofereceu as opções). Redispara em I10 (escolher entre dois lembrancinhas) com encaixe novo. Nasceu em 2026-08-20, autoria do bloco I01-I10."
+    },
+    {
+      "id": "APRECIACAO",
+      "categoria": "social",
+      "forma": "I really like ___",
+      "encaixe": "qualquer coisa concreta que valha um elogio genuíno — prato, bebida, objeto — nomeada, nunca genérica",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "I07",
+      "redisparos": [
+        "I08"
+      ],
+      "tiles": [
+        "simpatia",
+        "mesa"
+      ],
+      "exemplos": [
+        "the mole",
+        "this cocktail",
+        "this sweater",
+        "this"
+      ],
+      "nota": "Exceção fechada e nomeada do PRODUTO §5.1, a terceira e última dos três moldes sociais de M2 — o teto de 3 está esgotado. APRECIACAO nasce em I07 (elogiar, agradecer e reclamar sem drama) nomeando a coisa elogiada, o que a torna mais forte que um «it's good» genérico. Redispara em I08 (te invitan a su casa), elogiando algo servido em casa de anfitrião. Nasceu em 2026-08-20, autoria do bloco I01-I10."
+    }
+  ],
+  "cortados": [
+    {
+      "forma": "I would like to / I'd like ___",
+      "porque": "É o «me gustaría» do livro didático em inglês: mais sílabas para o mesmo trabalho que «Can I get ___?» faz no balcão. Fica como variante RECEBIDA dentro de GET, nunca como molde à parte. Nomeado aqui para que nenhum agente futuro o traga de volta como fórmula própria."
+    },
+    {
+      "forma": "GRAU — a little more / a little less + [X]",
+      "porque": "O que justifica esse molde é uma escala que o aluno ajusta com o próprio julgamento (picante no Phûut!, açúcar). A cozinha americana de sobrevivência resolve a maior parte disso com pergunta fechada ou com WITHOUT; se um recorte futuro (café da 3ª onda, bar) pedir grau produzido pelo aluno, o molde volta lá, não aqui."
+    }
+  ]
+}

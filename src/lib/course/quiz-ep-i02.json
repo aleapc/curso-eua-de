@@ -1,0 +1,67 @@
+{
+  "id": "q-i02",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Die Schlange, die es wirklich gibt",
+  "subtitulo": "Sich anstellen und still warten, bis du dran bist",
+  "introAudioKey": "eua-i02-q-i",
+  "introPt": "Ein volles Café, gerade Schlange, alle still. Hör dir an, wie der Reisende die Schlange bestätigt und ohne Eile bestellt.",
+  "cenario": "Ein Kaffeetresen in den USA, morgendliche Stoßzeit.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i02-q01",
+      "voz": "target_en_f",
+      "es": "Excuse me, is this the end of the line?",
+      "tts": "Excuse me, is this the end of the line?",
+      "pinyin": "eks-KJUS mi, is dis de end of de lain",
+      "pt": "Entschuldigung, ist das hier das Ende der Schlange?"
+    },
+    {
+      "audioKey": "eua-i02-q02",
+      "voz": "target_en_m",
+      "es": "Yep, right behind me.",
+      "tts": "Yep, right behind me.",
+      "pinyin": "jep, rait bi-HAIND mi",
+      "pt": "Jep, genau hinter mir."
+    },
+    {
+      "audioKey": "eua-i02-q03",
+      "voz": "target_en_f",
+      "es": "Can I get a medium latte, please?",
+      "tts": "Can I get a medium latte, please?",
+      "pinyin": "ken ai guet e MI-diem LA-tei, pliis",
+      "pt": "Kann ich einen mittleren Latte bekommen, bitte?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "An einem vollen Tresen ohne Band oder sichtbare Nummer, was bestimmt die Reihenfolge?",
+      "opcoes": ["Wer am lautesten spricht", "Wer zuerst kam, still respektiert", "Wer der Kasse am nächsten steht", "Es gibt keine Reihenfolge"],
+      "correta": 1,
+      "explica": "Die Schlange existiert, auch wenn sie nicht markiert ist; die Ankunftsreihenfolge wird respektiert."
+    },
+    {
+      "pergunta": "Wofür dient «Excuse me, is this the end of the line?»?",
+      "opcoes": ["Um deinen Kaffee zu bestellen", "Um zu bestätigen, wo du dich anstellst", "Um die Rechnung zu bitten", "Um deine Bestellung zu ändern"],
+      "correta": 1,
+      "explica": "Es bestätigt das Ende der Schlange, bevor du dich anstellst, ohne dich vorzudrängen."
+    },
+    {
+      "pergunta": "Du bist schon am Tresen dran. Welchen Baustein benutzt du zum Bestellen?",
+      "opcoes": ["What time do you open?", "Can I get a medium latte, please?", "Where's the restroom?", "How much is it?"],
+      "correta": 1,
+      "explica": "Das ist derselbe Baustein aus B11: Can I get, und die Sache."
+    },
+    {
+      "pergunta": "Du hast deinen Kaffee bestellt, willst aber keine Sahne. Was sagst du?",
+      "opcoes": ["No cream, please", "I lost my cream", "Do you have cream?", "Where's the cream?"],
+      "correta": 0,
+      "explica": "Das ist der WITHOUT-Baustein aus B12, unverändert wiederverwendet."
+    },
+    {
+      "pergunta": "Warum wird nach deinem Namen für die Bestellung gefragt?",
+      "opcoes": ["Neugier des Angestellten", "Um dich zu rufen, wenn es fertig ist", "Für das Punkteprogramm", "Es ist nicht nötig, ihn zu geben"],
+      "correta": 1,
+      "explica": "Das ist Logistik am Tresen, kein Small Talk — ein kurzer Name reicht."
+    }
+  ]
+}

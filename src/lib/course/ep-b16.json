@@ -1,0 +1,301 @@
+{
+  "id": "b16",
+  "slot": "B16",
+  "nivel": "basico",
+  "numero": 16,
+  "parte": "16A",
+  "titulo": "Bevor du die Zimmernummer bekommst",
+  "subtitulo": "Um das bitten, was deinen Aufenthalt verbessert, und «My ___ isn't working» für wenn etwas ausfällt",
+  "cena": "Du stehst an der Rezeption, die Schlange hinter dir wächst, und du weißt immer noch nicht, ob du um etwas Besseres bittest, bevor du den Schlüssel bekommst.",
+  "moldura": "ganha",
+  "frasePiso": "Du checkst ein, indem du um das bittest, was dein Zimmer verbessert, und falls danach etwas ausfällt, meldest du es, ohne erst jedes Wort im Kopf zu übersetzen.",
+  "moldes": [
+    "WENT-WRONG"
+  ],
+  "clique": {
+    "contagem": [
+      "die Schlüsselkarte, die nicht öffnete",
+      "die ausgeschaltete Klimaanlage",
+      "der verschwundene Eisautomat",
+      "der Pool, den du nicht gefunden hast"
+    ],
+    "desconto": "Niemand hat dir einen Satz für die kaputte Schlüsselkarte gegeben und einen anderen für die defekte Klimaanlage. Du hast beide mit demselben Baustein gebaut: «My ___ isn't working».",
+    "piso": "Das nächste Mal, wenn im Hotelzimmer etwas ausfällt, wartest du nicht, dass es sich von selbst löst: du meldest es sofort, mit einem Satz, den du schon sagen kannst."
+  },
+  "permissao": "Du musst dich nicht entschuldigen, wenn du etwas meldest, das nicht funktioniert. «My ___ isn't working» ist Information, keine übertriebene Beschwerde; das Hotel erwartet, dass du es sagst.",
+  "permissaoAudioKey": "eua-b16-n10",
+  "espelho": "In jedem Hotel deines Landes würdest du eine Schlüsselkarte, die nicht öffnet, oder eine ausgeschaltete Klimaanlage auch ohne zweimal nachzudenken melden; das einzig Neue hier ist der genaue Satz und zu wissen, dass um etwas Besseres bitten vor dem Check-in genauso normal ist wie sich danach zu beschweren.",
+  "fichasCulturais": [
+    {
+      "sinal": "Beim morgendlichen Verlassen des Zimmers siehst du, dass andere Gäste ein oder zwei gefaltete Scheine auf dem Kopfkissen oder Nachttisch liegen lassen.",
+      "suaLeitura": "Sie haben etwas vergessen, oder das ist verlorenes Geld.",
+      "oQueEAli": "Das ist Trinkgeld für das Reinigungspersonal, typischerweise ein bis fünf Dollar pro Nacht. Nicht verpflichtend, aber in den meisten Hotels des Landes eine erwartete Geste.",
+      "oQueVoceFaz": "Wenn du willst, lass ein bis zwei Dollar pro Nacht sichtbar auf dem Kopfkissen liegen, nicht versteckt in einer Schublade.",
+      "oQueMelhora": "Du würdigst eine Arbeit, die du fast nie direkt siehst, und dein Zimmer bekommt oft etwas mehr Aufmerksamkeit für den Rest des Aufenthalts.",
+      "ondeNaoVale": "Gilt nicht in Hostel-artigen Unterkünften mit geteilter Reinigung oder bei Ein-Nacht-Aufenthalten, wo keine Zeit bleibt, dass die Geste Wirkung zeigt.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "eua-b16-n09"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "resort-fee-oculto",
+      "afirmacao": "Some hotels — especially resorts — add a daily 'resort fee' that is not shown in the room rate you booked. Ask about it before you check in, not after you see the final bill.",
+      "fonte": "Federal Trade Commission — orientações sobre taxas obrigatórias não divulgadas (drip pricing)",
+      "ano": 2024,
+      "revisarAte": "2026-12-01",
+      "evidencia": "CONSENSO",
+      "risco": "medio"
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b16-n01",
+      "gesto": 4,
+      "bloco": "aquecimento",
+      "pt": "Teil sechzehn. Wieder der Flick, am Endkonsonanten: work-ING, key-CARD. Häng keinen zusätzlichen Vokal dran."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b16-n02",
+      "bloco": "cena",
+      "pt": "Du bist an der Rezeption, die Schlange wächst, und du weißt nicht: bittest du um etwas Besseres, bevor du den Schlüssel bekommst?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b16-p01",
+      "promptPt": "Wie im Laden, frag, was alles zusammen kostet — das Zimmer inklusive Steuern. Sprich jetzt.",
+      "bloco": "callback",
+      "molde": "HOW-MUCH",
+      "audioKey": "eua-b16-t01",
+      "es": "How much is it all together?",
+      "tts": "How much is it all together?",
+      "pinyin": "hau matsch is it ol tu-GE-der",
+      "pt": "Was kostet alles zusammen?"
+    },
+    {
+      "consulta": [
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "CAN-I",
+      "encaixe": "check in early",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b16-p02",
+      "promptPt": "Du bist vor der offiziellen Uhrzeit angekommen, und das Zimmer könnte schon fertig sein. Frag, ob du früher einchecken kannst. Sprich jetzt.",
+      "audioKey": "eua-b16-t02",
+      "es": "Can I check in early?",
+      "tts": "Can I check in early?",
+      "pinyin": "ken ai tschek in ER-li",
+      "pt": "Kann ich früher einchecken?"
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "a quieter room",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b16-p03",
+      "promptPt": "Bevor du den Schlüssel bekommst, bitte um ein ruhigeres Zimmer. Sprich jetzt.",
+      "audioKey": "eua-b16-t03",
+      "es": "Do you have a quieter room?",
+      "tts": "Do you have a quieter room?",
+      "pinyin": "du ju hev e KUAI-e-ter rum",
+      "pt": "Habt ihr ein ruhigeres Zimmer?"
+    },
+    {
+      "consulta": [
+        "quarto/checkout"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "GET",
+      "encaixe": "a late check-out",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b16-p04",
+      "promptPt": "Dein Flug geht spät, und du willst das Zimmer später als üblich verlassen. Bitte um einen späten Check-out. Sprich jetzt.",
+      "audioKey": "eua-b16-t04",
+      "es": "Can I get a late check-out?",
+      "tts": "Can I get a late check-out?",
+      "pinyin": "ken ai guet e leit tschek-AUT",
+      "pt": "Kann ich einen späten Check-out bekommen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b16-r01",
+      "es": "Sure, that's no problem.",
+      "tts": "Sure, that's no problem.",
+      "pinyin": "schur, dets nou PRA-blem",
+      "pt": "Klar, kein Problem."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b16-n03",
+      "bloco": "molde",
+      "pt": "Der Baustein für Ausfälle: «My» plus was kaputt ist, plus «isn't working». Oder «I lost my» plus das Verlorene."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b16-t05",
+      "es": "My key card isn't working.",
+      "tts": "My key card isn't working.",
+      "pinyin": "mai ki kard IS-ent UOR-king",
+      "pt": "Meine Schlüsselkarte funktioniert nicht."
+    },
+    {
+      "consulta": [
+        "reparo/nao-funciona"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WENT-WRONG",
+      "encaixe": "my key card isn't working",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b16-p05",
+      "promptPt": "Du bist im Zimmer angekommen, und die Karte öffnet die Tür nicht. Geh zurück zur Rezeption und meld es. Sprich jetzt.",
+      "audioKey": "eua-b16-t05",
+      "es": "My key card isn't working.",
+      "tts": "My key card isn't working.",
+      "pinyin": "mai ki kard IS-ent UOR-king",
+      "pt": "Meine Schlüsselkarte funktioniert nicht."
+    },
+    {
+      "consulta": [
+        "reparo/nao-funciona"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "WENT-WRONG",
+      "encaixe": "the AC isn't working",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b16-p06",
+      "promptPt": "Du bist schon im Zimmer, aber die Klimaanlage kühlt nicht. Meld es. Sprich jetzt.",
+      "audioKey": "eua-b16-t06",
+      "es": "The AC isn't working.",
+      "tts": "The AC isn't working.",
+      "pinyin": "de ei-SI IS-ent UOR-king",
+      "pt": "Die Klimaanlage funktioniert nicht."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b16-r02",
+      "es": "I'll send someone up right away.",
+      "tts": "I'll send someone up right away.",
+      "pinyin": "eil send SAM-uan ap rait e-GEI",
+      "pt": "Ich schick sofort jemanden hoch."
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHERE",
+      "encaixe": "the ice machine",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b16-p07",
+      "promptPt": "Du gehst durch den Flur und erinnerst dich nicht, wo der Eisautomat ist. Frag nach. Sprich jetzt.",
+      "audioKey": "eua-b16-t07",
+      "es": "Where's the ice machine?",
+      "tts": "Where's the ice machine?",
+      "pinyin": "uers di ais me-SCHIIN",
+      "pt": "Wo ist der Eisautomat?"
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "LOOKING",
+      "encaixe": "the pool",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b16-p08",
+      "promptPt": "Du bist in die Lobby runtergegangen und siehst keine Schilder zum Pool. Sag jemandem, was du suchst. Sprich jetzt.",
+      "audioKey": "eua-b16-t08",
+      "es": "I'm looking for the pool.",
+      "tts": "I'm looking for the pool.",
+      "pinyin": "aim LU-king for de pul",
+      "pt": "Ich suche den Pool."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b16-n04",
+      "pt": "Frag vor dem Bezahlen nach einer täglichen Resort-Gebühr, die nicht im Preis steht. Besser hier als bei der Endrechnung."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b16-n09",
+      "bloco": "capsula",
+      "pt": "Siehst du gefaltete Scheine auf dem Kissen, ist das kein vergessenes Geld: das Trinkgeld für die Reinigung, ein bis zwei Dollar pro Nacht."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b16-n10",
+      "bloco": "permissao",
+      "pt": "Du musst dich nicht entschuldigen, wenn etwas nicht funktioniert. Das Hotel erwartet diese Information, keine übertriebene Beschwerde."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b16-n11",
+      "bloco": "clique",
+      "pt": "Du hast Schlüsselkarte und Klimaanlage gemeldet. Niemand gab dir zwei Sätze: du hast sie mit demselben Baustein gebaut."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b16-s01",
+      "es": "My key card isn't working. The AC isn't working.",
+      "tts": "My key card isn't working. The AC isn't working.",
+      "pinyin": "mai ki kard IS-ent UOR-king. de ei-SI IS-ent UOR-king.",
+      "pt": "Wiederhole denselben Baustein mit zwei verschiedenen Problemen."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b16-n12",
+      "bloco": "recap",
+      "pt": "B16 geschafft. Erst gebeten, dann gemeldet: kaputte Karte, defekte Klimaanlage, ein einziger Baustein für wenn etwas ausfällt."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Erst bitten, dann beschweren",
+    "secoes": [
+      {
+        "titulo": "Die Reihenfolge zählt",
+        "corpo": "B16 beginnt damit, um das zu bitten, was deinen Aufenthalt verbessert — ruhiges Zimmer, später Check-out —, bevor du beschwerst, was nicht funktioniert. Von Anfang an zu bitten kostet dasselbe wie stumm zu bleiben und bringt fast immer ein besseres Ergebnis."
+      },
+      {
+        "titulo": "Der Baustein für das Problem",
+        "corpo": "«My ___ isn't working» funktioniert für fast jeden technischen Defekt im Zimmer. «I lost my ___» funktioniert für das Verlorene. Das Präteritum im Englischen ist hier einfach und auswendig gelernt: es gibt nichts zu konjugieren."
+      },
+      {
+        "titulo": "Die Resort-Gebühr, die nicht im Preis steht",
+        "corpo": "Manche Hotels, besonders Resorts, fügen eine tägliche Gebühr hinzu, die nicht im gebuchten Preis erscheint. Beim Check-in danach zu fragen erspart dir die Überraschung bei der Endrechnung."
+      },
+      {
+        "titulo": "Das Trinkgeld für die Reinigung",
+        "corpo": "Nicht verpflichtend, aber üblich ist es, ein bis zwei Dollar pro Nacht sichtbar auf dem Kissen zu lassen für das Reinigungspersonal — eine andere Geste als das Restauranttrinkgeld, das du schon in B11 gesehen hast."
+      }
+    ]
+  }
+}

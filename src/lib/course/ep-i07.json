@@ -1,0 +1,251 @@
+{
+  "id": "i07",
+  "slot": "I07",
+  "nivel": "intermediario",
+  "numero": 7,
+  "parte": "I07",
+  "titulo": "This is really good — und der Koch erfährt davon",
+  "subtitulo": "Ein konkretes Lob, das wirklich in der Küche ankommt, und die ruhige, präzise Zeile, die dir ein kaltes Gericht austauschen lässt",
+  "cena": "Der Teller ist leer, der Koch ist durch das Küchenfenster zu sehen, und ein einziger ehrlicher Satz ist dabei, den Rest des Abendessens zu verändern.",
+  "decisao": "laut sagen, was gut und was schlecht ist, statt beides für dich zu behalten — das konkrete Lob und die ruhige Beschwerde entscheiden, ob sich der Abend verbessert oder so bleibt, wie er ankam",
+  "emJogo": "dinheiro",
+  "moldura": "ganha",
+  "moldes": ["APRECIACAO"],
+  "clique": {
+    "contagem": ["das Küchenfenster", "die Hotelbar", "der Kunsthandwerksmarkt"],
+    "desconto": "Niemand hat dir einen Satz für das Mole gegeben, einen anderen für den Cocktail und einen für den Pullover. Du hast alle drei mit demselben Baustein gebaut, nur die Sache, die dir gefiel, hat sich geändert."
+  },
+  "frasePiso": "Du sagst mit einem einzigen Baustein laut, was dir wirklich gefallen hat — und löst ein falsches Gericht, ohne dass die Stimme auch nur einmal lauter wird.",
+  "fichasCulturais": [
+    {
+      "sinal": "Der Kellner fragt «is everything okay?» und bleibt stehen, wartend auf mehr als ein automatisches «ja».",
+      "suaLeitura": "Er hat schon geantwortet, was er antworten musste, ich muss nichts weiter sagen.",
+      "oQueEAli": "In den USA ist es Standard, mitten im Service zu fragen, wie das Essen läuft, und ein konkretes Lob — mit Namen des Gerichts — kann wirklich bis in die Küche vordringen, etwas, das echt geschätzt wird, nicht nur leere Höflichkeit.",
+      "oQueVoceFaz": "Nenn das Gericht und sag, dass es dir wirklich gefallen hat: «I really like the mole, it's amazing».",
+      "oQueMelhora": "Das konkrete Lob erreicht den, der gekocht hat, und bringt dir manchmal für den Rest des Abends etwas wärmere Aufmerksamkeit.",
+      "ondeNaoVale": "Gilt nicht in einer großen Fast-Food-Kette, wo der Kellner keine Möglichkeit hat, die Nachricht an jemand Bestimmten weiterzugeben.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-i07-n02"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i07-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Die Faust auf dem Wort, das das Lob trägt: I really LIKE, nicht i really like."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i07-p01",
+      "promptPt": "Gestern hast du erzählt, dass du dein Handy verloren und wiederbekommen hast. Heute fragt dich jemand, wie die Reise allgemein läuft. Antworte, dass sie dir gefallen hat. Sprich jetzt.",
+      "bloco": "callback",
+      "audioKey": "eua-i07-t01",
+      "es": "I loved it.",
+      "tts": "I loved it.",
+      "pinyin": "ai lawd it",
+      "pt": "Ich fand's toll."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i07-n02",
+      "bloco": "cena",
+      "pt": "Der Teller ist leer, der Koch ist durch das Küchenfenster zu sehen, und ein einziger Satz ist dabei, den Rest des Abends zu verändern."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i07-r01",
+      "es": "Is everything okay with the food?",
+      "tts": "Is everything okay with the food?",
+      "pinyin": "is EW-ri-tsing ou-KEI uit de fud",
+      "pt": "Ist alles okay mit dem Essen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i07-n03",
+      "bloco": "molde",
+      "pt": "Das ist der Baustein: I really like the, plus die Sache. Das Gericht zu nennen lässt das Lob weiter reisen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "APRECIACAO",
+      "encaixe": "the mole",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i07-p02",
+      "promptPt": "Das Essen war wirklich gut. Sag es, indem du das Gericht nennst. Sprich jetzt.",
+      "audioKey": "eua-i07-t02",
+      "es": "I really like the mole, it's amazing.",
+      "tts": "I really like the mole, it's amazing.",
+      "pinyin": "ai RI-li laik de MOU-lei, its e-MEI-sing",
+      "pt": "Mir schmeckt das Mole wirklich gut, es ist fantastisch."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i07-r02",
+      "es": "Thank you, I'll let the kitchen know.",
+      "tts": "Thank you, I'll let the kitchen know.",
+      "pinyin": "tsenk ju, eil let de KIT-schen nou",
+      "pt": "Danke, ich sag's der Küche."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i07-p03",
+      "promptPt": "Am nächsten Tag, in der Hotelbar, hat dich der Cocktail überrascht. Benutze denselben Baustein. Sprich jetzt.",
+      "molde": "APRECIACAO",
+      "encaixe": "this cocktail",
+      "audioKey": "eua-i07-t03",
+      "es": "I really like this cocktail.",
+      "tts": "I really like this cocktail.",
+      "pinyin": "ai RI-li laik dis kok-TEIL",
+      "pt": "Mir gefällt dieser Cocktail wirklich."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i07-p04",
+      "promptPt": "Auf dem Kunsthandwerksmarkt hat dir ein Pullover gefallen. Sag es direkt zum Verkäufer. Sprich jetzt.",
+      "molde": "APRECIACAO",
+      "encaixe": "this sweater",
+      "audioKey": "eua-i07-t04",
+      "es": "I really like this sweater.",
+      "tts": "I really like this sweater.",
+      "pinyin": "ai RI-li laik dis SUE-ter",
+      "pt": "Mir gefällt dieser Pullover wirklich."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i07-n04",
+      "bloco": "corpo",
+      "pt": "Jetzt die andere Bewegung: etwas ist schiefgelaufen. Nenn den Gegenstand und das Problem, ruhig — das ist derselbe Baustein aus B16."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i07-p05",
+      "promptPt": "Die Suppe kam kalt. Nenn es, ruhig, ohne Rede. Sprich jetzt.",
+      "molde": "WENT-WRONG",
+      "encaixe": "the soup isn't",
+      "audioKey": "eua-i07-t05",
+      "es": "Excuse me, the soup isn't hot.",
+      "tts": "Excuse me, the soup isn't hot.",
+      "pinyin": "eks-KJUS mi, de sup ISNT hat",
+      "pt": "Entschuldigung, die Suppe ist nicht heiß."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i07-r03",
+      "es": "I'm so sorry, I'll bring you a new one right away.",
+      "tts": "I'm so sorry, I'll bring you a new one right away.",
+      "pinyin": "aim sou SO-ri, eil bring ju e nju uan rait e-uei",
+      "pt": "Tut mir sehr leid, ich bring Ihnen sofort eine neue."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i07-p06",
+      "promptPt": "Bedank dich, dass es so schnell gelöst wurde. Sprich jetzt.",
+      "audioKey": "eua-i07-t06",
+      "es": "Thanks for fixing that so fast.",
+      "tts": "Thanks for fixing that so fast.",
+      "pinyin": "tsenks for FIK-sing det sou fast",
+      "pt": "Danke, dass Sie das so schnell gelöst haben."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i07-n05",
+      "bloco": "capsula",
+      "pt": "Excuse me eröffnet die Korrektur, ohne jemandem die Schuld zu geben — den Gegenstand und das genaue Problem zu nennen ist es, was es wirklich schnell löst."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i07-p07",
+      "promptPt": "Die neue Suppe kommt heiß. Schließ den Moment mit einer echten, kurzen Reaktion ab. Sprich jetzt.",
+      "audioKey": "eua-i07-t07",
+      "es": "Now it's perfect.",
+      "tts": "Now it's perfect.",
+      "pinyin": "nau its PER-fekt",
+      "pt": "Jetzt ist sie perfekt."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i07-p08",
+      "promptPt": "Bitte um die Rechnung, bevor du gehst. Sprich jetzt.",
+      "audioKey": "eua-i07-t08",
+      "es": "Can I get the check, please?",
+      "tts": "Can I get the check, please?",
+      "pinyin": "ken ai guet de tschek, pliis",
+      "pt": "Kann ich bitte die Rechnung bekommen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i07-n06",
+      "bloco": "permissao",
+      "pt": "Du brauchst keine lange Entschuldigungsrede, bevor du sagst, dass etwas nicht stimmt. Excuse me plus das genaue Problem ist der schnellste Weg, es zu lösen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i07-n07",
+      "bloco": "clique",
+      "pt": "Du hast das Mole, den Cocktail und den Pullover gelobt. Niemand hat dir diese drei Sätze gegeben: du hast sie mit einem einzigen Baustein gebaut."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-i07-s01",
+      "es": "I really like the mole, it's amazing. Excuse me, the soup isn't hot.",
+      "tts": "I really like the mole, it's amazing. Excuse me, the soup isn't hot.",
+      "pinyin": "ai RI-li laik de MOU-lei, its e-MEI-sing. eks-KJUS mi, de sup ISNT hat",
+      "pt": "Wiederhole das Lob und die Beschwerde, direkt hintereinander."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i07-n08",
+      "bloco": "recap",
+      "pt": "I07 geschafft. I really like nennt das Gute, excuse me plus das genaue Problem behebt das Schlechte — präzise, nicht laut."
+    }
+  ],
+  "permissao": "Du brauchst keine lange Entschuldigung, bevor du sagst, dass etwas nicht stimmt. Excuse me plus das genaue Problem ist keine Konfrontation — es ist der schnellste, ruhigste Weg, es beheben zu lassen.",
+  "permissaoAudioKey": "eua-i07-n06",
+  "espelho": "Ein Gericht in einem Restaurant deiner eigenen Stadt ruhig zurückzugeben — ein ruhiges Wort zum Kellner, keine Szene — ist genau der gleiche Instinkt, den diese Folge lehrt, nur mit anderen Worten.",
+  "aprofundar": {
+    "titulo": "Präzision, nicht Lautstärke",
+    "secoes": [
+      {
+        "titulo": "Die Sache zu nennen ist mehr wert als «delicious»",
+        "corpo": "It's good funktioniert, aber I really like the mole zeigt, dass du wirklich bemerkt hast, was du gegessen hast — und in einer kleinen Küche erreicht dieses Lob manchmal wortwörtlich den, der gekocht hat."
+      },
+      {
+        "titulo": "Excuse me eröffnet, ohne Schuld zuzuweisen",
+        "corpo": "Excuse me zu sagen und sofort mit dem genauen Problem fortzufahren — the soup isn't hot — hält das Gespräch auf die Lösung fokussiert, nicht auf die Schuldsuche."
+      },
+      {
+        "titulo": "Danken schließt den Kreis",
+        "corpo": "Ein kurzes thanks, wenn es schon gelöst wurde, hält den ganzen Austausch warm — das Lob und die Beschwerde sind keine Gegensätze, sie sind zwei Seiten derselben Ehrlichkeit."
+      }
+    ]
+  }
+}

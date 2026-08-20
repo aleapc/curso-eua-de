@@ -1,0 +1,84 @@
+{
+  "id": "q-b18",
+  "nivel": "basico",
+  "titulo": "Quiz — Der Koffer ist fertig, es fehlt nur die Uhr",
+  "subtitulo": "«What time ___?», um den letzten Tag abzuschließen",
+  "introAudioKey": "eua-b18-q-i",
+  "introPt": "Der Flug geht erst am Nachmittag, und drei Uhrzeiten müssen geklärt werden, bevor man das Hotel verlässt. Hör dir die erste Frage an und entscheide, was zutrifft.",
+  "cenario": "An der Hotelrezeption, am Morgen des letzten Tages.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b18-q01",
+      "voz": "target_en_f",
+      "es": "What time is check-out?",
+      "tts": "What time is check-out?",
+      "pinyin": "uat taim is tschek-AUT",
+      "pt": "Wann ist Check-out?"
+    },
+    {
+      "audioKey": "eua-b18-q02",
+      "voz": "target_en_m",
+      "es": "It's at eleven, but you can leave your bags with us.",
+      "tts": "It's at eleven, but you can leave your bags with us.",
+      "pinyin": "its et i-LE-wen, bat ju ken liiw jor begs uit as",
+      "pt": "Um elf, aber du kannst uns dein Gepäck lassen."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Welcher Baustein dient dazu, jede Uhrzeit des letzten Tages zu erfragen?",
+      "opcoes": [
+        "How much is ___?",
+        "What time ___?",
+        "Do you have ___?",
+        "I'm looking for ___"
+      ],
+      "correta": 1,
+      "explica": "«What time» plus was du wissen musst deckt Check-out, Shuttle, Rezeptionszeiten, fast jede Uhrzeit ab."
+    },
+    {
+      "pergunta": "Check-out ist um elf, aber dein Flug geht erst am Nachmittag. Was machst du mit dem Koffer?",
+      "opcoes": [
+        "Du trägst ihn den ganzen Tag",
+        "Du fragst «Can I leave my bag here?»",
+        "Du bezahlst eine ganze weitere Nacht",
+        "Du lässt ihn auf der Straße"
+      ],
+      "correta": 1,
+      "explica": "Fast jedes Hotel bewahrt Gepäck nach dem Check-out ohne Aufpreis auf; man muss nur danach fragen."
+    },
+    {
+      "pergunta": "Die Person an der Rezeption verabschiedet sich mit einem kurzen, schnellen «Have a safe flight!». Was bedeutet das?",
+      "opcoes": [
+        "Dass es ein kühler Abschied war",
+        "Das ist der Standard-Service-Abschied in den USA, bewusst kurz",
+        "Dass du etwas falsch gemacht hast",
+        "Dass sie will, dass du schnell gehst"
+      ],
+      "correta": 1,
+      "explica": "Das Abschiedsregister im Service ist gewohnheitsmäßig kurz, kein Mangel an Wärme."
+    },
+    {
+      "pergunta": "Wie endet das Modul ME VIRO laut B18?",
+      "opcoes": [
+        "Bei einem Notfall",
+        "Bei einem Diebstahl",
+        "Bei einem Abschied",
+        "Bei einer Beschwerde"
+      ],
+      "correta": 2,
+      "explica": "Die Reise endet im Abschied, nie in einem Zwischenfall; B18 schließt das Modul mit dem «Have a safe flight» ab."
+    },
+    {
+      "pergunta": "Was antwortest du auf ein «Have a safe flight!»?",
+      "opcoes": [
+        "Nichts, eine Antwort ist nicht nötig",
+        "Thanks so much, you too!",
+        "Eine lange Erklärung deiner Reise",
+        "Sorry, no entiendo"
+      ],
+      "correta": 1,
+      "explica": "Eine kurze, warme Antwort schließt die Interaktion gut ab; sie muss nicht verlängert werden."
+    }
+  ]
+}

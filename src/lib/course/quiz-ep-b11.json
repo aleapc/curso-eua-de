@@ -1,0 +1,92 @@
+{
+  "id": "q-b11",
+  "nivel": "basico",
+  "titulo": "Quiz — Die erste Runde",
+  "subtitulo": "«Can I get ___?» vom Tisch bis zur Rechnung, und warum das Trinkgeld das Gehalt ist",
+  "introAudioKey": "eua-b11-q-i",
+  "introPt": "Sie haben sich zum Essen hingesetzt, und es gibt vier Schritte vor dem Bezahlen: Tisch, Getränk, Essen und Rechnung. Hör dir die Reihenfolge an und entscheide, was zu welchem Moment gehört.",
+  "cenario": "Ein Tischrestaurant, ohne Reservierung, zur Mittagszeit.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b11-q01",
+      "voz": "target_en_f",
+      "es": "Can I get a table for two?",
+      "tts": "Can I get a table for two?",
+      "pinyin": "ken ai guet e TEI-bel for tu",
+      "pt": "Können wir einen Tisch für zwei haben?"
+    },
+    {
+      "audioKey": "eua-b11-q02",
+      "voz": "target_en_m",
+      "es": "Sure, right this way.",
+      "tts": "Sure, right this way.",
+      "pinyin": "schur, rait dis uei",
+      "pt": "Klar, hier entlang."
+    },
+    {
+      "audioKey": "eua-b11-q03",
+      "voz": "target_en_f",
+      "es": "Can I get the check, please?",
+      "tts": "Can I get the check, please?",
+      "pinyin": "ken ai guet de tschek, pliis",
+      "pt": "Kann ich bitte die Rechnung bekommen?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Welcher Baustein dient dazu, Tisch, Getränk, Essen und Rechnung zu bestellen?",
+      "opcoes": [
+        "Do you have ___?",
+        "Can I get ___?",
+        "Where's the ___?",
+        "How much is ___?"
+      ],
+      "correta": 1,
+      "explica": "«Can I get» plus was du willst ist das Zugpferd des Restaurants: funktioniert am Tisch, am Tresen und am Schalter."
+    },
+    {
+      "pergunta": "Ihr seid fertig mit Essen, und die Kellnerin kommt nicht zurück. Was tust du?",
+      "opcoes": [
+        "Du wartest sitzen, bis sie sich erinnert",
+        "Du bittest um die Rechnung: «Can I get the check?»",
+        "Du gehst, ohne zu bezahlen",
+        "Du fragst sie nach der Uhrzeit"
+      ],
+      "correta": 1,
+      "explica": "In den USA kommt die Rechnung nicht von allein: man muss darum bitten. Ohne den Satz kann man den ganzen Nachmittag sitzen bleiben."
+    },
+    {
+      "pergunta": "Wie hoch ist der bundesweite Grundlohn eines Kellners pro Stunde?",
+      "opcoes": [
+        "15 $",
+        "2,13 $",
+        "7,25 $",
+        "Es gibt keinen Grundlohn"
+      ],
+      "correta": 1,
+      "explica": "Der bundesweite Grundlohn eines Arbeitnehmers mit Trinkgeld liegt bei nur 2,13 $ die Stunde; das Trinkgeld ist der größte Teil des echten Gehalts."
+    },
+    {
+      "pergunta": "Welcher Trinkgeldprozentsatz ist an einem vollständig bedienten Tisch die Norm?",
+      "opcoes": [
+        "5-10%",
+        "18-20%",
+        "35-40%",
+        "Trinkgeld ist unüblich"
+      ],
+      "correta": 1,
+      "explica": "Der effektive Durchschnitt liegt bei etwa 19%. Weniger als 15% wird als Beschwerde über den Service gelesen."
+    },
+    {
+      "pergunta": "Du bestellst ein Bier und wirst nach einem Ausweis gefragt, obwohl du älter wirkst. Was zählt?",
+      "opcoes": [
+        "Das Passfoto auf dem Handy",
+        "Der physische Reisepass",
+        "Dein Wort, dass du alt genug bist",
+        "Nichts, das ist nur für Minderjährige"
+      ],
+      "correta": 1,
+      "explica": "Es ist üblich, in jedem Alter nach einem Ausweis zu fragen; das physische Dokument zählt, das Foto auf dem Handy nicht."
+    }
+  ]
+}

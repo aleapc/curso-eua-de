@@ -1,0 +1,259 @@
+{
+  "id": "b04",
+  "slot": "B04",
+  "nivel": "basico",
+  "numero": 4,
+  "parte": "1D",
+  "titulo": "Die vier Dateien, die mit dir reisen",
+  "subtitulo": "Reisepass, ESTA, Verbindung und eine Reservierung, die du überprüfen kannst, auch wenn das Handy kein Netz hat",
+  "cena": "Heute, am Küchentisch, ist der letzte Moment, in dem sich das alles leicht klären lässt; morgen reist es auf einem Handy, das plötzlich kein Netz mehr hat.",
+  "moldura": "protege",
+  "frasePiso": "Du schließt die vier Punkte dieser Checkliste heute Abend ab, nicht in der Schlange am Flughafen.",
+  "permissao": "Es ist völlig in Ordnung, es hier zu übertreiben. Deine Reservierung zweimal zu bestätigen oder eine Adresse offline zu speichern, die du wahrscheinlich nie brauchst, ist keine Angst: es ist der einzige Teil der Reise, in dem fünf Minuten heute echten Schutz kaufen, falls das Handy kein Netz mehr hat.",
+  "permissaoAudioKey": "eua-b04-n02",
+  "fatosDatados": [
+    {
+      "id": "eua-esta",
+      "afirmacao": "Als deutscher Staatsbürger reist du in der Regel über das Visa Waiver Program mit einer gültigen ESTA-Genehmigung in die USA ein, nicht mit einem Touristenvisum. Die ESTA muss vor dem Abflug online beantragt werden, gilt für Aufenthalte bis zu 90 Tagen und sollte spätestens 72 Stunden vor der Reise beantragt werden, auch wenn eine spätere Genehmigung oft noch rechtzeitig kommt.",
+      "fonte": "U.S. Department of Homeland Security — Electronic System for Travel Authorization (ESTA); U.S. Embassy in Germany",
+      "ano": 2026,
+      "revisarAte": "2026-12-01",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": ["eua-b04-n03"]
+    },
+    {
+      "id": "eua-pasaporte-vigente",
+      "afirmacao": "Dein Reisepass muss für die gesamte Dauer der Reise gültig sein, und für die ESTA-Registrierung brauchst du einen biometrischen Reisepass (ePass) mit Chip. Prüf das Ablaufdatum, bevor du den Flug buchst, nicht danach.",
+      "fonte": "U.S. Department of State — Foreign Entry Requirements",
+      "ano": 2026,
+      "revisarAte": "2026-12-01",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": ["eua-b04-n03"]
+    },
+    {
+      "id": "eua-i94-electronico",
+      "afirmacao": "Bei der Einreise per Flugzeug erstellt die Grenzbehörde (CBP) deine Einreiseerfassung I-94 elektronisch; es gibt kein Papierformular, das du vorher ausfüllen musst. Notier dir die Nummer, falls du sie später brauchst.",
+      "fonte": "U.S. Customs and Border Protection (CBP) — I-94 Automation",
+      "ano": 2026,
+      "revisarAte": "2026-12-01",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": ["eua-b04-n04"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Der Flug morgen beginnt heute Abend. Vier Punkte am Tisch, nicht in der Schlange: Reisepass, ESTA, Verbindung, Reservierung."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b04-n02",
+      "bloco": "cena",
+      "pt": "Heute lässt sich jeder Fehler leicht beheben. Morgen reist das alles auf einem Handy, das plötzlich kein Netz mehr hat."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b04-n03",
+      "bloco": "corpo",
+      "pt": "Als Deutscher reist du mit ESTA, nicht mit Visum: biometrischer Reisepass, gültig für die ganze Reise, plus ESTA-Genehmigung vorher online."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b04-n04",
+      "pt": "Bei der Ankunft erstellt die Einreisebehörde dein I-94 im System; kein Papier vorher. Notier dir die Nummer, wenn du sie siehst."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b04-t01",
+      "es": "I'd like to confirm my reservation.",
+      "tts": "I'd like to confirm my reservation.",
+      "pinyin": "aid laik tu ken-FERM mai re-ser-WEI-schen",
+      "pt": "Ich möchte meine Reservierung bestätigen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b04-p01",
+      "promptPt": "Du schreibst dem Hotel vor dem Abflug. Eröffne mit dem Grund: du willst deine Reservierung bestätigen. Sprich jetzt.",
+      "audioKey": "eua-b04-t01",
+      "es": "I'd like to confirm my reservation.",
+      "tts": "I'd like to confirm my reservation.",
+      "pinyin": "aid laik tu ken-FERM mai re-ser-WEI-schen",
+      "pt": "Ich möchte meine Reservierung bestätigen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b04-r01",
+      "es": "Sure, what name is it under?",
+      "tts": "Sure, what name is it under?",
+      "pinyin": "schur, uat neim is it AN-der",
+      "pt": "Klar, auf welchen Namen läuft sie?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b04-n05",
+      "pt": "Gib dich nicht mit einem grünen Häkchen in der App zufrieden: bitte um eine Bestätigung, die du außerhalb davon speichern kannst."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b04-p02",
+      "promptPt": "Das Hotel hat deinen Namen gefunden. Bitte darum, dir die Bestätigung per E-Mail zu schicken, um sie ohne Internet zu haben. Sprich jetzt.",
+      "audioKey": "eua-b04-t02",
+      "es": "Could you email me the confirmation, please?",
+      "tts": "Could you email me the confirmation, please?",
+      "pinyin": "kud ju I-meil mi de ken-fer-MEI-schen, pliis",
+      "pt": "Könnten Sie mir bitte die Bestätigung per E-Mail schicken?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b04-n06",
+      "bloco": "capsula",
+      "pt": "Der Hotelname ist kein Ziel. Dein Fahrer und deine Offline-Karte brauchen die vollständige Adresse."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b04-p03",
+      "promptPt": "Die Bestätigung zeigt nur den Hotelnamen. Bitte um die vollständige Adresse. Sprich jetzt.",
+      "audioKey": "eua-b04-t03",
+      "es": "What's the full address?",
+      "tts": "What's the full address?",
+      "pinyin": "uats de ful e-DRES",
+      "pt": "Wie lautet die vollständige Adresse?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b04-n07",
+      "pt": "Letzte Prüfung: eine gültige Reservierung scheitert, wenn die Rezeption vor deiner späten Landung schließt. Sag ihnen jetzt Bescheid."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b04-p04",
+      "promptPt": "Du erwartest, nach zehn Uhr abends im Hotel anzukommen. Sag es, und frag, ob die Rezeption vierundzwanzig Stunden geöffnet hat. Sprich jetzt.",
+      "audioKey": "eua-b04-t04",
+      "es": "I'll arrive after ten. Is the front desk open twenty-four hours?",
+      "tts": "I'll arrive after ten. Is the front desk open twenty-four hours?",
+      "pinyin": "eil e-RAIW af-ter ten. is de front desk OU-pen tuen-ti-for AU-ers",
+      "pt": "Ich komme nach zehn an. Ist die Rezeption vierundzwanzig Stunden geöffnet?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b04-r02",
+      "es": "Yes, we're open all night. You're all set.",
+      "tts": "Yes, we're open all night. You're all set.",
+      "pinyin": "jes, uir OU-pen ol nait. jor ol set",
+      "pt": "Ja, wir haben die ganze Nacht geöffnet. Alles klar bei Ihnen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b04-px1",
+      "promptPt": "Du willst die Hotelnummer gespeichert haben, nicht nur die App. Bitte direkt danach. Sprich jetzt.",
+      "audioKey": "eua-b04-x1",
+      "es": "Can I get the hotel's phone number?",
+      "tts": "Can I get the hotel's phone number?",
+      "pinyin": "ken ai guet de ho-TELS foun NAM-ber",
+      "pt": "Kann ich die Telefonnummer des Hotels haben?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b04-px2",
+      "promptPt": "Dein Flug könnte sich sogar noch stärker verspäten als geplant. Frag, ob man dir die Reservierung bis spät freihalten kann. Sprich jetzt.",
+      "audioKey": "eua-b04-x2",
+      "es": "Can you hold the reservation until late?",
+      "tts": "Can you hold the reservation until late?",
+      "pinyin": "ken ju hould de re-ser-WEI-schen an-TIL leit",
+      "pt": "Können Sie die Reservierung bis spät freihalten?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b04-px3",
+      "promptPt": "Der Recap dieses Teils spricht davon, die Zahlung zu prüfen, aber du hast es mit niemandem bestätigt. Frag das Hotel, ob deine Karte schon belastet wurde. Sprich jetzt.",
+      "audioKey": "eua-b04-x3",
+      "es": "Can I confirm my card was charged?",
+      "tts": "Can I confirm my card was charged?",
+      "pinyin": "ken ai ken-FERM mai kard uas tschardschd",
+      "pt": "Kann ich bestätigen, dass meine Karte schon belastet wurde?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b04-px4",
+      "promptPt": "Du willst außerdem sicherstellen, dass dein internationaler Tarif schon aktiv ist, bevor du landest. Frag per Chat bei deinem Anbieter nach. Sprich jetzt.",
+      "audioKey": "eua-b04-x4",
+      "es": "Can you confirm my international plan is active?",
+      "tts": "Can you confirm my international plan is active?",
+      "pinyin": "ken ju ken-FERM mai in-ter-NE-schen-el plen is EK-tiw",
+      "pt": "Können Sie bestätigen, dass mein internationaler Tarif aktiv ist?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b04-s01",
+      "es": "I'd like to confirm my reservation. What's the full address?",
+      "tts": "I'd like to confirm my reservation. What's the full address?",
+      "pinyin": "aid laik tu ken-FERM mai re-ser-WEI-schen. uats de ful e-DRES",
+      "pt": "Wiederhole die Bestätigung und die Adresse als eine einzige Erledigung vor dem Abflug."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b04-n08",
+      "bloco": "recap",
+      "pt": "B04 geschafft. Reisepass, ESTA, Verbindung, Zahlung offline geprüft; Reservierung und Adresse vor dem Schlafengehen bestätigt."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Eine Checkliste mit Verfallsdatum",
+    "secoes": [
+      {
+        "titulo": "ESTA, kein Visum",
+        "corpo": "Als deutscher Staatsbürger reist du über das Visa Waiver Program mit ESTA ein, nicht mit einem Touristenvisum. Du brauchst trotzdem einen biometrischen Reisepass, der für die ganze Reise gültig ist, und die ESTA-Genehmigung, die du vor dem Flugkauf online beantragst."
+      },
+      {
+        "titulo": "Offline ist eine Funktion der Reise",
+        "corpo": "Ein Screenshot der Hoteladresse, der Reservierung und der Telefonnummer übersteht Flughafen-WLAN, ein gesperrtes Konto und einen leeren Akku auf eine Weise, wie es eine Kette von Links in einer App nicht tut."
+      },
+      {
+        "titulo": "Bestätigen ist eine Handlung, kein Wort",
+        "corpo": "Das nützliche Englisch hier zählt keine Dokumente auf: es schließt die fragilen Lücken der Reservierung, bevor du losfährst.",
+        "exemplos": [
+          { "es": "I'd like to confirm my reservation.", "pt": "Ich möchte meine Reservierung bestätigen." },
+          { "es": "What's the full address?", "pt": "Wie lautet die vollständige Adresse?" }
+        ]
+      },
+      {
+        "titulo": "Prüf die Regel noch einmal vor dem Abflug",
+        "corpo": "Die Regeln zu ESTA, Reisepass und I-94 können sich ändern. Prüf die offizielle Anleitung der US-Botschaft und der CBP noch einmal vor der Reise, nicht nur die Notiz dieses Kurses."
+      }
+    ]
+  }
+}

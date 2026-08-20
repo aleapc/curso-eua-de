@@ -1,0 +1,84 @@
+{
+  "id": "q-b15",
+  "nivel": "basico",
+  "titulo": "Quiz — Der Preis steht nie auf dem Schild, das du denkst",
+  "subtitulo": "«How much is ___?», die Größe und warum die Summe an der Kasse immer etwas steigt",
+  "introAudioKey": "eua-b15-q-i",
+  "introPt": "Das Preisschild ist abgefallen, und du siehst deine Größe nicht auf dem Ausverkaufstisch. Hör dir an, wie es gelöst wird, und entscheide, was zutrifft.",
+  "cenario": "In einem Bekleidungsladen, vor dem Ausverkaufstisch.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b15-q01",
+      "voz": "target_en_f",
+      "es": "How much is this?",
+      "tts": "How much is this?",
+      "pinyin": "hau matsch is dis",
+      "pt": "Was kostet das?"
+    },
+    {
+      "audioKey": "eua-b15-q02",
+      "voz": "target_en_m",
+      "es": "That one's twenty-two dollars.",
+      "tts": "That one's twenty-two dollars.",
+      "pinyin": "det uans TUEN-ti tu DA-lars",
+      "pt": "Das kostet zweiundzwanzig Dollar."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Welcher Baustein funktioniert sowohl für einen einzelnen Artikel als auch für den ganzen Einkaufswagen?",
+      "opcoes": [
+        "Do you have ___?",
+        "How much is ___?",
+        "Can I get ___?",
+        "I'm looking for ___"
+      ],
+      "correta": 1,
+      "explica": "«How much is» plus was auch immer funktioniert gleich für ein einzelnes T-Shirt oder die Gesamtsumme an der Kasse."
+    },
+    {
+      "pergunta": "Du siehst deine Größe nicht auf dem Tisch. Welchen Baustein benutzt du, um zu fragen, ob es eine andere gibt?",
+      "opcoes": [
+        "Do you have this in a large?",
+        "How much is this?",
+        "Can I get a receipt?",
+        "Where's the exit?"
+      ],
+      "correta": 0,
+      "explica": "«Do you have this in a large?» ist HAVE neu eingesetzt: du fragst nach der Verfügbarkeit einer bestimmten Größe."
+    },
+    {
+      "pergunta": "Warum löst das Anprobieren des Kleidungsstücks den Größenzweifel besser als das Umrechnen?",
+      "opcoes": [
+        "Weil Läden das Rechnen nicht erlauben",
+        "Weil small/medium/large nicht Zahl für Zahl mit dem System deines Landes übereinstimmt",
+        "Weil es schneller ist, zuerst zu bezahlen",
+        "Weil es in den USA keine Umkleidekabinen gibt"
+      ],
+      "correta": 1,
+      "explica": "Das US-Größensystem lässt sich nicht immer exakt umrechnen; das Anprobieren verhindert falsches Raten."
+    },
+    {
+      "pergunta": "Du zahlst $22, aber die Kasse verlangt etwas mehr. Warum?",
+      "opcoes": [
+        "Fehler der Kassiererin",
+        "Die Verkaufssteuer kommt erst an der Kasse dazu, genau wie in B14",
+        "Man hat dir die Umkleidekabine berechnet",
+        "Du hast unbemerkt die Größe gewechselt"
+      ],
+      "correta": 1,
+      "explica": "Dieselbe Verkaufssteuer, die die Restaurantrechnung erhöht, erhöht auch den Preis in Bekleidungsgeschäften."
+    },
+    {
+      "pergunta": "Was ist fast immer das einzig Unverzichtbare für eine Rückgabe?",
+      "opcoes": [
+        "Das angebrachte Etikett",
+        "Die Quittung",
+        "Die Original-Tüte",
+        "Erneut mit derselben Karte zu bezahlen"
+      ],
+      "correta": 1,
+      "explica": "Viele Läden akzeptieren Rückgaben mit oder ohne Etikett, aber die Quittung ist fast immer das Verlangte."
+    }
+  ]
+}

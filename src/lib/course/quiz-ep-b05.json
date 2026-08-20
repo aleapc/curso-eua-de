@@ -1,0 +1,105 @@
+{
+  "id": "q-b05",
+  "nivel": "basico",
+  "titulo": "Quiz — Drei Antworten vor dem Beamten",
+  "subtitulo": "Grund, Dauer und Unterkunft, kurz und wahr",
+  "introAudioKey": "eua-b05-q-i",
+  "introPt": "Du stehst am Einreiseschalter. Hör dir die drei Fragen des Beamten und die drei kurzen Antworten des Reisenden an.",
+  "cenario": "Am Einreiseschalter, der Beamte wartet auf kurze Antworten.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b05-q01",
+      "voz": "target_en_m",
+      "es": "What's the purpose of your visit?",
+      "tts": "What's the purpose of your visit?",
+      "pinyin": "uats de PER-pes of jor WI-sit",
+      "pt": "Was ist der Zweck Ihres Besuchs?"
+    },
+    {
+      "audioKey": "eua-b05-q02",
+      "voz": "target_en_f",
+      "es": "I'm here on vacation.",
+      "tts": "I'm here on vacation.",
+      "pinyin": "aim hir on we-KEI-schen",
+      "pt": "Ich bin im Urlaub hier."
+    },
+    {
+      "audioKey": "eua-b05-q03",
+      "voz": "target_en_m",
+      "es": "How many days will you be staying?",
+      "tts": "How many days will you be staying?",
+      "pinyin": "hau ME-ni deis uil ju bi STEI-ing",
+      "pt": "Wie viele Tage bleiben Sie?"
+    },
+    {
+      "audioKey": "eua-b05-q04",
+      "voz": "target_en_f",
+      "es": "Ten days.",
+      "tts": "Ten days.",
+      "pinyin": "ten deis",
+      "pt": "Zehn Tage."
+    },
+    {
+      "audioKey": "eua-b05-q05",
+      "voz": "target_en_m",
+      "es": "Do you have the reservation?",
+      "tts": "Do you have the reservation?",
+      "pinyin": "du ju hev de re-ser-WEI-schen",
+      "pt": "Haben Sie die Reservierung?"
+    },
+    {
+      "audioKey": "eua-b05-q06",
+      "voz": "target_en_f",
+      "es": "Yes. Here it is.",
+      "tts": "Yes. Here it is.",
+      "pinyin": "jes. hir it is",
+      "pt": "Ja. Hier ist sie."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Wer entscheidet im Moment der Einreise, wie lange der Reisende bleiben darf?",
+      "opcoes": [
+        "Die Fluggesellschaft",
+        "Der Reisende selbst, laut seiner Reservierung",
+        "Der CBP-Beamte am Schalter",
+        "Das Konsulat, vor dem Abflug"
+      ],
+      "correta": 2,
+      "explica": "Eine gültige ESTA-Genehmigung legt das Datum nicht automatisch fest: der Beamte entscheidet im Moment der Einreise."
+    },
+    {
+      "pergunta": "Was wird empfohlen, wenn dein echter Reiseplan vom Beispiel des Kurses abweicht?",
+      "opcoes": [
+        "Trotzdem die Zahl aus dem Kurs benutzen",
+        "Die Frage zur Dauer nicht beantworten",
+        "Die Zahl gegen die echte austauschen, ohne die Struktur zu ändern",
+        "Mehr Zeit angeben, als du brauchst, zur Sicherheit"
+      ],
+      "correta": 2,
+      "explica": "Wahr schlägt flüssig: die Satzstruktur bleibt gleich, die Zahl ändert sich nach deinem echten Reiseplan."
+    },
+    {
+      "pergunta": "Warum ist eine Antwort in drei Wörtern an diesem Schalter nicht verdächtig?",
+      "opcoes": [
+        "Weil der Beamte nicht aufpasst",
+        "Weil der Schalter den ganzen Tag kurze, passende Antworten verarbeitet",
+        "Weil perfektes Englisch hier egal ist",
+        "Weil lange Antworten verboten sind"
+      ],
+      "correta": 1,
+      "explica": "Eine Antwort, die über das Gefragte hinausgeht, wirkt wie etwas, das man zweimal prüfen muss, nicht wie Wärme."
+    },
+    {
+      "pergunta": "Wenn der Beamte die Reservierung verlangt, was tut der Reisende?",
+      "opcoes": [
+        "Erklärt Schritt für Schritt, wie er das Hotel gebucht hat",
+        "Zeigt die gespeicherte Bestätigung, ohne Erklärung dazuzufügen",
+        "Sagt, dass er sie nicht dabei hat",
+        "Fragt, warum sie gebraucht wird"
+      ],
+      "correta": 1,
+      "explica": "Das Dokument sprechen zu lassen verschiebt den Austausch vom Gedächtnis zum Beweis, ohne zusätzliche Geschichte."
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "id": "b02",
+  "slot": "B02",
+  "nivel": "basico",
+  "numero": 2,
+  "parte": "1B",
+  "titulo": "Bevor du das Regal berührst, grüße",
+  "subtitulo": "Fünf kurze Bewegungen, die einen Laden öffnen, dich durchlassen und einen Austausch gut abschließen",
+  "cena": "Die Angestellte im Laden hat dich schon beim Eintreten gesehen und beobachtet dich, bevor du das erste Regal berührst; diese drei Sekunden sind die ganze Lektion.",
+  "moldura": "ganha",
+  "permissao": "Du brauchst dafür keinen langen Satz. Hi, please, thanks und have a good one sind vier kurze Bausteine, die immer einen Moment früher kommen, als dein Instinkt aus dem Deutschen dir sagt.",
+  "permissaoAudioKey": "eua-b02-n02",
+  "fichasCulturais": [
+    {
+      "sinal": "Du betrittst einen kleinen Laden oder gehst zu einem Tresen und steuerst direkt auf das gesuchte Regal zu, ohne etwas zu sagen; die Person hinter dem Tresen wird etwas ernst, bevor du sprichst.",
+      "suaLeitura": "Die Leute in Läden hier sind kühl, oder ich bin ihnen unsympathisch.",
+      "oQueEAli": "In den USA ist der Gruß beim Betreten — auch nur ein einfaches \"hi\" — die erwartete Eröffnung fast jeder Service-Interaktion; ihn zu überspringen wirkt wie Unhöflichkeit, nicht wie Schüchternheit.",
+      "oQueVoceFaz": "Sag \"hi\" oder \"hi there\" in Richtung Tresen, bevor du dir die Ware ansiehst, auch nur beiläufig.",
+      "oQueMelhora": "Dieselbe Person, die einen Moment zuvor ernst wirkte, wird aufmerksam, weil du bereits die eine Geste gemacht hast, die den Austausch richtig eröffnet.",
+      "ondeNaoVale": "Gilt nicht in einem großen Laden oder einer Kette ohne festen Angestellten in Eingangsnähe; der Gruß gilt einem Tresen, an dem jemand Dienst hat, nicht jeder Tür des Landes.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-b02-n01"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b02-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Höflichkeit im Englischen ist Timing: du grüßt, bevor du schaust, sagst excuse me, bevor du dich bewegst, dankst beim Rausgehen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b02-t01",
+      "es": "Hi there.",
+      "tts": "Hi there.",
+      "pinyin": "hai der",
+      "pt": "Hallo."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b02-p01",
+      "promptPt": "Du betrittst morgens einen kleinen Laden. Bevor du das Regal ansiehst, grüße die Person am Tresen. Sprich jetzt.",
+      "audioKey": "eua-b02-t01",
+      "es": "Hi there.",
+      "tts": "Hi there.",
+      "pinyin": "hai der",
+      "pt": "Hallo."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b02-r01",
+      "es": "Hi, welcome in. Let me know if you need anything.",
+      "tts": "Hi, welcome in. Let me know if you need anything.",
+      "pinyin": "hai, UEL-kam in. let mi nou if ju niid E-ni-tsing",
+      "pt": "Hallo, willkommen. Sag Bescheid, wenn du etwas brauchst."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b02-n02",
+      "pt": "\"Let me know\" ist kein Verhör: es ist die offene Tür, damit du sprichst, wann du willst. Wenn du nur schaust, sag genau das."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b02-p02",
+      "promptPt": "Die Angestellte sagt dir, du sollst Bescheid geben, falls du etwas brauchst, aber du willst nur schauen. Sag ihr, dass du nur schaust, und bedank dich. Sprich jetzt.",
+      "audioKey": "eua-b02-t02",
+      "es": "Just looking, thanks.",
+      "tts": "Just looking, thanks.",
+      "pinyin": "dschast LU-king, tsenks",
+      "pt": "Ich schau nur, danke."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b02-n03",
+      "bloco": "corpo",
+      "pt": "Voller Aufzug, enger Flur: du sagst excuse me, bevor du dich bewegst, nicht als Entschuldigung, sondern als Ankündigung, dass du durchgehst."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b02-t03",
+      "es": "Excuse me, coming through.",
+      "tts": "Excuse me, coming through.",
+      "pinyin": "eks-KJUS mi, KA-min tsru",
+      "pt": "Entschuldigung, ich komme durch."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b02-p03",
+      "promptPt": "Die Aufzugtüren öffnen sich, und jemand steht genau am Ausgang, ohne dich zu sehen. Kündige an, dass du durchgehst, bevor du dich bewegst. Sprich jetzt.",
+      "audioKey": "eua-b02-t03",
+      "es": "Excuse me, coming through.",
+      "tts": "Excuse me, coming through.",
+      "pinyin": "eks-KJUS mi, KA-min tsru",
+      "pt": "Entschuldigung, ich komme durch."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b02-r02",
+      "es": "Oh, sorry, go ahead.",
+      "tts": "Oh, sorry, go ahead.",
+      "pinyin": "ou, SO-ri, gou e-HED",
+      "pt": "Oh, sorry, geh nur vor."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b02-p04",
+      "promptPt": "Die Person macht Platz und lässt dich durch. Bedank dich im Vorbeigehen. Sprich jetzt.",
+      "audioKey": "eua-b02-t04",
+      "es": "Thanks.",
+      "tts": "Thanks.",
+      "pinyin": "tsenks",
+      "pt": "Danke."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b02-n04",
+      "bloco": "capsula",
+      "pt": "Have a good one verspricht nicht, dass man dich vermissen wird: es ist der normale Abschluss, wie \"tschüss\" an jedem Tresen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b02-p05",
+      "promptPt": "Du hast in einem kleinen Imbiss bezahlt und gehst gerade zur Tür hinaus. Bedank dich und verabschiede dich, bevor sie zufällt. Sprich jetzt.",
+      "audioKey": "eua-b02-t05",
+      "es": "Thanks so much. Have a good one.",
+      "tts": "Thanks so much. Have a good one.",
+      "pinyin": "tsenks sou matsch. hev e gud uan",
+      "pt": "Vielen Dank. Noch einen schönen Tag."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b02-r03",
+      "es": "You too, take care.",
+      "tts": "You too, take care.",
+      "pinyin": "ju tu, teik ker",
+      "pt": "Dir auch, mach's gut."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b02-p06",
+      "promptPt": "Man antwortet dir mit \"you too, take care\". Gib den Gruß mit einem einzigen Wort zurück. Sprich jetzt.",
+      "audioKey": "eua-b02-x1",
+      "es": "You too.",
+      "tts": "You too.",
+      "pinyin": "ju tu",
+      "pt": "Dir auch."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b02-p07",
+      "promptPt": "Jemand hält dir beim Betreten eines Cafés die Tür auf. Bedank dich mit einem Wort, ohne stehen zu bleiben. Sprich jetzt.",
+      "audioKey": "eua-b02-x2",
+      "es": "Thanks.",
+      "tts": "Thanks.",
+      "pinyin": "tsenks",
+      "pt": "Danke."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b02-p08",
+      "promptPt": "Du hast an der Kasse bezahlt und hast keine eigene Tasche dabei. Bitte um eine, mit please am Ende. Sprich jetzt.",
+      "audioKey": "eua-b02-x3",
+      "es": "Could I get a bag, please?",
+      "tts": "Could I get a bag, please?",
+      "pinyin": "kud ai guet e beg, pliis",
+      "pt": "Könnte ich eine Tüte bekommen, bitte?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b02-s01",
+      "es": "Hi there. Excuse me, coming through. Thanks so much. Have a good one.",
+      "tts": "Hi there. Excuse me, coming through. Thanks so much. Have a good one.",
+      "pinyin": "hai der. eks-KJUS mi, KA-min tsru. tsenks sou matsch. hev e gud uan",
+      "pt": "Wiederhole die vier kurzen Bausteine vom Eintreten bis zum Rausgehen."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b02-n05",
+      "bloco": "recap",
+      "pt": "B02 geschafft. Hi bevor du schaust, excuse me bevor du dich bewegst, thanks beim Rausgehen: kurze Bausteine, einen Moment vor deinem Instinkt."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Kurze Höflichkeit, im richtigen Moment",
+    "secoes": [
+      {
+        "titulo": "\"Let me know\" ist eine Tür, keine Frage",
+        "corpo": "Wenn dir jemand sagt \"let me know if you need anything\", erwartet er nicht, dass du sofort mit einem Bedürfnis antwortest. Es ist das Signal, dass du sprechen kannst, sobald du willst."
+      },
+      {
+        "titulo": "Excuse me kündigt an, entschuldigt nicht",
+        "corpo": "Benutze es, bevor du einen physischen Raum durchquerst — einen Flur, einen Aufzug —, um anzukündigen, dass du dich bewegst. \"Sorry\" ist etwas anderes: es wird benutzt, wenn du schon mit jemandem zusammengestoßen bist oder einen Fehler gemacht hast.",
+        "exemplos": [
+          { "es": "Excuse me, coming through.", "pt": "Entschuldigung, ich komme durch." },
+          { "es": "Oh, sorry, go ahead.", "pt": "Oh, sorry, geh nur vor." }
+        ]
+      },
+      {
+        "titulo": "Have a good one ist kein Versprechen",
+        "corpo": "Es ist der Standardabschluss an Tresen und in Läden in den USA, vergleichbar mit dem deutschen \"noch einen schönen Tag\". Es bedeutet nicht, dass man dich vermissen oder sich an dich erinnern wird."
+      }
+    ]
+  }
+}

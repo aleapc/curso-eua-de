@@ -1,0 +1,258 @@
+{
+  "id": "i05",
+  "slot": "I05",
+  "nivel": "intermediario",
+  "numero": 5,
+  "parte": "I05",
+  "titulo": "Immer dieselben fünf Fragen",
+  "subtitulo": "Woher du kommst, wie lange du bleibst, was dir gefallen hat — fast alle fragen dasselbe, und du kannst die Antworten schon bereithalten",
+  "cena": "Ein Taxifahrer, eine Verkäuferin und jemand an der Bar stellen dir, fast in derselben Reihenfolge, dieselben vier Fragen — und die Antwort bereit zu haben ist das, was das Gespräch weiterlaufen lässt statt es zu blockieren.",
+  "decisao": "im Gespräch bleiben oder es beenden — die Antworten auf die immer gleichen 4-5 Fragen bereit zu haben lässt dich das entscheiden, statt jedes Mal zu improvisieren",
+  "emJogo": "tempo",
+  "moldura": "ganha",
+  "moldes": ["PREFERENCIA"],
+  "clique": {
+    "contagem": ["das Taxi", "der Souvenirladen", "der Bartresen"],
+    "desconto": "Niemand hat dir einen Satz gegeben, um deine Vorliebe beim Essen zu sagen, einen anderen fürs Wetter und einen für die Stadt. Du hast alle drei mit demselben Baustein gebaut, nur die zwei Dinge, zwischen denen du entscheidest, haben sich geändert."
+  },
+  "frasePiso": "Du beantwortest dieselben fünf Fragen dreimal an einem Tag, mit denselben Sätzen, und es klingt beim dritten Mal genauso natürlich wie beim ersten.",
+  "fichasCulturais": [
+    {
+      "sinal": "Ein Fremder — ein Taxifahrer, jemand an der Bar — fängt an, dich zu fragen, woher du kommst und wie lange du bleibst, kaum dass du dich hingesetzt hast.",
+      "suaLeitura": "Das fühlt sich aufdringlich an, oder er will etwas von mir.",
+      "oQueEAli": "Das ist normaler Small Talk bei vielen alltäglichen Interaktionen in den USA, das Äquivalent zu «so, where are you from?» — echte Neugier und Gesprächseröffnung, kein unangebrachtes Interesse.",
+      "oQueVoceFaz": "Antworte kurz und ruhig — Herkunft, Dauer, etwas, das dir gefallen hat — und das Gespräch läuft von da an von allein.",
+      "oQueMelhora": "Du bekommst eine wärmere Interaktion statt einer rein transaktionalen, und manchmal gute Tipps vom Ort.",
+      "ondeNaoVale": "Das ist kein Signal, sensible Daten wie deinen genauen Hotelnamen oder deinen kompletten Reiseplan zu teilen; der freundliche Small Talk verlangt nicht diese Detailtiefe.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-i05-n01"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i05-n01",
+      "gesto": 4,
+      "bloco": "aquecimento",
+      "pt": "Der Flick in do you PRE-fer: der Endkonsonant von prefer klingt wirklich."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i05-p01",
+      "promptPt": "Gestern Abend hast du deine Rechnung an der Bar geschlossen, ohne um Hilfe zu bitten. Heute bestellst du wieder direkt, diesmal einen Kaffee. Sprich jetzt.",
+      "bloco": "callback",
+      "audioKey": "eua-i05-t01",
+      "es": "Can I get a coffee, please?",
+      "tts": "Can I get a coffee, please?",
+      "pinyin": "ken ai guet e KA-fi, pliis",
+      "pt": "Kann ich bitte einen Kaffee bekommen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i05-n02",
+      "bloco": "cena",
+      "pt": "Der Taxifahrer fragt dich, woher du kommst, bevor er losfährt — die erste von fast immer denselben Fragen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i05-r01",
+      "es": "So, where are you from?",
+      "tts": "So, where are you from?",
+      "pinyin": "sou, uer ar ju from",
+      "pt": "Und, woher kommst du?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i05-n03",
+      "bloco": "corpo",
+      "pt": "Kurze, direkte Antwort, ohne mehr Schmuck."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i05-p02",
+      "promptPt": "Antworte, woher du kommst. Sprich jetzt.",
+      "audioKey": "eua-i05-t02",
+      "es": "I'm from Germany.",
+      "tts": "I'm from Germany.",
+      "pinyin": "aim from DSCHOER-me-ni",
+      "pt": "Ich komme aus Deutschland."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i05-r02",
+      "es": "Nice! How long are you staying?",
+      "tts": "Nice! How long are you staying?",
+      "pinyin": "nais! hau long ar ju STEI-ing",
+      "pt": "Schön! Wie lange bleibst du?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i05-p03",
+      "promptPt": "Gib eine echte, kurze Zahl an, ohne den ganzen Reiseplan. Sprich jetzt.",
+      "audioKey": "eua-i05-t03",
+      "es": "About ten days.",
+      "tts": "About ten days.",
+      "pinyin": "e-BAUT ten deis",
+      "pt": "Etwa zehn Tage."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i05-n04",
+      "bloco": "molde",
+      "pt": "Hier entsteht der Baustein des Tages: nach einer Vorliebe zwischen zwei Sachen fragen. Do you prefer, plus die beiden."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i05-r03",
+      "es": "Do you prefer the beach or the mountains?",
+      "tts": "Do you prefer the beach or the mountains?",
+      "pinyin": "du ju pri-FER de biitsch or de MAUN-tens",
+      "pt": "Bevorzugst du den Strand oder die Berge?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "PREFERENCIA",
+      "encaixe": "the beach or the mountains",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i05-p04",
+      "promptPt": "Antworte mit demselben Baustein: sag es auch du. Sprich jetzt.",
+      "audioKey": "eua-i05-t04",
+      "es": "I prefer the beach.",
+      "tts": "I prefer the beach.",
+      "pinyin": "ai pri-FER de biitsch",
+      "pt": "Ich bevorzuge den Strand."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i05-p05",
+      "promptPt": "Jetzt fragst du, in einem Laden, nach zwei Farben desselben Produkts. Sprich jetzt.",
+      "molde": "PREFERENCIA",
+      "encaixe": "the red one or the green one",
+      "audioKey": "eua-i05-t05",
+      "es": "Do you prefer the red one or the green one?",
+      "tts": "Do you prefer the red one or the green one?",
+      "pinyin": "du ju pri-FER de red uan or de grin uan",
+      "pt": "Bevorzugst du das rote oder das grüne?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i05-p06",
+      "promptPt": "An der Bar fragt jemand nach deinem Geschmack zwischen zwei lokalen Bieren. Sprich jetzt.",
+      "molde": "PREFERENCIA",
+      "encaixe": "the IPA or the lager",
+      "audioKey": "eua-i05-t06",
+      "es": "Do you prefer the IPA or the lager?",
+      "tts": "Do you prefer the IPA or the lager?",
+      "pinyin": "du ju pri-FER de ai-pi-EI or de LA-ger",
+      "pt": "Bevorzugst du das IPA oder das Lager?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i05-n05",
+      "bloco": "capsula",
+      "pt": "Und noch eine Frage, warmherzig, nicht transaktional: was dir gefallen hat. Antworte mit etwas Konkretem, nicht mit «alles»."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i05-r04",
+      "es": "What have you liked most so far?",
+      "tts": "What have you liked most so far?",
+      "pinyin": "uat hev ju laikt moust sou far",
+      "pt": "Was hat dir bisher am besten gefallen?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i05-p07",
+      "promptPt": "Nenn etwas Konkretes, das dir wirklich gefallen hat. Sprich jetzt.",
+      "audioKey": "eua-i05-t07",
+      "es": "I really liked the food, especially the burgers.",
+      "tts": "I really liked the food, especially the burgers.",
+      "pinyin": "ai RI-li laikt de fud, es-PE-sche-li de BER-gers",
+      "pt": "Mir hat das Essen wirklich gefallen, besonders die Burger."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i05-p08",
+      "promptPt": "Du musst das Gespräch in Ruhe beenden. Verabschiede dich mit einer kurzen Zeile. Sprich jetzt.",
+      "audioKey": "eua-i05-t08",
+      "es": "Well, it was nice talking to you. Take care.",
+      "tts": "Well, it was nice talking to you. Take care.",
+      "pinyin": "uel, it uas nais TO-king tu ju. teik ker",
+      "pt": "Nun, es war schön, mit dir zu reden. Mach's gut."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i05-n06",
+      "bloco": "permissao",
+      "pt": "Du kannst dieselben drei Antworten die ganze Reise über benutzen. Niemand bewertet dich dafür, sie zu wiederholen — sie funktionieren, weil sie wahr sind."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i05-n07",
+      "bloco": "clique",
+      "pt": "Du hast Strand oder Berge, rot oder grün, IPA oder Lager gefragt. Niemand hat dir diese drei Sätze gegeben: du hast sie mit einem einzigen Baustein gebaut."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-i05-s01",
+      "es": "I'm from Germany. About ten days. I prefer the beach.",
+      "tts": "I'm from Germany. About ten days. I prefer the beach.",
+      "pinyin": "aim from DSCHOER-me-ni. e-BAUT ten deis. ai pri-FER de biitsch",
+      "pt": "Wiederhole die drei häufigsten Antworten hintereinander."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i05-n08",
+      "bloco": "recap",
+      "pt": "I05 geschafft. Herkunft, Dauer, was dir gefallen hat — Antworten bereit — und do you prefer, um zwischen zweien zu wählen, für dich oder andere."
+    }
+  ],
+  "permissao": "Du brauchst nicht jedes Mal neue Antworten, wenn dich dasselbe gefragt wird. Die Fragen wiederholen sich, weil sie wirklich nur der freundliche Gesprächseinstieg sind, keine Prüfung, die Originalität verlangt.",
+  "permissaoAudioKey": "eua-i05-n06",
+  "espelho": "Der Small Talk mit einem Fremden läuft in jedem Land über dieselbe Handvoll Fragen — woher du kommst, wie lange du bleibst, was dir gefallen hat — und ein paar Antworten bereit zu haben ist kein ausländischer Trick, sondern derselbe soziale Abkürzer, den du zu Hause schon benutzt.",
+  "aprofundar": {
+    "titulo": "Vorbereitet, nicht auswendig gelernt",
+    "secoes": [
+      {
+        "titulo": "Der Baustein PREFERENCIA",
+        "corpo": "Do you prefer, plus zwei konkrete Dinge, getrennt durch «or», funktioniert für Strand oder Berge, Farben, Biere — jedes echte Paar vor dir, für dich selbst oder um andere zu fragen."
+      },
+      {
+        "titulo": "Konkret schlägt generisch",
+        "corpo": "«I liked everything» ist eine sichere, aber flache Antwort. Etwas Konkretes zu nennen — ein Gericht, ein Ort — gibt dem anderen etwas, womit er das Gespräch fortsetzen kann."
+      },
+      {
+        "titulo": "Gut aussteigen ist eine Fähigkeit",
+        "corpo": "Well, it was nice talking to you schließt das Gespräch warmherzig ab, ohne dass es einfach verpufft oder unangenehm wird."
+      }
+    ]
+  }
+}

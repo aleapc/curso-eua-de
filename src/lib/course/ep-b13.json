@@ -1,0 +1,238 @@
+{
+  "id": "b13",
+  "slot": "B13",
+  "nivel": "basico",
+  "numero": 13,
+  "parte": "13A",
+  "titulo": "Der Satz, den man nicht halb sagt",
+  "subtitulo": "Der feste Satz, um eine gesundheitliche Einschränkung anzugeben, und die schriftliche Karte als Rückversicherung",
+  "cena": "Das Gericht ist schon unterwegs, und du weißt nicht, ob Erdnüsse drin sind; du musst es sagen, bevor es am Tisch ankommt, nicht danach.",
+  "moldura": "ganha",
+  "frasePiso": "Du sagst eine Allergie auf Englisch, ohne zu zögern und ohne sie kleinzureden, auch wenn du sie zum ersten Mal außerhalb deines Landes laut aussprichst.",
+  "permissao": "Du musst die Reaktion nicht erklären oder dich rechtfertigen. «I'm allergic to ___» einmal klar und ohne Verlegenheit zu sagen reicht schon. Wiederhole es, so oft nötig, bis man dir bestätigt.",
+  "permissaoAudioKey": "eua-b13-n07",
+  "espelho": "Auch in deinem Land würdest du eine Allergie ankündigen, bevor du etwas Unbekanntes isst; das einzig Andere hier ist das genaue Wort und die Tatsache, dass die Küche es in den USA oft aus gesetzlichen Gründen sehr ernst nimmt, nicht nur aus Höflichkeit.",
+  "fichasCulturais": [
+    {
+      "sinal": "Du sagst, dass du gegen Erdnüsse allergisch bist, und der Kellner geht sofort in die Küche, ohne den Rest der Bestellung fertig aufzunehmen, oder kommt persönlich mit dem Koch zurück.",
+      "suaLeitura": "Er übertreibt, das ist doch nur eine weitere Angabe zur Bestellung.",
+      "oQueEAli": "Nach Bundesgesetz müssen Restaurants in den USA angegebene Allergene als kritische Information behandeln: viele schulen ihr Personal, sofort mit der Küche zu bestätigen, nicht später.",
+      "oQueVoceFaz": "Lass ihm die Zeit. Bestätige, wenn er zurückkommt: «Yes, peanuts — no peanuts at all.»",
+      "oQueMelhora": "Du bekommst ein Gericht, dem du wirklich vertrauen konntest, statt eins, bei dem du nur gehofft hast, dass es passt.",
+      "ondeNaoVale": "Gilt nicht gleichermaßen an einem Straßenstand oder kleinen Food Truck ohne getrennte Küche: dort ist das Risiko von Kreuzkontamination höher, auch wenn man dir helfen will, und es lohnt sich, vor der Bestellung zu fragen.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "eua-b13-n06"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "falcpa-alergenos-mayores",
+      "afirmacao": "By federal law, U.S. food labels must clearly name any of the nine major allergens they contain: milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy and sesame.",
+      "fonte": "FDA — Food Allergen Labeling and Consumer Protection Act (FALCPA), enmendada em 2021 para incluir sésamo",
+      "ano": 2023,
+      "revisarAte": "2027-06-01",
+      "evidencia": "FATO",
+      "risco": "medio"
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b13-n01",
+      "gesto": 2,
+      "bloco": "aquecimento",
+      "pt": "Teil dreizehn. Wieder der reine Vokal: a-LER-jik, nicht gezogen. Klar und kurz."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b13-n02",
+      "bloco": "cena",
+      "pt": "Das Gericht ist schon unterwegs, und du weißt nicht, ob Erdnüsse drin sind. Du musst es sagen, bevor es am Tisch ankommt, nicht danach."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b13-p01",
+      "promptPt": "Gestern hast du den Kaffee ohne Zucker bestellt. Wiederhole diesen Baustein jetzt mit den Zwiebeln. Sprich jetzt.",
+      "bloco": "callback",
+      "molde": "WITHOUT",
+      "audioKey": "eua-b13-t01",
+      "es": "No onions, please.",
+      "tts": "No onions, please.",
+      "pinyin": "nou AN-jens, pliis",
+      "pt": "Ohne Zwiebeln, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b13-n03",
+      "tom": "protege",
+      "pt": "Dieser Satz wird nicht angepasst oder gekürzt: er ist ein Hammer, kein Baustein. Er wird vollständig gesagt, immer gleich."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b13-t02",
+      "es": "I'm allergic to peanuts.",
+      "tts": "I'm allergic to peanuts.",
+      "pinyin": "aim e-LER-dschik tu PI-nats",
+      "pt": "Ich bin gegen Erdnüsse allergisch."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b13-p02",
+      "promptPt": "Sag dem Kellner vor der Bestellung, dass du gegen Erdnüsse allergisch bist. Sprich jetzt.",
+      "audioKey": "eua-b13-t02",
+      "es": "I'm allergic to peanuts.",
+      "tts": "I'm allergic to peanuts.",
+      "pinyin": "aim e-LER-dschik tu PI-nats",
+      "pt": "Ich bin gegen Erdnüsse allergisch."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b13-r01",
+      "es": "Got it, I'll let the kitchen know.",
+      "tts": "Got it, I'll let the kitchen know.",
+      "pinyin": "gat it, eil let de KIT-schen nou",
+      "pt": "Verstanden, ich sag's der Küche."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b13-p03",
+      "promptPt": "Der Kellner ist gegangen, ohne wirklich zu bestätigen. Wiederhole den Satz noch einmal, ruhig. Sprich jetzt.",
+      "audioKey": "eua-b13-t03",
+      "es": "I'm allergic to shellfish. It's serious.",
+      "tts": "I'm allergic to shellfish. It's serious.",
+      "pinyin": "aim e-LER-dschik tu SCHEL-fisch. its SI-ries",
+      "pt": "Ich bin gegen Meeresfrüchte allergisch. Es ist ernst."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b13-n04",
+      "pt": "Wenn du ihn verstärken willst, füg «It's serious» hinzu: das ändert den Baustein nicht, es gibt der Warnung nur Gewicht."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b13-p04",
+      "promptPt": "Du bist in der Apotheke und musst vor dem Kauf eines Medikaments etwas bestätigen. Sag, dass du gegen Penicillin allergisch bist. Sprich jetzt.",
+      "audioKey": "eua-b13-t04",
+      "es": "I'm allergic to penicillin.",
+      "tts": "I'm allergic to penicillin.",
+      "pinyin": "aim e-LER-dschik tu pe-ni-SI-lin",
+      "pt": "Ich bin gegen Penicillin allergisch."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b13-p06",
+      "promptPt": "Am Frühstücksbuffet liegt eine Platte Brot mit Nüssen obendrauf, und du weißt nicht welche. Kündige auch diese Allergie an, bevor du dir etwas nimmst. Sprich jetzt.",
+      "audioKey": "eua-b13-t06",
+      "es": "I'm allergic to tree nuts.",
+      "tts": "I'm allergic to tree nuts.",
+      "pinyin": "aim e-LER-dschik tu tri nats",
+      "pt": "Ich bin gegen Nüsse allergisch."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b13-p07",
+      "promptPt": "Dasselbe Buffet serviert ein Gericht mit einer Creme, die du nicht erkennst. Sag, dass du auch gegen Milchprodukte allergisch bist. Sprich jetzt.",
+      "audioKey": "eua-b13-t07",
+      "es": "I'm allergic to dairy.",
+      "tts": "I'm allergic to dairy.",
+      "pinyin": "aim e-LER-dschik tu DE-ri",
+      "pt": "Ich bin gegen Milchprodukte allergisch."
+    },
+    {
+      "consulta": ["saude/minha-alergia"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "CAN-I",
+      "encaixe": "speak to the chef",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b13-p08",
+      "promptPt": "Der Kellner ist in der Küche, aber du willst eine direktere Bestätigung, bevor das Gericht kommt. Bitte darum, mit dem Koch zu sprechen. Sprich jetzt.",
+      "audioKey": "eua-b13-t08",
+      "es": "Can I speak to the chef?",
+      "tts": "Can I speak to the chef?",
+      "pinyin": "ken ai spiik tu de schef",
+      "pt": "Kann ich mit dem Koch sprechen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b13-n05",
+      "pt": "Und die Stimme ist nicht das Einzige, was du dabeihast: die schriftliche Karte mit deiner Allergie auf Englisch hängt nicht davon ab, dass deine Aussprache im ungünstigsten Moment klappt."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b13-p05",
+      "promptPt": "Zeig zusätzlich zum Sagen die Karte. Bitte den Kellner, sie zu lesen. Sprich jetzt.",
+      "audioKey": "eua-b13-t05",
+      "es": "Can I show you this card?",
+      "tts": "Can I show you this card?",
+      "pinyin": "ken ai schou ju dis kard",
+      "pt": "Kann ich Ihnen diese Karte zeigen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b13-n06",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Wenn der Kellner sofort in die Küche rennt oder mit dem Koch zurückkommt, übertreibt er nicht: gesetzlich behandeln Restaurants eine angegebene Allergie als kritische Information."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b13-n07",
+      "bloco": "permissao",
+      "pt": "Du musst die Reaktion nicht erklären oder dich rechtfertigen. Es einmal klar zu sagen reicht schon. Wiederhole es, bis man dir bestätigt."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b13-n08",
+      "bloco": "recap",
+      "pt": "B13 geschafft. «I'm allergic to» plus die Sache, immer vollständig, plus die schriftliche Karte als Rückversicherung."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Warum dieser Satz kein Baustein ist",
+    "secoes": [
+      {
+        "titulo": "Hammersatz, kein offener Baustein",
+        "corpo": "«I'm allergic to ___» wird immer vollständig und auf dieselbe Weise gesagt. Anders als bei «Can I get ___?» oder «Do you have ___?» gibt es hier keinen Raum, das Register zu improvisieren: die Form zu ändern nimmt ihm genau dann Gewicht, wenn es am wichtigsten ist."
+      },
+      {
+        "titulo": "Die schriftliche Karte als Rückversicherung",
+        "corpo": "In einem gestressten Moment oder mit starkem Akzent kann die Stimme versagen. Die Karte mit der Allergie auf Englisch hängt nicht von der Aussprache ab oder davon, dass man dich beim ersten Mal versteht."
+      },
+      {
+        "titulo": "Das Gesetz hinter der Reaktion des Personals",
+        "corpo": "Das Bundesgesetz zur Allergenkennzeichnung verpflichtet dazu, neun Hauptallergene auf jedem verpackten Produkt anzugeben. Viele Restaurants schulen ihr Personal mit demselben Ernst, auch wenn es im Tischservice nicht gesetzlich vorgeschrieben ist."
+      },
+      {
+        "titulo": "Das ist nicht dasselbe wie B12",
+        "corpo": "B12 entfernt eine Vorliebe — ohne Zwiebeln, ohne Eis. B13 kommuniziert ein Gesundheitsrisiko. Die Küche behandelt beides anders, und du solltest es auch tun: das eine ist Geschmack, das andere Sicherheit."
+      }
+    ]
+  }
+}

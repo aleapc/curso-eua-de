@@ -1,0 +1,285 @@
+{
+  "id": "b14",
+  "slot": "B14",
+  "nivel": "basico",
+  "numero": 14,
+  "parte": "14A",
+  "titulo": "Die Rechnung ist nie die Zahl von der Karte",
+  "subtitulo": "Warum die Summe an der Kasse steigt, und die Zeile, die bei großen Gruppen schon enthalten ist",
+  "cena": "Das Gerät am Tisch zeigt $54.12, obwohl die Karte $48 sagte, und der Kellner steht da und wartet, dass du etwas antippst.",
+  "moldura": "ganha",
+  "frasePiso": "Du liest eine Rechnung in den USA und weißt genau, warum die Zahl nicht mit der Karte übereinstimmt, ohne das Gefühl zu haben, übervorteilt zu werden.",
+  "permissao": "Du musst die genaue Steuer nicht im Kopf am Tisch ausrechnen. Zu wissen, dass es etwas höher wird und warum, reicht schon; niemand erwartet, dass du den exakten Prozentsatz auswendig kennst.",
+  "permissaoAudioKey": "eua-b14-n08",
+  "espelho": "In deinem Land hast du sicher schon eine Rechnung mit enthaltenem Servicezuschlag bei einer großen Gruppe gesehen; das einzig Andere hier ist, dass zusätzlich zum Service auch die Steuer nicht im Preis steckt, den du auf der Karte gelesen hast.",
+  "fichasCulturais": [
+    {
+      "sinal": "Ihr wart acht Personen am Tisch, und die Rechnung trägt schon eine Zeile «Gratuity (18%) included», bevor irgendjemand entschieden hat, wie viel Trinkgeld er geben will.",
+      "suaLeitura": "Das ist eine Extragebühr, die man mir ungefragt aufdrückt, wie eine Falle.",
+      "oQueEAli": "Bei Gruppen ab sechs Personen fügt fast jedes Restaurant in den USA automatisch einen Servicezuschlag von etwa 18% hinzu. Rechtlich ist das ein «service charge», kein Trinkgeld — die Steuerbehörde IRS behandelt sie unterschiedlich —, aber er erfüllt denselben Zweck: die Bedienung einer großen Gruppe zu bezahlen.",
+      "oQueVoceFaz": "Lies die ganze Rechnung, bevor du irgendetwas dazurechnest. Steht dort schon «gratuity included», fügst du keine weiteren 18–20% oben drauf hinzu.",
+      "oQueMelhora": "Du zahlst genau das Richtige, weder zu viel noch mit dem schlechten Gefühl, zu wenig gegeben zu haben, ohne zu wissen, dass es schon gedeckt war.",
+      "ondeNaoVale": "Gilt nicht an Tischen mit weniger als sechs Personen: dort ist das Trinkgeld nie enthalten, und du entscheidest selbst, wie in B11.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "eua-b14-n06"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "sales-tax-fuera-etiqueta",
+      "afirmacao": "The price on the menu or the price tag never includes sales tax. It gets added only at the register or when the check arrives — averaging around 7.5%, up to nearly 10% in cities like Los Angeles or Chicago, and 0% in a few states like Oregon, Delaware, Montana and New Hampshire.",
+      "valor": "~7,5% médio",
+      "fonte": "Tax Foundation",
+      "ano": 2025,
+      "revisarAte": "2027-01-01",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "eua-b14-n03",
+        "eua-b14-n04"
+      ]
+    },
+    {
+      "id": "auto-gratuity-grupo-grande",
+      "afirmacao": "For parties of six or more, an 18% charge is often added to the check automatically. Legally it is a service charge, not a tip — read the check before you add anything on top.",
+      "valor": "18%",
+      "fonte": "IRS — distinção entre service charge e tip; prática padrão da indústria de restaurantes",
+      "ano": 2025,
+      "revisarAte": "2027-01-01",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "eua-b14-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b14-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Teil vierzehn. Gleichmäßiger Rhythmus bei Zahlen: FOR-ty-EIGHT, FIF-ty-FOUR. Jede Silbe mit demselben Gewicht."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b14-n02",
+      "bloco": "cena",
+      "pt": "Das Gerät zeigt $54.12, obwohl die Karte $48 sagte. Der Kellner steht da und wartet."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b14-p01",
+      "promptPt": "Bevor das Gericht kommt, kündige deine Allergie noch einmal an, wie im letzten Teil. Sprich jetzt.",
+      "bloco": "callback",
+      "molde": "WITHOUT",
+      "audioKey": "eua-b14-t01",
+      "es": "No onions, please.",
+      "tts": "No onions, please.",
+      "pinyin": "nou AN-jens, pliis",
+      "pt": "Ohne Zwiebeln, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b14-n03",
+      "bloco": "corpo",
+      "pt": "Der Preis auf der Karte enthält nie die Steuer. Sie kommt erst an der Kasse oder mit der Rechnung dazu, nicht vorher."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b14-n04",
+      "pt": "Sie steigt im Schnitt um etwa siebeneinhalb Prozent, fast zehn in Städten wie Los Angeles, null in wenigen Bundesstaaten."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b14-t02",
+      "es": "That includes tax.",
+      "tts": "That includes tax.",
+      "pinyin": "det in-KLUDS teks",
+      "pt": "Das enthält schon die Steuer."
+    },
+    {
+      "consulta": [
+        "pagar/dividir"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "CAN-I",
+      "encaixe": "split the check",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b14-p02",
+      "promptPt": "Ihr seid zu viert, und jeder will für sich zahlen. Frag den Kellner, ob man die Rechnung teilen kann. Sprich jetzt.",
+      "audioKey": "eua-b14-t03",
+      "es": "Can I split the check?",
+      "tts": "Can I split the check?",
+      "pinyin": "ken ai split de tschek",
+      "pt": "Können wir die Rechnung teilen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b14-r01",
+      "es": "Sure, four ways?",
+      "tts": "Sure, four ways?",
+      "pinyin": "schur, for ueis",
+      "pt": "Klar, in vier Teile?"
+    },
+    {
+      "consulta": [
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "GET",
+      "encaixe": "separate checks",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b14-p03",
+      "promptPt": "Du willst lieber, dass jeder seine eigene Quittung hat, nicht nur geteilt. Bitte direkt darum. Sprich jetzt.",
+      "audioKey": "eua-b14-t04",
+      "es": "Can I get separate checks?",
+      "tts": "Can I get separate checks?",
+      "pinyin": "ken ai guet SE-pe-ret tscheks",
+      "pt": "Können wir getrennte Rechnungen bekommen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b14-n05",
+      "pt": "Am besten darum bitten, bevor die Rechnung kommt. Ist sie erst gedruckt, wird das Teilen am Tisch für alle umständlicher."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b14-n06",
+      "pt": "Bei sechs oder mehr Personen ist fast immer schon achtzehn Prozent Service enthalten. Lies die Rechnung, bevor du noch ein Trinkgeld dazurechnest."
+    },
+    {
+      "consulta": [
+        "pagar/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "CAN-I",
+      "encaixe": "see that again",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b14-p04",
+      "promptPt": "Du bist nicht sicher, ob die achtzehn Prozent schon in der Rechnung stecken. Bitte darum, sie noch einmal in Ruhe zu sehen. Sprich jetzt.",
+      "audioKey": "eua-b14-t05",
+      "es": "Can I see that again?",
+      "tts": "Can I see that again?",
+      "pinyin": "ken ai si det e-GEN",
+      "pt": "Kann ich das noch mal sehen?"
+    },
+    {
+      "consulta": ["mesa/conta"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "EXCUSE",
+      "encaixe": "der Restauranttisch",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b14-p05",
+      "promptPt": "Der Kellner dreht sich schon mit dem Gerät in der Hand zu einem anderen Tisch, bevor du fertig gelesen hast. Hol seine Aufmerksamkeit noch einmal. Sprich jetzt.",
+      "audioKey": "eua-b14-t06",
+      "es": "Excuse me.",
+      "tts": "Excuse me.",
+      "pinyin": "eks-KJUS mi",
+      "pt": "Entschuldigung."
+    },
+    {
+      "consulta": ["mesa/conta"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "a pen",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b14-p06",
+      "promptPt": "Du willst die Papierkopie der Quittung unterschreiben und hast nichts zum Schreiben dabei. Frag, ob sie einen Stift zur Hand haben. Sprich jetzt.",
+      "audioKey": "eua-b14-t07",
+      "es": "Do you have a pen?",
+      "tts": "Do you have a pen?",
+      "pinyin": "du ju hev e pen",
+      "pt": "Habt ihr einen Stift?"
+    },
+    {
+      "consulta": ["pagar/dinheiro"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "CAN-I",
+      "encaixe": "pay in cash instead",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b14-p07",
+      "promptPt": "Das Gerät liest deine Karte nach zwei Versuchen nicht. Frag, ob du stattdessen bar zahlen kannst. Sprich jetzt.",
+      "audioKey": "eua-b14-t08",
+      "es": "Can I pay in cash instead?",
+      "tts": "Can I pay in cash instead?",
+      "pinyin": "ken ai pei in kesch in-STED",
+      "pt": "Kann ich stattdessen bar zahlen?"
+    },
+    {
+      "consulta": ["pagar/pedir"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "GET",
+      "encaixe": "a receipt",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b14-p08",
+      "promptPt": "Du hast schon bezahlt, willst aber den Beleg für deine Reisekostenabrechnung. Bitte darum, bevor du aufstehst. Sprich jetzt.",
+      "audioKey": "eua-b14-t09",
+      "es": "Can I get a receipt?",
+      "tts": "Can I get a receipt?",
+      "pinyin": "ken ai guet e ri-SIIT",
+      "pt": "Kann ich eine Quittung bekommen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b14-n07",
+      "bloco": "capsula",
+      "pt": "Dieser Zuschlag bei großen Gruppen ist rechtlich kein Trinkgeld, sondern ein Servicezuschlag. Er erfüllt denselben Zweck, ist aber schon festgelegt und du entscheidest nicht selbst."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b14-n08",
+      "bloco": "permissao",
+      "pt": "Du musst den genauen Prozentsatz nicht am Tisch ausrechnen. Zu wissen, dass es etwas höher wird und warum, reicht schon."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b14-n09",
+      "bloco": "recap",
+      "pt": "B14 geschafft. Die Steuer erhöht die Summe, und bei großen Gruppen kann der Service schon enthalten sein: lies die Rechnung, bevor du zu viel dazurechnest."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Die zwei Zahlen, die deine Rechnung verändern",
+    "secoes": [
+      {
+        "titulo": "Die Verkaufssteuer, Bundesstaat für Bundesstaat",
+        "corpo": "Es gibt keine einheitliche Bundessteuer: jeder Bundesstaat und sogar jede Stadt legt seine eigene fest. Der nationale Durchschnitt liegt bei etwa 7,5%, kann aber in Städten wie Los Angeles oder Chicago fast 10% erreichen, und ist 0% in Oregon, Delaware, Montana oder New Hampshire."
+      },
+      {
+        "titulo": "Service charge ist nicht dasselbe wie tip",
+        "corpo": "Rechtlich unterscheidet die Steuerbehörde IRS zwischen freiwilligem Trinkgeld (tip) und verpflichtendem Servicezuschlag (service charge). Die automatischen 18% bei großen Gruppen sind Letzteres: schon festgelegt, nicht von dir gewählt, und nicht doppelt zu addieren."
+      },
+      {
+        "titulo": "Getrennte Rechnungen vorher bitten, nicht danach",
+        "corpo": "Wollt ihr die Rechnung teilen, ist es einfacher, vorher darum zu bitten, bevor sie gedruckt wird. Ist sie erst als eine einzige Rechnung gedruckt, kostet das Teilen am Tisch alle mehr Zeit."
+      },
+      {
+        "titulo": "Wie man eine vollständige Rechnung liest",
+        "corpo": "Bevor du im Kopf rechnest, prüf, ob schon «gratuity included» oder «service charge» dasteht. Steht diese Zeile da, gilt der Trinkgeld-Prozentsatz aus B11 nicht mehr zusätzlich."
+      }
+    ]
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "id": "a02",
+  "slot": "A02",
+  "nivel": "avancado",
+  "numero": 30,
+  "parte": "A02",
+  "titulo": "Worüber sie lachen",
+  "subtitulo": "Ein Hinterhof, ein Grillfest und ein todernst gemeinter Satz, der sich als Witz entpuppt",
+  "cena": "Jemand sagt gerade mit völlig ernstem Gesicht, sein Essen sei «amazing», während er es gerade auf dem Grill verbrennt, und der ganze Tisch lacht — nur du nicht.",
+  "moldura": "ganha",
+  "frasePiso": "Du musst den Witz nicht sofort verstehen. Im richtigen Moment mitzulachen und nachzufragen, was gesagt wurde, ist schon gute Gesellschaft.",
+  "fatosDatados": [
+    {
+      "id": "eua-humor-sarcasmo",
+      "afirmacao": "Sarcasm and dry irony — saying the opposite of what is meant, delivered with a flat or serious tone — are a defining register of everyday American humor, and are widely reported as the joke form most often missed by non-native English speakers, who may take the literal words at face value.",
+      "fonte": "Consenso de fontes culturais e linguísticas sobre humor estadounidense e sarcasmo (BBC Culture; guias de comunicação intercultural)",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": ["eua-a02-n03"]
+    },
+    {
+      "id": "eua-temas-evitar",
+      "afirmacao": "American small-talk etiquette generally treats politics, religion and personal salary as topics to avoid with people you have just met, unless the other person opens the subject first.",
+      "fonte": "Consenso de fontes de etiqueta social (Emily Post Institute — «Small Talk»)",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": ["eua-a02-n07"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a02-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Heute geht's ums Lachen im richtigen Moment. Eine Bewegung ist rein rezeptiv: du genießt sie, produzierst sie nicht."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-a02-n02",
+      "bloco": "callback",
+      "pt": "Vorher noch eine Wiederholung von gestern. Jemand fragt dich, was du bestellst. Antworte in der lockeren Form."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-a02-p01",
+      "promptPt": "Ihr seid an einem Taco-Stand und du willst den al pastor probieren. Sag es in der kurzen Form, wie gestern. Sprich jetzt.",
+      "audioKey": "eua-a02-t01",
+      "es": "I'm gonna try the al pastor.",
+      "tts": "I'm gonna try the al pastor.",
+      "pinyin": "aim GO-ne trai de al pas-TOR",
+      "pt": "Ich probiere den al pastor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a02-n03",
+      "bloco": "cena",
+      "pt": "Grillfest im Hinterhof. Jemand verbrennt das Fleisch und sagt völlig ernst, es sei perfekt geworden. Der Tisch lacht."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a02-o01",
+      "receptivo": true,
+      "es": "Yeah, this is exactly how I planned it. Perfectly charred.",
+      "tts": "Yeah, this is exactly how I planned it. Perfectly charred.",
+      "pt": "👂 Nichts zu entschlüsseln: Er sagt das Gegenteil von dem, was er denkt, mit ernstem Gesicht. Genau diese Lücke zwischen Gesicht und Satz ist der Witz.",
+      "pinyin": "je, dis is ek-SEK-tli hau ai plennd it. PER-fek-tli tschard"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-a02-n04",
+      "bloco": "corpo",
+      "pt": "Das ist Sarkasmus: das Gegenteil sagen, mit ernstem Gesicht. Der häufigste Witz im lockeren Englisch — und der meistübersehene."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a02-n05",
+      "pt": "Du musst ihn nicht sofort im Flug erkennen. Das ehrliche Signal ist, ein bisschen spät zu lachen oder einfach nachzufragen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-a02-p02",
+      "promptPt": "Alle haben gelacht und du hast nicht verstanden, warum. Sag es locker. Sprich jetzt.",
+      "audioKey": "eua-a02-t02",
+      "es": "Wait, was that a joke?",
+      "tts": "Wait, was that a joke?",
+      "pinyin": "ueit, was det e dschouk",
+      "pt": "Moment, war das ein Witz?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a02-o02",
+      "es": "Yeah, sorry, it's definitely a little burnt.",
+      "tts": "Yeah, sorry, it's definitely a little burnt.",
+      "pt": "Ja, sorry, das ist wirklich ein bisschen verbrannt.",
+      "pinyin": "je, SO-ri, its DE-fi-nit-li e LI-tel bernt"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-a02-n06",
+      "pt": "Nachfragen holt dich in den Witz, macht ihn nicht kaputt. Jetzt die andere Hälfte: die, die du selbst produzierst."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-a02-p03",
+      "promptPt": "Dir ist vor allen Soße auf das Hemd gefallen. Mach einen Witz über dich selbst, bevor es jemand anderes bemerkt. Sprich jetzt.",
+      "audioKey": "eua-a02-t03",
+      "es": "Classic me.",
+      "tts": "Classic me.",
+      "pinyin": "KLE-sik mi",
+      "pt": "Typisch ich."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-a02-o03",
+      "es": "Ha, at least you're consistent.",
+      "tts": "Ha, at least you're consistent.",
+      "pt": "Ha, wenigstens bist du konsequent.",
+      "pinyin": "ha, et list jor ken-SIS-tent"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a02-n07",
+      "bloco": "capsula",
+      "pt": "Witze über dich selbst funktionieren immer. Witze über Politik, Religion oder Gehalt, bei Leuten, die du gerade erst kennst — nicht."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-a02-p04",
+      "promptPt": "Zwei Leute fangen an, am Tisch über Politik zu streiten. Steig elegant aus dem Thema aus, ohne deine Meinung zu sagen. Sprich jetzt.",
+      "audioKey": "eua-a02-t04",
+      "es": "I'll let you two figure that one out.",
+      "tts": "I'll let you two figure that one out.",
+      "pinyin": "eil let ju tu FI-gjor det uan aut",
+      "pt": "Das überlasse ich euch beiden."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-a02-p05",
+      "promptPt": "Jemand hat einen wirklich guten Witz erzählt, und du hast ihn verstanden. Sag es. Sprich jetzt.",
+      "audioKey": "eua-a02-t05",
+      "es": "Okay, that one got me.",
+      "tts": "Okay, that one got me.",
+      "pinyin": "OU-kei, det uan gat mi",
+      "pt": "Okay, der hat gesessen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-a02-p06",
+      "promptPt": "Du willst das Wort noch einmal benutzen können. Frag, was es bedeutet. Sprich jetzt.",
+      "audioKey": "eua-a02-t06",
+      "es": "What does that mean, exactly?",
+      "tts": "What does that mean, exactly?",
+      "pinyin": "uat das det min, ek-SEKT-li",
+      "pt": "Was bedeutet das genau?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-a02-s01",
+      "es": "Wait, was that a joke? Classic me. I'll let you two figure that one out.",
+      "tts": "Wait, was that a joke? Classic me. I'll let you two figure that one out.",
+      "pinyin": "ueit, was det e dschouk. KLE-sik mi. eil let ju tu FI-gjor det uan aut",
+      "pt": "Wiederhole die drei sicheren Bewegungen: nachfragen, über dich selbst lachen, elegant aussteigen."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a02-n08",
+      "bloco": "recap",
+      "pt": "A02 geschafft. Sarkasmus erkennt man, man übersetzt ihn nicht. Witze über dich selbst gehen immer; über Politik lieber nicht."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Sarkasmus ist keine Lüge, sondern ein Ton",
+    "secoes": [
+      {
+        "titulo": "Das Gegenteil sagen, mit ernstem Gesicht",
+        "corpo": "Lockerer amerikanischer Sarkasmus beruht darauf, das Gegenteil von dem zu sagen, was gemeint ist, in flachem oder sogar ernstem Ton. Genau diese Art von Witz übersehen Nicht-Muttersprachler am häufigsten, weil die Worte eine Sache sagen und der Ton eine andere."
+      },
+      {
+        "titulo": "Der Witz über dich selbst kommt immer an",
+        "corpo": "Über deinen eigenen Akzent, deinen Fehler oder deine Tollpatschigkeit zu lachen, ist das sicherste komische Register überhaupt: es braucht keinen gemeinsamen Kontext und beleidigt nie jemand anderen als dich selbst."
+      },
+      {
+        "titulo": "Drei Themen, die man mit Fremden vermeidet",
+        "corpo": "Politik, Religion und wie viel jemand verdient. Nicht, dass sie für immer tabu wären — man eröffnet sie nur nicht bei Leuten, die man gerade erst kennengelernt hat, außer sie fangen selbst damit an."
+      }
+    ]
+  },
+  "permissao": "Es ist völlig in Ordnung, den Witz nicht zu verstehen. «War das ein Witz?» zu fragen, macht die Sache nicht kaputt — meistens verlängert es sie sogar, denn jetzt muss jemand sie schlecht erklären, und auch das ist lustig.",
+  "permissaoAudioKey": "eua-a02-n05",
+  "espelho": "Jede Sprache hat ein Register, das nur Insider wirklich beherrschen — den Witz, den deine eigenen Freunde über deine Stadt machen und den ein Besucher niemals versuchen sollte. Der amerikanische Humor ist nicht besonders verschlossen; diesmal bist du einfach auf der zuhörenden Seite, ein Platz, den du selbst dein Leben lang anderen gegeben hast.",
+  "fichasCulturais": [
+    {
+      "sinal": "Jemand sagt mit völlig ernstem Gesicht, etwas sei «perfekt» geworden, obwohl offensichtlich ist, dass es misslungen ist.",
+      "suaLeitura": "Er meint das ernst; ich verstehe nicht, warum niemand ihn korrigiert.",
+      "oQueEAli": "Das ist Sarkasmus: das ernste Gesicht und der flache Ton sind Teil des Witzes, kein Versehen. Es ernst zu sagen, macht es erst lustig.",
+      "oQueVoceFaz": "Lächle oder lache etwas verspätet, oder frag direkt, ob das ein Witz war — beides sind akzeptierte Antworten.",
+      "oQueMelhora": "Du bleibst im Witz drin, statt mit etwas Wörtlichem zu antworten, das das Gespräch abrupt beendet.",
+      "ondeNaoVale": "Nicht, wenn die Person sichtlich verärgert ist oder der Ton scharf wird — dann ist es kein Sarkasmus, sondern eine echte Beschwerde, und das Signal dafür ist, dass sonst niemand lacht.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a02-n04"]
+    },
+    {
+      "sinal": "Eine fremde Person auf der Party erwähnt beiläufig etwas Politisches, und du hast das Gefühl, du solltest deine Meinung sagen, um interessiert zu wirken.",
+      "suaLeitura": "Wenn ich still bleibe, wirkt es, als wäre mir das Gespräch egal.",
+      "oQueEAli": "Bei Leuten, die man gerade erst kennengelernt hat, bleiben Politik, Religion und Gehalt aus Höflichkeit meist außerhalb des lockeren Gesprächs — nicht weil sie für immer verboten sind.",
+      "oQueVoceFaz": "Steig mit einem kurzen, neutralen Satz aus dem Thema aus und kehre zu etwas Unverfänglichem zurück.",
+      "oQueMelhora": "Du bleibst für alle am Tisch angenehm, egal was sie untereinander denken.",
+      "ondeNaoVale": "Nicht, wenn die Person selbst direkt und mit echtem Interesse nach deiner Meinung fragt — dann kann komplettes Schweigen ausweichend wirken.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a02-n07"]
+    }
+  ]
+}

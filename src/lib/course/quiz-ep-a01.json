@@ -1,0 +1,82 @@
+{
+  "id": "q-a01",
+  "nivel": "avancado",
+  "titulo": "Quiz — Wie es klingt, wenn es nicht an dich gerichtet ist",
+  "subtitulo": "Schnelles, informelles Englisch am Tresen erkennen",
+  "introAudioKey": "eua-a01-q-i",
+  "introPt": "Hör zu, wie ein Barista eine lange Bestellung in Höchstgeschwindigkeit wiederholt, und beantworte dann Fragen dazu.",
+  "cenario": "Ein volles Café um acht Uhr morgens, in echtem Tempo.",
+  "dialogo": [
+    {
+      "audioKey": "eua-a01-q01",
+      "voz": "target_en_m",
+      "es": "Can I get a grande latte, oat milk, extra shot, to go?",
+      "tts": "Can I get a grande latte, oat milk, extra shot, to go?",
+      "pt": "Kann ich einen großen Latte haben, Hafermilch, extra Shot, zum Mitnehmen?"
+    },
+    {
+      "audioKey": "eua-a01-q02",
+      "voz": "target_en_f",
+      "es": "You got it, that's four twenty.",
+      "tts": "You got it, that's four twenty.",
+      "pt": "Alles klar, das macht vier zwanzig."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was bedeutet «gonna» im lockeren Englisch?",
+      "opcoes": [
+        "Going to",
+        "Got a",
+        "Going on",
+        "Give me"
+      ],
+      "correta": 0,
+      "explica": "«Going to» schrumpft in schneller, informeller Sprache zu «gonna»."
+    },
+    {
+      "pergunta": "Was bedeutet «Wanna sit inside or outside?»?",
+      "opcoes": [
+        "Was kostet es, hier zu sitzen?",
+        "Willst du drinnen oder draußen sitzen?",
+        "Wann schließt ihr?",
+        "Habt ihr einen Tisch frei?"
+      ],
+      "correta": 1,
+      "explica": "«Wanna» ist «want to»: die Frage hat sich nicht verändert, nur verkürzt."
+    },
+    {
+      "pergunta": "Ist «gonna», «wanna» oder «gotta» zu benutzen ein Fehler im Englischen?",
+      "opcoes": [
+        "Ja, das ist nachlässig",
+        "Nein, das ist ganz normale informelle Sprache im ganzen Land",
+        "Das benutzen nur Kinder",
+        "Das wird nur im Süden benutzt"
+      ],
+      "correta": 1,
+      "explica": "Diese Reduktion ist normal und weit verbreitet, kein Fehler und kein Slang einer einzelnen Gruppe."
+    },
+    {
+      "pergunta": "Wofür ist «whatcha» die verkürzte Form?",
+      "opcoes": [
+        "What are you",
+        "What time",
+        "Where are you",
+        "Watch out"
+      ],
+      "correta": 0,
+      "explica": "«What are you» verschmilzt zu einem einzigen Wort: «whatcha»."
+    },
+    {
+      "pergunta": "Der Barista spricht langsam mit dir und schnell mit dem Stammkunden. Was hat sich geändert?",
+      "opcoes": [
+        "Dein Englisch wurde plötzlich schlechter",
+        "Der Adressat hat sich geändert, nicht die Sprache",
+        "Der Barista war unhöflich zu dir",
+        "Das ist ein völlig anderer Dialekt"
+      ],
+      "correta": 1,
+      "explica": "Sprache, die an einen Besucher gerichtet ist, kommt meist langsamer; die an einen Bekannten nicht."
+    }
+  ]
+}

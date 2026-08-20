@@ -1,0 +1,290 @@
+{
+  "id": "b12",
+  "slot": "B12",
+  "nivel": "basico",
+  "numero": 12,
+  "parte": "4B",
+  "titulo": "Bestellen, was du wirklich willst",
+  "subtitulo": "«No ___, please» und «___ without ___», um vom Teller zu entfernen, was du nicht willst",
+  "cena": "Der Kellner wiederholt deine Bestellung laut, mit den Zwiebeln, die du nicht bestellt hast, und du musst ihn korrigieren, bevor er in die Küche geht.",
+  "moldura": "ganha",
+  "frasePiso": "Du änderst eine Bestellung am Tisch, ohne mit dem Finger zu zeigen und ohne dich dafür zu entschuldigen.",
+  "moldes": [
+    "WITHOUT"
+  ],
+  "clique": {
+    "contagem": [
+      "der Softdrink ohne Eis",
+      "der Salat ohne Zwiebeln",
+      "der Kaffee ohne Zucker",
+      "der Taco ohne Koriander"
+    ],
+    "desconto": "Niemand hat dir für jede Zutat, die du nicht wolltest, einen eigenen Satz gegeben. Du hast alle vier mit einem einzigen Baustein gebaut: «No ___, please» oder «___ without ___».",
+    "piso": "Das nächste Mal, wenn ein Gericht mit etwas kommt, das du nicht bestellt hast, isst du es nicht schweigend: du korrigierst es mit einem Satz, den du schon sagen kannst."
+  },
+  "permissao": "Du musst nicht erklären, warum du etwas nicht willst. «No ___, please» ist für sich schon ein vollständiger Satz; niemand erwartet einen Grund dahinter.",
+  "permissaoAudioKey": "eua-b12-n07",
+  "espelho": "Auch in deinem Land bittest du darum, etwas vom Teller zu entfernen, ohne dich zu erklären — ohne Zwiebeln, ohne scharf; das einzig Neue hier ist, es mit «please» am Ende zu tun, das im Englischen die Arbeit übernimmt, die im Deutschen der Ton oder das \"bitte\" übernehmen würde.",
+  "fichasCulturais": [
+    {
+      "sinal": "Du bestellst etwas «ohne Zwiebeln», und der Kellner wiederholt deine ganze Bestellung laut, bevor er in die Küche geht.",
+      "suaLeitura": "Er zweifelt daran, dass ich es richtig gesagt habe, oder denkt, ich hätte mich geirrt.",
+      "oQueEAli": "Die Bestellung laut zu wiederholen ist eine Standardbestätigung im amerikanischen Tischservice, kein Zweifel an deinem Englisch. Das passiert bei jedem Gast, egal wie er spricht.",
+      "oQueVoceFaz": "Antworte «Yes, that's right» oder nick einfach.",
+      "oQueMelhora": "Du bestätigst die Bestellung ohne zusätzliche Anspannung, weil du weißt, dass die Wiederholung zum System gehört, nicht zu dir.",
+      "ondeNaoVale": "Gilt nicht bei schnellem Fast-Food-Service am Tresen, wo die Bestellung wegen des Tempos fast nie komplett wiederholt wird.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "eua-b12-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b12-n01",
+      "gesto": 4,
+      "bloco": "aquecimento",
+      "pt": "Teil zwölf. Der Flick markiert den englischen Endkonsonanten: ohne ihn zu ziehen, ohne Vokal dranzuhängen. Withou-T. Plate-S."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b12-n02",
+      "bloco": "cena",
+      "pt": "Der Kellner wiederholt deine Bestellung laut, mit den Zwiebeln, die du nicht bestellt hast. Du musst ihn korrigieren, bevor er in die Küche geht."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b12-p01",
+      "promptPt": "Gestern im Restaurant hast du um die Rechnung gebeten, und niemand kam zurück. Wiederhole den Baustein vom letzten Teil. Sprich jetzt.",
+      "bloco": "callback",
+      "molde": "GET",
+      "audioKey": "eua-b12-t01",
+      "es": "Can I get the check, please?",
+      "tts": "Can I get the check, please?",
+      "pinyin": "ken ai guet de tschek, pliis",
+      "pt": "Kann ich bitte die Rechnung bekommen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b12-n03",
+      "bloco": "molde",
+      "pt": "Der Baustein von heute hat zwei Formen: «No ___, please», um etwas zu entfernen, und «___ without ___», um es von Anfang an so zu bestellen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b12-t02",
+      "es": "No ice, please.",
+      "tts": "No ice, please.",
+      "pinyin": "nou ais, pliis",
+      "pt": "Ohne Eis, bitte."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WITHOUT",
+      "encaixe": "ice",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b12-p02",
+      "promptPt": "Du hast einen Softdrink bestellt, und in den USA kommt er mit mehr Eis, als du willst. Bitte darum, keins reinzutun. Sprich jetzt.",
+      "audioKey": "eua-b12-t02",
+      "es": "No ice, please.",
+      "tts": "No ice, please.",
+      "pinyin": "nou ais, pliis",
+      "pt": "Ohne Eis, bitte."
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "WITHOUT",
+      "encaixe": "onions",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b12-p03",
+      "promptPt": "Du magst keine rohen Zwiebeln auf dem Burger. Bitte darum, keine draufzutun. Sprich jetzt.",
+      "audioKey": "eua-b12-t03",
+      "es": "No onions, please.",
+      "tts": "No onions, please.",
+      "pinyin": "nou AN-jens, pliis",
+      "pt": "Ohne Zwiebeln, bitte."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b12-t04",
+      "es": "A burger without cheese, please.",
+      "tts": "A burger without cheese, please.",
+      "pinyin": "e BER-ger uit-AUT tschiis, pliis",
+      "pt": "Einen Burger ohne Käse, bitte."
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "WITHOUT",
+      "encaixe": "sugar",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b12-p04",
+      "promptPt": "Du hast einen Kaffee bestellt und willst ihn nicht süß. Bestell ihn ohne Zucker. Sprich jetzt.",
+      "audioKey": "eua-b12-t05",
+      "es": "Coffee without sugar, please.",
+      "tts": "Coffee without sugar, please.",
+      "pinyin": "KA-fi uit-AUT SCHU-ger, pliis",
+      "pt": "Kaffee ohne Zucker, bitte."
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WITHOUT",
+      "encaixe": "cilantro",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b12-p05",
+      "promptPt": "Dieses grüne Kraut schmeckt für dich immer nach Seife. Bestell den Taco ohne es. Sprich jetzt.",
+      "audioKey": "eua-b12-t06",
+      "es": "A taco without cilantro, please.",
+      "tts": "A taco without cilantro, please.",
+      "pinyin": "e TA-kou uit-AUT si-LAN-trou, pliis",
+      "pt": "Einen Taco ohne Koriander, bitte."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b12-r01",
+      "es": "Got it — one taco, no cilantro.",
+      "tts": "Got it — one taco, no cilantro.",
+      "pinyin": "gat it — uan TA-kou, nou si-LAN-trou",
+      "pt": "Verstanden: ein Taco, ohne Koriander."
+    },
+    {
+      "consulta": ["mesa/comida"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "WITHOUT",
+      "encaixe": "mayo",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b12-p06",
+      "promptPt": "Das Sandwich kommt immer mit dieser weißen Soße, die dir nicht schmeckt. Bestell es ohne. Sprich jetzt.",
+      "audioKey": "eua-b12-t07",
+      "es": "No mayo, please.",
+      "tts": "No mayo, please.",
+      "pinyin": "nou MEI-ou, pliis",
+      "pt": "Ohne Mayonnaise, bitte."
+    },
+    {
+      "consulta": ["mesa/errado"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "CAN-I",
+      "encaixe": "switch this for fries",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b12-p07",
+      "promptPt": "Das Gericht kommt mit Salat, und du bevorzugst die andere Beilage von der Karte. Frag, ob du zu Pommes wechseln kannst. Sprich jetzt.",
+      "audioKey": "eua-b12-t08",
+      "es": "Can I switch this for fries?",
+      "tts": "Can I switch this for fries?",
+      "pinyin": "ken ai suitsch dis for frais",
+      "pt": "Kann ich das gegen Pommes tauschen?"
+    },
+    {
+      "consulta": ["mesa/errado"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "GET",
+      "encaixe": "that changed",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b12-p08",
+      "promptPt": "Der Kellner hat die Bestellung falsch notiert, bevor er in die Küche geht. Bitte darum, es zu ändern. Sprich jetzt.",
+      "audioKey": "eua-b12-t09",
+      "es": "Can I get that changed?",
+      "tts": "Can I get that changed?",
+      "pinyin": "ken ai guet det tscheindschd",
+      "pt": "Können Sie das ändern?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b12-n04",
+      "pt": "Achtung: dieser Baustein entfernt eine Vorliebe, kommuniziert kein Gesundheitsrisiko. Dafür lehrt B13 einen anderen Satz."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b12-n05",
+      "pt": "«Please» kommt an fast alles ans Ende: es übernimmt die Arbeit, die im Deutschen der Ton oder das \"bitte\" übernehmen würde."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b12-n06",
+      "bloco": "capsula",
+      "pt": "Wenn der Kellner deine Bestellung laut wiederholt, zweifelt er nicht an deinem Englisch: das ist die Standardbestätigung im Tischservice."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b12-n07",
+      "bloco": "permissao",
+      "pt": "Du musst nicht erklären, warum du etwas nicht willst. «No ___, please» ist schon ein vollständiger Satz; niemand erwartet einen Grund dahinter."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b12-n08",
+      "bloco": "clique",
+      "pt": "Du hast Eis, Zwiebeln, Zucker und Koriander entfernt. Niemand hat dir vier Sätze gegeben: du hast sie mit einem einzigen Baustein gebaut."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b12-s01",
+      "es": "No ice, please. No onions, please. Coffee without sugar, please.",
+      "tts": "No ice, please. No onions, please. Coffee without sugar, please.",
+      "pinyin": "nou ais, pliis. nou AN-jens, pliis. KA-fi uit-AUT SCHU-ger, pliis.",
+      "pt": "Wiederhole denselben Baustein mit drei verschiedenen Dingen."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b12-n09",
+      "bloco": "recap",
+      "pt": "B12 geschafft. Eis, Zwiebeln, Zucker, Koriander: vier Anpassungen mit einem einzigen Baustein, und «please» am Ende von jeder."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Zwei Formen, ein Baustein",
+    "secoes": [
+      {
+        "titulo": "«No ___, please» — die schnelle Version",
+        "corpo": "Dient dazu, etwas aus einer Bestellung zu entfernen, die du gerade aufgibst oder schon aufgegeben hast: «No ice, please», «No onions, please». Es ist die kürzeste und am Tisch häufigste Form."
+      },
+      {
+        "titulo": "«___ without ___» — die Version von Anfang an",
+        "corpo": "Dient dazu, die ganze Bestellung von vornherein ohne die Zutat zu bauen: «A burger without cheese, please». Beide Formen leisten dieselbe Arbeit; benutze die, die dir zuerst einfällt."
+      },
+      {
+        "titulo": "Das ist keine Allergie",
+        "corpo": "Dieser Baustein entfernt eine Vorliebe — das Eis, die Zwiebeln, den Zucker. Geht es um Gesundheit, lehrt B13 einen anderen, gewichtigeren Satz: die Küche behandelt eine Allergie anders als einen Geschmack."
+      },
+      {
+        "titulo": "Das «please», das nicht optional ist",
+        "corpo": "Im Englischen gibt es kaum Höflichkeitsmarkierung in der Verbform. «Please» am Ende ist das, was den Satz weicher macht; ohne es klingt «No ice» wie ein trockener Befehl statt einer normalen Bitte."
+      }
+    ]
+  }
+}

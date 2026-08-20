@@ -1,0 +1,270 @@
+{
+  "id": "i10",
+  "slot": "I10",
+  "nivel": "intermediario",
+  "numero": 10,
+  "parte": "I10",
+  "titulo": "Geld ohne Drama",
+  "subtitulo": "Das Trinkgeld ist nicht optional, der Bildschirm am Tresen, der 30% verlangt, schon — und bei großen Gruppen ist es manchmal schon enthalten",
+  "cena": "Der Kartenbildschirm zeigt dir drei Tasten — 25%, 30%, 35% — und hinter dir warten drei Leute, und du weißt nicht, welche der drei Zahlen normal ist.",
+  "decisao": "wie viel Trinkgeld du gibst und wo — am Tisch ist es Teil des Kellnergehalts, kein Extra; am Tresen kann der Bildschirm, der 25-30% verlangt, ohne schlechtes Gewissen abgelehnt werden",
+  "emJogo": "dinheiro",
+  "moldura": "protege",
+  "frasePiso": "Du liest die Rechnung, bevor du das Trinkgeld dazurechnest, und weißt ohne zu zögern, wann der Bildschirm zu viel verlangt.",
+  "fatosDatados": [
+    {
+      "id": "eua-propina-salario",
+      "afirmacao": "In vollständig bedienten Restaurants in den USA kann der Bundesgrundlohn eines Kellners nur 2,13 $ die Stunde betragen — das Trinkgeld ist kein Extra, es ist der echte Teil seines Gehalts. 18-20% zu geben ist das Erwartete; weniger als 15% signalisiert, dass etwas schiefgelaufen ist.",
+      "fonte": "U.S. Department of Labor",
+      "ano": 2025,
+      "revisarAte": "2027-08-20",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": ["eua-i10-n02"]
+    },
+    {
+      "id": "eua-tip-screen-mostrador",
+      "afirmacao": "An Tresen ohne Tischservice (einen Kaffee bestellen und mitnehmen) ist der Bildschirm, der 25-30% Trinkgeld verlangt, ein neues Phänomen, und «No Tip» zu wählen ist dort sozial akzeptiert — 72% der Amerikaner selbst finden das schon zu viel.",
+      "fonte": "Pew Research Center, 2023",
+      "ano": 2023,
+      "revisarAte": "2027-08-20",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": ["eua-i10-n04"]
+    },
+    {
+      "id": "eua-auto-gratuity-grupo",
+      "afirmacao": "Bei Gruppen ab sechs Personen fügen viele Restaurants schon automatisch 18% «service charge» zur Rechnung hinzu — man muss sie lesen, bevor man sein eigenes Trinkgeld obendrauf addiert, um nicht doppelt zu zahlen.",
+      "fonte": "Práctica estándar de la industria restaurantera de EE. UU.; o encargo é legalmente distinto de uma propina (IRS)",
+      "ano": 2025,
+      "revisarAte": "2027-08-20",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": ["eua-i10-n05"]
+    }
+  ],
+  "fichasCulturais": [
+    {
+      "sinal": "Die Tischrechnung für eure Gruppe von sieben hat schon einen Extraposten aufaddiert, und du bist kurz davor, ohne genau hinzusehen, noch 20% obendrauf zu geben.",
+      "suaLeitura": "Diese seltsame Zeile muss eine Steuer sein, oder ein Fehler des Restaurants.",
+      "oQueEAli": "Bei großen Gruppen addieren viele Restaurants automatisch einen service charge — rechtlich etwas anderes als ein Trinkgeld — genau damit sie nicht darauf angewiesen sind, dass jeder Tisch das Richtige gibt; meist liegt er bei etwa 18%.",
+      "oQueVoceFaz": "Lies die ganze Rechnung, bevor du irgendetwas ausrechnest, und such nach Zeilen wie «gratuity included» oder «service charge».",
+      "oQueMelhora": "Du zahlst kein doppeltes Trinkgeld und verstehst genau, was du zahlst, statt nur der Summe zu vertrauen.",
+      "ondeNaoVale": "Gilt nicht an Tischen mit zwei oder drei Personen, wo es fast nie einen automatischen Zuschlag gibt und das volle Trinkgeld an dir liegt.",
+      "evidencia": "FATO",
+      "audioKeys": ["eua-i10-n05"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i10-n01",
+      "gesto": 4,
+      "bloco": "aquecimento",
+      "pt": "Der Flick in how much: der Endkonsonant von much wird wirklich ausgesprochen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i10-p01",
+      "promptPt": "Gestern hast du gefragt, ob du etwas auf dem Markt probieren kannst. Heute benutzt du einen anderen Baustein, den du schon kennst, um in einem Laden nach dem Preis zu fragen. Sprich jetzt.",
+      "bloco": "callback",
+      "molde": "HOW-MUCH",
+      "encaixe": "is this",
+      "audioKey": "eua-i10-t01",
+      "es": "How much is this?",
+      "tts": "How much is this?",
+      "pinyin": "hau matsch is dis",
+      "pt": "Was kostet das?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i10-n02",
+      "bloco": "cena",
+      "pt": "Die Rechnung kommt und sagt «suggested tip: 18% / 20% / 22%» — das ist nicht dekorativ, das ist das echte Gehalt des Kellners."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i10-n03",
+      "bloco": "corpo",
+      "pt": "Der Grundlohn eines Kellners kann nur zwei Dollar die Stunde betragen. Das Trinkgeld am Tisch ist kein Extra: es ist sein Gehalt."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i10-r01",
+      "es": "Here's your check whenever you're ready.",
+      "tts": "Here's your check whenever you're ready.",
+      "pinyin": "hirs jor tschek uen-EW-er jor RE-di",
+      "pt": "Hier ist eure Rechnung, wann immer ihr so weit seid."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i10-p02",
+      "promptPt": "Du willst die Gesamtsumme bestätigen, bevor du das Trinkgeld ausrechnest. Frag, was alles zusammen kostet. Sprich jetzt.",
+      "molde": "HOW-MUCH",
+      "encaixe": "is it all together",
+      "audioKey": "eua-i10-t02",
+      "es": "How much is it all together?",
+      "tts": "How much is it all together?",
+      "pinyin": "hau matsch is it ol tu-GE-der",
+      "pt": "Was kostet alles zusammen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i10-n04",
+      "bloco": "capsula",
+      "pt": "Am Tresen ist es anders: der Bildschirm, der 25 oder 30% für einen Kaffee zum Mitnehmen verlangt, ist neu. Dort darfst du nein sagen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-i10-r02",
+      "es": "Would you like to add a tip? 20, 25, or 30 percent.",
+      "tts": "Would you like to add a tip? 20, 25, or 30 percent.",
+      "pinyin": "uud ju laik tu ed e tip? tuen-ti, tuen-ti-faiw, or SER-ti per-SENT",
+      "pt": "Möchten Sie ein Trinkgeld hinzufügen? 20, 25 oder 30 Prozent."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i10-p03",
+      "promptPt": "Das ist ein Tresen ohne Tischservice, du hast nur einen Kaffee zum Mitnehmen bestellt. Du kannst nein wählen. Sprich jetzt.",
+      "audioKey": "eua-i10-t03",
+      "es": "No tip, thanks.",
+      "tts": "No tip, thanks.",
+      "pinyin": "nou tip, tsenks",
+      "pt": "Kein Trinkgeld, danke."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i10-n05",
+      "pt": "Bei sechs oder mehr Personen addieren viele Orte schon 18% Servicezuschlag — lies die Rechnung, bevor du dein Trinkgeld obendrauf gibst."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i10-p04",
+      "promptPt": "Ihr seid zu siebt am Tisch, und die Rechnung hat eine Zeile, die du nicht erkennst. Frag, ob das Trinkgeld schon enthalten ist. Sprich jetzt.",
+      "audioKey": "eua-i10-t04",
+      "es": "Is the tip already included?",
+      "tts": "Is the tip already included?",
+      "pinyin": "is de tip ol-RE-di in-KLU-ded",
+      "pt": "Ist das Trinkgeld schon enthalten?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i10-r03",
+      "es": "Yes, for parties of six or more we add eighteen percent automatically.",
+      "tts": "Yes, for parties of six or more we add eighteen percent automatically.",
+      "pinyin": "jes, for PAR-tis of six or mor ui ed ei-TIIN per-SENT o-tou-ME-ti-ke-li",
+      "pt": "Ja, bei Gruppen ab sechs Personen fügen wir automatisch 18% hinzu."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i10-p05",
+      "promptPt": "Du weißt jetzt, dass das Trinkgeld enthalten ist. Bedank dich für die Klärung. Sprich jetzt.",
+      "audioKey": "eua-i10-t05",
+      "es": "Got it, thank you for checking.",
+      "tts": "Got it, thank you for checking.",
+      "pinyin": "gat it, tsenk ju for TSCHE-king",
+      "pt": "Verstanden, danke fürs Nachschauen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i10-p06",
+      "promptPt": "Am nächsten Tag, in einem Laden, willst du den Preis wissen, bevor du dich entscheidest. Sprich jetzt.",
+      "molde": "HOW-MUCH",
+      "encaixe": "is the small one",
+      "audioKey": "eua-i10-t06",
+      "es": "How much is the small one?",
+      "tts": "How much is the small one?",
+      "pinyin": "hau matsch is de smol uan",
+      "pt": "Was kostet das kleine?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i10-p07",
+      "promptPt": "Du hast 20% Trinkgeld am Tisch ausgerechnet. Bestätige es, bevor du unterschreibst. Sprich jetzt.",
+      "audioKey": "eua-i10-t07",
+      "es": "I'll leave twenty percent, that should be right.",
+      "tts": "I'll leave twenty percent, that should be right.",
+      "pinyin": "eil liiw TUEN-ti per-SENT, det schud bi rait",
+      "pt": "Ich lass zwanzig Prozent da, das sollte passen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i10-p08",
+      "promptPt": "Zwei Souvenirs vom selben Stand: eine Tasse und ein Druck. Frag den Verkäufer nach seiner Vorliebe zwischen beiden. Sprich jetzt.",
+      "molde": "PREFERENCIA",
+      "encaixe": "the mug or the print",
+      "audioKey": "eua-i10-t08",
+      "es": "Do you prefer the mug or the print?",
+      "tts": "Do you prefer the mug or the print?",
+      "pinyin": "du ju pri-FER de mag or de print",
+      "pt": "Bevorzugst du die Tasse oder den Druck?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i10-n06",
+      "bloco": "permissao",
+      "pt": "Du musst das Trinkgeld nicht unter Druck ausrechnen. Lies die Rechnung in Ruhe, und sag am Tresen ohne schlechtes Gewissen nein."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-i10-s01",
+      "es": "How much is it all together? Is the tip already included?",
+      "tts": "How much is it all together? Is the tip already included?",
+      "pinyin": "hau matsch is it ol tu-GE-der? is de tip ol-RE-di in-KLU-ded",
+      "pt": "Wiederhole nach der Gesamtsumme fragen und bestätigen, ob das Trinkgeld schon dazugehört."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i10-n07",
+      "bloco": "recap",
+      "pt": "I10 geschafft. Am Tisch sind 18-20% das echte Gehalt; am Tresen ist no tip in Ordnung; in großen Gruppen lies, bevor du doppelt zahlst."
+    }
+  ],
+  "permissao": "Du musst am Tresen nicht 30% geben, nur weil der Bildschirm es dir als Option zeigt. «No Tip» an einem Ort ohne Tischservice zu wählen ist völlig akzeptiert — niemand sieht dich deswegen schief an.",
+  "permissaoAudioKey": "eua-i10-n06",
+  "espelho": "Die Rechnung genau zu lesen, bevor man ausrechnet, wie viel man gibt, würde jeder auch in seinem eigenen Land tun; das Neue hier ist, dass das Trinkgeld am Tisch kein symbolisches Plus ist, sondern das echte Gehalt der Person, die dich bedient hat.",
+  "aprofundar": {
+    "titulo": "Drei Regeln, drei verschiedene Kontexte",
+    "secoes": [
+      {
+        "titulo": "Am Tisch ist es nicht optional",
+        "corpo": "Der Bundesgrundlohn eines vollständig bedienenden Kellners kann nur 2,13 $ die Stunde betragen — das Trinkgeld von 18-20% ist der echte Teil seines Einkommens, kein Extra für außergewöhnlich guten Service."
+      },
+      {
+        "titulo": "Am Tresen darfst du nein sagen",
+        "corpo": "Der Bildschirm, der 25-30% für einen Kaffee verlangt, den du selbst mitnimmst, ist ein relativ neues Phänomen, und sogar 72% der Amerikaner selbst finden das schon zu viel. «No Tip» ist dort eine legitime Option."
+      },
+      {
+        "titulo": "Bei großen Gruppen kann es schon enthalten sein",
+        "corpo": "Die «auto-gratuity» von 18% bei Gruppen ab sechs Personen ist rechtlich ein Servicezuschlag, kein Trinkgeld — und die Rechnung zeigt es an. Sie zu lesen, bevor man addiert, erspart doppeltes Zahlen für dasselbe."
+      }
+    ]
+  }
+}

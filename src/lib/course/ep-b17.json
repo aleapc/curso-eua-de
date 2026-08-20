@@ -1,0 +1,289 @@
+{
+  "id": "b17",
+  "slot": "B17",
+  "nivel": "basico",
+  "numero": 17,
+  "parte": "17A",
+  "titulo": "Der Schmerz, der entscheidet: Apotheke oder Krankenhaus",
+  "subtitulo": "Um etwas gegen das Unwohlsein bitten, Verlorenes melden, und warum das falsche Krankenhaus dich ruinieren kann",
+  "cena": "Dein Magen tut seit gestern Abend weh, du weißt nicht, ob ein Apothekenmittel reicht oder ob du einen Arzt brauchst, und die Uhr läuft weiter.",
+  "moldura": "protege",
+  "frasePiso": "Du unterscheidest ein Apotheken-Unwohlsein von einem echten Notfall und weißt, wohin du dein Geld und deine Zeit bringst.",
+  "permissao": "Du musst dich nicht selbst diagnostizieren. In der Apotheke um etwas gegen das Unwohlsein zu bitten ist ein gültiger erster Schritt; wenn es nicht besser wird, ist zum Arzt zu eskalieren keine Übertreibung, sondern erwartet.",
+  "permissaoAudioKey": "eua-b17-n09",
+  "espelho": "Auch in deinem Land entscheidest du zwischen Apotheke und Krankenhaus danach, wie ernst sich etwas anfühlt; das einzig Andere hier ist, dass diese Entscheidung ohne Krankenversicherung auch eine Geldentscheidung ist, und sich zu irren kostet hier viel mehr als zu Hause.",
+  "fichasCulturais": [
+    {
+      "sinal": "In der Apotheke siehst du einen getrennten Tresen, abseits der normalen Kasse, mit einem Schalter und Leuten, die still warten.",
+      "suaLeitura": "Das ist nur eine andere Schlange derselben Apotheke, für dasselbe.",
+      "oQueEAli": "Dieser Tresen ist der für verschreibungspflichtige Medikamente (pharmacist counter), getrennt von der Kasse für allgemeine Artikel. Dort werden Medikamente ausgegeben, die ein Rezept brauchen, nicht rezeptfreie.",
+      "oQueVoceFaz": "Brauchst du etwas Einfaches — gegen Kopfschmerzen, Magenschmerzen, leichte Allergie —, suchst du es selbst in den Regalen oder fragst an der normalen Kasse, nicht an diesem Schalter.",
+      "oQueMelhora": "Du erledigst das Einfache in Minuten, ohne für etwas anzustehen, das kein Rezept braucht.",
+      "ondeNaoVale": "Gilt nicht, wenn das gesuchte Medikament in den USA tatsächlich rezeptpflichtig ist, auch wenn es in deinem Land rezeptfrei ist; dort brauchst du diesen Schalter und wahrscheinlich einen Arzt.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "eua-b17-n05"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "er-sin-seguro-quiebra",
+      "afirmacao": "Without travel insurance, a single visit to the emergency room can run $1,500 to $3,000 or more before any treatment — and an air ambulance flight can cost around $40,000. Travel insurance is not optional here.",
+      "valor": "US$1.500-3.000+ (ER) · ~US$40.000 (ambulância aérea)",
+      "fonte": "Síntese de custos médicos de emergência nos EUA reportados por seguradoras de viagem e comparadores de preço hospitalar",
+      "ano": 2025,
+      "revisarAte": "2027-01-01",
+      "evidencia": "CONSENSO",
+      "risco": "alto",
+      "audioKeys": [
+        "eua-b17-n06",
+        "eua-b17-n07"
+      ]
+    },
+    {
+      "id": "urgent-care-alternativa",
+      "afirmacao": "For anything that is not life-threatening — a bad cough, a sprained ankle, a stomach bug — go to an urgent care clinic, not the ER. It is faster and dramatically cheaper.",
+      "fonte": "Prática padrão do sistema de saúde dos EUA",
+      "ano": 2025,
+      "revisarAte": "2027-01-01",
+      "evidencia": "CONSENSO",
+      "risco": "medio"
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b17-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Teil siebzehn. Gleichmäßiger Rhythmus, ohne zu hetzen: I need SOME-thing FOR the PAIN. Jedes Wort mit eigenem Gewicht."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b17-n02",
+      "bloco": "cena",
+      "pt": "Dein Magen tut seit gestern Abend weh. Du weißt nicht, ob das ein Fall für die Apotheke oder den Arzt ist, und die Uhr läuft weiter."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b17-p01",
+      "promptPt": "Wie im letzten Teil frag, wo etwas ist, das du in Hotelnähe brauchst. Sprich jetzt.",
+      "bloco": "callback",
+      "molde": "WHERE",
+      "audioKey": "eua-b17-t01",
+      "es": "Where's the ice machine?",
+      "tts": "Where's the ice machine?",
+      "pinyin": "uers di ais me-SCHIIN",
+      "pt": "Wo ist der Eisautomat?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b17-n03",
+      "bloco": "corpo",
+      "pt": "Erster Schritt, fast immer: die Apotheke. Derselbe Baustein vom ersten Tag, mit dem Symptom statt dem Gegenstand."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b17-t02",
+      "es": "Do you have something for a stomachache?",
+      "tts": "Do you have something for a stomachache?",
+      "pinyin": "du ju hev SAM-tsing for e STA-mek-eik",
+      "pt": "Habt ihr etwas gegen Magenschmerzen?"
+    },
+    {
+      "consulta": [
+        "saude/algo-para"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "something for a stomachache",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b17-p02",
+      "promptPt": "Du kommst in der Apotheke an. Frag, ob sie etwas gegen Magenschmerzen haben. Sprich jetzt.",
+      "audioKey": "eua-b17-t02",
+      "es": "Do you have something for a stomachache?",
+      "tts": "Do you have something for a stomachache?",
+      "pinyin": "du ju hev SAM-tsing for e STA-mek-eik",
+      "pt": "Habt ihr etwas gegen Magenschmerzen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b17-r01",
+      "es": "This should help. Take it with food.",
+      "tts": "This should help. Take it with food.",
+      "pinyin": "dis schud help. teik it uit fud",
+      "pt": "Das sollte helfen. Nimm es mit Essen."
+    },
+    {
+      "consulta": ["saude/algo-para"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "something for a fever",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b17-p05",
+      "promptPt": "Zurück im Hotel bekommst du zusätzlich zu den Magenschmerzen Fieber. Frag in der Apotheke, ob sie auch dagegen etwas haben. Sprich jetzt.",
+      "audioKey": "eua-b17-t05",
+      "es": "Do you have something for a fever?",
+      "tts": "Do you have something for a fever?",
+      "pinyin": "du ju hev SAM-tsing for e FI-wer",
+      "pt": "Habt ihr etwas gegen Fieber?"
+    },
+    {
+      "consulta": ["saude/guardia"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "WHERE",
+      "encaixe": "nearest 24-hour pharmacy",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b17-p06",
+      "promptPt": "Es ist schon Nacht, und die Hotelapotheke ist geschlossen. Frag, wo die nächste 24-Stunden-Apotheke ist. Sprich jetzt.",
+      "audioKey": "eua-b17-t06",
+      "es": "Where's the nearest 24-hour pharmacy?",
+      "tts": "Where's the nearest 24-hour pharmacy?",
+      "pinyin": "uers de NI-rest tuen-ti for AU-er FAR-me-si",
+      "pt": "Wo ist die nächste 24-Stunden-Apotheke?"
+    },
+    {
+      "consulta": ["saude/algo-para"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WENT-WRONG",
+      "encaixe": "my medicine isn't working",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b17-p07",
+      "promptPt": "Ein paar Stunden nach der Einnahme des Medikaments tut es immer noch gleich weh. Sag jemandem in der Apotheke, dass es nicht wirkt. Sprich jetzt.",
+      "audioKey": "eua-b17-t07",
+      "es": "My medicine isn't working.",
+      "tts": "My medicine isn't working.",
+      "pinyin": "mai ME-di-sin isnt UOR-king",
+      "pt": "Meine Medizin wirkt nicht."
+    },
+    {
+      "consulta": [
+        "saude/algo-para"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "CAN-I",
+      "encaixe": "see a doctor",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b17-p03",
+      "promptPt": "Das Medikament hat nicht geholfen, und der Schmerz ist Stunden später noch gleich stark. Frag, ob du einen Arzt sehen kannst. Sprich jetzt.",
+      "audioKey": "eua-b17-t03",
+      "es": "Can I see a doctor?",
+      "tts": "Can I see a doctor?",
+      "pinyin": "ken ai si e DAK-ter",
+      "pt": "Kann ich einen Arzt sehen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b17-n04",
+      "pt": "Hier trennen sich zwei sehr unterschiedliche Wege: die Notfallklinik (urgent care) oder die Notaufnahme des Krankenhauses."
+    },
+    {
+      "consulta": ["saude/algo-para"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "EXCUSE",
+      "encaixe": "der Apothekentresen",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b17-p08",
+      "promptPt": "Der Apotheker bedient gerade jemand anderen am Schalter, und dein Fall kann nicht mehr warten. Hol seine Aufmerksamkeit mit dem üblichen Wort. Sprich jetzt.",
+      "audioKey": "eua-b17-t08",
+      "es": "Excuse me.",
+      "tts": "Excuse me.",
+      "pinyin": "eks-KJUS mi",
+      "pt": "Entschuldigung."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b17-n05",
+      "bloco": "capsula",
+      "pt": "Für etwas, das dein Leben nicht gefährdet — starker Husten, verstauchter Knöchel — ist die Notfallklinik schneller und billiger als die Notaufnahme."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b17-n06",
+      "tom": "protege",
+      "pt": "Ohne Reiseversicherung kann ein einziger Besuch in der Notaufnahme zwischen fünfzehnhundert und dreitausend Dollar kosten, noch vor jeder Behandlung."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b17-n07",
+      "pt": "Und ein Rettungsflug kann bis zu vierzigtausend Dollar erreichen. Die Reiseversicherung ist hier nicht optional."
+    },
+    {
+      "consulta": [
+        "saude/112"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WENT-WRONG",
+      "encaixe": "my passport",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b17-p04",
+      "promptPt": "Mitten in alldem merkst du auch, dass du deinen Reisepass nicht findest. Meld es mit demselben Baustein wie im Zimmer. Sprich jetzt.",
+      "audioKey": "eua-b17-t04",
+      "es": "I lost my passport.",
+      "tts": "I lost my passport.",
+      "pinyin": "ai lost mai PES-port",
+      "pt": "Ich habe meinen Reisepass verloren."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b17-n08",
+      "tom": "ganha",
+      "pt": "Ist es wirklich ernst — Brustschmerzen, Atemnot —, ist die Nummer im ganzen Land 911."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b17-n09",
+      "bloco": "permissao",
+      "pt": "Du musst dich nicht selbst diagnostizieren. Mit der Apotheke anzufangen ist gültig; wird es nicht besser, ist um einen Arzt zu bitten keine Übertreibung."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b17-n10",
+      "bloco": "recap",
+      "pt": "B17 geschafft. Erst die Apotheke, die Notfallklinik für das, was nicht warten kann, die Notaufnahme nur fürs Schwerwiegende, und 911, wenn es wirklich ernst ist."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Apotheke, Klinik oder Notaufnahme: wie man entscheidet",
+    "secoes": [
+      {
+        "titulo": "Die Entscheidungstreppe",
+        "corpo": "Apotheke für ein leichtes Unwohlsein → Notfallklinik (urgent care) für etwas, das nicht warten kann, aber das Leben nicht gefährdet → Notaufnahme (ER) nur fürs wirklich Schwerwiegende. Jede Stufe kostet mehr als die vorherige, an Geld und an Wartezeit."
+      },
+      {
+        "titulo": "Warum die Notaufnahme ohne Versicherung die Reise ruinieren kann",
+        "corpo": "Ein Besuch in der Notaufnahme ohne Versicherung kann zwischen fünfzehnhundert und dreitausend Dollar kosten, noch vor jeder echten Behandlung, und ein Rettungsflug kann bis zu vierzigtausend erreichen. Die Reiseversicherung ist kein Luxus: sie verhindert, dass ein kleiner Unfall zu einer Schuld wird."
+      },
+      {
+        "titulo": "Die 911 ist universell",
+        "corpo": "Sie funktioniert im ganzen Land, rund um die Uhr, für jeden echten Notfall: Brustschmerzen, Atemnot, Blutung, die nicht aufhört. Zögere nicht, sie zu nutzen, wenn die Lage es erfordert."
+      },
+      {
+        "titulo": "Der Rezepttresen, getrennt von der Kasse",
+        "corpo": "In vielen amerikanischen Apotheken werden verschreibungspflichtige Medikamente an einem getrennten Tresen ausgegeben. Für etwas Rezeptfreies — Kopfschmerzen, leichte Allergie — musst du nicht in dieser Schlange stehen."
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "q-b02",
+  "nivel": "basico",
+  "titulo": "Quiz — Grüßen, bevor du das Regal berührst",
+  "subtitulo": "Der richtige Moment für hi, excuse me und thanks",
+  "introAudioKey": "eua-b02-q-i",
+  "introPt": "Du betrittst einen kleinen Laden, gehst durch einen vollen Gang und verlässt ihn wieder. Hör dir den Austausch an und achte darauf, in welchem Moment jeder Höflichkeitsbaustein kommt.",
+  "cenario": "In einem kleinen Laden grüßt die Angestellte vom Tresen aus, bevor der Kunde das Regal erreicht.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b02-q01",
+      "voz": "target_en_f",
+      "es": "Hi there.",
+      "tts": "Hi there.",
+      "pinyin": "hai der",
+      "pt": "Hallo."
+    },
+    {
+      "audioKey": "eua-b02-q02",
+      "voz": "target_en_m",
+      "es": "Hi, welcome in. Let me know if you need anything.",
+      "tts": "Hi, welcome in. Let me know if you need anything.",
+      "pinyin": "hai, UEL-kam in. let mi nou if ju niid E-ni-tsing",
+      "pt": "Hallo, willkommen. Sag Bescheid, wenn du etwas brauchst."
+    },
+    {
+      "audioKey": "eua-b02-q03",
+      "voz": "target_en_f",
+      "es": "Just looking, thanks.",
+      "tts": "Just looking, thanks.",
+      "pinyin": "dschast LU-king, tsenks",
+      "pt": "Ich schau nur, danke."
+    },
+    {
+      "audioKey": "eua-b02-q04",
+      "voz": "target_en_f",
+      "es": "Thanks so much. Have a good one.",
+      "tts": "Thanks so much. Have a good one.",
+      "pinyin": "tsenks sou matsch. hev e gud uan",
+      "pt": "Vielen Dank. Noch einen schönen Tag."
+    },
+    {
+      "audioKey": "eua-b02-q05",
+      "voz": "target_en_m",
+      "es": "You too, take care.",
+      "tts": "You too, take care.",
+      "pinyin": "ju tu, teik ker",
+      "pt": "Dir auch, mach's gut."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Wann sagt man im Laden \"hi there\"?",
+      "opcoes": [
+        "Nachdem du ausgewählt hast, was du kaufst",
+        "Bevor du das Regal ansiehst",
+        "Nur wenn man dich etwas fragt",
+        "Am Ende, beim Bezahlen"
+      ],
+      "correta": 1,
+      "explica": "Der Gruß eröffnet die Interaktion; direkt zum Regal zu gehen, ohne zu grüßen, wirkt unhöflich."
+    },
+    {
+      "pergunta": "Was bedeutet \"let me know if you need anything\"?",
+      "opcoes": [
+        "Dass man dir durch den Laden folgen wird",
+        "Dass du sprechen kannst, wann immer du willst",
+        "Dass du etwas kaufen musst",
+        "Dass der Laden gleich schließt"
+      ],
+      "correta": 1,
+      "explica": "Das ist keine Frage, die sofortige Antwort verlangt: es ist die offene Tür für wenn du sie nutzen willst."
+    },
+    {
+      "pergunta": "Wofür benutzt man \"excuse me\" in einem vollen Gang?",
+      "opcoes": [
+        "Um sich zu entschuldigen, nachdem man mit jemandem zusammengestoßen ist",
+        "Um anzukündigen, dass man sich gleich bewegt, bevor es passiert",
+        "Um Hilfe zu bitten",
+        "Um nach der Uhrzeit zu fragen"
+      ],
+      "correta": 1,
+      "explica": "\"Excuse me\" kündigt die Bewegung an, bevor sie passiert; \"sorry\" ist für wenn schon etwas passiert ist."
+    },
+    {
+      "pergunta": "Was bedeutet \"have a good one\" beim Verlassen eines Ladens?",
+      "opcoes": [
+        "Ein Versprechen, dass man dich vermissen wird",
+        "Der Standardabschluss, wie \"noch einen schönen Tag\"",
+        "Eine Einladung, morgen wiederzukommen",
+        "Eine Frage nach deinem Tag"
+      ],
+      "correta": 1,
+      "explica": "Das ist der normale Abschied an einem Tresen in den USA, ohne weitere Bedeutung."
+    }
+  ]
+}

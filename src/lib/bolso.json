@@ -1,0 +1,38 @@
+{
+  "marca": "Go on!",
+  "cabecalho": "Die USA auf einen Blick",
+  "titulo": "Reisetasche",
+  "subtitulo": "Das Wichtigste bleibt im Flugmodus erreichbar.",
+  "rotulos": {
+    "cambio": "Währungsrechner",
+    "valorEm": "Betrag in",
+    "dataCotacao": "Datum des Kurses",
+    "avisoCotacao": "Nur zur Orientierung. Prüfe den Kurs deiner Karte oder Bank, bevor du ausgibst.",
+    "tomadas": "Steckdosen und Strom",
+    "emergencia": "Notfall",
+    "ligar": "Anrufen",
+    "saberUtil": "Gut zu wissen"
+  },
+  "mesmaMoeda": "Die USA benutzen den Dollar, nicht den Euro: du musst umrechnen.",
+  "moedas": {
+    "EUR": { "flag": "🇪🇺", "locale": "de-DE" },
+    "USD": { "flag": "🇺🇸", "locale": "en-US" }
+  },
+  "cambio": {
+    "date": "2026-08-04",
+    "rates": { "USD": 1.088 }
+  },
+  "emergencia": [
+    { "numero": "911", "oQue": "Die landesweite Notrufnummer: Polizei, Krankenwagen oder Feuerwehr. Kostenlos, rund um die Uhr, im ganzen Land." }
+  ],
+  "saberUtil": [
+    { "emoji": "💵", "texto": "Das Trinkgeld von 18–20 % im Restaurant ist NICHT optional: es ist das eigentliche Gehalt des Kellners (der Bundesmindestlohn für Trinkgeldempfänger liegt bei nur 2,13 US$/Stunde). Weniger als 15 % wird als Zeichen gelesen, dass etwas schiefgelaufen ist." },
+    { "emoji": "🏷️", "texto": "Der Preis auf dem Etikett enthält NIE die Steuer. Die sales tax kommt erst an der Kasse dazu (im Schnitt ~7,5 %, in manchen Städten bis ~10 %), sodass die Endsumme immer höher ist als der ausgezeichnete Preis." },
+    { "emoji": "📱", "texto": "Am Tresen (zum Mitnehmen, Café, Fast Food) ist es normal, dass der Bildschirm 25–30 % Trinkgeld vorschlägt. Dort darfst du problemlos 'No Tip' wählen." },
+    { "emoji": "👥", "texto": "Bei Gruppen ab 6 Personen ist oft schon ein automatisches Trinkgeld von 18 % (auto-gratuity) in der Rechnung enthalten. Prüf das, bevor du noch einmal Trinkgeld dazurechnest." },
+    { "emoji": "🚑", "texto": "Ein medizinischer Notfall ohne Versicherung kann dich ruinieren (Notaufnahme: 1.500–3.000+ US$; Luftrettung: bis zu 40.000 US$) — eine Reiseversicherung ist nicht optional. Bei etwas Leichtem oder Dringendem geh in eine urgent care oder walk-in clinic, nie wegen einer Kleinigkeit in die Notaufnahme." },
+    { "emoji": "🚰", "texto": "Leitungswasser (tap water) ist im ganzen Land kostenlos und trinkbar, und in den meisten Restaurants bekommst du es auf Nachfrage gratis." },
+    { "emoji": "🥤", "texto": "Softdrinks haben oft 'free refills': hast du den Becher einmal bezahlt, kannst du ihn beliebig oft nachfüllen." },
+    { "emoji": "🪪", "texto": "Beim Alkoholkauf wirst du nach einem Ausweis gefragt, auch wenn du eindeutig alt genug aussiehst (carding bis 21 Jahre), und nur der physische Reisepass zählt — das Foto auf dem Handy reicht nicht." }
+  ]
+}

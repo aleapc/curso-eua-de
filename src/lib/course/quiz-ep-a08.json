@@ -1,0 +1,89 @@
+{
+  "id": "q-a08",
+  "nivel": "avancado",
+  "titulo": "Quiz — Der Abschied",
+  "subtitulo": "Wie du gehst, damit man dich wieder einlädt",
+  "introAudioKey": "eua-a08-q-i",
+  "introPt": "Es ist Zeit, das Abendessen zu verlassen. Hör dir den letzten Austausch an und antworte.",
+  "cenario": "Das Ende eines Abendessens beim Gastgeber.",
+  "dialogo": [
+    {
+      "audioKey": "eua-a08-q01",
+      "voz": "target_en_f",
+      "es": "I should get going, but thank you so much.",
+      "tts": "I should get going, but thank you so much.",
+      "pt": "Ich sollte langsam los, aber vielen, vielen Dank."
+    },
+    {
+      "audioKey": "eua-a08-q02",
+      "voz": "target_en_m",
+      "es": "Of course! So glad you came.",
+      "tts": "Of course! So glad you came.",
+      "pt": "Aber klar! Schön, dass du da warst."
+    },
+    {
+      "audioKey": "eua-a08-q03",
+      "voz": "target_en_f",
+      "es": "Your lasagna was seriously the best I've had.",
+      "tts": "Your lasagna was seriously the best I've had.",
+      "pt": "Deine Lasagne war wirklich die beste, die ich je hatte."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Anders als in Mexiko: was reicht meist, um sich von einer lockeren Gruppe in den USA zu verabschieden?",
+      "opcoes": [
+        "Sich von jeder Person namentlich verabschieden",
+        "Ein allgemeines Tschüss an den ganzen Raum",
+        "Sich von niemandem verabschieden",
+        "Sich nur schriftlich beim Gastgeber bedanken, danach"
+      ],
+      "correta": 1,
+      "explica": "Ein allgemeines Tschüss reicht meist bei lockeren Treffen, anders als die mexikanische Gewohnheit."
+    },
+    {
+      "pergunta": "Welches Lob «reist» laut diesem Teil weiter?",
+      "opcoes": [
+        "«Es war schön»",
+        "«Deine Lasagne war die beste, die ich je hatte»",
+        "Kein Lob reist weiter",
+        "Nur schriftliche Komplimente"
+      ],
+      "correta": 1,
+      "explica": "Das konkrete Lob wird demjenigen weitergesagt, der es gemacht hat, auch wenn er nicht im Raum war; das allgemeine bleibt dort stehen."
+    },
+    {
+      "pergunta": "Du hast dich beim Rausgehen schon persönlich bedankt. Lohnt sich eine Nachricht danach?",
+      "opcoes": [
+        "Nein, das wäre eine Wiederholung",
+        "Ja, eine kurze Nachricht am selben Tag ist eine gern gesehene Geste",
+        "Nur wenn du etwas im Haus vergessen hast",
+        "Nur bei sehr formellen Anlässen"
+      ],
+      "correta": 1,
+      "explica": "Eine kurze Dankesnachricht am selben Tag verstärkt den mündlichen Dank und hinterlässt einen guten Eindruck."
+    },
+    {
+      "pergunta": "Welcher gehört NICHT zur «Notfallliste», die den Kurs abschließt?",
+      "opcoes": [
+        "Do you have ___?",
+        "Can I get ___?",
+        "Where's the ___?",
+        "What's your opinion on ___?"
+      ],
+      "correta": 3,
+      "explica": "Die Notfallliste besteht aus Überlebensbausteinen — bestellen, finden, nach dem Preis fragen — nicht nach Meinungen fragen."
+    },
+    {
+      "pergunta": "Was zeigt der Vorschlag «we should keep in touch — can I get your number?»?",
+      "opcoes": [
+        "Dass es nur leere Höflichkeit war",
+        "Echtes Interesse, die Beziehung über den Besuch hinaus fortzusetzen",
+        "Dass du schnell weg willst",
+        "Dass dir der Abend nicht gefallen hat"
+      ],
+      "correta": 1,
+      "explica": "Nach dem konkreten Kontakt zu fragen macht aus einem höflichen Abschied eine Beziehung, die weitergehen kann."
+    }
+  ]
+}

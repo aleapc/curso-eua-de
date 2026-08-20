@@ -1,0 +1,95 @@
+{
+  "id": "q-i09",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Ein Nachmittag, das zu tun, was sie tun",
+  "subtitulo": "Fragen, was los ist, und darum bitten, mitzukommen",
+  "introAudioKey": "eua-i09-q-i",
+  "introPt": "Ein Reisender entdeckt den Samstags-Farmers-Market, indem er einen Einheimischen fragt, und bittet darum, mitzukommen.",
+  "cenario": "Ein Gespräch, das einen Wochenendplan in eine Einladung verwandelt.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i09-q01",
+      "voz": "target_en_m",
+      "es": "So what are you guys up to this weekend?",
+      "tts": "So what are you guys up to this weekend?",
+      "pinyin": "sou uat ar ju gais ap tu dis UIIK-end",
+      "pt": "Und was habt ihr dieses Wochenende vor?"
+    },
+    {
+      "audioKey": "eua-i09-q02",
+      "voz": "target_en_f",
+      "es": "Do you have anything going on at the park this weekend?",
+      "tts": "Do you have anything going on at the park this weekend?",
+      "pinyin": "du ju hev E-ni-tsing GOU-ing on et de park dis UIIK-end",
+      "pt": "Ist dieses Wochenende etwas im Park los?"
+    },
+    {
+      "audioKey": "eua-i09-q03",
+      "voz": "target_en_m",
+      "es": "Yeah, there's a farmers market on Saturday morning.",
+      "tts": "Yeah, there's a farmers market on Saturday morning.",
+      "pinyin": "je, ders e FAR-mers MAR-ket on SE-ter-dei MOR-ning",
+      "pt": "Ja, samstagvormittags ist ein Bauernmarkt."
+    },
+    {
+      "audioKey": "eua-i09-q04",
+      "voz": "target_en_f",
+      "es": "Can I come with you guys?",
+      "tts": "Can I come with you guys?",
+      "pinyin": "ken ai kam uit ju gais",
+      "pt": "Kann ich mit euch mitkommen?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was ist ein «farmers market»?",
+      "opcoes": [
+        "Ein fester Laden",
+        "Ein Markt, der an einem festen Tag aufgebaut wird und dann wieder verschwindet",
+        "Ein reiner Online-Markt",
+        "Ein Markt nur für Touristen"
+      ],
+      "correta": 1,
+      "explica": "Er taucht an einem bestimmten Tag auf und wird danach abgebaut, wie ein Wandermarkt."
+    },
+    {
+      "pergunta": "Welcher Baustein wird benutzt, um zu fragen, ob im Park etwas los ist?",
+      "opcoes": ["WHAT-TIME", "HAVE", "WITHOUT", "EXCUSE"],
+      "correta": 1,
+      "explica": "Do you have anything going on… ist der Baustein aus B06, angewandt auf ein Event."
+    },
+    {
+      "pergunta": "Was erreicht «Can I come with you guys?»?",
+      "opcoes": [
+        "Es macht aus einer Information eine Einladung mitzumachen",
+        "Es fragt nach einem Preis",
+        "Es beendet das Gespräch",
+        "Es bestellt ein Taxi"
+      ],
+      "correta": 0,
+      "explica": "Es geht vom Zuhören über einen Plan zum Teil davon sein."
+    },
+    {
+      "pergunta": "Wie verhält sich der Reisende schon auf dem Markt?",
+      "opcoes": [
+        "Nur als Zuschauer",
+        "Wie jeder andere Käufer",
+        "Er vermeidet jede Interaktion",
+        "Er macht nur Fotos"
+      ],
+      "correta": 1,
+      "explica": "Zu fragen, ob er etwas probieren kann, funktioniert gleich wie bei jedem lokalen Kunden."
+    },
+    {
+      "pergunta": "Ist es seltsam, jemanden fast Fremden zu bitten, mitkommen zu dürfen?",
+      "opcoes": [
+        "Ja, das sollte man immer vermeiden",
+        "Nein, das ist meist eine willkommene Frage",
+        "Nur wenn man selbst Einheimischer ist",
+        "Nur unter der Woche"
+      ],
+      "correta": 1,
+      "explica": "Die meisten Leute freuen sich, ihren echten Plan zu teilen."
+    }
+  ]
+}

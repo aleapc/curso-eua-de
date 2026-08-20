@@ -1,0 +1,18 @@
+{
+  "_comentario": "curso-eua-de (survival English AMERICANO → EUA, guia de-DE): voz-GUIA ALEMÃ (Juli/Thomas, as mesmas do curso-espanha-de/curso-holanda-de/curso-reinounido-de); fala-ALVO em INGLÊS AMERICANO (Matilda/Eric), 100% REUSADA do curso-eua-es. INV-5: guia nunca fala inglês, nativa nunca fala alemão. DERIVAÇÃO barata: sem Fase 1, só tradução da narração-guia.",
+  "_fonetica_do_par": "Alemão → inglês americano. Mesmo par fonético do curso-reinounido-de (a distância entre o inglês americano e britânico não muda a fonética de partida do alemão): th→s/z, w→v, v→f, consoante final ensurdecida vazando pro inglês. Falsos amigos: become≠bekommen, gift≠Gift, actual≠aktuell, chef≠Chef, billion≠Billion. A diferença pro par britânico é só vocabulário-alvo (the check não the bill, elevator não lift, apartment não flat, French fries não chips) — usar o inglês AMERICANO em todo o SKU.",
+  "guideModel": "eleven_flash_v2_5",
+  "targetModel": "eleven_multilingual_v2",
+  "roles": {
+    "guide_de_f": { "voiceId": "b7rYqIwPfdKfLiwkAgFs", "languageCode": "de" },
+    "guide_de_m": { "voiceId": "5faieqDE3osz75KiOI2M", "languageCode": "de" },
+    "target_en_f": { "voiceId": "XrExE9yKIg1WjnnlVkGX", "languageCode": "en" },
+    "target_en_m": { "voiceId": "cjVigY5qzO86Huf0OWal", "languageCode": "en" }
+  },
+  "_g14": {
+    "guia": ["guide_de_f", "guide_de_m"],
+    "guiaLingua": "de",
+    "alvo": ["target_en_f", "target_en_m"],
+    "alvoLingua": "en"
+  }
+}

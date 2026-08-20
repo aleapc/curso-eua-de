@@ -1,0 +1,100 @@
+{
+  "id": "q-b10",
+  "nivel": "basico",
+  "titulo": "Quiz — Lesen, bevor du fragst",
+  "subtitulo": "EXIT, out of order, pull/push und der Baustein «I'm looking for ___»",
+  "introAudioKey": "eua-b10-q-i",
+  "introPt": "Du hast den Gepäckbereich verlassen und musst drei Schilder lesen und zwei Orte ohne genauen Namen suchen. Hör zu und entscheide, was du zuerst tust.",
+  "cenario": "Im Transitbereich, auf dem Weg zum Gate.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b10-q01",
+      "voz": "target_en_f",
+      "es": "I'm looking for my gate.",
+      "tts": "I'm looking for my gate.",
+      "pinyin": "aim LU-king for mai gueit",
+      "pt": "Ich suche mein Gate."
+    },
+    {
+      "audioKey": "eua-b10-q02",
+      "voz": "target_en_m",
+      "es": "It's down that way, past the food court.",
+      "tts": "It's down that way, past the food court.",
+      "pinyin": "its daun det uei, past de fud kort",
+      "pt": "Da lang, hinter dem Food Court."
+    },
+    {
+      "audioKey": "eua-b10-q03",
+      "voz": "target_en_f",
+      "es": "I'm looking for a pharmacy.",
+      "tts": "I'm looking for a pharmacy.",
+      "pinyin": "aim LU-king for e FAR-me-si",
+      "pt": "Ich suche eine Apotheke."
+    },
+    {
+      "audioKey": "eua-b10-q04",
+      "voz": "target_en_m",
+      "es": "Right this way, follow me.",
+      "tts": "Right this way, follow me.",
+      "pinyin": "rait dis uei, FA-lou mi",
+      "pt": "Hier entlang, folgen Sie mir."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Du siehst ein Schild mit der Aufschrift EXIT. Was bedeutet es?",
+      "opcoes": [
+        "Erfolg, eine Leistung",
+        "Ausgang",
+        "Eingang",
+        "Geschlossen"
+      ],
+      "correta": 1,
+      "explica": "EXIT ist eines der wichtigsten Schilder am Flughafen: es heißt Ausgang. Es zu verwechseln schickt dich zur falschen Tür."
+    },
+    {
+      "pergunta": "Ein Schild an einem Automaten sagt OUT OF ORDER. Was tust du?",
+      "opcoes": [
+        "Du benutzt ihn trotzdem, es ist nur ein Hinweis",
+        "Du suchst einen anderen: er ist kaputt",
+        "Du wartest, bis er öffnet",
+        "Du gibst eine Bestellung auf"
+      ],
+      "correta": 1,
+      "explica": "Out of order bedeutet außer Betrieb. Es ist keine offene Bestellung; es ist ein Automat, der nicht funktioniert."
+    },
+    {
+      "pergunta": "Du siehst kein Apotheken-Schild. Welchen Baustein benutzt du?",
+      "opcoes": [
+        "Where's the pharmacy?",
+        "I'm looking for a pharmacy.",
+        "Do you have a pharmacy?",
+        "Can I get a pharmacy?"
+      ],
+      "correta": 1,
+      "explica": "«I'm looking for» funktioniert, wenn du weder den genauen Namen noch den Ort kennst; die andere Person ergänzt die Antwort."
+    },
+    {
+      "pergunta": "Vor einer manuellen Tür, welches Schild zieht zu dir hin?",
+      "opcoes": [
+        "Push",
+        "Pull",
+        "Exit",
+        "Out of service"
+      ],
+      "correta": 1,
+      "explica": "Pull zieht zu dir hin; push drückt nach draußen. Es zu lesen, bevor du die Klinke berührst, erspart den fehlgeschlagenen Stoß."
+    },
+    {
+      "pergunta": "Es gibt kein Schlangen-Schild oder Absperrband am Schalter, aber Leute stehen dort. Was tust du?",
+      "opcoes": [
+        "Du gehst direkt durch, es gibt keine offizielle Schlange",
+        "Du fragst «Is this the line?» und stellst dich ans Ende",
+        "Du wartest, bis dich jemand ruft",
+        "Du suchst einen anderen Schalter"
+      ],
+      "correta": 1,
+      "explica": "Die Schlange existiert auch ohne Schild: es ist die Reihe der wartenden Menschen. Vorher zu fragen erspart den unangenehmen Moment."
+    }
+  ]
+}

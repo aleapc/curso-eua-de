@@ -1,0 +1,258 @@
+{
+  "id": "i02",
+  "slot": "I02",
+  "nivel": "intermediario",
+  "numero": 2,
+  "parte": "I02",
+  "titulo": "Die Schlange, die es wirklich gibt",
+  "subtitulo": "Hier ist es richtig, sich still anzustellen und zu warten — vor der Reihe zu sprechen ist das, was schlecht ankommt",
+  "cena": "Sechs Leute stehen vor dem Kaffeetresen, alle still, blicken auf die Menütafel, und du hast den Instinkt, deine Bestellung zu rufen wie am Straßenstand zu Hause.",
+  "decisao": "wie du an der Reihe bist am Tresen — dich anzustellen und still zu warten ist hier die richtige Handlung, nicht laut zu sprechen, um bemerkt zu werden",
+  "emJogo": "tempo",
+  "moldura": "ganha",
+  "frasePiso": "Du stellst dich an, bestellst ohne Eile und verlässt den Tresen, ohne ein überflüssiges Wort gesagt zu haben.",
+  "fichasCulturais": [
+    {
+      "sinal": "Du kommst in ein volles Café und siehst eine gerade, stille Schlange von Leuten, die auf die Tafel schauen, während sie warten.",
+      "suaLeitura": "Wenn ich nicht laut spreche oder mich nicht zum Tresen dränge, werde ich nie bedient.",
+      "oQueEAli": "In den USA hat auch ein informeller Tresen eine echte Schlange, auch ohne Absperrband oder Nummer — die Reihenfolge ist, wer zuerst kam, und sie wird still respektiert, bis du dran bist.",
+      "oQueVoceFaz": "Stell dich ans Ende der Schlange, warte still, bis du dran bist, und öffne den Mund erst, wenn die Person am Tresen dich ansieht.",
+      "oQueMelhora": "Du wirst in der richtigen Reihenfolge bedient, ohne Reibung mit irgendjemandem, und nutzt die Wartezeit, um deine Bestellung in Ruhe zu entscheiden.",
+      "ondeNaoVale": "Gilt nicht in einer vollen Stehbar ohne Sitzplätze oder markierte Schlange, wo du wirklich die Aufmerksamkeit des Barkeepers mit Blickkontakt suchen musst.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-i02-n02"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i02-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Wieder die Faust, jetzt bei der Bestellung: can I GET, nicht CAN i get."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i02-p01",
+      "promptPt": "Gestern hast du nach der Schließzeit der Küche gefragt. Heute benutzt du denselben Baustein für das Café. Frag, wann sie öffnen. Sprich jetzt.",
+      "bloco": "callback",
+      "molde": "WHAT-TIME",
+      "encaixe": "do you open",
+      "audioKey": "eua-i02-t01",
+      "es": "What time do you open?",
+      "tts": "What time do you open?",
+      "pinyin": "uat taim du ju OU-pen",
+      "pt": "Wann öffnet ihr?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i02-n02",
+      "bloco": "cena",
+      "pt": "Sechs Leute, gerade und stille Schlange, alle schauen auf die Tafel. Niemand ruft, niemand drängelt sich vor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i02-n03",
+      "bloco": "corpo",
+      "pt": "Hier wird die Schlange still respektiert. Excuse me benutzt man nur, um durchzugehen oder Aufmerksamkeit zu bekommen, nicht um sich vorzudrängen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i02-r01",
+      "es": "Sorry, the line starts back there.",
+      "tts": "Sorry, the line starts back there.",
+      "pinyin": "SO-ri, de lain starts bek der",
+      "pt": "Sorry, die Schlange fängt da hinten an."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i02-p02",
+      "promptPt": "Du bist rangegangen, ohne zu sehen, wo sie anfängt. Entschuldige dich und frag mit dem EXCUSE-Baustein. Sprich jetzt.",
+      "molde": "EXCUSE",
+      "encaixe": "",
+      "audioKey": "eua-i02-t02",
+      "es": "Excuse me, is this the end of the line?",
+      "tts": "Excuse me, is this the end of the line?",
+      "pinyin": "eks-KJUS mi, is dis de end of de lain",
+      "pt": "Entschuldigung, ist das hier das Ende der Schlange?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i02-r02",
+      "es": "Yep, right behind me.",
+      "tts": "Yep, right behind me.",
+      "pinyin": "jep, rait bi-HAIND mi",
+      "pt": "Jep, genau hinter mir."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i02-n04",
+      "bloco": "capsula",
+      "pt": "Am Tresen angekommen, ist der Baustein derselbe, den du in B11 gelernt hast: Can I get, und die Sache."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-i02-r03",
+      "es": "Hi, what can I get started for you?",
+      "tts": "Hi, what can I get started for you?",
+      "pinyin": "hai, uat ken ai guet STAR-ted for ju",
+      "pt": "Hallo, was darf's sein?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i02-p03",
+      "promptPt": "Du bist dran. Bestell deinen Kaffee ohne Umschweife. Sprich jetzt.",
+      "audioKey": "eua-i02-t03",
+      "es": "Can I get a medium latte, please?",
+      "tts": "Can I get a medium latte, please?",
+      "pinyin": "ken ai guet e MI-diem LA-tei, pliis",
+      "pt": "Kann ich einen mittleren Latte bekommen, bitte?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i02-r04",
+      "es": "Anything else?",
+      "tts": "Anything else?",
+      "pinyin": "E-ni-tsing els",
+      "pt": "Sonst noch was?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i02-p04",
+      "promptPt": "Du willst keine Sahne. Bestell es ohne, mit dem Baustein, den du schon aus B12 kennst. Sprich jetzt.",
+      "molde": "WITHOUT",
+      "encaixe": "cream, please",
+      "audioKey": "eua-i02-t04",
+      "es": "No cream, please.",
+      "tts": "No cream, please.",
+      "pinyin": "nou kriim, pliis",
+      "pt": "Ohne Sahne, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i02-n05",
+      "pt": "Du gibst deinen Namen für den Becher an — das ist keine Neugier, es ist das System, um dich zu rufen, wenn es fertig ist."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-i02-r05",
+      "es": "What's the name for the order?",
+      "tts": "What's the name for the order?",
+      "pinyin": "uats de neim for di OR-der",
+      "pt": "Auf welchen Namen soll die Bestellung laufen?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i02-p05",
+      "promptPt": "Sag deinen Namen, nichts weiter. Sprich jetzt.",
+      "audioKey": "eua-i02-t05",
+      "es": "It's Ana.",
+      "tts": "It's Ana.",
+      "pinyin": "its A-na",
+      "pt": "Es ist Ana."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i02-p06",
+      "promptPt": "Am nächsten Tag bestellst du etwas Größeres ohne die Zutat, die du nicht willst. Sprich jetzt.",
+      "molde": "WITHOUT",
+      "encaixe": "no whipped cream",
+      "audioKey": "eua-i02-t06",
+      "es": "No whipped cream, please.",
+      "tts": "No whipped cream, please.",
+      "pinyin": "nou uipt kriim, pliis",
+      "pt": "Ohne Schlagsahne, bitte."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i02-p07",
+      "promptPt": "Du kommst an und siehst nicht, wo die Schlange anfängt. Frag noch mal mit EXCUSE, an einem anderen Ort. Sprich jetzt.",
+      "molde": "EXCUSE",
+      "encaixe": "",
+      "audioKey": "eua-i02-t07",
+      "es": "Excuse me, are you in line?",
+      "tts": "Excuse me, are you in line?",
+      "pinyin": "eks-KJUS mi, ar ju in lain",
+      "pt": "Entschuldigung, stehst du in der Schlange?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i02-p08",
+      "promptPt": "Der Kaffee war gut, und du willst dich vor dem Gehen bedanken. Sprich jetzt.",
+      "audioKey": "eua-i02-t08",
+      "es": "Thanks so much, have a good one.",
+      "tts": "Thanks so much, have a good one.",
+      "pinyin": "tsenks sou matsch, hev e gud uan",
+      "pt": "Vielen Dank, noch einen schönen Tag."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i02-n06",
+      "bloco": "permissao",
+      "pt": "Du brauchst keinen langen Gruß oder eine zusätzliche Entschuldigung, um zu bestellen. Direkt und in normaler Lautstärke ist das Erwartete, nicht unhöflich."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-i02-s01",
+      "es": "Excuse me, is this the end of the line? Can I get a medium latte, please? No cream, please.",
+      "tts": "Excuse me, is this the end of the line? Can I get a medium latte, please? No cream, please.",
+      "pinyin": "eks-KJUS mi, is dis de end of de lain? ken ai guet e MI-diem LA-tei, pliis? nou kriim, pliis",
+      "pt": "Wiederhole dich anstellen, bestellen und die Bestellung anpassen, alles nacheinander."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i02-n07",
+      "bloco": "recap",
+      "pt": "I02 geschafft. Excuse me bestätigt die Schlange, can I get bestellt, no ___ please entfernt, was du nicht willst — nichts Neues, nur die richtige Reihenfolge."
+    }
+  ],
+  "permissao": "Du musst nicht laut sprechen oder dich zu früh zum Tresen begeben. Dich anzustellen und still zu warten ist genau das, was hier von dir erwartet wird — es ist die Handlung, nicht die Passivität.",
+  "permissaoAudioKey": "eua-i02-n06",
+  "espelho": "Jeder, der schon in einer geraden Schlange irgendeines Landes gewartet hat, kann das ohne nachzudenken; das Einzige, was sich hier ändert, ist, dass die Schlange kein Absperrband oder sichtbares Zeichen haben kann und trotzdem existiert.",
+  "aprofundar": {
+    "titulo": "Die unsichtbare Schlange ist doch eine Schlange",
+    "secoes": [
+      {
+        "titulo": "Ohne Band, aber mit Ordnung",
+        "corpo": "Viele informelle Tresen in den USA markieren die Schlange nicht mit Band oder Nummer, aber die Ankunftsreihenfolge wird trotzdem respektiert. «Is this the end of the line?» zu fragen löst den Zweifel, ohne sich vorzudrängen."
+      },
+      {
+        "titulo": "Can I get bleibt der Baustein",
+        "corpo": "Der Bestellbaustein ist derselbe wie in B11 — Can I get plus die Sache. Es gibt keine besondere Kaffeeversion; nur was du bestellst ändert sich."
+      },
+      {
+        "titulo": "Der Name auf dem Becher ist Logistik, kein Small Talk",
+        "corpo": "Wenn man dich nach dem Namen für die Bestellung fragt, ist das, um dich zu rufen, wenn sie fertig ist, nicht um ein Gespräch zu beginnen. Ein kurzer, direkter Name reicht."
+      }
+    ]
+  }
+}

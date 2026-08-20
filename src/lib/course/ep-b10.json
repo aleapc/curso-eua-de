@@ -1,0 +1,337 @@
+{
+  "id": "b10",
+  "slot": "B10",
+  "nivel": "basico",
+  "numero": 10,
+  "parte": "3C",
+  "titulo": "Lies es, bevor du fragst",
+  "subtitulo": "Sechs Schilder, die ändern, was du tust, und der Baustein für wenn es kein Schild gibt",
+  "cena": "Du stehst vor einem Flur mit drei Türen, die Hände voll, und die einzige nützliche Information darüber, welche du nehmen sollst, steht auf einem kleinen Schild über jeder Tür.",
+  "moldura": "ganha",
+  "frasePiso": "Du liest heute sechs Schilder auf Englisch, ohne sie Wort für Wort zu übersetzen, und fragst mit einem einzigen Baustein nach dem, wofür es kein Schild gibt.",
+  "moldes": [
+    "LOOKING"
+  ],
+  "clique": {
+    "contagem": [
+      "das Boarding-Gate",
+      "die Flughafenapotheke",
+      "der Mietwagenschalter",
+      "die Umkleidekabine"
+    ],
+    "desconto": "Niemand hat dir für jeden Schalter, an dem du den genauen Namen nicht kanntest, einen eigenen Satz gegeben. Du hast alle vier mit «I'm looking for» gebaut und die andere Person ergänzen lassen.",
+    "piso": "Das nächste Mal, wenn dir das genaue englische Wort für etwas fehlt, bleibst du nicht stumm: du zeigst die Absicht und lässt den anderen den Satz beenden."
+  },
+  "permissao": "Du musst das Schild nicht komplett lesen. Ein Wort oder das Piktogramm zu erkennen reicht schon, um zu wissen, was zu tun ist; niemand verlangt von dir, den Rest laut zu übersetzen.",
+  "permissaoAudioKey": "eua-b10-n08",
+  "espelho": "Auch in deinem eigenen Land gibt es Schilder, die du liest, ohne zweimal nachzudenken — drücken, ziehen, kein Zutritt; das einzig Neue hier ist, dass eines davon wie ein deutsches Wort aussieht und etwas anderes bedeutet.",
+  "fichasCulturais": [
+    {
+      "sinal": "Du siehst eine Reihe wartender Leute ohne jedes «SCHLANGE»-Schild oder Absperrband, aber alle halten denselben Abstand voreinander vor einem Schalter.",
+      "suaLeitura": "Es gibt keine echte Schlange; ich kann direkt zum Schalter durchgehen.",
+      "oQueEAli": "In den USA bildet sich die Schlange von selbst, auch ohne Schild: die zuletzt stehende Person ist das Ende der Reihe, und sie zu überspringen fällt genauso auf, als gäbe es ein Absperrband.",
+      "oQueVoceFaz": "Frag «Is this the line?», bevor du dich dem Schalter näherst, und stell dich hinter die letzte Person.",
+      "oQueMelhora": "Du steigst in das System ein, dem alle schon folgen, statt zur sichtbaren Ausnahme zu werden.",
+      "ondeNaoVale": "Gilt nicht bei einem eindeutig leeren Schalter ohne Wartende: dort gibt es keine Schlange zu respektieren.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "eua-b10-n07"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b10-n01",
+      "gesto": 2,
+      "bloco": "aquecimento",
+      "pt": "Teil zehn. Die flache Handfläche markiert den reinen englischen Vokal, ohne ihn zu ziehen: EX-it, klar und kurz."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b10-n02",
+      "bloco": "cena",
+      "pt": "Drei Türen vor dir, die Hände voll, und der einzige Hinweis, welche du nehmen sollst, steht auf einem kleinen Schild darüber."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b10-p01",
+      "promptPt": "Die Person am Flugschalter fragt dich noch einmal, wie lange du bleibst. Antworte: zwei Wochen. Sprich jetzt.",
+      "bloco": "callback",
+      "molde": "HAVE",
+      "audioKey": "eua-b10-t01",
+      "es": "Do you have a pen? I need to fill this out.",
+      "tts": "Do you have a pen? I need to fill this out.",
+      "pinyin": "du ju hev e pen? ai niid tu fil dis aut",
+      "pt": "Habt ihr einen Stift? Ich muss das hier ausfüllen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b10-n03",
+      "bloco": "corpo",
+      "pt": "Achtung bei diesem: EXIT klingt nicht wie ein deutsches Wort, das du schon kennst. Exit ist der Ausgang, die Tür, durch die du rausgehst."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b10-t02",
+      "es": "EXIT",
+      "tts": "Exit.",
+      "pinyin": "EG-sit",
+      "pt": "Ausgang"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b10-n04",
+      "pt": "OUT OF ORDER hat nichts mit einer Bestellung zu tun: es sagt, dass dieser Automat oder diese Toilette kaputt ist."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b10-t03",
+      "es": "OUT OF ORDER",
+      "tts": "Out of order.",
+      "pinyin": "aut of OR-der",
+      "pt": "außer Betrieb"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b10-t04",
+      "es": "PULL · PUSH",
+      "tts": "Pull. Push.",
+      "pinyin": "pul · pusch",
+      "pt": "ziehen · drücken"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b10-n05",
+      "pt": "Bei einer manuellen Tür zieht pull zu dir hin, push drückt nach draußen. Lies es, bevor deine Hand die Klinke erreicht."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b10-t05",
+      "es": "RESTROOM · OUT OF SERVICE",
+      "tts": "Restroom. Out of service.",
+      "pinyin": "REST-rum · aut of SER-wis",
+      "pt": "Toilette · außer Betrieb"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b10-n06",
+      "bloco": "molde",
+      "pt": "Und für wenn es kein Schild gibt, der Baustein: «I'm looking for» und was du suchst. Du musst den genauen Namen nicht kennen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b10-t06",
+      "es": "I'm looking for my gate.",
+      "tts": "I'm looking for my gate.",
+      "pinyin": "aim LU-king for mai gueit",
+      "pt": "Ich suche mein Gate."
+    },
+    {
+      "consulta": [
+        "chegar/embarque"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "LOOKING",
+      "encaixe": "my gate",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b10-p02",
+      "promptPt": "Die Anzeige hat sich geändert, und du erkennst die Nummer nicht mehr. Sag jemandem am Flughafen, dass du dein Gate suchst. Sprich jetzt.",
+      "audioKey": "eua-b10-t06",
+      "es": "I'm looking for my gate.",
+      "tts": "I'm looking for my gate.",
+      "pinyin": "aim LU-king for mai gueit",
+      "pt": "Ich suche mein Gate."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b10-r01",
+      "es": "It's down that way, past the food court.",
+      "tts": "It's down that way, past the food court.",
+      "pinyin": "its daun det uei, past de fud kort",
+      "pt": "Da lang, hinter dem Food Court."
+    },
+    {
+      "consulta": [
+        "saude/farmacia"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "LOOKING",
+      "encaixe": "a pharmacy",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b10-p03",
+      "promptPt": "Du hast Kopfschmerzen und siehst kein Apotheken-Schild. Sag einem Angestellten, was du suchst. Sprich jetzt.",
+      "audioKey": "eua-b10-t07",
+      "es": "I'm looking for a pharmacy.",
+      "tts": "I'm looking for a pharmacy.",
+      "pinyin": "aim LU-king for e FAR-me-si",
+      "pt": "Ich suche eine Apotheke."
+    },
+    {
+      "consulta": [
+        "taxi/renta"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "LOOKING",
+      "encaixe": "the rental car counter",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b10-p04",
+      "promptPt": "Du bist durch die falsche Tür rausgegangen und siehst keinen Mietwagenschalter. Frag einen Sicherheitsmitarbeiter. Sprich jetzt.",
+      "audioKey": "eua-b10-t08",
+      "es": "I'm looking for the rental car counter.",
+      "tts": "I'm looking for the rental car counter.",
+      "pinyin": "aim LU-king for de REN-tel kar KAUN-ter",
+      "pt": "Ich suche den Mietwagenschalter."
+    },
+    {
+      "consulta": [
+        "compras/probador"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "LOOKING",
+      "encaixe": "a fitting room",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b10-p05",
+      "promptPt": "Du hast die Kleidung schon ausgesucht, siehst aber keine Umkleidekabinen. Du kennst den genauen Namen nicht; probier es mit dem Baustein. Sprich jetzt.",
+      "audioKey": "eua-b10-t09",
+      "es": "I'm looking for a fitting room.",
+      "tts": "I'm looking for a fitting room.",
+      "pinyin": "aim LU-king for e FI-ting rum",
+      "pt": "Ich suche eine Umkleidekabine."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b10-r02",
+      "es": "Right this way, follow me.",
+      "tts": "Right this way, follow me.",
+      "pinyin": "rait dis uei, FA-lou mi",
+      "pt": "Hier entlang, folgen Sie mir."
+    },
+    {
+      "consulta": [
+        "chegar/embarque"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHERE",
+      "encaixe": "the baggage claim",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b10-p06",
+      "promptPt": "Du bist aus dem Flugzeug gestiegen und siehst kein Schild zur Gepäckausgabe. Frag, wo sie ist. Sprich jetzt.",
+      "audioKey": "eua-b10-t10",
+      "es": "Where's the baggage claim?",
+      "tts": "Where's the baggage claim?",
+      "pinyin": "uers de BE-gedsch kleim",
+      "pt": "Wo ist die Gepäckausgabe?"
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "CAN-I",
+      "encaixe": "go through here",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b10-p07",
+      "promptPt": "Das Schild sagt NUR PERSONAL, und du bist nicht sicher, ob das für dich gilt. Frag nach. Sprich jetzt.",
+      "audioKey": "eua-b10-t11",
+      "es": "Can I go through here?",
+      "tts": "Can I go through here?",
+      "pinyin": "ken ai gou tsru hir",
+      "pt": "Kann ich hier durchgehen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b10-n07",
+      "bloco": "capsula",
+      "pt": "Ohne Schlange-Schild bilden sich Leute trotzdem: die zuletzt stehende Person ist das Ende der Reihe. Frag nach, bevor du zum Schalter gehst."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b10-n08",
+      "bloco": "permissao",
+      "pt": "Du musst das Schild nicht vollständig lesen. Mit einem Wort oder dem Symbol weißt du schon, was zu tun ist."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b10-n09",
+      "bloco": "clique",
+      "pt": "Du hast dein Gate, eine Apotheke, den Mietwagenschalter und eine Umkleidekabine gesucht. Niemand hat dir vier Sätze gegeben: du hast sie mit einem Baustein gebaut."
+    },
+    {
+      "consulta": ["reparo/apontar"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "LOOKING",
+      "encaixe": "the lost and found",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b10-p08",
+      "promptPt": "Du bist aus dem Flugzeug gestiegen und merkst, dass du deine Kopfhörer im Sitz gelassen hast. Du kennst den genauen Namen des Schalters nicht; probier es mit dem Baustein. Sprich jetzt.",
+      "audioKey": "eua-b10-x1",
+      "es": "I'm looking for the lost and found.",
+      "tts": "I'm looking for the lost and found.",
+      "pinyin": "aim LU-king for de lost end faund",
+      "pt": "Ich suche das Fundbüro."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b10-s01",
+      "es": "I'm looking for my gate. I'm looking for a pharmacy. I'm looking for the rental car counter.",
+      "tts": "I'm looking for my gate. I'm looking for a pharmacy. I'm looking for the rental car counter.",
+      "pinyin": "aim LU-king for mai gueit. aim LU-king for e FAR-me-si. aim LU-king for de REN-tel kar KAUN-ter.",
+      "pt": "Wiederhole denselben Baustein mit drei verschiedenen Dingen."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b10-n10",
+      "bloco": "recap",
+      "pt": "B10 geschafft. Exit, out of order, pull, push, restroom, und ein Baustein für wenn es kein Schild gibt."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Schilder, die man nicht Wort für Wort übersetzt",
+    "secoes": [
+      {
+        "titulo": "Das Schild, das am meisten kostet",
+        "corpo": "EXIT ist keine Herausforderung wegen eines deutschen Klanges, sondern weil es das erste Schild ist, das jeder Reisende sofort erkennen muss: es ist der Ausgang. Es falsch zu deuten lässt dich im schlimmsten Moment die falsche Tür suchen."
+      },
+      {
+        "titulo": "Der offene Baustein",
+        "corpo": "«I'm looking for» plus das Gesuchte deckt jeden Ort oder Gegenstand ab, ohne dass du den genauen englischen Namen kennst. Der andere ergänzt, was fehlt; du zeigst nur die Absicht."
+      },
+      {
+        "titulo": "Restroom, nicht toilet",
+        "corpo": "Du hast es schon in B06 gesehen: an einem öffentlichen Ort bittet man um «restroom», nie um «toilet». Hier liest du es noch einmal auf dem Schild; das Wort ist in beide Richtungen dasselbe."
+      },
+      {
+        "titulo": "Die Schlange ohne Schild",
+        "corpo": "Viele Schalter in den USA haben weder Absperrband noch Schlange-Schild. Die Schlange existiert trotzdem: es ist die Reihe der wartenden Menschen. «Is this the line?» zu fragen erspart dir den unangenehmen Moment, als hättest du dich vorgedrängelt."
+      }
+    ]
+  }
+}

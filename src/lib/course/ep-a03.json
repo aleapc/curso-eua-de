@@ -1,0 +1,235 @@
+{
+  "id": "a03",
+  "slot": "A03",
+  "nivel": "avancado",
+  "numero": 31,
+  "parte": "A03",
+  "titulo": "Für wen sie sich halten",
+  "subtitulo": "Jemand, der nie in Sizilien war, sagt dir todernst, er sei Italiener — und die Frage, die dieses Gespräch öffnet statt es zu schließen",
+  "cena": "Ein Tischnachbar hat dir gerade gesagt «ich bin Italiener», und zwei Sätze später wird klar, dass er in Ohio geboren wurde und nie im Ausland war.",
+  "moldura": "ganha",
+  "frasePiso": "Du brauchst keine Theorie über die USA. Du brauchst eine ehrliche Frage und die Geduld, eine längere Antwort zu hören, als du erwartet hast.",
+  "fatosDatados": [
+    {
+      "id": "eua-ascendencia-autoidentificacao",
+      "afirmacao": "Many Americans describe their identity by an ancestor's country of origin — 'I'm Italian,' 'I'm Irish' — even when their family has lived in the United States for several generations; the US Census Bureau collects this as self-reported ancestry, a category distinct from citizenship or birthplace.",
+      "fonte": "U.S. Census Bureau, American Community Survey — «Ancestry»",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": ["eua-a03-n03"]
+    },
+    {
+      "id": "eua-individualismo",
+      "afirmacao": "Surveys of American national values consistently find self-reliance and individual achievement described as central to how Americans see themselves, alongside the idea, taught from childhood, that a person's origin should not limit how far they can go — the American Dream.",
+      "fonte": "Consenso de pesquisas de valores nacionais (Pew Research Center)",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": ["eua-a03-n05"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a03-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Heute hörst du auf, Tourist im Gespräch zu sein — nicht weil du mehr weißt, sondern weil du besser fragst und länger zuhörst."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-a03-n02",
+      "bloco": "callback",
+      "pt": "Kurze Wiederholung von gestern. Der Flug war anstrengend und jemand fragt, wie es dir geht. Antworte mit Humor, ohne dich zu sehr zu beschweren."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-a03-p01",
+      "promptPt": "Sprich jetzt.",
+      "audioKey": "eua-a03-t01",
+      "es": "I'm surviving.",
+      "tts": "I'm surviving.",
+      "pinyin": "aim ser-WAI-wing",
+      "pt": "Ich überlebe."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a03-n03",
+      "bloco": "cena",
+      "pt": "Am Tisch sagt jemand «ich bin Italiener». Zwei Sätze später wird klar, dass er in Ohio geboren wurde und nie im Ausland war."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a03-o01",
+      "es": "Yeah, I'm Italian — my great-grandpa came from Sicily.",
+      "tts": "Yeah, I'm Italian — my great-grandpa came from Sicily.",
+      "pt": "Ja, ich bin Italiener — mein Urgroßvater kam aus Sizilien.",
+      "pinyin": "je, aim i-TE-ljen — mai GREIT-gran-pa keim from si-SI-li"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-a03-n04",
+      "bloco": "corpo",
+      "pt": "Er ist nicht verwirrt: Hier ist es normal, sich über die Herkunft der Familie zu beschreiben, auch wenn man das Land nie betreten hat."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-a03-p02",
+      "promptPt": "Öffne die Tür, statt daran vorbeizugehen. Frag, ob er jemals dort war. Sprich jetzt.",
+      "audioKey": "eua-a03-t02",
+      "es": "Have you ever been to Sicily?",
+      "tts": "Have you ever been to Sicily?",
+      "pinyin": "hev ju E-wer bin tu si-SI-li",
+      "pt": "Warst du schon mal in Sizilien?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a03-o02",
+      "es": "No, never. Someday, though.",
+      "tts": "No, never. Someday, though.",
+      "pt": "Nein, noch nie. Aber irgendwann mal.",
+      "pinyin": "nou, NE-wer. SAM-dei, dou"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a03-n05",
+      "bloco": "capsula",
+      "pt": "Beachte, was du nicht getan hast: Du hast nicht gesagt, das sei seltsam, traurig oder komisch. Es ist nicht deine Aufgabe, es zu bewerten."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-a03-p03",
+      "promptPt": "Du wusstest es wirklich nicht. Sag es einfach, ohne Urteil. Sprich jetzt.",
+      "audioKey": "eua-a03-t03",
+      "es": "I didn't know it worked that way.",
+      "tts": "I didn't know it worked that way.",
+      "pinyin": "ai DI-dent nou it uorkt det uei",
+      "pt": "Ich wusste nicht, dass das so funktioniert."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-a03-n06",
+      "pt": "Die andere Seite derselben Medaille: Hier wächst man mit dem Satz auf, dass die Herkunft nicht begrenzen sollte, wie weit man kommt."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-a03-p04",
+      "promptPt": "Frag etwas Konkretes statt einer Theorie: wo er heute lebt. Sprich jetzt.",
+      "audioKey": "eua-a03-t04",
+      "es": "So where's home for you these days?",
+      "tts": "So where's home for you these days?",
+      "pinyin": "sou uers houm for ju dis deis",
+      "pt": "Und wo ist heute dein Zuhause?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a03-o03",
+      "es": "Cleveland, born and raised.",
+      "tts": "Cleveland, born and raised.",
+      "pt": "Cleveland, dort geboren und aufgewachsen.",
+      "pinyin": "KLIW-land, born end reisd"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-a03-p05",
+      "promptPt": "Biete etwas von dir selbst an, kurz. Sprich jetzt.",
+      "audioKey": "eua-a03-t05",
+      "es": "My family's from Jalisco, actually.",
+      "tts": "My family's from Jalisco, actually.",
+      "pinyin": "mai FE-mi-lis from tscha-LIS-kou, EK-tschu-e-li",
+      "pt": "Meine Familie kommt eigentlich aus Jalisco."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-a03-p06",
+      "promptPt": "Du bittest ihn, einfach mehr zu erzählen. Sprich jetzt.",
+      "audioKey": "eua-a03-t06",
+      "es": "Tell me more about that.",
+      "tts": "Tell me more about that.",
+      "pinyin": "tel mi mor e-BAUT det",
+      "pt": "Erzähl mir mehr davon."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-a03-s01",
+      "es": "Have you ever been to Sicily? I didn't know it worked that way. So where's home for you these days?",
+      "tts": "Have you ever been to Sicily? I didn't know it worked that way. So where's home for you these days?",
+      "pinyin": "hev ju E-wer bin tu si-SI-li. ai DI-dent nou it uorkt det uei. sou uers houm for ju dis deis",
+      "pt": "Wiederhole die drei Fragen, die dieses Gespräch öffnen, ohne es abzulenken."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a03-n07",
+      "bloco": "recap",
+      "pt": "A03 geschafft. Frag, ob er den Ort kennt, frag, wo er heute lebt, und sag, dass du es nicht wusstest. Kein Urteil nötig."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Herkunft der Familie und heutiger Wohnort — zwei verschiedene Fragen",
+    "secoes": [
+      {
+        "titulo": "«Ich bin Italiener» ist kein Missverständnis",
+        "corpo": "Der US-Zensus erfasst die Abstammung als eigene Kategorie, getrennt von Staatsangehörigkeit oder Geburtsort, gerade weil Millionen Menschen sich so beschreiben. Es ist nicht, dass sie nicht wüssten, woher sie kommen — es ist eine andere Art, zu erzählen, wer man ist."
+      },
+      {
+        "titulo": "Der Mythos, der von Kindesbeinen an gelehrt wird",
+        "corpo": "Die Idee, dass die Herkunft eines Menschen nicht begrenzen sollte, wie weit er kommen kann — der «American Dream» —, taucht immer wieder auf, wenn Amerikaner ihre eigenen Werte beschreiben. Sie stimmt nicht immer in der Praxis, aber es ist die Geschichte, die die meisten als ihre eigene erkennen."
+      },
+      {
+        "titulo": "Warum die Frage nach dem HEUTIGEN Wohnort die sichere Tür ist",
+        "corpo": "Zu fragen, wo jemand heute lebt, oder ob er das Land seiner Großeltern schon besucht hat, kann jeder beantworten, ohne Position zu beziehen. Es liefert eine echte Geschichte, ohne dass jemand eine Theorie vor einem Fremden verteidigen muss."
+      }
+    ]
+  },
+  "permissao": "Es ist völlig in Ordnung, davon nichts zu wissen, und das auch zu sagen. «Ich wusste nicht, dass das so funktioniert» ist ein vollständiger, respektabler Satz — viel besser, als jemandem eine Zusammenfassung der amerikanischen Identität zurückzugeben, der sie jeden Tag lebt, was genau der Fehler ist, den dieser Teil vermeiden will.",
+  "permissaoAudioKey": "eua-a03-n05",
+  "espelho": "Jeder, dessen eigenes Land seine Herkunftsgeschichte diskutiert — wer zuerst ankam, woher dein Nachname kommt, was in der Schule erzählt wird — kennt diese Form schon von innen. Der einzige Unterschied hier ist, dass du als Gast zuhörst, also ist eine Frage der passende Beitrag, keine Schlussfolgerung.",
+  "fichasCulturais": [
+    {
+      "sinal": "Jemand sagt «ich bin Italiener», «ich bin Ire» oder «ich bin Deutscher», und du weißt, an der Sprechweise und am Geburtsort, dass er nie in diesem Land gelebt hat.",
+      "suaLeitura": "Er übertreibt, oder er versteht nicht richtig, was es bedeutet, von einem Ort zu sein.",
+      "oQueEAli": "Sich über die Herkunft der Familie zu beschreiben, auch wenn seit der Auswanderung Generationen vergangen sind, ist eine übliche und akzeptierte Art, in den USA die eigene Geschichte zu erzählen — kein Missverständnis über Staatsangehörigkeit und kein Versuch, sich eine andere Kultur anzueignen.",
+      "oQueVoceFaz": "Frag nach der konkreten Geschichte: woher der Verwandte kam, ob er je dort war, was zu Hause bewahrt wird.",
+      "oQueMelhora": "Du bekommst eine echte, konkrete Geschichte, fast immer interessanter als die Anteilnahme oder Korrektur, die du eigentlich anbieten wolltest.",
+      "ondeNaoVale": "Anders liegt es, wenn jemand eine lebendige Kultur beansprucht, zu der er nicht gehört, um sich einen Vorteil zu verschaffen oder sie sich anzueignen — hier geht es nur darum, wie Menschen die Herkunft ihrer eigenen Familie erzählen.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a03-n04"]
+    },
+    {
+      "sinal": "Jemand erwähnt, dass seine Familie aus einem anderen Land geflohen ist, und du weißt nicht, ob du weiter nachfragen oder das Thema wechseln sollst.",
+      "suaLeitura": "Weiter nach etwas so Schwerem zu fragen wäre übergriffig.",
+      "oQueEAli": "Viele amerikanische Familien haben eine Geschichte kürzlicher Ankunft und erzählen sie mit Stolz, nicht als Geheimnis — mit echtem Interesse nachzufragen kommt meist gut an, solange kein Urteil deinerseits folgt, ob diese Geschichte traurig oder bewundernswert sei.",
+      "oQueVoceFaz": "Frag ruhig und ohne Adjektive: «Erzähl mir mehr» funktioniert besser als jede Meinung.",
+      "oQueMelhora": "Das Gespräch wird echt, statt an der Oberfläche höflicher Anteilnahme zu bleiben.",
+      "ondeNaoVale": "Nicht, wenn die Person das Thema wechselt oder die Antwort kürzer macht — das ist das Signal, dass sie fürs Erste gesagt hat, was sie sagen wollte.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a03-n05"]
+    }
+  ]
+}

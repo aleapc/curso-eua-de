@@ -1,0 +1,84 @@
+{
+  "id": "q-b13",
+  "nivel": "basico",
+  "titulo": "Quiz — Der Satz, den man nicht halb sagt",
+  "subtitulo": "«I'm allergic to ___» und die schriftliche Karte",
+  "introAudioKey": "eua-b13-q-i",
+  "introPt": "Bevor das Gericht am Tisch ankommt, muss die Allergie angekündigt und bestätigt werden. Hör dir den Austausch an und entscheide, was zutrifft.",
+  "cenario": "Am Tisch, bevor die Bestellung bestätigt wird.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b13-q01",
+      "voz": "target_en_f",
+      "es": "I'm allergic to peanuts.",
+      "tts": "I'm allergic to peanuts.",
+      "pinyin": "aim e-LER-dschik tu PI-nats",
+      "pt": "Ich bin gegen Erdnüsse allergisch."
+    },
+    {
+      "audioKey": "eua-b13-q02",
+      "voz": "target_en_m",
+      "es": "Got it, I'll let the kitchen know.",
+      "tts": "Got it, I'll let the kitchen know.",
+      "pinyin": "gat it, eil let de KIT-schen nou",
+      "pt": "Verstanden, ich sag's der Küche."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Wie sagt man eine Allergie auf Englisch?",
+      "opcoes": [
+        "No ___, please",
+        "I'm allergic to ___",
+        "I'm looking for ___",
+        "Can I get ___?"
+      ],
+      "correta": 1,
+      "explica": "«I'm allergic to ___» ist der Hammersatz: wird immer vollständig gesagt, ohne ihn anzupassen oder zu kürzen."
+    },
+    {
+      "pergunta": "Warum wird dieser Satz nicht wie ein offener, kürzbarer Baustein behandelt?",
+      "opcoes": [
+        "Weil er länger ist als die anderen",
+        "Weil das Ändern seiner Form ihm genau dann Gewicht nimmt, wenn es am wichtigsten ist",
+        "Weil er nur in Restaurants benutzt wird",
+        "Weil es keine kurze Form auf Englisch gibt"
+      ],
+      "correta": 1,
+      "explica": "Anders als bei «Can I get ___?» gibt es hier keinen Raum, das Register zu improvisieren: der Ernst hängt davon ab, ihn vollständig zu sagen."
+    },
+    {
+      "pergunta": "Was sollte man zusätzlich zum lauten Sagen dabeihaben?",
+      "opcoes": [
+        "Ein Foto des Gerichts",
+        "Eine schriftliche Karte mit der Allergie auf Englisch",
+        "Die ganze übersetzte Speisekarte",
+        "Nichts weiter, die Stimme reicht"
+      ],
+      "correta": 1,
+      "explica": "Die schriftliche Karte hängt nicht von der Aussprache in einem gestressten Moment ab; sie ist eine Rückversicherung, kein Ersatz für die Stimme."
+    },
+    {
+      "pergunta": "Der Kellner rennt sofort in die Küche, nachdem du deine Allergie gesagt hast. Was passiert?",
+      "opcoes": [
+        "Er übertreibt ohne Grund",
+        "Er behandelt die Information als kritisch, üblich und rechtlich verankert in den USA",
+        "Er hat nicht verstanden, was du gesagt hast",
+        "Er wird dir extra berechnen"
+      ],
+      "correta": 1,
+      "explica": "Viele Restaurants bestätigen angegebene Allergien direkt mit der Küche, im Einklang mit dem gesetzlichen Standard zur Allergenkennzeichnung."
+    },
+    {
+      "pergunta": "Wie unterscheidet sich dieser Teil von B12 («No ___, please»)?",
+      "opcoes": [
+        "Sie sind genau dasselbe",
+        "B12 entfernt eine Vorliebe; B13 kommuniziert ein Gesundheitsrisiko",
+        "B13 ist nur für Getränke",
+        "B12 ist förmlicher"
+      ],
+      "correta": 1,
+      "explica": "B12 passt die Bestellung nach Geschmack an. B13 meldet ein echtes Risiko, und die Küche — und du — sollten es ernster behandeln."
+    }
+  ]
+}

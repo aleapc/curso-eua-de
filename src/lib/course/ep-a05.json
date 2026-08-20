@@ -1,0 +1,255 @@
+{
+  "id": "a05",
+  "slot": "A05",
+  "nivel": "avancado",
+  "numero": 33,
+  "parte": "A05",
+  "titulo": "Die andere Sprache",
+  "subtitulo": "Mehr als vierzig Millionen Menschen sprechen Spanisch in den USA, keine Sprache ist bundesrechtlich offiziell, und es gibt Akzente, die dir wirklich auffallen",
+  "cena": "Die Kellnerin im Diner sieht dich an, lächelt und bietet dir die Speisekarte auf Spanisch an, bevor du auch nur ein Wort auf Englisch gesagt hast.",
+  "moldura": "ganha",
+  "frasePiso": "Ein regionales Wort, klein gesagt und ohne Show, am richtigen Ort. Das ist die ganze Technik, und sie reicht.",
+  "fatosDatados": [
+    {
+      "id": "eua-sem-idioma-oficial",
+      "afirmacao": "The United States has no official language at the federal level. English is dominant by use, not by law, and Spanish is the country's second most spoken language, with over 40 million people speaking it at home.",
+      "fonte": "U.S. Census Bureau, American Community Survey — línguas faladas em casa",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": ["eua-a05-n03"]
+    },
+    {
+      "id": "eua-palavras-regionais",
+      "afirmacao": "Certain words mark a region on sound alone: y'all as the plural 'you' across the South, and wicked as an intensifier ('wicked good') in and around Boston. Both are ordinary, everyday usage, not caricature.",
+      "fonte": "Consenso lexicográfico regional (Dictionary of American Regional English — DARE)",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": ["eua-a05-n07"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a05-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Englisch ist nicht der einzige Klang im Raum. Heute geht es vor allem ums Zuhören, mit nur einer eigenen Sprechbewegung am Ende."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-a05-n02",
+      "bloco": "callback",
+      "pt": "Wiederholung von gestern. Jemand will dich in eine regionale Rivalität hineinziehen. Steig aus, wie gestern."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-a05-p01",
+      "promptPt": "Sprich jetzt.",
+      "audioKey": "eua-a05-t01",
+      "es": "I'll stay out of that one.",
+      "tts": "I'll stay out of that one.",
+      "pinyin": "eil stei aut of det uan",
+      "pt": "Da halte ich mich lieber raus."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a05-n03",
+      "bloco": "cena",
+      "pt": "In einem Diner in Texas bietet dir die Kellnerin sofort die Karte auf Spanisch an. Kommt oft vor: keine offizielle Landessprache, Spanisch ist die zweitmeistgesprochene."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-a05-o01",
+      "es": "Would you like the menu in English or Spanish, hon?",
+      "tts": "Would you like the menu in English or Spanish, hon?",
+      "pt": "👂 «Möchtest du die Karte auf Englisch oder Spanisch, Süßer?» Das ist Freundlichkeit, keine Prüfung.",
+      "pinyin": "uud ju laik de ME-nju in IN-glisch or SPE-nisch, han"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-a05-n04",
+      "bloco": "corpo",
+      "pt": "Es geht nicht um Zweifel an deinem Englisch. Es ist Höflichkeit; beide Optionen anzubieten ist hier normal, ohne zweimal nachzudenken."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-a05-p02",
+      "promptPt": "Du willst weiter Englisch üben. Sag es warm, nicht wie eine Zurückweisung. Sprich jetzt.",
+      "audioKey": "eua-a05-t02",
+      "es": "English is great, thanks — I'm actually trying to practice.",
+      "tts": "English is great, thanks — I'm actually trying to practice.",
+      "pinyin": "IN-glisch is greit, tsenks — aim EK-tschu-e-li trai-ing tu PREK-tis",
+      "pt": "Englisch ist super, danke — ich versuche es tatsächlich zu üben."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-a05-o02",
+      "es": "No problem, happy to help either way.",
+      "tts": "No problem, happy to help either way.",
+      "pt": "Kein Problem, ich helfe gern so oder so.",
+      "pinyin": "nou PRA-blem, HE-pi tu help AI-der uei"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a05-n05",
+      "pt": "Jetzt zu den Akzenten. Der Süden dehnt die Vokale, Boston nutzt «wicked» als Verstärker, die Mitte klingt am neutralsten."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a05-o03",
+      "receptivo": true,
+      "es": "This chowder's wicked good, right?",
+      "tts": "This chowder's wicked good, right?",
+      "pt": "👂 Aus Boston. «Wicked» heißt hier nicht «böse», sondern «super». Das ist nicht für dich, hör einfach nur zu.",
+      "pinyin": "dis TSCHAU-ders UI-ked gud, rait"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-a05-p03",
+      "promptPt": "Jemand hat dich gefragt, ob du zustimmst, wie lecker das Gericht ist. Antworte. Sprich jetzt.",
+      "audioKey": "eua-a05-t03",
+      "es": "It really is.",
+      "tts": "It really is.",
+      "pinyin": "it RI-e-li is",
+      "pt": "Wirklich, ja."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-a05-n06",
+      "bloco": "capsula",
+      "pt": "Die einzige eigene Sprechbewegung heute: ein regionales Wort. Im Süden ist «y'all» das «ihr» für alle."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-a05-p04",
+      "promptPt": "Du bist in Texas, fertig mit Essen, und wendest dich an die beiden Kellner, die dich bedient haben. Benutze «y'all». Sprich jetzt.",
+      "audioKey": "eua-a05-t04",
+      "es": "Y'all have a good one.",
+      "tts": "Y'all have a good one.",
+      "pinyin": "jol hev e gud uan",
+      "pt": "Euch beiden noch einen schönen Tag."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-a05-o04",
+      "es": "Aw, look at you, picking up the lingo!",
+      "tts": "Aw, look at you, picking up the lingo!",
+      "pt": "Ach, schau an, du hast schon den Slang drauf!",
+      "pinyin": "a, luk et ju, PI-king ap de LIN-gou"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a05-n07",
+      "pt": "Antworte ehrlich. Ein Wort ist ein Wort, und zu viel zu behaupten macht aus einem guten Moment einen seltsamen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-a05-p05",
+      "promptPt": "Korrigiere das Kompliment, warmherzig. Sprich jetzt.",
+      "audioKey": "eua-a05-t05",
+      "es": "Just the one word, but I wanted to get it right.",
+      "tts": "Just the one word, but I wanted to get it right.",
+      "pinyin": "dschast de uan uord, bat ai UAN-ted tu guet it rait",
+      "pt": "Nur dieses eine Wort, aber ich wollte es richtig sagen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-a05-p06",
+      "promptPt": "Bitte darum, dir noch eins beizubringen. Sprich jetzt.",
+      "audioKey": "eua-a05-t06",
+      "es": "Teach me another one?",
+      "tts": "Teach me another one?",
+      "pinyin": "titsch mi e-NA-der uan",
+      "pt": "Bringst du mir noch eins bei?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-a05-s01",
+      "es": "English is great, thanks. Y'all have a good one. Just the one word, but I wanted to get it right.",
+      "tts": "English is great, thanks. Y'all have a good one. Just the one word, but I wanted to get it right.",
+      "pinyin": "IN-glisch is greit, tsenks. jol hev e gud uan. dschast de uan uord, bat ai UAN-ted tu guet it rait",
+      "pt": "Wiederhole: warm annehmen, das regionale Wort benutzen und ehrlich sein über das, was du kannst."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a05-n08",
+      "bloco": "recap",
+      "pt": "A05 geschafft. Keine offizielle Sprache, Spanisch überall, spürbare Akzente, und ein regionales Wort, ehrlich gesagt."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Ein Wort, richtig platziert",
+    "secoes": [
+      {
+        "titulo": "Spanisch ist kein Gefallen, es ist das Land",
+        "corpo": "Mit über vierzig Millionen Sprechern zu Hause ist Spanisch keine seltene Höflichkeit, die man dir erweist: es ist ein gewöhnlicher Teil der Sprachlandschaft, besonders in Texas, Kalifornien, Florida und den großen Städten. Dass man dich auf Spanisch anspricht, sagt nichts über dein Englisch aus — es sagt etwas darüber, wo du gerade stehst."
+      },
+      {
+        "titulo": "Kein Gesetz sagt, welche Sprache es ist",
+        "corpo": "Auf Bundesebene gibt es keine offizielle Sprache. Englisch dominiert durch Gewohnheit und Gebrauch, nicht durch Gesetz — etwas, das viele Besucher überrascht, die das Gegenteil annehmen."
+      },
+      {
+        "titulo": "Die Wörter, die die Region verraten",
+        "corpo": "«Y'all» im Süden, «wicked» in Boston, «you guys» fast überall sonst im Land. Keines ist richtiger als das andere; jedes verrät dir einfach, wo du gerade stehst, allein durch den Klang."
+      },
+      {
+        "titulo": "Sag wenig, und sag die Wahrheit",
+        "corpo": "Ein Wort funktioniert, weil es nichts beansprucht. In dem Moment, in dem du ein Kompliment durchgehen lässt, als sprächst du den ganzen Dialekt, schleicht sich eine kleine Lüge in einen guten Moment — also antworte ehrlich, und der Moment behält seinen Wert."
+      }
+    ]
+  },
+  "permissao": "Es ist völlig in Ordnung, genau ein Wort zu sagen und dabei aufzuhören. Niemand erwartet, dass du wie ein Texaner oder Bostoner klingst, und ein einziges richtig gesagtes regionales Wort ist hier mehr wert als drei perfekte Lehrbuchsätze.",
+  "permissaoAudioKey": "eua-a05-n07",
+  "espelho": "Du weißt schon, wie es sich anfühlt, wenn ein Besucher einen echten, wenn auch ungeschickten Versuch mit einem einzigen Wort deiner eigenen Sprache macht — das klingt nicht anmaßend, es klingt nach Bemühung, und es verändert die Stimmung des Moments. Genau derselbe Mechanismus wirkt hier, nur in die andere Richtung.",
+  "fichasCulturais": [
+    {
+      "sinal": "Jemand spricht dich ungefragt auf Spanisch an, kaum dass er dich sieht, bevor du ein Wort gesagt hast.",
+      "suaLeitura": "Er nimmt an, dass ich kein Englisch spreche oder mein Englisch nicht ausreicht.",
+      "oQueEAli": "In vielen Teilen der USA ist ein Angebot auf Spanisch eine Geste des Service, kein Urteil über dein Englischniveau — besonders in Gegenden mit vielen spanischsprachigen Einwohnern, wo der Sprachwechsel je nach Gegenüber eine gelernte Höflichkeit ist, keine negative Annahme.",
+      "oQueVoceFaz": "Nimm es gern an, oder sag warmherzig, dass du lieber bei Englisch bleiben möchtest — beides sind normale, gut aufgenommene Antworten.",
+      "oQueMelhora": "Du bekommst genau den Service, den du brauchst, ohne dass jemand das Gefühl hat, du hättest seine Freundlichkeit zurückgewiesen.",
+      "ondeNaoVale": "Nicht in Gegenden mit sehr wenigen spanischsprachigen Einwohnern, wo ein Angebot auf Spanisch von vornherein seltener ist — dort ist es eher eine persönliche Höflichkeit dieser einen Person, keine Ortsgewohnheit.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a05-n04"]
+    },
+    {
+      "sinal": "Du benutzt dein erstes regionales Wort, jemand sagt «du hast schon den Slang drauf», und du hast das Gefühl, es wäre unhöflich, das zu korrigieren.",
+      "suaLeitura": "Das Kompliment einfach so stehen zu lassen ist elegant; es zu korrigieren würde wie falsche Bescheidenheit wirken.",
+      "oQueEAli": "Das Kompliment ist echte Wärme für die Mühe, keine tatsächliche Bewertung — und es einfach stehen zu lassen macht aus einer kleinen, wahren Geste eine Behauptung, die du nicht halten kannst, was genau in dem Moment auffällt, wenn der nächste regionale Satz kommt und du ihn nicht verstehst.",
+      "oQueVoceFaz": "Sag ruhig, dass es nur dieses eine Wort war und du es richtig sagen wolltest. Das bewahrt Bemühung und Ehrlichkeit gleichzeitig.",
+      "oQueMelhora": "Der Moment bleibt warm, und meistens bringt man dir gleich noch ein Wort bei — ein besseres Ergebnis als der höfliche Rückzug.",
+      "ondeNaoVale": "Das ist kein Grund, jedes Kompliment über dein Englisch im Allgemeinen abzulehnen — dort lernst du wirklich, und die Ermutigung anzunehmen ist einfach zutreffend.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a05-n07"]
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "id": "b08",
+  "slot": "B08",
+  "nivel": "basico",
+  "numero": 8,
+  "parte": "3A",
+  "titulo": "Die Frage, deren Antwort in deinen Kopf passt",
+  "subtitulo": "Wo die Toilette ist, wo der Aufzug ist, und was tun, wenn die Antwort zum Absatz wird",
+  "cena": "Ein Fremder an der Straßenecke zeichnet die Route schon mit beiden Händen in die Luft, drei Straßen tief, und du hast noch nicht entschieden, wie viel davon du wirklich brauchst.",
+  "moldura": "ganha",
+  "frasePiso": "Die beste Wegfrage ist die, die dir einen nächsten Schritt gibt, den du wirklich nutzen kannst.",
+  "moldes": ["WHERE"],
+  "clique": {
+    "contagem": [
+      "der Lobby-Tresen",
+      "der Flurgang",
+      "die Straßenecke"
+    ],
+    "desconto": "Niemand hat dir eine andere Frage für die Toilette, den Aufzug und die Tür gegeben. Du hast nur den gesuchten Ort geändert; der Baustein blieb gleich.",
+    "piso": "Das nächste Mal, wenn du einen bekannten Ort brauchst, improvisierst du nicht den ganzen Satz. Du sagst where's the und den Ort, und das reicht."
+  },
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b08-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Faust auf WHERE's: WHERE's the. Funktioniert für jeden bekannten Ort, den du finden musst, egal wo du bist."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b08-p00",
+      "promptPt": "In der Hotellobby willst du deinen Koffer kurz abstellen, bevor du aufs Zimmer gehst. Frag, ob das geht. Sprich jetzt.",
+      "audioKey": "eua-b08-x0",
+      "es": "Can I leave my bag here for a minute?",
+      "tts": "Can I leave my bag here for a minute?",
+      "pinyin": "ken ai liiw mai beg hir for e MI-nit",
+      "pt": "Kann ich meinen Koffer kurz hier lassen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b08-n02",
+      "bloco": "cena",
+      "pt": "Ein Fremder wird dir mit drei Straßen und beiden Händen in der Luft antworten. Fang kleiner an: where's the passt schon in deinen Kopf."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b08-n03",
+      "bloco": "molde",
+      "pt": "Der Baustein: where's the und der Ort. Er bleibt gleich; nur das Gesuchte ändert sich."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b08-t01",
+      "es": "Where's the restroom?",
+      "tts": "Where's the restroom?",
+      "pinyin": "uers de REST-rum",
+      "pt": "Wo ist die Toilette?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHERE",
+      "encaixe": "restroom",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b08-p01",
+      "promptPt": "In der Hotellobby brauchst du die Toilette, bevor du aufs Zimmer gehst. Frag, wo sie ist. Sprich jetzt.",
+      "audioKey": "eua-b08-t01",
+      "es": "Where's the restroom?",
+      "tts": "Where's the restroom?",
+      "pinyin": "uers de REST-rum",
+      "pt": "Wo ist die Toilette?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b08-r01",
+      "es": "Right down the hall, on the left.",
+      "tts": "Right down the hall, on the left.",
+      "pinyin": "rait daun de hol, on de left",
+      "pt": "Den Flur runter, links."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b08-n04",
+      "bloco": "corpo",
+      "pt": "Derselbe Baustein, ein anderer Ort. Der Aufzug ist ebenfalls ein bekannter Ort, den du im selben Gebäude suchst."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHERE",
+      "encaixe": "elevator",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b08-p02",
+      "promptPt": "Du hast die Koffer dabei und siehst die Treppe nicht in der Nähe. Frag, wo der Aufzug ist. Sprich jetzt.",
+      "audioKey": "eua-b08-t02",
+      "es": "Where's the elevator?",
+      "tts": "Where's the elevator?",
+      "pinyin": "uers de E-le-wei-ter",
+      "pt": "Wo ist der Aufzug?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b08-r02",
+      "es": "Just around the corner.",
+      "tts": "Just around the corner.",
+      "pinyin": "dschast e-RAUND de KOR-ner",
+      "pt": "Gleich um die Ecke."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHERE",
+      "encaixe": "front desk",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b08-p03",
+      "promptPt": "Du musst zurück zur Rezeption, weißt aber von diesem Flur aus nicht mehr, wo lang. Frag, wo sie ist. Sprich jetzt.",
+      "audioKey": "eua-b08-t03",
+      "es": "Where's the front desk?",
+      "tts": "Where's the front desk?",
+      "pinyin": "uers de front desk",
+      "pt": "Wo ist die Rezeption?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b08-n05",
+      "bloco": "capsula",
+      "pt": "Manchmal suchst du etwas und kennst nicht mal das englische Wort dafür. Dann erzwing nicht den Baustein: zeig die Absicht und lass den anderen ergänzen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b08-t04",
+      "es": "I'm looking for a pharmacy.",
+      "tts": "I'm looking for a pharmacy.",
+      "pinyin": "aim LU-king for e FAR-me-si",
+      "pt": "Ich suche eine Apotheke. Wenn du das genaue Wort nicht kennst, zeigst du die Absicht so."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b08-p04",
+      "promptPt": "Man hat dir eine Route über drei Straßen erklärt, und du hast den Faden schon auf halbem Weg verloren. Kürz die Antwort ab und frag nur, ob es weit ist. Sprich jetzt.",
+      "audioKey": "eua-b08-t05",
+      "es": "Is it far?",
+      "tts": "Is it far?",
+      "pinyin": "is it far",
+      "pt": "Ist es weit?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b08-r03",
+      "es": "No, it's two blocks away.",
+      "tts": "No, it's two blocks away.",
+      "pinyin": "nou, its tu blaks e-UEI",
+      "pt": "Nein, zwei Blocks von hier."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b08-p05",
+      "promptPt": "Zwei Blocks sagen dir immer noch nicht genau, welche Ecke gemeint ist. Bitte darum, es dir auf der Karte zu zeigen. Sprich jetzt.",
+      "audioKey": "eua-b08-t06",
+      "es": "Can you show me on the map?",
+      "tts": "Can you show me on the map?",
+      "pinyin": "ken ju schou mi on de mep",
+      "pt": "Können Sie es mir auf der Karte zeigen?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHERE",
+      "encaixe": "nearest ATM",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b08-px1",
+      "promptPt": "Du hast nur Karte dabei und brauchst etwas Bargeld. Frag, wo der nächste Geldautomat ist. Sprich jetzt.",
+      "audioKey": "eua-b08-x1",
+      "es": "Where's the nearest ATM?",
+      "tts": "Where's the nearest ATM?",
+      "pinyin": "uers de NI-rest ei-ti-EM",
+      "pt": "Wo ist der nächste Geldautomat?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "an umbrella",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b08-px2",
+      "promptPt": "Es regnet, und du willst das Hotel verlassen. Frag an der Rezeption, ob sie einen Schirm zum Ausleihen haben. Sprich jetzt.",
+      "audioKey": "eua-b08-x2",
+      "es": "Do you have an umbrella?",
+      "tts": "Do you have an umbrella?",
+      "pinyin": "du ju hev en am-BRE-la",
+      "pt": "Habt ihr einen Regenschirm?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "EXCUSE",
+      "encaixe": "der Rezeptionstresen",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b08-px3",
+      "promptPt": "Der Rezeptionist steht mit dem Rücken zu dir und sortiert Schlüssel. Hol seine Aufmerksamkeit, bevor du nach dem Schirm fragst. Sprich jetzt.",
+      "audioKey": "eua-b08-x3",
+      "es": "Excuse me?",
+      "tts": "Excuse me?",
+      "pinyin": "eks-KJUS mi",
+      "pt": "Entschuldigung?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b08-s01",
+      "es": "Where's the restroom? Where's the elevator? Is it far?",
+      "tts": "Where's the restroom? Where's the elevator? Is it far?",
+      "pinyin": "uers de REST-rum? uers de E-le-wei-ter? is it far",
+      "pt": "Wiederhole den Baustein mit zwei verschiedenen Orten und dem Abkürzer für Entfernung."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b08-n06",
+      "bloco": "recap",
+      "pt": "B08 geschafft. Where's the für einen bekannten Ort, is it far um die Antwort zu kürzen, die Karte, wenn es immer noch nicht klar ist."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Ein bekannter Ort, kein ganzer Absatz",
+    "secoes": [
+      {
+        "titulo": "Where's the, und nur der Ort ändert sich",
+        "corpo": "Benutze es für jeden festgelegten Ort, von dem du weißt, dass er in der Nähe existiert: die Toilette, der Aufzug, die Rezeption.",
+        "exemplos": [
+          { "es": "Where's the restroom?", "pt": "Wo ist die Toilette?" },
+          { "es": "Where's the elevator?", "pt": "Wo ist der Aufzug?" }
+        ]
+      },
+      {
+        "titulo": "\"I'm looking for ___\" ist der Bruder für wenn du das genaue Wort nicht hast",
+        "corpo": "Zeig die Absicht und lass den anderen ergänzen, statt den Baustein mit einem Wort zu erzwingen, das du noch nicht kennst."
+      },
+      {
+        "titulo": "Lern nicht den ganzen Absatz auswendig",
+        "corpo": "Wegbeschreibungen sind erst mal vor allem zum Zuhören da. Deine aktive Aufgabe ist, die Antwort mit is it far zu kürzen oder auf die Karte auszuweichen."
+      }
+    ]
+  }
+}

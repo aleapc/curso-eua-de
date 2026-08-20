@@ -1,0 +1,116 @@
+{
+  "id": "q-b06",
+  "nivel": "basico",
+  "titulo": "Quiz — Die offenen Punkte der ersten Stunde schließen",
+  "subtitulo": "Die richtige Reihenfolge und der Baustein «Do you have ___?», bevor du die Halle verlässt",
+  "introAudioKey": "eua-b06-q-i",
+  "introPt": "Dem Reisenden bleiben vier offene Punkte in der Halle: der Koffer, der nicht rauskam, keine Daten, ein Zahlungszweifel und die verspätete Abholung. Bring sie in die Reihenfolge, die verhindert, dass ein Problem sich ins nächste einmischt.",
+  "cenario": "In der Ankunftshalle, das Band ist schon stehengeblieben, und die Abholung kommt verspätet.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b06-q01",
+      "voz": "target_en_f",
+      "es": "My bag didn't come out.",
+      "tts": "My bag didn't come out.",
+      "pinyin": "mai beg DID-nt kam aut",
+      "pt": "Mein Koffer kam nicht raus."
+    },
+    {
+      "audioKey": "eua-b06-q02",
+      "voz": "target_en_m",
+      "es": "Do you have your baggage tag?",
+      "tts": "Do you have your baggage tag?",
+      "pinyin": "du ju hev jor BE-gedsch teg",
+      "pt": "Haben Sie Ihren Gepäckbeleg?"
+    },
+    {
+      "audioKey": "eua-b06-q03",
+      "voz": "target_en_f",
+      "es": "Do you have wifi?",
+      "tts": "Do you have wifi?",
+      "pinyin": "du ju hev UAI-fai",
+      "pt": "Habt ihr WLAN?"
+    },
+    {
+      "audioKey": "eua-b06-q04",
+      "voz": "target_en_m",
+      "es": "Yes, the network's on the sign.",
+      "tts": "Yes, the network's on the sign.",
+      "pinyin": "jes, de NET-uork on de sain",
+      "pt": "Ja, das Netzwerk steht auf dem Schild."
+    },
+    {
+      "audioKey": "eua-b06-q05",
+      "voz": "target_en_f",
+      "es": "Do you have an ATM?",
+      "tts": "Do you have an ATM?",
+      "pinyin": "du ju hev en ei-ti-EM",
+      "pt": "Habt ihr einen Geldautomaten?"
+    },
+    {
+      "audioKey": "eua-b06-q06",
+      "voz": "target_en_m",
+      "es": "There's one by the exit.",
+      "tts": "There's one by the exit.",
+      "pinyin": "ders uan bai de EK-sit",
+      "pt": "Es gibt einen beim Ausgang."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Welcher offene Punkt muss gemeldet werden, bevor man den Gepäckbereich verlässt?",
+      "opcoes": [
+        "Dass die Abholung sich verspätet",
+        "Der Koffer, der nicht rauskam",
+        "Eine Kartenzahlung",
+        "Die Hoteladresse"
+      ],
+      "correta": 1,
+      "explica": "Der Schalter der Fluggesellschaft ist der erste Abschluss: der verlorene Koffer löst sich nicht von der Straße aus."
+    },
+    {
+      "pergunta": "Was bleibt in den Fragen der ersten Stunde fest?",
+      "opcoes": [
+        "Der Ort",
+        "«Do you have»",
+        "Der Preis",
+        "Die Antwort"
+      ],
+      "correta": 1,
+      "explica": "«Do you have» eröffnet den Baustein; das Einzige, was sich ändert, ist die Sache, die du brauchst."
+    },
+    {
+      "pergunta": "Die eSIM gibt keine Daten. Was tust du zuerst?",
+      "opcoes": [
+        "Du fragst «Do you have wifi?» am Schalter",
+        "Du gehst raus, um Netz zu suchen",
+        "Du tauschst dein ganzes Geld",
+        "Du rufst die Einreisebehörde an"
+      ],
+      "correta": 0,
+      "explica": "Statt herumzulaufen und das Handy neu zu laden, fragst du nach dem Netz genau dort, wo du schon stehst."
+    },
+    {
+      "pergunta": "Die Person von der Fluggesellschaft sagt «how are you?». Was ist das?",
+      "opcoes": [
+        "Eine Frage danach, wie du dich fühlst",
+        "Ein Gruß: du antwortest kurz und machst weiter",
+        "Eine Beschwerde",
+        "Eine Erlaubnis"
+      ],
+      "correta": 1,
+      "explica": "Das ist die Service-Eröffnung; du antwortest «Good, thanks. How are you?» und machst mit deiner Sache weiter."
+    },
+    {
+      "pergunta": "Warum wählst du einen sichtbaren, erkennbaren Treffpunkt?",
+      "opcoes": [
+        "Um den Preis zu verhandeln",
+        "Um zu warten, ohne dich einem inoffiziellen Angebot zu nähern",
+        "Um ein Formular auszufüllen",
+        "Um den Koffer abzuholen"
+      ],
+      "correta": 1,
+      "explica": "Der feste Punkt schließt den offenen Punkt der Abholung, bevor der Transport aus B07 beginnt."
+    }
+  ]
+}

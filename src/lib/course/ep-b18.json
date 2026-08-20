@@ -1,0 +1,290 @@
+{
+  "id": "b18",
+  "slot": "B18",
+  "nivel": "basico",
+  "numero": 18,
+  "parte": "18A",
+  "titulo": "Der Koffer ist fertig, es fehlt nur die Uhr",
+  "subtitulo": "«What time ___?» für den letzten Tag, und sich verabschieden, ohne dass es gehetzt wirkt",
+  "cena": "Der Koffer steht schon zu neben der Tür, das Flugzeug geht am Nachmittag, und du weißt nicht, bis wann du bleiben darfst, bevor sie dir eine weitere Nacht berechnen.",
+  "moldura": "ganha",
+  "frasePiso": "Du schließt deinen letzten Tag in den USA ab und weißt genau, wann jede Frist ist, und du verabschiedest dich wie jemand, der schon weiß, dass er wiederkommt.",
+  "moldes": [
+    "WHAT-TIME"
+  ],
+  "clique": {
+    "contagem": [
+      "die Check-out-Zeit",
+      "der Fahrplan des Flughafen-Shuttles",
+      "die Schließzeit der Rezeption",
+      "die Abflugzeit deines Flugs"
+    ],
+    "desconto": "Niemand hat dir für jede Uhrzeit des letzten Tages einen eigenen Satz gegeben. Du hast alle vier mit «What time» und dem, was du wissen musstest, gebaut.",
+    "piso": "Das nächste Mal, wenn dein letzter Tag mehrere Uhrzeiten auf einmal bringt, rätst du nicht: du fragst jede einzeln, mit demselben Baustein, eine nach der anderen."
+  },
+  "permissao": "Du musst nicht alle Uhrzeiten auf einmal auswendig lernen. Du kannst jede einzeln fragen, genau in dem Moment, in dem du sie brauchst; niemand erwartet, dass du mit fertigem Reiseplan ankommst.",
+  "permissaoAudioKey": "eua-b18-n08",
+  "espelho": "An jedem letzten Reisetag in deinem Land prüfst du auch die Check-out-Zeit und den Transfer zum Flughafen, bevor du dich entspannst; das einzig Andere hier ist der genaue Baustein und die Gewohnheit, «Have a safe flight» statt eines längeren Abschieds zu sagen.",
+  "fichasCulturais": [
+    {
+      "sinal": "Beim Rausgehen sagt die Person an der Rezeption «Have a safe flight!» mit kurzem Lächeln, fast ohne innezuhalten, während sie schon den nächsten Gast bedient.",
+      "suaLeitura": "Das war ein kühler oder gehetzter Abschied, als wäre es ihr egal.",
+      "oQueEAli": "Das ist der Standard-Service-Abschied in den USA: kurz, warm und schnell, ohne die längere Zeremonie, die man anderswo erwarten könnte. Es misst nicht, wie sehr du deinen Aufenthalt genossen hast.",
+      "oQueVoceFaz": "Antworte «Thanks so much, you too!» und geh weiter; es braucht keinen längeren Abschied.",
+      "oQueMelhora": "Du schließt die Interaktion so ab, wie es ein Einheimischer täte, ohne das Gefühl, dass etwas unfertig blieb.",
+      "ondeNaoVale": "Gilt nicht, wenn während des Aufenthalts eine persönlichere Beziehung entstanden ist — ein Airbnb-Gastgeber, mit dem du mehrmals geplaudert hast; dort ist ein längerer Abschied genauso erwartet wie zu Hause.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "eua-b18-n07"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b18-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Teil achtzehn, der letzte des Moduls. Gleichmäßiger Rhythmus in der Schlüsselfrage: WHAT TIME IS check-OUT."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b18-n02",
+      "bloco": "cena",
+      "pt": "Der Koffer steht schon zu neben der Tür. Dein Flugzeug geht am Nachmittag, und du weißt nicht, bis wann du bleiben darfst."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b18-p01",
+      "promptPt": "Wie gestern in der Apotheke, sag, dass du etwas gegen Kopfschmerzen brauchst. Sprich jetzt.",
+      "bloco": "callback",
+      "molde": "HAVE",
+      "audioKey": "eua-b18-t01",
+      "es": "Do you have something for a headache?",
+      "tts": "Do you have something for a headache?",
+      "pinyin": "du ju hev SAM-tsing for e HED-eik",
+      "pt": "Habt ihr etwas gegen Kopfschmerzen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b18-n03",
+      "bloco": "molde",
+      "pt": "Der Baustein von heute: «What time» plus was du wissen musst. Deckt Check-out, Shuttle, fast jede Uhrzeit ab."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b18-t02",
+      "es": "What time is check-out?",
+      "tts": "What time is check-out?",
+      "pinyin": "uat taim is tschek-AUT",
+      "pt": "Wann ist Check-out?"
+    },
+    {
+      "consulta": [
+        "quarto/checkout"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHAT-TIME",
+      "encaixe": "is check-out",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b18-p02",
+      "promptPt": "Bevor du den Koffer runterbringst, frag, wann Check-out ist. Sprich jetzt.",
+      "audioKey": "eua-b18-t02",
+      "es": "What time is check-out?",
+      "tts": "What time is check-out?",
+      "pinyin": "uat taim is tschek-AUT",
+      "pt": "Wann ist Check-out?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b18-r01",
+      "es": "It's at eleven, but you can leave your bags with us.",
+      "tts": "It's at eleven, but you can leave your bags with us.",
+      "pinyin": "its et i-LE-wen, bat ju ken liiw jor begs uit as",
+      "pt": "Um elf, aber du kannst uns dein Gepäck lassen."
+    },
+    {
+      "consulta": [
+        "quarto/mala"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "CAN-I",
+      "encaixe": "leave my bag here",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b18-p03",
+      "promptPt": "Dein Flug geht erst am Nachmittag. Frag, ob du den Koffer an der Rezeption lassen kannst. Sprich jetzt.",
+      "audioKey": "eua-b18-t03",
+      "es": "Can I leave my bag here?",
+      "tts": "Can I leave my bag here?",
+      "pinyin": "ken ai liiw mai beg hir",
+      "pt": "Kann ich meinen Koffer hier lassen?"
+    },
+    {
+      "consulta": [
+        "taxi/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHAT-TIME",
+      "encaixe": "does the shuttle leave",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b18-p04",
+      "promptPt": "Du nimmst den Flughafen-Shuttle. Frag, wann er abfährt. Sprich jetzt.",
+      "audioKey": "eua-b18-t04",
+      "es": "What time does the shuttle leave?",
+      "tts": "What time does the shuttle leave?",
+      "pinyin": "uat taim das de SCHA-tel liiw",
+      "pt": "Wann fährt der Shuttle?"
+    },
+    {
+      "consulta": [
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "WHAT-TIME",
+      "encaixe": "does the front desk close",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b18-p05",
+      "promptPt": "Du kommst sehr spät zurück, um deinen Koffer zu holen. Frag, bis wann jemand an der Rezeption ist. Sprich jetzt.",
+      "audioKey": "eua-b18-t05",
+      "es": "What time does the front desk close?",
+      "tts": "What time does the front desk close?",
+      "pinyin": "uat taim das de front desk klous",
+      "pt": "Wann schließt die Rezeption?"
+    },
+    {
+      "consulta": ["quarto/pedir"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHAT-TIME",
+      "encaixe": "does breakfast end",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b18-p06",
+      "promptPt": "Du hast den Koffer runtergebracht und willst noch das Frühstück erwischen, bevor du zum Flughafen fährst. Frag, bis wann es serviert wird. Sprich jetzt.",
+      "audioKey": "eua-b18-t07",
+      "es": "What time does breakfast end?",
+      "tts": "What time does breakfast end?",
+      "pinyin": "uat taim das BREK-fest end",
+      "pt": "Wann endet das Frühstück?"
+    },
+    {
+      "consulta": ["quarto/checkout"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "HOW-MUCH",
+      "encaixe": "a late check-out",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b18-p07",
+      "promptPt": "Dein Flug geht so spät, dass du lieber noch ein paar Stunden im Zimmer bleiben würdest, statt den Koffer unten zu lassen. Frag, was ein später Check-out kostet. Sprich jetzt.",
+      "audioKey": "eua-b18-t08",
+      "es": "How much is a late check-out?",
+      "tts": "How much is a late check-out?",
+      "pinyin": "hau matsch is e leit tschek-AUT",
+      "pt": "Was kostet ein später Check-out?"
+    },
+    {
+      "consulta": ["taxi/destino"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "CAN-I",
+      "encaixe": "call a taxi",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b18-p08",
+      "promptPt": "Der Hotelshuttle ist schon ohne dich losgefahren. Frag an der Rezeption, ob sie dir ein Taxi rufen können. Sprich jetzt.",
+      "audioKey": "eua-b18-t09",
+      "es": "Can I call a taxi?",
+      "tts": "Can I call a taxi?",
+      "pinyin": "ken ai kol e TEK-si",
+      "pt": "Kann ich ein Taxi rufen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b18-n04",
+      "pt": "Ein Baustein, vier verschiedene Uhrzeiten: Check-out, Shuttle, Rezeption, und was dir noch fehlt zu fragen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b18-n05",
+      "pt": "Beim Abschied musst du den Satz nicht verlängern. «Thanks so much, we had a great time» schließt fast jeden Abgang gut ab."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b18-t06",
+      "es": "Have a safe flight!",
+      "tts": "Have a safe flight!",
+      "pinyin": "hev e seif flait",
+      "pt": "Guten Flug!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b18-n07",
+      "bloco": "capsula",
+      "pt": "Fühlt sich der Abschied kurz an, ist das keine Kühle: das ist der Standard-Service-Abschied hier. Du antwortest «Thanks, you too!»."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b18-n08",
+      "bloco": "permissao",
+      "pt": "Du musst nicht alle Uhrzeiten auf einmal auswendig lernen. Frag jede einzeln, wenn du sie brauchst."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b18-n09",
+      "bloco": "clique",
+      "pt": "Du hast Check-out, Shuttle und Rezeption gefragt. Niemand hat dir drei Sätze gegeben: du hast sie mit einem einzigen Baustein gebaut."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b18-s01",
+      "es": "What time is check-out? What time does the shuttle leave?",
+      "tts": "What time is check-out? What time does the shuttle leave?",
+      "pinyin": "uat taim is tschek-AUT? uat taim das de SCHA-tel liiw?",
+      "pt": "Wiederhole denselben Baustein mit zwei verschiedenen Uhrzeiten."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b18-n10",
+      "bloco": "recap",
+      "pt": "B18 geschafft, und mit ihm ME VIRO vollständig. Achtzehn Teile, ein Baustein pro Station, und eine Reise, die du jetzt allein abschließen kannst."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Der letzte Tag hat seine eigene Uhr",
+    "secoes": [
+      {
+        "titulo": "Der offene Baustein",
+        "corpo": "«What time» plus was du wissen musst deckt fast jede Uhrzeit ab: Check-out, Transport, Öffnungszeiten. Die Hülle ändert sich nicht; nur das Ende der Frage."
+      },
+      {
+        "titulo": "Den Koffer dazulassen ist nicht nur Höflichkeit",
+        "corpo": "Fast jedes Hotel nimmt dein Gepäck nach dem Check-out ohne Aufpreis auf, auch wenn dein Flug erst Stunden später geht. Mit «Can I leave my bag here?» danach zu fragen erspart dir, es den ganzen Tag zu tragen."
+      },
+      {
+        "titulo": "Ein kurzer Abschied ist nicht kühl",
+        "corpo": "Das Abschiedsregister im Service ist in den USA bewusst kurz: «Have a safe flight», «Thanks so much», und das war's. Such keine längere Zeremonie; Kürze ist die Norm, kein Mangel an Wärme."
+      },
+      {
+        "titulo": "Achtzehn Teile, eine Methode",
+        "corpo": "Das Modul ME VIRO endet hier, beim Abschied, nicht bei einem Diebstahl oder einem Notfall. Jeder Teil hat einen offenen Baustein gepflanzt; zusammen decken sie die ganze Reise ab, vom Ankunfts- bis zum Abflughafen."
+      }
+    ]
+  }
+}

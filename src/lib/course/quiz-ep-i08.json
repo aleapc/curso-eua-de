@@ -1,0 +1,82 @@
+{
+  "id": "q-i08",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Du wirst zu ihnen nach Hause eingeladen",
+  "subtitulo": "Was mitbringen, wann ankommen",
+  "introAudioKey": "eua-i08-q-i",
+  "introPt": "Du wirst zum Abendessen bei einem Freund eingeladen. Hör dir an, wie er fragt, was er mitbringen soll, und wie er sich bei der Ankunft verhält.",
+  "cenario": "Ein informelles Abendessen bei jemandem zu Hause, in den USA.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i08-q01",
+      "voz": "target_en_m",
+      "es": "Would you like to come over for dinner on Friday?",
+      "tts": "Would you like to come over for dinner on Friday?",
+      "pinyin": "uud ju laik tu kam OU-wer for DI-ner on FRAI-dei",
+      "pt": "Hättest du Lust, am Freitag zum Abendessen vorbeizukommen?"
+    },
+    {
+      "audioKey": "eua-i08-q02",
+      "voz": "target_en_f",
+      "es": "What can I bring?",
+      "tts": "What can I bring?",
+      "pinyin": "uat ken ai bring",
+      "pt": "Was kann ich mitbringen?"
+    },
+    {
+      "audioKey": "eua-i08-q03",
+      "voz": "target_en_m",
+      "es": "Just bring yourself, but a bottle of wine is always welcome.",
+      "tts": "Just bring yourself, but a bottle of wine is always welcome.",
+      "pinyin": "dschast bring jor-SELF, bat e BA-tel of uain is OL-ueis UEL-kem",
+      "pt": "Komm einfach du selbst, aber eine Flasche Wein ist immer willkommen."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was fragt der Reisende direkt, wenn er die Einladung annimmt?",
+      "opcoes": ["What time is it?", "What can I bring?", "How much is it?", "Where's the restroom?"],
+      "correta": 1,
+      "explica": "Zu fragen, was man mitbringen soll, ist die erwartete Norm, kein Mangel an Fingerspitzengefühl."
+    },
+    {
+      "pergunta": "Was ist normal, zu einem informellen Abendessen zu Hause mitzubringen?",
+      "opcoes": [
+        "Nichts, mit leeren Händen kommen",
+        "Eine Flasche Wein oder ein Dessert",
+        "Ein teures, aufwendiges Geschenk",
+        "Nur gelbe Blumen"
+      ],
+      "correta": 1,
+      "explica": "Die Geste zählt mehr als der Wert des Geschenks."
+    },
+    {
+      "pergunta": "Wie pünktlich sollte der Reisende bei einem informellen Abendessen zu Hause sein?",
+      "opcoes": [
+        "Exakt auf die Sekunde",
+        "Ein Spielraum von bis zu fünfzehn Minuten ist normal",
+        "Er kann kommen, wann er will, die Zeit spielt keine Rolle",
+        "Er muss eine Stunde früher da sein"
+      ],
+      "correta": 1,
+      "explica": "Ein kleiner Spielraum nach der genannten Zeit ist in diesem informellen Kontext akzeptiert."
+    },
+    {
+      "pergunta": "Der Gastgeber deckt den Tisch. Was bietet der Reisende an?",
+      "opcoes": ["Can I help with anything?", "How much is it?", "Where's the kitchen?", "I lost my phone"],
+      "correta": 0,
+      "explica": "Hilfe anzubieten gehört zum erwarteten Ritual eines guten Gastes."
+    },
+    {
+      "pergunta": "Was tut der Reisende, bevor er geht?",
+      "opcoes": [
+        "Er geht wortlos",
+        "Er bedankt sich und bietet an, beim Aufräumen zu helfen",
+        "Er bittet um die Rechnung",
+        "Er fragt nach der Schließzeit"
+      ],
+      "correta": 1,
+      "explica": "Sich zu bedanken und am Ende Hilfe anzubieten schließt den Abend gut ab."
+    }
+  ]
+}

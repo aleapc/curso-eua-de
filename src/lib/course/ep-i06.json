@@ -1,0 +1,242 @@
+{
+  "id": "i06",
+  "slot": "I06",
+  "nivel": "intermediario",
+  "numero": 6,
+  "parte": "I06",
+  "titulo": "Was du gestern gemacht hast",
+  "subtitulo": "I went, I had, I loved it — drei feste Bausteine, die deinen gestrigen Tag in eine erzählbare Geschichte verwandeln",
+  "cena": "Jemand fragt dich, was du gestern gemacht hast, und alles, was du auf Englisch sagen kannst, lebt in der Gegenwart — du willst eine Geschichte erzählen, keinen Bericht abgeben.",
+  "decisao": "den gestrigen Tag mit drei festen Bausteinen im Präteritum erzählen, statt alles in der Gegenwart zu beschreiben, als würde es gerade passieren",
+  "emJogo": "tempo",
+  "moldura": "ganha",
+  "frasePiso": "Du brauchst nicht die ganze Vergangenheitsform der Sprache. Du brauchst drei feste Bausteine, und die kennst du schon alle drei.",
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i06-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Bis jetzt lebte alles in der Gegenwart — bestell dies, frag das. Heute: drei feste Bausteine, um gestern zu erzählen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i06-p01",
+      "promptPt": "Gestern Abend wurdest du gefragt, woher du kommst. Heute fragt dich jemand anderes dasselbe. Antworte wie gestern. Sprich jetzt.",
+      "bloco": "callback",
+      "audioKey": "eua-i06-t01",
+      "es": "I'm from Germany.",
+      "tts": "I'm from Germany.",
+      "pinyin": "aim from DSCHOER-me-ni",
+      "pt": "Ich komme aus Deutschland."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i06-n02",
+      "bloco": "cena",
+      "pt": "Jemand fragt dich, was du gestern gemacht hast, und alles, was du sagen kannst, lebt in der Gegenwart."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i06-r01",
+      "es": "So what did you do yesterday?",
+      "tts": "So what did you do yesterday?",
+      "pinyin": "sou uat did ju du JES-ter-dei",
+      "pt": "Und was hast du gestern gemacht?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i06-n03",
+      "bloco": "corpo",
+      "pt": "I went — ich ging. Das ist ein fester Baustein, keine Regel zum Berechnen. Wohin du gingst trägt den ganzen Satz."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i06-p02",
+      "promptPt": "Sag, wohin du gestern gegangen bist. Sprich jetzt.",
+      "audioKey": "eua-i06-t02",
+      "es": "I went to a diner downtown.",
+      "tts": "I went to a diner downtown.",
+      "pinyin": "ai uent tu e DAI-ner DAUN-taun",
+      "pt": "Ich bin in ein Diner in der Innenstadt gegangen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i06-r02",
+      "es": "Nice, what did you have?",
+      "tts": "Nice, what did you have?",
+      "pinyin": "nais, uat did ju hev",
+      "pt": "Schön, was hast du gegessen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i06-n04",
+      "pt": "I had — ich hatte/aß. Dieselbe Idee, ein anderer fester Baustein. Die Geschichte baut sich von allein weiter."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i06-p03",
+      "promptPt": "Sag, was du gegessen hast. Sprich jetzt.",
+      "audioKey": "eua-i06-t03",
+      "es": "I had a burger and fries.",
+      "tts": "I had a burger and fries.",
+      "pinyin": "ai hed e BER-ger end frais",
+      "pt": "Ich hatte einen Burger mit Pommes."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i06-n05",
+      "bloco": "capsula",
+      "pt": "Und der Baustein, der mit Gefühl abschließt: I loved it. Du musst nicht erklären, warum, das reicht schon."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i06-p04",
+      "promptPt": "Sag, dass es dir gefallen hat. Sprich jetzt.",
+      "audioKey": "eua-i06-t04",
+      "es": "I loved it.",
+      "tts": "I loved it.",
+      "pinyin": "ai lawd it",
+      "pt": "Ich fand's toll."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i06-r03",
+      "es": "Anything go wrong on the trip so far?",
+      "tts": "Anything go wrong on the trip so far?",
+      "pinyin": "E-ni-tsing gou rong on de trip sou far",
+      "pt": "Ist bisher auf der Reise etwas schiefgelaufen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i06-n06",
+      "pt": "Hier kehrt der Baustein aus B16 zurück, jetzt als Anekdote — etwas, das schon passiert ist, nicht etwas, das du gerade löst."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i06-p05",
+      "promptPt": "Erzähl, als bereits gelöste Anekdote, dass du dein Handy am Flughafen verloren hast. Sprich jetzt.",
+      "molde": "WENT-WRONG",
+      "encaixe": "my phone",
+      "audioKey": "eua-i06-t05",
+      "es": "I lost my phone at the airport, actually.",
+      "tts": "I lost my phone at the airport, actually.",
+      "pinyin": "ai lost mai foun et de ER-port, EK-tschu-e-li",
+      "pt": "Ich habe tatsächlich mein Handy am Flughafen verloren."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i06-r04",
+      "es": "Oh no, did you get it back?",
+      "tts": "Oh no, did you get it back?",
+      "pinyin": "ou nou, did ju guet it bek",
+      "pt": "Oh nein, hast du es zurückbekommen?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i06-p06",
+      "promptPt": "Schließ die Anekdote ab: ja, du hast es zurückbekommen. Sprich jetzt.",
+      "audioKey": "eua-i06-t06",
+      "es": "Yeah, someone turned it in.",
+      "tts": "Yeah, someone turned it in.",
+      "pinyin": "je, SAM-uan TERND it in",
+      "pt": "Ja, jemand hat es abgegeben."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i06-n07",
+      "pt": "Und das Gespräch kann sich nach vorn wenden, ohne neuen Baustein: I'm going to, plus was du vorhast."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i06-p07",
+      "promptPt": "Sag, was du heute vorhast. Sprich jetzt.",
+      "audioKey": "eua-i06-t07",
+      "es": "I'm going to check out a market today.",
+      "tts": "I'm going to check out a market today.",
+      "pinyin": "aim GOU-ing tu tschek aut e MAR-ket tu-DEI",
+      "pt": "Ich werde heute einen Markt anschauen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i06-p08",
+      "promptPt": "Schließ das Gespräch warmherzig ab, bevor du gehst. Sprich jetzt.",
+      "audioKey": "eua-i06-t08",
+      "es": "It was great talking to you.",
+      "tts": "It was great talking to you.",
+      "pinyin": "it uas greit TO-king tu ju",
+      "pt": "Es war schön, mit dir zu reden."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i06-n08",
+      "bloco": "permissao",
+      "pt": "Du brauchst nicht die ganze Vergangenheitsform der Sprache. Mit I went, I had und I loved it hast du deinen Tag schon vollständig erzählt."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-i06-s01",
+      "es": "I went to a diner downtown. I had a burger and fries. I loved it.",
+      "tts": "I went to a diner downtown. I had a burger and fries. I loved it.",
+      "pinyin": "ai uent tu e DAI-ner DAUN-taun. ai hed e BER-ger end frais. ai lawd it",
+      "pt": "Wiederhole die ganze Geschichte: du bist gegangen, hast gegessen, es hat dir gefallen."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i06-n09",
+      "bloco": "recap",
+      "pt": "I06 geschafft. I went, I had, I loved it erzählen gestern; I lost my ___ kehrt als Anekdote zurück, nicht als Notfall."
+    }
+  ],
+  "permissao": "Du musst nichts Neues konjugieren, um deinen Tag zu erzählen. I went, I had und I loved it sind feste, vollständig auswendig gelernte Bausteine — keine Regel, die du jedes Mal berechnen musst.",
+  "permissaoAudioKey": "eua-i06-n08",
+  "espelho": "Einem Freund «ich bin gegangen, ich habe gegessen, es hat mir gefallen» zu erzählen ist auch im Deutschen die komprimierte, natürliche Art, wie die meisten ihren Tag erzählen — Englisch verlangt nur, diese Kompression in drei festen Vergangenheitsbausteinen zu tragen.",
+  "fichasCulturais": [],
+  "aprofundar": {
+    "titulo": "Drei Bausteine sind eine ganze Reise",
+    "secoes": [
+      {
+        "titulo": "Das Muster verallgemeinert sich",
+        "corpo": "I went, I had und I loved it sind konkrete Beispiele einer viel größeren Vergangenheitsform (das simple past), aber du brauchst die Grammatikregel nicht, um diese drei Bausteine korrekt und immer wieder zu benutzen."
+      },
+      {
+        "titulo": "Der Notfall wird zur Anekdote",
+        "corpo": "I lost my ___, der Baustein aus B16, ändert seine Form nicht, wenn er als Geschichte erzählt wird — nur der Ton ändert sich: es ist kein Notfall mehr, es ist etwas, das schon gelöst wurde."
+      },
+      {
+        "titulo": "I'm going to deckt die Zukunft am einfachsten ab",
+        "corpo": "Statt eine eigene Zukunftsform zu lernen, löst I'm going to plus ein einfaches Verb fast jeden Plan, den du erzählen willst."
+      }
+    ]
+  }
+}

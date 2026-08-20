@@ -1,0 +1,259 @@
+{
+  "id": "b03",
+  "slot": "B03",
+  "nivel": "basico",
+  "numero": 3,
+  "parte": "1C",
+  "titulo": "Der Notknopf vor der Schlange",
+  "subtitulo": "Excuse me öffnet jede Tür; die Reparatur-Treppe holt dich raus, wenn du die Antwort nicht verstanden hast",
+  "cena": "Der Agent der Fluggesellschaft hat gerade zum zweiten Mal die Abflugzeit blitzschnell gesagt, und die Schlange hinter dir wird immer länger.",
+  "moldura": "ganha",
+  "moldes": ["EXCUSE"],
+  "clique": {
+    "contagem": [
+      "der Flugschalter",
+      "der Flugzeuggang",
+      "der Bankschalter"
+    ],
+    "desconto": "Niemand hat dir einen anderen Satz gegeben, um jemanden zu rufen, um Platz zu bitten und um eine Frage zu beginnen. Es ist dasselbe Wort, nur auf den richtigen Ort gerichtet.",
+    "piso": "Das nächste Mal, wenn du in irgendeinem Land jemandes Aufmerksamkeit brauchst, wirst du nicht zögern, wie du anfängst: du sagst excuse me und machst von da an weiter."
+  },
+  "permissao": "Es ist völlig in Ordnung, \"I didn't catch that\" zu sagen, ohne dich für irgendetwas zu entschuldigen. Den Faden an einem lauten Schalter zu verlieren ist kein Versagen deines Englisch: es ist normaler Teil jedes echten Gesprächs, in jeder Sprache.",
+  "permissaoAudioKey": "eua-b03-n06",
+  "fichasCulturais": [
+    {
+      "sinal": "Du nickst und sagst \"okay, thanks\" zu einer Antwort, die du eigentlich nicht richtig verstanden hast, und zehn Minuten später merkst du, dass du zum falschen Gate gegangen bist.",
+      "suaLeitura": "Ich wollte die Schlange nicht aufhalten, oder ich wollte nicht so wirken, als könnte mein Englisch nicht mal einer einfachen Sache folgen.",
+      "oQueEAli": "Das Nicken schützt das Gespräch eine Sekunde länger und lässt dir das ganze Problem zehn Minuten später zurück, genau dann, wenn die Person mit der Antwort nicht mehr da ist, um dir zu helfen.",
+      "oQueVoceFaz": "Sag \"I didn't catch that\" genau in dem Moment, in dem du nicken wolltest, bevor du auf eine Vermutung losgehst.",
+      "oQueMelhora": "Die Korrektur passiert, während die Person mit der Antwort noch vor dir steht — der einzige Moment, in dem sie dich nichts kostet.",
+      "ondeNaoVale": "Nicht, um es bei jedem Satz zu benutzen, ohne überhaupt zu versuchen zu folgen: \"I didn't catch that\" ständig zu sagen, ohne es je zu versuchen, wirkt wie Aufgeben, nicht wie Reparatur.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-b03-n01"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b03-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Faust auf cuse: ex-CUSE me. Es ist das Wort, das fast jede Tür öffnet, und heute benutzt du es auf drei verschiedene Arten."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b03-n02",
+      "bloco": "cena",
+      "pt": "Der Agent hat die Abflugzeit blitzschnell gesagt, zweimal, und die Schlange hinter dir wird immer länger. Zuerst brauchst du seine Aufmerksamkeit wieder."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b03-n03",
+      "bloco": "molde",
+      "pt": "Das ist der Baustein des Tages, und er ändert sich nie: excuse me. Nur der Ort, an dem du ihn benutzt, ändert sich."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b03-t01",
+      "es": "Excuse me?",
+      "tts": "Excuse me?",
+      "pinyin": "eks-KJUS mi",
+      "pt": "Entschuldigung? Mit Fragemelodie, um noch einmal Aufmerksamkeit zu bekommen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "EXCUSE",
+      "encaixe": "der Flugschalter",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b03-p01",
+      "promptPt": "Der Agent wendet sich schon der nächsten Person zu. Hol seine Aufmerksamkeit zurück, bevor er weg ist. Sprich jetzt.",
+      "audioKey": "eua-b03-t01",
+      "es": "Excuse me?",
+      "tts": "Excuse me?",
+      "pinyin": "eks-KJUS mi",
+      "pt": "Entschuldigung?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b03-r01",
+      "es": "Yes? What can I do for you?",
+      "tts": "Yes? What can I do for you?",
+      "pinyin": "jes? uat ken ai du for ju",
+      "pt": "Ja? Wie kann ich helfen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b03-n04",
+      "bloco": "corpo",
+      "pt": "Hier kommt die erste Stufe der Treppe: ich habe es nicht verstanden. Ohne falsches Lächeln, ohne innerlich zu nicken."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b03-t02",
+      "es": "Sorry, I didn't catch that.",
+      "tts": "Sorry, I didn't catch that.",
+      "pinyin": "SO-ri, ai DI-dent ketsch det",
+      "pt": "Entschuldigung, das habe ich nicht verstanden."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b03-p02",
+      "promptPt": "Der Agent hat blitzschnell geantwortet und du hast nichts verstanden. Sag ihm, dass du es nicht mitbekommen hast, ohne dich übermäßig zu entschuldigen. Sprich jetzt.",
+      "audioKey": "eua-b03-t02",
+      "es": "Sorry, I didn't catch that.",
+      "tts": "Sorry, I didn't catch that.",
+      "pinyin": "SO-ri, ai DI-dent ketsch det",
+      "pt": "Entschuldigung, das habe ich nicht verstanden."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b03-r02",
+      "es": "No problem, let me repeat that.",
+      "tts": "No problem, let me repeat that.",
+      "pinyin": "nou PRA-bl'm, let mi ri-PIIT det",
+      "pt": "Kein Problem, ich sag's noch mal."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b03-p03",
+      "promptPt": "Er wird es wiederholen, aber im gleichen Tempo wirst du es wieder nicht schaffen. Bitte ihn, langsamer zu sprechen. Sprich jetzt.",
+      "audioKey": "eua-b03-t03",
+      "es": "Could you speak more slowly, please?",
+      "tts": "Could you speak more slowly, please?",
+      "pinyin": "kud ju spiik mor SLOU-li, pliis",
+      "pt": "Könnten Sie bitte langsamer sprechen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b03-r03",
+      "es": "Of course. Boarding starts at four fifteen.",
+      "tts": "Of course. Boarding starts at four fifteen.",
+      "pinyin": "of kors. BOR-ding starts et for fif-TIIN",
+      "pt": "Natürlich. Das Boarding beginnt um Viertel nach vier."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b03-n05",
+      "bloco": "capsula",
+      "pt": "Auch langsamer kann bei einer Zahl oder einem Namen noch scheitern. Vergeude dann keinen weiteren Versuch mit Zuhören: bitte darum, es aufzuschreiben."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b03-p04",
+      "promptPt": "Du unterscheidest immer noch nicht genau, ob er Viertel nach vier oder fünf vor fünf gesagt hat. Bitte darum, es dir aufzuschreiben, statt es noch einmal zu versuchen. Sprich jetzt.",
+      "audioKey": "eua-b03-t04",
+      "es": "Can you write that down for me?",
+      "tts": "Can you write that down for me?",
+      "pinyin": "ken ju rait det daun for mi",
+      "pt": "Können Sie mir das aufschreiben?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "EXCUSE",
+      "encaixe": "der Flugzeuggang",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b03-px1",
+      "promptPt": "Schon im Flugzeug musst du durch den Gang zu deinem Sitz, und jemand verstaut gerade sein Gepäck direkt davor. Bitte um Durchgang. Sprich jetzt.",
+      "audioKey": "eua-b03-x1",
+      "es": "Excuse me, sorry.",
+      "tts": "Excuse me, sorry.",
+      "pinyin": "eks-KJUS mi, SO-ri",
+      "pt": "Entschuldigung, sorry."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "EXCUSE",
+      "encaixe": "der Bankschalter",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b03-px2",
+      "promptPt": "Jetzt stehst du am Schalter eines Ladens, um eine Frage zu stellen, die nichts mit dem Flughafen zu tun hat. Eröffne genauso, mit demselben Wort. Sprich jetzt.",
+      "audioKey": "eua-b03-x2",
+      "es": "Excuse me, one question.",
+      "tts": "Excuse me, one question.",
+      "pinyin": "eks-KJUS mi, uan KUES-tschen",
+      "pt": "Entschuldigung, eine Frage."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b03-px3",
+      "promptPt": "Auch der Straßenname, den man dir gerade gesagt hat, war nicht klar, Buchstabe für Buchstabe. Bitte darum, ihn zu buchstabieren. Sprich jetzt.",
+      "audioKey": "eua-b03-x3",
+      "es": "Can you spell that, please?",
+      "tts": "Can you spell that, please?",
+      "pinyin": "ken ju spel det, pliis",
+      "pt": "Können Sie das bitte buchstabieren?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "EXCUSE",
+      "encaixe": "der Mietwagenschalter",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b03-px4",
+      "promptPt": "Jetzt willst du deinen Mietwagen abholen, und der Angestellte schaut weiter auf den Bildschirm, ohne dich zu sehen. Hol seine Aufmerksamkeit mit demselben Wort wie immer. Sprich jetzt.",
+      "audioKey": "eua-b03-x4",
+      "es": "Excuse me, quick question.",
+      "tts": "Excuse me, quick question.",
+      "pinyin": "eks-KJUS mi, kuik KUES-tschen",
+      "pt": "Entschuldigung, eine schnelle Frage."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b03-s01",
+      "es": "Excuse me? Sorry, I didn't catch that. Could you speak more slowly, please?",
+      "tts": "Excuse me? Sorry, I didn't catch that. Could you speak more slowly, please?",
+      "pinyin": "eks-KJUS mi? SO-ri, ai DI-dent ketsch det. kud ju spiik mor SLOU-li, pliis",
+      "pt": "Wiederhole die ersten drei Stufen der Treppe, ohne übermäßige Entschuldigung."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b03-n06",
+      "bloco": "recap",
+      "pt": "B03 geschafft. Excuse me öffnet die Tür, und die Treppe — nicht verstanden, langsamer, aufschreiben — holt dich raus, wenn dir die Antwort entgleitet."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Reparieren heißt den Kanal wechseln, nicht den Versuch wiederholen",
+    "secoes": [
+      {
+        "titulo": "Steig nicht die ganze Treppe auf einmal hoch",
+        "corpo": "Beginne mit der kleinsten Stufe, die funktionieren könnte. Löst langsameres Sprechen das Problem, bleib dabei. Steig erst zum Aufschreiben-Bitten hoch, wenn die Information weiter fragil bleibt: Zahlen, Namen, Adressen."
+      },
+      {
+        "titulo": "\"Excuse me\" öffnet; \"sorry\" repariert",
+        "corpo": "Benutze excuse me, um Aufmerksamkeit zu bekommen oder um Durchgang zu bitten, bevor du dich bewegst. Benutze sorry, wenn du schon mit etwas oder jemandem zusammengestoßen bist, oder wenn du wirklich unterbrochen hast.",
+        "exemplos": [
+          { "es": "Excuse me?", "pt": "Entschuldigung? (um Aufmerksamkeit zu bekommen)" },
+          { "es": "Excuse me, sorry.", "pt": "Entschuldigung, sorry. (beim Vorbeistreifen an jemandem)" }
+        ]
+      },
+      {
+        "titulo": "Aufschreiben schlägt einen dritten Hörversuch",
+        "corpo": "Ein dritter Versuch, dasselbe zu hören, ändert selten das Ergebnis. Um Aufschreiben zu bitten gibt dir etwas Greifbares, das ihr beide überprüfen könnt."
+      }
+    ]
+  }
+}

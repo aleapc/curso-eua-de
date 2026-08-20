@@ -1,0 +1,89 @@
+{
+  "id": "q-a02",
+  "nivel": "avancado",
+  "titulo": "Quiz — Worüber sie lachen",
+  "subtitulo": "Sarkasmus erkennen und wissen, was man mit Fremden vermeidet",
+  "introAudioKey": "eua-a02-q-i",
+  "introPt": "Jemand verbrennt das Essen auf dem Grill und sagt völlig ernst, es sei perfekt geworden. Hör dir den Austausch an und antworte.",
+  "cenario": "Ein Grillfest im Hinterhof.",
+  "dialogo": [
+    {
+      "audioKey": "eua-a02-q01",
+      "voz": "target_en_m",
+      "es": "Yeah, this is exactly how I planned it. Perfectly charred.",
+      "tts": "Yeah, this is exactly how I planned it. Perfectly charred.",
+      "pt": "Ja, genau so hatte ich es geplant. Perfekt verkohlt."
+    },
+    {
+      "audioKey": "eua-a02-q02",
+      "voz": "target_en_f",
+      "es": "Wait, was that a joke?",
+      "tts": "Wait, was that a joke?",
+      "pt": "Moment, war das ein Witz?"
+    },
+    {
+      "audioKey": "eua-a02-q03",
+      "voz": "target_en_m",
+      "es": "Yeah, sorry, it's definitely a little burnt.",
+      "tts": "Yeah, sorry, it's definitely a little burnt.",
+      "pt": "Ja, sorry, das ist wirklich ein bisschen verbrannt."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was ist Sarkasmus im lockeren amerikanischen Humor?",
+      "opcoes": [
+        "Das Gegenteil sagen, mit ernstem Gesicht",
+        "Ein Witz, der immer vorher angekündigt wird",
+        "Eine direkte Beleidigung",
+        "Kommt nur im Fernsehen vor"
+      ],
+      "correta": 0,
+      "explica": "Sarkasmus sagt das Gegenteil von dem, was gemeint ist, mit flachem oder ernstem Ton."
+    },
+    {
+      "pergunta": "Du hast einen Witz nicht verstanden. Was kannst du tun?",
+      "opcoes": [
+        "Still bleiben, um ihn nicht kaputtzumachen",
+        "Locker nachfragen, ob das ein Witz war",
+        "Sofort das Thema wechseln",
+        "Laut lachen, ohne zu verstehen"
+      ],
+      "correta": 1,
+      "explica": "«War das ein Witz?» zu fragen verlängert den Witz fast immer, statt ihn kaputtzumachen."
+    },
+    {
+      "pergunta": "Welche Art von Witz funktioniert fast immer bei jedem?",
+      "opcoes": [
+        "Über Politik witzeln",
+        "Über die Familie eines anderen witzeln",
+        "Über sich selbst witzeln",
+        "Über Religion witzeln"
+      ],
+      "correta": 2,
+      "explica": "Selbstironie ist das sicherste Register: sie braucht keinen gemeinsamen Kontext und beleidigt niemand anderen."
+    },
+    {
+      "pergunta": "Welche Themen vermeidet man besser im lockeren Gespräch mit Leuten, die man gerade kennengelernt hat?",
+      "opcoes": [
+        "Wetter und Essen",
+        "Politik, Religion und Gehalt",
+        "Sport",
+        "Reisen"
+      ],
+      "correta": 1,
+      "explica": "Die amerikanische Small-Talk-Etikette lässt Politik, Religion und Gehalt bei Fremden meist außen vor."
+    },
+    {
+      "pergunta": "Zwei Leute fangen an, am Tisch über Politik zu streiten. Was ist ein guter Ausstieg?",
+      "opcoes": [
+        "Deine feste Meinung sagen",
+        "«I'll let you two figure that one out»",
+        "Vom Tisch aufstehen",
+        "Abrupt das Thema wechseln"
+      ],
+      "correta": 1,
+      "explica": "Locker aussteigen, ohne Meinung zu äußern, hält dich für beide Seiten angenehm."
+    }
+  ]
+}

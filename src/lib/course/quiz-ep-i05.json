@@ -1,0 +1,82 @@
+{
+  "id": "q-i05",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Immer dieselben fünf Fragen",
+  "subtitulo": "Fertige Antworten und ein freundlicher Ausstieg",
+  "introAudioKey": "eua-i05-q-i",
+  "introPt": "Ein Taxifahrer fragt das Übliche. Hör dir die fertigen Antworten und den Baustein an, um zwischen zwei Dingen zu wählen.",
+  "cenario": "Small Talk mit einem Fremden in den USA.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i05-q01",
+      "voz": "target_en_m",
+      "es": "So, where are you from?",
+      "tts": "So, where are you from?",
+      "pinyin": "sou, uer ar ju from",
+      "pt": "Und, woher kommst du?"
+    },
+    {
+      "audioKey": "eua-i05-q02",
+      "voz": "target_en_f",
+      "es": "I'm from Germany.",
+      "tts": "I'm from Germany.",
+      "pinyin": "aim from DSCHOER-me-ni",
+      "pt": "Ich komme aus Deutschland."
+    },
+    {
+      "audioKey": "eua-i05-q03",
+      "voz": "target_en_m",
+      "es": "Do you prefer the beach or the mountains?",
+      "tts": "Do you prefer the beach or the mountains?",
+      "pinyin": "du ju pri-FER de biitsch or de MAUN-tens",
+      "pt": "Bevorzugst du den Strand oder die Berge?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Warum lohnt es sich, für diese Fragen Antworten bereit zu haben?",
+      "opcoes": [
+        "Weil es eine schwere Prüfung ist",
+        "Weil sie sich mit fast jedem Fremden fast gleich wiederholen",
+        "Weil sie niemand wirklich stellt",
+        "Weil nur Taxifahrer sie stellen"
+      ],
+      "correta": 1,
+      "explica": "Dieselbe Handvoll Fragen wiederholt sich bei fast jedem."
+    },
+    {
+      "pergunta": "Was bleibt beim Baustein PREFERENCIA fest?",
+      "opcoes": ["Die zwei genauen Optionen", "«Do you prefer»", "Der Name der Person", "Die Uhrzeit"],
+      "correta": 1,
+      "explica": "«Do you prefer» eröffnet den Baustein; die zwei Dinge, zwischen denen gewählt wird, ändern sich."
+    },
+    {
+      "pergunta": "In einem Laden siehst du zwei Farben desselben Produkts. Was fragst du?",
+      "opcoes": [
+        "Do you prefer the red one or the green one?",
+        "What time do you close?",
+        "Can I close out my tab?",
+        "Where's the restroom?"
+      ],
+      "correta": 0,
+      "explica": "Derselbe Baustein aus dieser Folge funktioniert auch außerhalb des Small Talks."
+    },
+    {
+      "pergunta": "Welche Antwort funktioniert besser auf «what have you liked most»?",
+      "opcoes": ["«Everything», generisch", "Etwas Konkretes, wie ein Gericht", "Nicht antworten", "Das Thema wechseln"],
+      "correta": 1,
+      "explica": "Etwas Konkretes gibt dem anderen etwas Echtes, worüber er weiterreden kann."
+    },
+    {
+      "pergunta": "Wie beendest du das Gespräch ruhig?",
+      "opcoes": [
+        "Well, it was nice talking to you. Take care.",
+        "Wortlos weggehen",
+        "Die nächste Frage ignorieren",
+        "Um die Rechnung bitten"
+      ],
+      "correta": 0,
+      "explica": "Eine kurze, warme Zeile schließt das Gespräch ohne Schroffheit ab."
+    }
+  ]
+}

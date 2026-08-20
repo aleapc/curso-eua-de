@@ -1,0 +1,82 @@
+{
+  "id": "q-i01",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Ihre Uhr",
+  "subtitulo": "Die Küche schließt früher als du denkst",
+  "introAudioKey": "eua-i01-q-i",
+  "introPt": "Du kommst um neun Uhr abends in einem Restaurant an, und die Kellnerin stellt schon die Stühle hoch. Bring in Ordnung, was passiert ist und warum.",
+  "cenario": "Ein Restaurant in den USA, Viertel nach neun abends.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i01-q01",
+      "voz": "target_en_m",
+      "es": "Sorry, we stopped seating at nine.",
+      "tts": "Sorry, we stopped seating at nine.",
+      "pinyin": "SO-ri, ui stapt SI-ting et nain",
+      "pt": "Sorry, wir setzen ab neun niemanden mehr."
+    },
+    {
+      "audioKey": "eua-i01-q02",
+      "voz": "target_en_f",
+      "es": "What time does the kitchen close?",
+      "tts": "What time does the kitchen close?",
+      "pinyin": "uat taim das de KIT-schen klous",
+      "pt": "Wann schließt die Küche?"
+    },
+    {
+      "audioKey": "eua-i01-q03",
+      "voz": "target_en_m",
+      "es": "Nine on weekdays, ten on weekends.",
+      "tts": "Nine on weekdays, ten on weekends.",
+      "pinyin": "nain on UIIK-deis, ten on UIIK-ends",
+      "pt": "Neun unter der Woche, zehn am Wochenende."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Wann liegt die Stoßzeit beim Abendessen in den USA meist?",
+      "opcoes": ["Zwischen vier und fünf", "Zwischen sechs und acht", "Nach zehn", "Es gibt keine feste Zeit"],
+      "correta": 1,
+      "explica": "Die Stoßzeit beim Abendessen ist früher, als viele Reisende erwarten, und die Küche schließt oft schon zwischen neun und zehn."
+    },
+    {
+      "pergunta": "Was bleibt beim Baustein «What time ___?» fest?",
+      "opcoes": ["Der Ort", "«What time»", "Die genaue Uhrzeit", "Der Kellner"],
+      "correta": 1,
+      "explica": "«What time» eröffnet den Baustein; nur das Verb und wonach du fragst ändern sich."
+    },
+    {
+      "pergunta": "Du kommst an einem Samstag in ein neues Restaurant. Was fragst du, bevor du dich auf einen Tisch wartend hinsetzt?",
+      "opcoes": [
+        "What time does the kitchen close?",
+        "How much is the check?",
+        "Do you have wifi?",
+        "Where's the restroom?"
+      ],
+      "correta": 0,
+      "explica": "Derselbe Baustein aus B18, mit «kitchen» darin, verhindert, dass du ohne offene Küche dastehst."
+    },
+    {
+      "pergunta": "Was ist die «happy hour»?",
+      "opcoes": [
+        "Eine Stunde ohne Rechnung",
+        "Ein Zeitfenster mit niedrigen Getränkepreisen, mit fester Uhrzeit",
+        "Die Frühstückszeit",
+        "Ein Rabatt, der den ganzen Tag gilt"
+      ],
+      "correta": 1,
+      "explica": "Das ist ein konkretes Fenster, fast immer am späten Nachmittag, und es lohnt sich, die genaue Uhrzeit zu bestätigen."
+    },
+    {
+      "pergunta": "Wo kann die Regel „die Küche schließt früh“ nicht gelten?",
+      "opcoes": [
+        "In 24-Stunden-Diners und Vierteln mit viel Nachtleben in Großstädten",
+        "In jedem Familienrestaurant",
+        "Sie gilt immer ausnahmslos",
+        "Nur beim Frühstück"
+      ],
+      "correta": 0,
+      "explica": "Es gibt echte Ausnahmen; deshalb ist Fragen immer besser als Annehmen."
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "id": "i09",
+  "slot": "I09",
+  "nivel": "intermediario",
+  "numero": 9,
+  "parte": "I09",
+  "titulo": "Ein Nachmittag, das zu tun, was sie tun",
+  "subtitulo": "Der Samstags-Farmers-Market, nicht die Attraktion, die du schon im Reiseführer gesehen hast — und eine Frage, die dir eine Einladung einbringt",
+  "cena": "Dein Reiseführer hat genau einen Plan für den Nachmittag. Die Person neben dir, die wirklich hier lebt, hat einen völlig anderen, und er ist besser.",
+  "decisao": "womit du den freien Nachmittag verbringst — dem schon bezahlten Plan des Reiseführers folgen, oder fragen, was wirklich los ist, und darum bitten, mitzukommen, was nur eine Frage kostet",
+  "emJogo": "tempo",
+  "moldura": "ganha",
+  "frasePiso": "Der beste Nachmittagsplan steht fast nie im Reiseführer. Er steckt in dem, was dieses Wochenende wirklich im Park passiert.",
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i09-n01",
+      "gesto": 4,
+      "bloco": "aquecimento",
+      "pt": "Wieder der Flick: can I trY, der Endkonsonant von try klingt klar."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i09-p01",
+      "promptPt": "Gestern Abend hast du angeboten, beim Abräumen zu helfen. Heute bietest du bei etwas anderem Hilfe an, mit demselben Baustein. Sprich jetzt.",
+      "bloco": "callback",
+      "audioKey": "eua-i09-t01",
+      "es": "Can I help with anything?",
+      "tts": "Can I help with anything?",
+      "pinyin": "ken ai help uit E-ni-tsing",
+      "pt": "Kann ich bei irgendwas helfen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i09-n02",
+      "bloco": "cena",
+      "pt": "Dein Reiseführer hat einen Plan für heute. Die Person neben dir, die hier lebt, hat einen völlig anderen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i09-r01",
+      "es": "So what are you guys up to this weekend?",
+      "tts": "So what are you guys up to this weekend?",
+      "pinyin": "sou uat ar ju gais ap tu dis UIIK-end",
+      "pt": "Und was habt ihr dieses Wochenende vor?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i09-n03",
+      "bloco": "corpo",
+      "pt": "Gib die Frage zurück — mit dem üblichen Baustein, fragend, ob es etwas gibt, diesmal über den Park."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i09-p02",
+      "promptPt": "Frag, ob im Park dieses Wochenende etwas los ist. Sprich jetzt.",
+      "molde": "HAVE",
+      "encaixe": "anything going on at the park",
+      "audioKey": "eua-i09-t02",
+      "es": "Do you have anything going on at the park this weekend?",
+      "tts": "Do you have anything going on at the park this weekend?",
+      "pinyin": "du ju hev E-ni-tsing GOU-ing on et de park dis UIIK-end",
+      "pt": "Ist dieses Wochenende etwas im Park los?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i09-r02",
+      "es": "Yeah, there's a farmers market on Saturday morning.",
+      "tts": "Yeah, there's a farmers market on Saturday morning.",
+      "pinyin": "je, ders e FAR-mers MAR-ket on SE-ter-dei MOR-ning",
+      "pt": "Ja, samstagvormittags ist ein Bauernmarkt."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i09-n04",
+      "bloco": "capsula",
+      "pt": "Ein Farmers Market findet nur an diesem Tag, an diesem Ort statt — anders als ein fester Laden. Frag, wann er beginnt, und bitte darum, mitzukommen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i09-p03",
+      "promptPt": "Frag, wann der Markt beginnt. Sprich jetzt.",
+      "molde": "WHAT-TIME",
+      "encaixe": "does the market start",
+      "audioKey": "eua-i09-t03",
+      "es": "What time does the market start?",
+      "tts": "What time does the market start?",
+      "pinyin": "uat taim das de MAR-ket start",
+      "pt": "Wann fängt der Markt an?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i09-r03",
+      "es": "Eight, but it gets crowded by nine.",
+      "tts": "Eight, but it gets crowded by nine.",
+      "pinyin": "eit, bat it guets KRAU-ded bai nain",
+      "pt": "Um acht, aber gegen neun wird's voll."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i09-p04",
+      "promptPt": "Bitte darum, mit ihnen mitzugehen. Sprich jetzt.",
+      "molde": "CAN-I",
+      "encaixe": "come with you guys",
+      "audioKey": "eua-i09-t04",
+      "es": "Can I come with you guys?",
+      "tts": "Can I come with you guys?",
+      "pinyin": "ken ai kam uit ju gais",
+      "pt": "Kann ich mit euch mitkommen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i09-r04",
+      "es": "Of course, we'll swing by around seven forty-five.",
+      "tts": "Of course, we'll swing by around seven forty-five.",
+      "pinyin": "of kors, uil suing bai e-RAUND SE-wen FOR-ti-faiw",
+      "pt": "Klar, wir kommen so gegen Viertel vor acht vorbei."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i09-p05",
+      "promptPt": "Bedank dich, dass sie dir einen Platz in ihrem eigenen Plan gemacht haben. Sprich jetzt.",
+      "audioKey": "eua-i09-t05",
+      "es": "That's so nice, thank you.",
+      "tts": "That's so nice, thank you.",
+      "pinyin": "dets sou nais, tsenk ju",
+      "pt": "Das ist so lieb, danke."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i09-n05",
+      "pt": "Auf dem Markt spielst du nicht den Touristen — du bist einfach ein Käufer mehr, mit demselben Baustein wie immer."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i09-p06",
+      "promptPt": "Frag, ob du an einem Stand etwas probieren kannst, wie jeder andere Kunde. Sprich jetzt.",
+      "molde": "CAN-I",
+      "encaixe": "try that",
+      "audioKey": "eua-i09-t06",
+      "es": "Can I try that?",
+      "tts": "Can I try that?",
+      "pinyin": "ken ai trai det",
+      "pt": "Kann ich das probieren?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i09-p07",
+      "promptPt": "Du gehst schon zu einem anderen Stand und willst wissen, ob er morgen auch offen hat. Frag, ab wann sie sonntags öffnen. Sprich jetzt.",
+      "molde": "WHAT-TIME",
+      "encaixe": "do you open on Sundays",
+      "audioKey": "eua-i09-t07",
+      "es": "What time do you open on Sundays?",
+      "tts": "What time do you open on Sundays?",
+      "pinyin": "uat taim du ju OU-pen on SAN-deis",
+      "pt": "Ab wann öffnet ihr sonntags?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i09-p08",
+      "promptPt": "Ein Stand hat Tacos, ein anderer Tamales, und du weißt nicht, was du probieren sollst. Gib die Entscheidung an den Verkäufer zurück. Sprich jetzt.",
+      "molde": "ESCOLHA",
+      "encaixe": "the tacos or the tamales",
+      "audioKey": "eua-i09-t08",
+      "es": "Which do you recommend: the tacos or the tamales?",
+      "tts": "Which do you recommend: the tacos or the tamales?",
+      "pinyin": "uitsch du ju re-ko-MEND de TA-kous or de ta-MA-les",
+      "pt": "Was empfehlen Sie: die Tacos oder die Tamales?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i09-n06",
+      "bloco": "permissao",
+      "pt": "Jemand fast Fremden zu fragen, ob du mitkommen darfst, ist hier nicht aufdringlich — meistens freuen sie sich, ihren eigenen Plan zu teilen."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-i09-s01",
+      "es": "Do you have anything going on at the park this weekend? Can I come with you guys?",
+      "tts": "Do you have anything going on at the park this weekend? Can I come with you guys?",
+      "pinyin": "du ju hev E-ni-tsing GOU-ing on et de park dis UIIK-end? ken ai kam uit ju gais",
+      "pt": "Wiederhole fragen, was los ist, und darum bitten, mitzukommen."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i09-n07",
+      "bloco": "recap",
+      "pt": "I09 geschafft. Do you have anything going on findet den Plan, can I come with you guys macht daraus eine Einladung."
+    }
+  ],
+  "permissao": "Du kannst jemanden, den du kaum kennst, fragen, ob er dich mitnimmt. Can I come with you guys ist hier eine normale, willkommene Frage — die meisten Leute zeigen dir gern ihr eigenes Wochenende, nicht das des Reiseführers.",
+  "permissaoAudioKey": "eua-i09-n06",
+  "espelho": "Einen Einheimischen zu fragen «was habt ihr dieses Wochenende vor, kann ich mitkommen?» würden die meisten auch in ihrer eigenen Stadt gerne tun; das einzig Andere hier ist, es in einer anderen Sprache zu tun, nicht das soziale Risiko des Fragens.",
+  "fichasCulturais": [],
+  "aprofundar": {
+    "titulo": "Der lokale Rhythmus schlägt die feste Attraktion",
+    "secoes": [
+      {
+        "titulo": "Der Farmers Market ist absichtlich temporär",
+        "corpo": "Diese Märkte tauchen an einem festen Wochentag an einem bestimmten Ort auf und werden danach abgebaut — ganz anders als ein fester Laden, und es lohnt sich zu fragen, weil die Zeiten je nach Gegend variieren."
+      },
+      {
+        "titulo": "Do you have funktioniert auch für Events",
+        "corpo": "Derselbe Baustein aus B06 — Do you have — funktioniert, um zu fragen, ob etwas existiert, nicht nur Gegenstände: ein Markt, eine Aktivität, ein Wochenendevent."
+      },
+      {
+        "titulo": "Mitmachen schlägt nur Zuschauen",
+        "corpo": "Can I come with you guys macht aus einer Information eine Einladung. Die meisten Leute freuen sich, wenn du dazustößt, besonders nachdem du gefragt hast, statt nur von Weitem zuzusehen."
+      }
+    ]
+  }
+}

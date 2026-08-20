@@ -1,0 +1,89 @@
+{
+  "id": "q-a03",
+  "nivel": "avancado",
+  "titulo": "Quiz — Für wen sie sich halten",
+  "subtitulo": "Nach der Familienherkunft fragen, ohne Urteile zu fällen",
+  "introAudioKey": "eua-a03-q-i",
+  "introPt": "Jemand sagt dir, er sei Italiener, obwohl er in Ohio geboren wurde und nie im Ausland war. Hör dir den Austausch an und antworte.",
+  "cenario": "Ein gemeinsamer Tisch auf einer Party.",
+  "dialogo": [
+    {
+      "audioKey": "eua-a03-q01",
+      "voz": "target_en_m",
+      "es": "Yeah, I'm Italian — my great-grandpa came from Sicily.",
+      "tts": "Yeah, I'm Italian — my great-grandpa came from Sicily.",
+      "pt": "Ja, ich bin Italiener — mein Urgroßvater kam aus Sizilien."
+    },
+    {
+      "audioKey": "eua-a03-q02",
+      "voz": "target_en_f",
+      "es": "Have you ever been to Sicily?",
+      "tts": "Have you ever been to Sicily?",
+      "pt": "Warst du schon mal in Sizilien?"
+    },
+    {
+      "audioKey": "eua-a03-q03",
+      "voz": "target_en_m",
+      "es": "No, never. Someday, though.",
+      "tts": "No, never. Someday, though.",
+      "pt": "Nein, noch nie. Aber irgendwann mal."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Warum sagt jemand, der in Ohio geboren wurde, «ich bin Italiener»?",
+      "opcoes": [
+        "Er ist verwirrt über seine Staatsangehörigkeit",
+        "Sich über die Familienherkunft zu beschreiben ist in den USA üblich",
+        "Er lügt, um Eindruck zu machen",
+        "Er hat eine doppelte Staatsbürgerschaft"
+      ],
+      "correta": 1,
+      "explica": "Der US-Zensus erfasst Abstammung getrennt von der Staatsangehörigkeit, weil Millionen sich so identifizieren."
+    },
+    {
+      "pergunta": "Jemand erzählt dir, dass die Sprache seiner Großeltern verloren gegangen ist. Was vermeidest du besser?",
+      "opcoes": [
+        "Fragen, woher die Familie kommt",
+        "Ein Urteil fällen, ob das traurig ist oder nicht",
+        "Bitten, mehr zu erzählen",
+        "Fragen, was ein Ortsname bedeutet"
+      ],
+      "correta": 1,
+      "explica": "Es ist nicht deine Aufgabe, jemandes Geschichte zu bewerten — fragen öffnet die Tür, urteilen schließt sie."
+    },
+    {
+      "pergunta": "Was ist der «American Dream», wie er hier beschrieben wird?",
+      "opcoes": [
+        "Ein Bundesgesetz",
+        "Die Idee, dass die Herkunft nicht begrenzen sollte, wie weit man kommt",
+        "Ein Einwanderungsprogramm",
+        "Ein nationaler Feiertag"
+      ],
+      "correta": 1,
+      "explica": "Es ist ein weit verbreiteter kultureller Wert, von Kindesbeinen an gelehrt, kein Gesetz."
+    },
+    {
+      "pergunta": "Was ist die sicherste Frage, um dieses Gespräch zu eröffnen?",
+      "opcoes": [
+        "Fühlst du dich wirklich von dort?",
+        "Warst du schon mal in [dem Land deiner Familie]?",
+        "Macht es dich nicht traurig, die Sprache nicht zu sprechen?",
+        "Warum hast du die Sprache deiner Großmutter nicht gelernt?"
+      ],
+      "correta": 1,
+      "explica": "Nach der konkreten Geschichte zu fragen — ob er dort war, woher der Verwandte kam — lässt die Person ihre eigene Geschichte erzählen."
+    },
+    {
+      "pergunta": "Du wusstest nicht, dass Abstammung so funktioniert. Was kannst du sagen?",
+      "opcoes": [
+        "Nichts, besser still bleiben",
+        "«I didn't know it worked that way»",
+        "«That's a weird way to think about it»",
+        "«That doesn't make sense»"
+      ],
+      "correta": 1,
+      "explica": "Zu sagen, dass du es nicht wusstest, ohne Urteil, ist ein vollständiger, respektvoller Satz."
+    }
+  ]
+}

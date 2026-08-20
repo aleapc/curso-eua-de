@@ -1,0 +1,84 @@
+{
+  "id": "q-b17",
+  "nivel": "basico",
+  "titulo": "Quiz — Apotheke, Klinik oder Notaufnahme",
+  "subtitulo": "«Do you have something for ___?», und warum das falsche Krankenhaus dich ruinieren kann",
+  "introAudioKey": "eua-b17-q-i",
+  "introPt": "Die Magenschmerzen sind mit dem Apothekenmittel nicht besser geworden. Hör dir an, wie man um einen Arzt bittet, und entscheide, was zutrifft.",
+  "cenario": "In der Apotheke, Stunden nach einem ersten Versuch mit einem rezeptfreien Medikament.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b17-q01",
+      "voz": "target_en_f",
+      "es": "Do you have something for a stomachache?",
+      "tts": "Do you have something for a stomachache?",
+      "pinyin": "du ju hev SAM-tsing for e STA-mek-eik",
+      "pt": "Habt ihr etwas gegen Magenschmerzen?"
+    },
+    {
+      "audioKey": "eua-b17-q02",
+      "voz": "target_en_m",
+      "es": "This should help. Take it with food.",
+      "tts": "This should help. Take it with food.",
+      "pinyin": "dis schud help. teik it uit fud",
+      "pt": "Das sollte helfen. Nimm es mit Essen."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was ist der erste Schritt bei einem leichten Unwohlsein?",
+      "opcoes": [
+        "Die Notaufnahme",
+        "Die Apotheke",
+        "911 anrufen",
+        "Ein Rückflug"
+      ],
+      "correta": 1,
+      "explica": "Für etwas Leichtes ist es ein gültiger erster Schritt, in der Apotheke mit «Do you have something for ___?» anzufangen."
+    },
+    {
+      "pergunta": "Du hast einen verstauchten Knöchel, das gefährdet nicht dein Leben, kann aber nicht warten. Wohin gehst du?",
+      "opcoes": [
+        "In die Notaufnahme (ER)",
+        "In eine Notfallklinik (urgent care)",
+        "Nur in die Apotheke",
+        "Nirgendwohin, das heilt von selbst"
+      ],
+      "correta": 1,
+      "explica": "Urgent care ist schneller und viel günstiger als die Notaufnahme für etwas, das das Leben nicht gefährdet."
+    },
+    {
+      "pergunta": "Wie viel kann ein einziger Besuch in der Notaufnahme ohne Versicherung kosten?",
+      "opcoes": [
+        "50-100 $",
+        "1.500-3.000 $ oder mehr",
+        "Immer kostenlos",
+        "Fest 10.000 $"
+      ],
+      "correta": 1,
+      "explica": "Ohne Reiseversicherung kann ein Besuch in der Notaufnahme zwischen 1.500 und 3.000 Dollar oder mehr kosten, noch vor jeder Behandlung."
+    },
+    {
+      "pergunta": "Welche Nummer ist im ganzen Land für Notfälle?",
+      "opcoes": [
+        "112",
+        "911",
+        "100",
+        "000"
+      ],
+      "correta": 1,
+      "explica": "Die 911 funktioniert im ganzen Land, rund um die Uhr, für jeden echten Notfall."
+    },
+    {
+      "pergunta": "Warum ist die Reiseversicherung in den USA nicht optional?",
+      "opcoes": [
+        "Weil der Zoll sie verlangt",
+        "Weil ein medizinischer Notfall ohne Versicherung zehntausende Dollar kosten kann",
+        "Weil man ohne sie nicht ins Hotel darf",
+        "Weil Apotheken ohne Versicherung nichts verkaufen"
+      ],
+      "correta": 1,
+      "explica": "Zwischen den Kosten der Notaufnahme und einem möglichen Rettungsflug (bis zu etwa 40.000 $) kann ein Notfall ohne Versicherung die Reise ruinieren."
+    }
+  ]
+}

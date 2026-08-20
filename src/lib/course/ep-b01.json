@@ -1,0 +1,268 @@
+{
+  "id": "b01",
+  "slot": "B01",
+  "nivel": "basico",
+  "numero": 1,
+  "parte": "1A",
+  "titulo": "Das Wort, das der Gepäckträger wirklich versteht",
+  "subtitulo": "Die vier Gesten, die dein Englisch auf Anhieb verständlich machen, vom Taxi bis zum Tresen",
+  "cena": "Der Gepäckträger hat deinen Koffer schon aufs Zimmer gebracht und bleibt an der Tür stehen, wartend auf ein einziges englisches Wort, das ihm sagt, ob er fertig ist oder ob du noch etwas brauchst.",
+  "moldura": "ganha",
+  "frasePiso": "Du schließt deinen ersten Austausch auf Englisch mit vier Gesten ab, nicht mit Regeln. Die meisten Leute lernen sie nie, und deshalb versteht man sie nie richtig.",
+  "permissao": "Es ist völlig in Ordnung, beim Englischsprechen deutsch zu klingen. Niemand bewertet deinen Akzent; das Einzige, worauf es ankommt, ist, dass die betonte Silbe klar bleibt und der Endkonsonant nicht verschluckt wird.",
+  "permissaoAudioKey": "eua-b01-n06",
+  "espelho": "Im Deutschen fällt es kaum auf, wenn man beim schnellen Sprechen eine Silbe verschluckt — \"haste\" statt \"hast du\" — weil der Zuhörer die Lücke automatisch füllt. Im Englischen ändert das Verschlucken des Endkonsonanten eines Wortes, das der andere kennt, das ganze Wort: \"thanks\" ohne das End-s hört auf, wie \"danke\" zu klingen, und beginnt, nach nichts zu klingen.",
+  "fichasCulturais": [
+    {
+      "sinal": "Du sagst ein Wort, das ihr beide kennt — \"water\", \"thanks\" — und die Person vor dir hält inne und bittet dich, es zu wiederholen.",
+      "suaLeitura": "Mein Englisch ist so schlecht, dass mir nicht mal die einfachen Wörter gelingen.",
+      "oQueEAli": "Das Wort existiert in ihrem Ohr schon genau gleich; was es unerkennbar macht, ist, dass das Deutsche Wörter oft anders schließt und das Englische Konsonanten am Ende scharf ausspricht. Es liegt nicht daran, dass du schlecht sprichst: es fehlt der saubere Abschluss.",
+      "oQueVoceFaz": "Du wiederholst es etwas langsamer, betonst die starke Silbe und schließt den letzten Konsonanten sauber ab: THANKS, nicht THAN-ke.",
+      "oQueMelhora": "Die Wörter, die du schon erkennst — und zwischen Flughafen und Hotel gibt es einige — hören auf, die ersten zu sein, die scheitern.",
+      "ondeNaoVale": "Gilt nicht beim Personal eines internationalen Schalters, das an Akzente aus aller Welt gewöhnt ist; dort versteht man dich sofort, egal was passiert.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-b01-n01", "eua-b01-n02"]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "ingles-ritmo-acentual",
+      "afirmacao": "Englisch ist eine akzentzählende Sprache: die betonten Silben fallen in gleichmäßigen Abständen, und die unbetonten werden zusammengepresst oder verschwinden fast. Deutsch liegt dazwischen, ist aber ebenfalls stark akzentzählend — trotzdem klingt ein englischer Satz, der Silbe für Silbe gleichmäßig gesprochen wird, oft robotisch und wird manchmal unverständlich, weil englische Muttersprachler erwarten, dass schwache Silben komprimiert werden.",
+      "fonte": "Descrição fonológica padrão do inglês como língua de ritmo acentual (bibliografia de fonética contrastiva inglês-alemão).",
+      "ano": 2026,
+      "revisarAte": "2031-01-01",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": ["eua-b01-n01"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b01-n01",
+      "gesto": 1,
+      "mapaGestos": true,
+      "bloco": "aquecimento",
+      "pt": "Teil eins. Vier Gesten: Schlag für den Rhythmus, lockere Handfläche für den Vokal, Faust auf der betonten Silbe, Biss für das th."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b01-t01",
+      "gesto": 4,
+      "bloco": "corpo",
+      "es": "Thanks.",
+      "tts": "Thanks.",
+      "pinyin": "tsenks (Zunge leicht zwischen die Zähne)",
+      "pt": "Danke. Schließe das End-s deutlich ab, lass es nicht fallen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b01-p01",
+      "promptPt": "Der Gepäckträger stellt deinen Koffer neben das Bett und wartet kurz, bevor er geht. Bedank dich, mit klarem End-s. Sprich jetzt.",
+      "audioKey": "eua-b01-t01",
+      "es": "Thanks.",
+      "tts": "Thanks.",
+      "pinyin": "tsenks",
+      "pt": "Danke."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b01-n02",
+      "gesto": 1,
+      "pt": "Englisch verteilt die Zeit nicht gleichmäßig auf Silben. Die starke dehnt sich, andere werden gestaucht: ex-CUSE me, nicht EX-kjus-mi."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b01-t02",
+      "gesto": 1,
+      "es": "Excuse me.",
+      "tts": "Excuse me.",
+      "pinyin": "eks-KJUS mi",
+      "pt": "Entschuldigung. Die Betonung liegt auf CUSE."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b01-p02",
+      "promptPt": "Du trägst deinen Koffer durch einen engen Hotelflur und jemand blockiert den Weg, ohne dich zu sehen. Bitte um Erlaubnis, mit klarer Betonung auf CUSE. Sprich jetzt.",
+      "audioKey": "eua-b01-t02",
+      "es": "Excuse me.",
+      "tts": "Excuse me.",
+      "pinyin": "eks-KJUS mi",
+      "pt": "Entschuldigung."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b01-n03",
+      "gesto": 2,
+      "bloco": "corpo",
+      "pt": "Water wird nicht vollständig ausgesprochen: die zweite Silbe verschwindet fast. WAH-ter, lockere Hand auf -ter."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b01-t03",
+      "gesto": 2,
+      "es": "Water, please.",
+      "tts": "Water, please.",
+      "pinyin": "UA-der, pliis",
+      "pt": "Wasser, bitte. Die zweite Silbe von water verschwindet fast."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b01-p03",
+      "promptPt": "Du bist mit trockenem Mund gelandet, und die Flugbegleitung bietet dir etwas zu trinken an. Bestell Wasser, mit lockerer zweiter Silbe von water. Sprich jetzt.",
+      "audioKey": "eua-b01-t03",
+      "es": "Water, please.",
+      "tts": "Water, please.",
+      "pinyin": "UA-der, pliis",
+      "pt": "Wasser, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b01-n04",
+      "gesto": 3,
+      "pt": "Receipt versteckt die klassische Falle: die starke Silbe ist nicht die erste. Re-CEET, Faust auf der zweiten."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b01-t04",
+      "gesto": 3,
+      "es": "Can I get a receipt?",
+      "tts": "Can I get a receipt?",
+      "pinyin": "ken ai guet e ri-SIIT",
+      "pt": "Kann ich eine Quittung bekommen? Die Betonung liegt auf SIIT, nicht auf RI."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b01-p04",
+      "promptPt": "Du hast das Flughafentaxi bezahlt und willst die Quittung für die Reisekostenabrechnung behalten. Bitte um die Quittung, mit korrekter Betonung. Sprich jetzt.",
+      "audioKey": "eua-b01-t04",
+      "es": "Can I get a receipt?",
+      "tts": "Can I get a receipt?",
+      "pinyin": "ken ai guet e ri-SIIT",
+      "pt": "Kann ich eine Quittung bekommen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b01-n05",
+      "gesto": 4,
+      "bloco": "capsula",
+      "pt": "Der Biss ist das th: die Zunge kommt leicht zwischen die Zähne. Kein f, kein s — ein neuer Laut, und die Annäherung reicht schon."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b01-t05",
+      "gesto": 4,
+      "es": "The restroom, please.",
+      "tts": "The restroom, please.",
+      "pinyin": "de REST-rum, pliis (the mit Biss, nicht fe oder se)",
+      "pt": "Die Toilette, bitte."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b01-p05",
+      "promptPt": "Du hast zwei Stunden Flug hinter dir, und das Erste, was du beim Aussteigen brauchst, ist die Toilette. Frag danach, mit sauberem Biss auf dem th von \"the\". Sprich jetzt.",
+      "audioKey": "eua-b01-t05",
+      "es": "The restroom, please.",
+      "tts": "The restroom, please.",
+      "pinyin": "de REST-rum, pliis",
+      "pt": "Die Toilette, bitte."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b01-p06",
+      "promptPt": "Der Gepäckträger fragt, ob du noch etwas brauchst, bevor er geht. Sag ihm nein, mit einem kurzen Satz im ungleichen Rhythmus des Englischen. Sprich jetzt.",
+      "audioKey": "eua-b01-x1",
+      "es": "No, thanks.",
+      "tts": "No, thanks.",
+      "pinyin": "nou, tsenks",
+      "pt": "Nein, danke."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b01-p07",
+      "promptPt": "Ein Passagier stößt versehentlich gegen dich im Flugzeuggang und entschuldigt sich. Sag, dass es kein Problem ist, mit lockerem Vokal in der zweiten Silbe von \"problem\". Sprich jetzt.",
+      "audioKey": "eua-b01-x2",
+      "es": "No problem.",
+      "tts": "No problem.",
+      "pinyin": "nou PRA-bl'm",
+      "pt": "Kein Problem."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b01-p08",
+      "promptPt": "Der Gepäckträger zeigt zum Aufzug, ohne noch etwas zu sagen. Bestätige die Richtung mit einem Wort, das Biss und Betonung vereint. Sprich jetzt.",
+      "audioKey": "eua-b01-x3",
+      "es": "This way?",
+      "tts": "This way?",
+      "pinyin": "dis uei (this mit Biss, way mit Betonung)",
+      "pt": "Hier lang?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b01-s01",
+      "es": "Thanks. Excuse me. Water, please.",
+      "tts": "Thanks. Excuse me. Water, please.",
+      "pinyin": "tsenks. eks-KJUS mi. UA-der, pliis",
+      "pt": "Wiederhole alle drei mit Betonung und lockerem Vokal, ohne den Rhythmus einzuebnen."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b01-n06",
+      "bloco": "recap",
+      "pt": "B01 geschafft. Schlag, lockerer Vokal, Faust auf der starken Silbe, Biss beim th: die vier Gesten kehren immer wieder."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Warum das Englische seine eigenen Wörter \"verschluckt\"",
+    "secoes": [
+      {
+        "titulo": "Akzentzählend, nicht silbenzählend",
+        "corpo": "Das Deutsche verteilt die Zeit stärker auf Silben; das Englische noch konsequenter auf die Betonung. Ein englischer Satz, gleichmäßig wie im Deutschen gesprochen, klingt gezwungen und wird manchmal unverständlich, weil Muttersprachler erwarten, dass schwache Silben komprimiert werden.",
+        "exemplos": [
+          { "es": "Water, please.", "pt": "UA-der, pliis — die zweite Silbe von water ist kaum hörbar" },
+          { "es": "Can I get a receipt?", "pt": "die Betonung liegt auf SIIT, nicht auf der ersten Silbe" }
+        ]
+      },
+      {
+        "titulo": "Der Endkonsonant ist nicht optional",
+        "corpo": "Im Englischen wird fast jedes Wortende scharf ausgesprochen. Das End-s von thanks oder von restroom zu verschlucken ist kein Akzentdetail: es ändert, welches Wort die andere Person gehört hat."
+      },
+      {
+        "titulo": "Das th ist kein f und kein s",
+        "corpo": "Die Zungenspitze nur leicht zwischen die Zähne zu bringen reicht, um den Laut zu erzeugen. Perfektion ist nicht nötig: schon die Annäherung unterscheidet es von \"tenks\" oder \"senks\"."
+      },
+      {
+        "titulo": "Erlaubnis, fremd zu klingen",
+        "corpo": "Das Ziel von B01 ist nicht, den deutschen Akzent zu tilgen: die starke Silbe und der Endkonsonant sollen klar sein. Das reicht, damit man dich auf Anhieb versteht."
+      }
+    ]
+  }
+}

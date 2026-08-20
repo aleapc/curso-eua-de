@@ -1,0 +1,77 @@
+{
+  "id": "q-i07",
+  "nivel": "intermediario",
+  "titulo": "Quiz — This is really good",
+  "subtitulo": "Ein konkretes Lob, eine ruhige Beschwerde",
+  "introAudioKey": "eua-i07-q-i",
+  "introPt": "Ein Abendessen mit echtem Lob und einem echten Problem. Hör dir an, wie beides ruhig und präzise gelöst wird.",
+  "cenario": "Ein Restaurant in den USA.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i07-q01",
+      "voz": "target_en_m",
+      "es": "Is everything okay with the food?",
+      "tts": "Is everything okay with the food?",
+      "pinyin": "is EW-ri-tsing ou-KEI uit de fud",
+      "pt": "Ist alles okay mit dem Essen?"
+    },
+    {
+      "audioKey": "eua-i07-q02",
+      "voz": "target_en_f",
+      "es": "I really like the mole, it's amazing.",
+      "tts": "I really like the mole, it's amazing.",
+      "pinyin": "ai RI-li laik de MOU-lei, its e-MEI-sing",
+      "pt": "Mir schmeckt das Mole wirklich gut, es ist fantastisch."
+    },
+    {
+      "audioKey": "eua-i07-q03",
+      "voz": "target_en_f",
+      "es": "Excuse me, the soup isn't hot.",
+      "tts": "Excuse me, the soup isn't hot.",
+      "pinyin": "eks-KJUS mi, de sup ISNT hat",
+      "pt": "Entschuldigung, die Suppe ist nicht heiß."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Warum das Gericht nennen, statt nur «delicious» zu sagen?",
+      "opcoes": [
+        "Das ist Etikette-Pflicht",
+        "Es zeigt echte Aufmerksamkeit und erreicht manchmal den Koch",
+        "Ein generisches Lob gilt als unhöflich",
+        "Es ist kürzer"
+      ],
+      "correta": 1,
+      "explica": "Das Konkrete lässt das Lob echt wirken, nicht automatisch."
+    },
+    {
+      "pergunta": "Was bleibt beim Baustein APRECIACAO fest?",
+      "opcoes": ["Die genaue Sache", "«I really like»", "Der Name des Kellners", "Der Preis"],
+      "correta": 1,
+      "explica": "«I really like» eröffnet den Baustein; nur was dir gefallen hat, ändert sich."
+    },
+    {
+      "pergunta": "Was macht «excuse me» beim Eröffnen einer Beschwerde?",
+      "opcoes": ["Es weist sofort Schuld zu", "Es eröffnet die Korrektur, ohne jemandem die Schuld zu geben", "Es storniert die Bestellung", "Es beleidigt das Personal"],
+      "correta": 1,
+      "explica": "Es ist ein neutraler Eröffner, der den Ton ruhig hält."
+    },
+    {
+      "pergunta": "Welcher Baustein taucht bei der Beschwerde über die kalte Suppe wieder auf?",
+      "opcoes": ["WHAT-TIME", "WENT-WRONG", "HAVE", "WHERE"],
+      "correta": 1,
+      "explica": "Das ist derselbe Baustein aus B16, angewandt auf ein Gericht statt ein Zimmer."
+    },
+    {
+      "pergunta": "Was haben das Lob und die Beschwerde dieser Folge gemeinsam?",
+      "opcoes": [
+        "Beide sind laut",
+        "Beide sind ehrlich und konkret, ohne Drama",
+        "Beide brauchen einen Manager",
+        "Beide sind optional"
+      ],
+      "correta": 1,
+      "explica": "Präzision, nicht Lautstärke, lässt beide funktionieren."
+    }
+  ]
+}

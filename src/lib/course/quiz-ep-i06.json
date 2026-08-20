@@ -1,0 +1,80 @@
+{
+  "id": "q-i06",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Was du gestern gemacht hast",
+  "subtitulo": "I went, I had, I loved it",
+  "introAudioKey": "eua-i06-q-i",
+  "introPt": "Jemand fragt dich, was du gestern gemacht hast. Hör dir die drei festen Bausteine an, die die ganze Geschichte tragen.",
+  "cenario": "Ein Reisender erzählt seinen gestrigen Tag und was er unterwegs verloren und wiedergefunden hat.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i06-q01",
+      "voz": "target_en_m",
+      "es": "So what did you do yesterday?",
+      "tts": "So what did you do yesterday?",
+      "pinyin": "sou uat did ju du JES-ter-dei",
+      "pt": "Und was hast du gestern gemacht?"
+    },
+    {
+      "audioKey": "eua-i06-q02",
+      "voz": "target_en_f",
+      "es": "I went to a diner downtown. I had a burger and fries. I loved it.",
+      "tts": "I went to a diner downtown. I had a burger and fries. I loved it.",
+      "pinyin": "ai uent tu e DAI-ner DAUN-taun. ai hed e BER-ger end frais. ai lawd it",
+      "pt": "Ich bin in ein Diner in der Innenstadt gegangen. Ich hatte einen Burger mit Pommes. Ich fand's toll."
+    },
+    {
+      "audioKey": "eua-i06-q03",
+      "voz": "target_en_m",
+      "es": "Anything go wrong on the trip so far?",
+      "tts": "Anything go wrong on the trip so far?",
+      "pinyin": "E-ni-tsing gou rong on de trip sou far",
+      "pt": "Ist bisher auf der Reise etwas schiefgelaufen?"
+    },
+    {
+      "audioKey": "eua-i06-q04",
+      "voz": "target_en_f",
+      "es": "I lost my phone at the airport, actually.",
+      "tts": "I lost my phone at the airport, actually.",
+      "pinyin": "ai lost mai foun et de ER-port, EK-tschu-e-li",
+      "pt": "Ich habe tatsächlich mein Handy am Flughafen verloren."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was bedeutet «I went»?",
+      "opcoes": ["Ich esse", "Ich bin gegangen", "Es gefällt mir", "Ich werde gehen"],
+      "correta": 1,
+      "explica": "I went ist die Vergangenheitsform von «go» — ich bin gegangen."
+    },
+    {
+      "pergunta": "Wie viele feste Vergangenheitsbausteine lehrt diese Folge?",
+      "opcoes": ["Zehn", "Drei: I went, I had, I loved it", "Alle unregelmäßigen Verben", "Keine — nur Gegenwart"],
+      "correta": 1,
+      "explica": "Drei feste Bausteine reichen, um einen ganzen Tag zu erzählen."
+    },
+    {
+      "pergunta": "Welcher Baustein taucht wieder auf, wenn du erzählst, dass du dein Handy verloren hast?",
+      "opcoes": ["WHAT-TIME", "WENT-WRONG (I lost my ___)", "HAVE", "WHERE"],
+      "correta": 1,
+      "explica": "Das ist derselbe Baustein aus B16, jetzt als bereits gelöste Anekdote erzählt."
+    },
+    {
+      "pergunta": "Wie sprichst du über deinen heutigen Plan, ohne eine neue Zeitform zu lernen?",
+      "opcoes": ["Indem du wieder die Vergangenheit benutzt", "I'm going to plus ein einfaches Verb", "Nur mit Gesten", "Indem du ins Deutsche wechselst"],
+      "correta": 1,
+      "explica": "I'm going to deckt fast jeden nahen Plan ohne zusätzliche Grammatik ab."
+    },
+    {
+      "pergunta": "Was ist die zentrale Idee dieser Folge?",
+      "opcoes": [
+        "Man muss alle englischen Zeitformen vor der Reise beherrschen",
+        "Eine Handvoll fester Bausteine reicht, um eine echte Geschichte zu erzählen",
+        "Die Vergangenheit wird auf Reisen nie benutzt",
+        "Nur Reiseleiter benutzen die Vergangenheit"
+      ],
+      "correta": 1,
+      "explica": "Ein kleines, konkretes Set deckt den echten Bedarf ab, deinen Tag zu erzählen."
+    }
+  ]
+}

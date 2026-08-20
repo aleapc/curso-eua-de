@@ -1,0 +1,90 @@
+{
+  "id": "q-b01",
+  "nivel": "basico",
+  "titulo": "Quiz — Die vier Gesten",
+  "subtitulo": "Erkenne den Schlag, den lockeren Vokal, den Biss und den Endkonsonanten in einer Ankunftsszene",
+  "introAudioKey": "eua-b01-q-i",
+  "introPt": "Du bist gerade gelandet. Ein Gepäckträger bringt deinen Koffer aufs Zimmer und wartet kurz, bevor er geht. Hör dir den kurzen Austausch an und achte darauf, wo die Betonung liegt.",
+  "cenario": "Im Hotelflur stellt der Gepäckträger den Koffer ab und wartet auf Anweisungen.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b01-q01",
+      "voz": "target_en_m",
+      "es": "Here's your bag. Anything else?",
+      "tts": "Here's your bag. Anything else?",
+      "pinyin": "hirs jor beg. E-ni-tsing els",
+      "pt": "Hier ist Ihr Koffer. Noch etwas?"
+    },
+    {
+      "audioKey": "eua-b01-q02",
+      "voz": "target_en_f",
+      "es": "No, thanks.",
+      "tts": "No, thanks.",
+      "pinyin": "nou, tsenks",
+      "pt": "Nein, danke."
+    },
+    {
+      "audioKey": "eua-b01-q03",
+      "voz": "target_en_m",
+      "es": "Have a good stay.",
+      "tts": "Have a good stay.",
+      "pinyin": "hev e gud stei",
+      "pt": "Einen schönen Aufenthalt."
+    },
+    {
+      "audioKey": "eua-b01-q04",
+      "voz": "target_en_f",
+      "es": "Thanks.",
+      "tts": "Thanks.",
+      "pinyin": "tsenks",
+      "pt": "Danke."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Welche Geste markiert die starke Silbe eines englischen Wortes?",
+      "opcoes": ["Der Biss", "Die Faust", "Die lockere Handfläche", "Der ungleiche Schlag"],
+      "correta": 1,
+      "explica": "Die Faust markiert die betonte Silbe: re-CEET, ex-CUSE, nicht standardmäßig die erste Silbe."
+    },
+    {
+      "pergunta": "Was passiert, wenn du das End-s von \"thanks\" weglässt?",
+      "opcoes": [
+        "Nichts, man versteht es trotzdem",
+        "Es klingt wie ein anderes Wort oder wie nichts",
+        "Es wird förmlicher",
+        "Es wird zu einer Frage"
+      ],
+      "correta": 1,
+      "explica": "Das Englische schließt Wörter mit Konsonanten ab; ohne das End-s wird \"thanks\" unerkennbar."
+    },
+    {
+      "pergunta": "Welche Geste wird für den \"th\"-Laut benutzt?",
+      "opcoes": ["Der ungleiche Schlag", "Die Faust", "Der Biss", "Die lockere Handfläche"],
+      "correta": 2,
+      "explica": "Der Biss steht dafür, die Zunge leicht zwischen die Zähne zu bringen, die Geste, die den klassischen Fehler deutscher Sprecher aufdeckt."
+    },
+    {
+      "pergunta": "Warum klingt \"water\" anders, wenn man es \"gleichmäßig\", Silbe für Silbe, ausspricht?",
+      "opcoes": [
+        "Weil Englisch silbenzählend ist, genau wie Deutsch",
+        "Weil Englisch akzentzählend ist und die zweite Silbe komprimiert wird",
+        "Weil water keine Betonung hat",
+        "Weil es kein th enthält"
+      ],
+      "correta": 1,
+      "explica": "Englisch verteilt die Zeit nach Betonung, nicht nach Silbe; es gleichmäßig zu sprechen klingt gezwungen und wird manchmal unverständlich."
+    },
+    {
+      "pergunta": "Wozu dienen die vier Gesten aus B01?",
+      "opcoes": [
+        "Um den deutschen Akzent komplett zu tilgen",
+        "Um Grammatikregeln auswendig zu lernen",
+        "Um den genauen Fehler aufzudecken, der ein bekanntes Wort unerkennbar macht",
+        "Um einen regionalen US-Akzent nachzuahmen"
+      ],
+      "correta": 2,
+      "explica": "Die Geste illustriert keine Regel: sie deckt den genauen Fehler deutscher Sprecher auf. Fremd zu klingen ist erlaubt."
+    }
+  ]
+}

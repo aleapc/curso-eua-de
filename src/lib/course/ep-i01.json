@@ -1,0 +1,256 @@
+{
+  "id": "i01",
+  "slot": "I01",
+  "nivel": "intermediario",
+  "numero": 1,
+  "parte": "I01",
+  "titulo": "Ihre Uhr, nicht die deines Handys",
+  "subtitulo": "Die Küche schließt früher als du denkst, und um neun zum Abendessen zu kommen wie zu Hause kann dich ohne Tisch dastehen lassen",
+  "cena": "Es ist Viertel nach neun, die Kellnerin stellt schon die Stühle auf die leeren Tische, und das Schild an der Tür sagt «Kitchen closes at 9pm» in Buchstaben, die du beim Reingehen nicht gesehen hast.",
+  "decisao": "wann du dich zum Abendessen setzt — um neun zu kommen wie zu Hause kann bedeuten, dass die Küche schon geschlossen ist und nur noch der Drive-thru offen",
+  "emJogo": "ambos",
+  "moldura": "ganha",
+  "frasePiso": "Du fragst die Schließzeit, bevor es dir noch mal passiert, und das bringt dich schon vor die Hälfte der Touristen, die draußen stehen bleiben.",
+  "fichasCulturais": [
+    {
+      "sinal": "Du kommst um neun Uhr abends in einem Restaurant an, und die Kellnerin sagt dir bedauernd, die Küche habe schon geschlossen.",
+      "suaLeitura": "Ein Restaurant, das die Küche um neun schließt, muss ein schlechter Ort sein oder kaum Kundschaft haben.",
+      "oQueEAli": "In den USA konzentriert sich das Abendessen zwischen sechs und acht; viele Restaurants, auch in Großstädten, nehmen zwischen neun und zehn keine Bestellungen mehr an, egal wie voll es ist.",
+      "oQueVoceFaz": "Frag die Schließzeit beim Ankommen, oder ruf vorher an: «What time does the kitchen close?»",
+      "oQueMelhora": "Du stehst nie wieder vor der Tür eines Orts mit geschlossener Küche und planst das Abendessen nach ihrer Uhr, nicht nach deiner.",
+      "ondeNaoVale": "Gilt nicht bei 24-Stunden-Diners oder in Vierteln mit viel Nachtleben wie in New York, wo die Küche bis spät offen bleiben kann.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-i01-n04"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i01-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Teil eins von Aprovecho. Die Faust auf der starken Silbe: WHAT time, nicht what TIME."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i01-p01",
+      "promptPt": "Gestern im Hotel hast du mit demselben Baustein nach der Check-out-Zeit gefragt. Frag jetzt noch mal, diesmal über die Küche. Sprich jetzt.",
+      "bloco": "callback",
+      "molde": "WHAT-TIME",
+      "encaixe": "is check-out",
+      "audioKey": "eua-i01-t01",
+      "es": "What time is check-out?",
+      "tts": "What time is check-out?",
+      "pinyin": "uat taim is tschek-AUT",
+      "pt": "Wann ist Check-out?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i01-n02",
+      "bloco": "cena",
+      "pt": "Es ist Viertel nach neun, die Kellnerin stellt die Stühle auf die leeren Tische, und das Schild an der Tür sagt etwas, das du beim Reingehen nicht gesehen hast."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i01-n03",
+      "bloco": "corpo",
+      "pt": "Hier zieht sich das Abendessen nicht bis elf. Die Stoßzeit ist zwischen sechs und acht, und die Küche schließt früher als du denkst."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i01-r01",
+      "es": "Sorry, we stopped seating at nine.",
+      "tts": "Sorry, we stopped seating at nine.",
+      "pinyin": "SO-ri, ui stapt SI-ting et nain",
+      "pt": "Sorry, wir setzen ab neun niemanden mehr."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i01-p02",
+      "promptPt": "Komm dem Nein zuvor: frag, bis wann die Küche serviert. Sprich jetzt.",
+      "molde": "WHAT-TIME",
+      "encaixe": "does the kitchen close",
+      "audioKey": "eua-i01-t02",
+      "es": "What time does the kitchen close?",
+      "tts": "What time does the kitchen close?",
+      "pinyin": "uat taim das de KIT-schen klous",
+      "pt": "Wann schließt die Küche?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i01-r02",
+      "es": "Nine on weekdays, ten on weekends.",
+      "tts": "Nine on weekdays, ten on weekends.",
+      "pinyin": "nain on UIIK-deis, ten on UIIK-ends",
+      "pt": "Neun unter der Woche, zehn am Wochenende."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i01-p03",
+      "promptPt": "Am nächsten Tag kommst du früh und willst ausgiebig frühstücken. Frag, ab wann geöffnet ist. Sprich jetzt.",
+      "molde": "WHAT-TIME",
+      "encaixe": "do you open for breakfast",
+      "audioKey": "eua-i01-t03",
+      "es": "What time do you open for breakfast?",
+      "tts": "What time do you open for breakfast?",
+      "pinyin": "uat taim du ju OU-pen for BREK-fest",
+      "pt": "Ab wann öffnet ihr für's Frühstück?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i01-r03",
+      "es": "Seven, but the line gets long by eight.",
+      "tts": "Seven, but the line gets long by eight.",
+      "pinyin": "SE-wen, bat de lain guets long bai eit",
+      "pt": "Sieben, aber gegen acht wird die Schlange lang."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i01-n04",
+      "bloco": "capsula",
+      "pt": "Und es gibt eine Zwischenzeit: die «happy hour», mit niedrigen Preisen, die auch eine genaue Start- und Endzeit hat."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i01-p04",
+      "promptPt": "Du hast das Happy-Hour-Schild an der Bar gesehen. Frag, wann sie beginnt. Sprich jetzt.",
+      "molde": "WHAT-TIME",
+      "encaixe": "does happy hour start",
+      "audioKey": "eua-i01-t04",
+      "es": "What time does happy hour start?",
+      "tts": "What time does happy hour start?",
+      "pinyin": "uat taim das HE-pi au-er start",
+      "pt": "Wann fängt die Happy Hour an?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i01-r04",
+      "es": "Four to six, every day.",
+      "tts": "Four to six, every day.",
+      "pinyin": "for tu six, EW-ri dei",
+      "pt": "Von vier bis sechs, jeden Tag."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i01-p05",
+      "promptPt": "Ein Einheimischer lädt dich am Samstag zum Essen ein, und du weißt nicht, ob dieselben Zeiten gelten. Frag, ob sie am Wochenende später schließen. Sprich jetzt.",
+      "molde": "WHAT-TIME",
+      "encaixe": "do you close on weekends",
+      "audioKey": "eua-i01-t05",
+      "es": "What time do you close on weekends?",
+      "tts": "What time do you close on weekends?",
+      "pinyin": "uat taim du ju klous on UIIK-ends",
+      "pt": "Wann schließt ihr am Wochenende?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i01-p06",
+      "promptPt": "Du gehst Sonntagmorgen zu einem neuen Ort und weißt nicht, ob es Brunch gibt. Frag, wann er beginnt. Sprich jetzt.",
+      "molde": "WHAT-TIME",
+      "encaixe": "does brunch start",
+      "audioKey": "eua-i01-t06",
+      "es": "What time does brunch start?",
+      "tts": "What time does brunch start?",
+      "pinyin": "uat taim das brantsch start",
+      "pt": "Wann beginnt der Brunch?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i01-r05",
+      "es": "We do brunch nine to two, Saturday and Sunday.",
+      "tts": "We do brunch nine to two, Saturday and Sunday.",
+      "pinyin": "ui du brantsch nain tu tu, SE-ter-dei end SAN-dei",
+      "pt": "Wir machen Brunch von neun bis zwei, Samstag und Sonntag."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i01-p07",
+      "promptPt": "Bestätige mit einer kurzen Antwort, dass du die Uhrzeit verstanden hast. Sprich jetzt.",
+      "audioKey": "eua-i01-t07",
+      "es": "Got it, thanks.",
+      "tts": "Got it, thanks.",
+      "pinyin": "gat it, tsenks",
+      "pt": "Verstanden, danke."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i01-n05",
+      "bloco": "permissao",
+      "pt": "Du musst nicht jede Öffnungszeit des Landes auswendig lernen. Mit einer einzigen, an den Ort angepassten Frage löst du jeden Zweifel."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i01-p08",
+      "promptPt": "Ein neuer Ort, jeden Tag eine andere Schließzeit. Frag, ob sie heute später schließen. Sprich jetzt.",
+      "molde": "WHAT-TIME",
+      "encaixe": "do you close tonight",
+      "audioKey": "eua-i01-t08",
+      "es": "What time do you close tonight?",
+      "tts": "What time do you close tonight?",
+      "pinyin": "uat taim du ju klous tu-NAIT",
+      "pt": "Wann schließt ihr heute Abend?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-i01-s01",
+      "es": "What time does the kitchen close? What time do you open for breakfast?",
+      "tts": "What time does the kitchen close? What time do you open for breakfast?",
+      "pinyin": "uat taim das de KIT-schen klous? uat taim du ju OU-pen for BREK-fest?",
+      "pt": "Wiederhole denselben Baustein mit zwei verschiedenen Uhrzeiten."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i01-n06",
+      "bloco": "recap",
+      "pt": "I01 geschafft. What time plus Verb löst Küche, Frühstück, Happy Hour und Brunch — derselbe Baustein wie in B18, mit etwas anderem drin."
+    }
+  ],
+  "permissao": "Du musst niemandes Öffnungszeit raten. What time plus Verb ist schon eine vollständige Frage für Küche, Frühstück, Happy Hour oder Brunch — du änderst sie, du erfindest sie nicht neu.",
+  "permissaoAudioKey": "eua-i01-n05",
+  "espelho": "Jeder, der in seiner Stadt schon zu spät in einem Restaurant angekommen ist und die Küche geschlossen vorfand, kennt genau dieses Gefühl; das einzig Neue hier ist, dass die Schließzeit früher liegt, als du erwartest.",
+  "aprofundar": {
+    "titulo": "Derselbe Baustein, jetzt für die Uhrzeit",
+    "secoes": [
+      {
+        "titulo": "What time kanntest du schon",
+        "corpo": "Dieser Baustein ist in B18 entstanden, beim Fragen nach der Check-out-Zeit. Hier lernst du nichts Neues an der Struktur: du änderst nur, wonach du fragst — kitchen, breakfast, happy hour, brunch."
+      },
+      {
+        "titulo": "Das Abendessen ist hier früher",
+        "corpo": "Die Stoßzeit beim Abendessen in den USA liegt meist zwischen sechs und acht Uhr abends, und viele Küchen nehmen zwischen neun und zehn keine Bestellungen mehr an, auch in Großstädten."
+      },
+      {
+        "titulo": "Happy Hour hat feste Zeiten",
+        "corpo": "Das ist eine Zeitspanne mit niedrigeren Getränkepreisen und manchmal Snacks, fast immer am späten Nachmittag. Die genaue Uhrzeit zu fragen erspart dir, für zehn Minuten Unterschied den vollen Preis zu zahlen."
+      }
+    ]
+  }
+}

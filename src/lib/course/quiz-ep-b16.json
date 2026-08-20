@@ -1,0 +1,84 @@
+{
+  "id": "q-b16",
+  "nivel": "basico",
+  "titulo": "Quiz — Bevor du die Zimmernummer bekommst",
+  "subtitulo": "Um das bitten, was deinen Aufenthalt verbessert, und «My ___ isn't working», wenn etwas ausfällt",
+  "introAudioKey": "eua-b16-q-i",
+  "introPt": "Du bist im Zimmer angekommen, und die Karte öffnet die Tür nicht. Hör dir an, wie es an der Rezeption gemeldet wird.",
+  "cenario": "Zurück an der Rezeption, nach dem Versuch, ins Zimmer zu kommen.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b16-q01",
+      "voz": "target_en_f",
+      "es": "My key card isn't working.",
+      "tts": "My key card isn't working.",
+      "pinyin": "mai ki kard IS-ent UOR-king",
+      "pt": "Meine Schlüsselkarte funktioniert nicht."
+    },
+    {
+      "audioKey": "eua-b16-q02",
+      "voz": "target_en_m",
+      "es": "I'll send someone up right away.",
+      "tts": "I'll send someone up right away.",
+      "pinyin": "eil send SAM-uan ap rait e-GEI",
+      "pt": "Ich schick sofort jemanden hoch."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Worum bittet man laut B16 zuerst beim Check-in?",
+      "opcoes": [
+        "Nichts, man beschwert sich erst später",
+        "Um das, was den Aufenthalt verbessert, bevor man den Schlüssel bekommt",
+        "Nach dem Namen des Managers",
+        "Um einen Preisnachlass"
+      ],
+      "correta": 1,
+      "explica": "B16 beginnt damit, um ein ruhiges Zimmer oder einen späten Check-out zu bitten, bevor man sich beschwert; von Anfang an zu bitten kostet dasselbe und bringt ein besseres Ergebnis."
+    },
+    {
+      "pergunta": "Welcher Baustein funktioniert für jeden technischen Defekt im Zimmer?",
+      "opcoes": [
+        "How much is ___?",
+        "My ___ isn't working",
+        "Can I get ___?",
+        "Where's the ___?"
+      ],
+      "correta": 1,
+      "explica": "«My ___ isn't working» deckt die Schlüsselkarte, die Klimaanlage oder jeden anderen technischen Defekt mit derselben Hülle ab."
+    },
+    {
+      "pergunta": "Du kommst im Zimmer an, und die Karte öffnet nicht. Was tust du?",
+      "opcoes": [
+        "Du wartest, bis es jemand bemerkt",
+        "Du gehst zurück zur Rezeption und sagst «My key card isn't working»",
+        "Du erzwingst die Tür",
+        "Du wechselst das Hotel"
+      ],
+      "correta": 1,
+      "explica": "Das ist Information, die das Hotel erwartet, keine übertriebene Beschwerde; man meldet es sofort."
+    },
+    {
+      "pergunta": "Was ist eine «resort fee»?",
+      "opcoes": [
+        "Ein Rabatt für mehrere Übernachtungen",
+        "Eine tägliche Gebühr, die manchmal nicht im gebuchten Preis erscheint",
+        "Die Verkaufssteuer",
+        "Das Trinkgeld für die Reinigung"
+      ],
+      "correta": 1,
+      "explica": "Manche Hotels fügen eine tägliche Extragebühr außerhalb des gebuchten Preises hinzu; es lohnt sich, beim Check-in danach zu fragen."
+    },
+    {
+      "pergunta": "Du siehst beim Verlassen eines anderen Zimmers gefaltete Scheine auf dem Kissen. Was ist das?",
+      "opcoes": [
+        "Von einem anderen Gast vergessenes Geld",
+        "Das Trinkgeld für das Reinigungspersonal",
+        "Ein Fehler des Hotels",
+        "Die Kaution"
+      ],
+      "correta": 1,
+      "explica": "Es ist üblich, ein bis zwei Dollar pro Nacht für die Reinigung dazulassen, eine andere Geste als das Restauranttrinkgeld."
+    }
+  ]
+}

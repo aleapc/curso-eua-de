@@ -1,0 +1,89 @@
+{
+  "id": "q-a07",
+  "nivel": "avancado",
+  "titulo": "Quiz — Signale: willkommen, unangenehm und Zeit zu gehen",
+  "subtitulo": "Der Trinkgeld-Bildschirm, persönlicher Raum und das «irgendwann», das nicht immer kommt",
+  "introAudioKey": "eua-a07-q-i",
+  "introPt": "Der Bildschirm an der Kasse verlangt fünfundzwanzig Prozent Trinkgeld für einen Kaffee zum Mitnehmen. Hör dir den Austausch an und antworte.",
+  "cenario": "Der Tresen eines Cafés.",
+  "dialogo": [
+    {
+      "audioKey": "eua-a07-q01",
+      "voz": "target_en_m",
+      "es": "Whenever you're ready.",
+      "tts": "Whenever you're ready.",
+      "pt": "Wann immer du so weit bist."
+    },
+    {
+      "audioKey": "eua-a07-q02",
+      "voz": "target_en_f",
+      "es": "I'll just leave a couple bucks, that's plenty.",
+      "tts": "I'll just leave a couple bucks, that's plenty.",
+      "pt": "Ich lass einfach ein paar Dollar da, das reicht."
+    },
+    {
+      "audioKey": "eua-a07-q03",
+      "voz": "target_en_m",
+      "es": "No worries at all.",
+      "tts": "No worries at all.",
+      "pt": "Überhaupt kein Problem."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Der Bildschirm am Tresen schlägt fünfundzwanzig Prozent Trinkgeld für eine Bestellung zum Mitnehmen vor. Ist das Pflicht?",
+      "opcoes": [
+        "Ja, immer",
+        "Nein, das ist ein Vorschlag des Systems, keine soziale Regel",
+        "Nur in Luxusrestaurants",
+        "Kommt auf das Bundesstaatsgesetz an"
+      ],
+      "correta": 1,
+      "explica": "An einem Tresen ohne Tischservice ist ein kleinerer Betrag oder «kein Trinkgeld» eine legitime Option."
+    },
+    {
+      "pergunta": "Was hält man in den USA laut diesem Teil eher als in Mexiko?",
+      "opcoes": [
+        "Die Lautstärke",
+        "Den körperlichen Abstand zu Fremden",
+        "Den Blickkontakt",
+        "Die Wartezeit"
+      ],
+      "correta": 1,
+      "explica": "Der erwartete Abstand zu Fremden ist meist größer als in Mexiko."
+    },
+    {
+      "pergunta": "Jemand sagt dir «we should totally grab coffee sometime!». Welche Funktion hat dieser Satz normalerweise?",
+      "opcoes": [
+        "Eine feste Zusage mit implizitem Datum",
+        "Meist ein warmer Gesprächsabschluss, ohne feste Verpflichtung",
+        "Eine Art zu sagen, dass man dich nicht mochte",
+        "Wird nur unter Verwandten benutzt"
+      ],
+      "correta": 1,
+      "explica": "«Sometime», ohne Datum, funktioniert als freundlicher Abschluss, nicht unbedingt als echter Plan."
+    },
+    {
+      "pergunta": "Wenn dir wirklich daran liegt, dass der Plan zustande kommt, was kannst du tun?",
+      "opcoes": [
+        "Nichts, du musst warten, bis die andere Person vorschlägt",
+        "Nach etwas Konkretem fragen, etwa ob sie diese Woche Zeit hat",
+        "Am selben Tag mehrmals nachhaken",
+        "Annehmen, dass es schon bestätigt ist"
+      ],
+      "correta": 1,
+      "explica": "Nach einem konkreten Tag zu fragen unterscheidet einen warmen Abschluss von einer echten Einladung, ohne aufdringlich zu sein."
+    },
+    {
+      "pergunta": "Jemand entschuldigt sich, dir zu nah gekommen zu sein. Was bedeutet das?",
+      "opcoes": [
+        "Dass er keine Nähe zu dir will",
+        "Dass er die lokale Norm für persönlichen Raum befolgt",
+        "Dass er wütend ist",
+        "Dass er dich verwechselt hat"
+      ],
+      "correta": 1,
+      "explica": "Es misst nicht, wie sehr du gemocht wirst — es ist einfach der Raum, in dem man dort komfortabel spricht."
+    }
+  ]
+}

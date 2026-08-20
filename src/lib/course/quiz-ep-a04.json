@@ -1,0 +1,89 @@
+{
+  "id": "q-a04",
+  "nivel": "avancado",
+  "titulo": "Quiz — Der alte Streit",
+  "subtitulo": "Bei der regionalen Rivalität eines anderen Landes keine Partei ergreifen",
+  "introAudioKey": "eua-a04-q-i",
+  "introPt": "Jemand sagt an der Bar «flyover country» mit einem bestimmten Ton. Hör dir den Austausch an und antworte.",
+  "cenario": "Eine Bar mit einer gemischten Gruppe aus verschiedenen Regionen.",
+  "dialogo": [
+    {
+      "audioKey": "eua-a04-q01",
+      "voz": "target_en_m",
+      "es": "Ah, must be nice out there in flyover country.",
+      "tts": "Ah, must be nice out there in flyover country.",
+      "pt": "Ah, muss schön sein da draußen im «flyover country»."
+    },
+    {
+      "audioKey": "eua-a04-q02",
+      "voz": "target_en_f",
+      "es": "So, where are you from, originally?",
+      "tts": "So, where are you from, originally?",
+      "pt": "Und, woher kommst du ursprünglich?"
+    },
+    {
+      "audioKey": "eua-a04-q03",
+      "voz": "target_en_m",
+      "es": "Kansas. Born and raised.",
+      "tts": "Kansas. Born and raised.",
+      "pt": "Kansas. Dort geboren und aufgewachsen."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was ist «flyover country»?",
+      "opcoes": [
+        "Eine günstige Flugart",
+        "Ein Begriff für die Mitte des Landes, manchmal scharf gemeint",
+        "Der offizielle Name einer Region",
+        "Ein bestimmter Flughafen"
+      ],
+      "correta": 1,
+      "explica": "Für manche an der Küste ist es ein Witz; für wer dort lebt, klingt es manchmal wie eine verkleidete Beleidigung."
+    },
+    {
+      "pergunta": "Was ist die sicherste Frage, wenn du einen scharfen regionalen Witz hörst?",
+      "opcoes": [
+        "Sofort dasselbe Wort benutzen",
+        "Fragen, woher die Person kommt, ohne Etikett",
+        "Laut mitlachen, um dazuzugehören",
+        "Die erwähnte Region verteidigen"
+      ],
+      "correta": 1,
+      "explica": "Die neutrale Frage «where are you from» lässt die Person sich selbst benennen."
+    },
+    {
+      "pergunta": "Jemand lädt dich ein, dich über eine andere US-Region lustig zu machen. Was tust du?",
+      "opcoes": [
+        "Mitmachen, um sympathisch zu wirken",
+        "Locker ablehnen, ohne Partei zu ergreifen",
+        "Die Region energisch verteidigen",
+        "Den Tisch wechseln"
+      ],
+      "correta": 1,
+      "explica": "«I'll stay out of that one» hält dich für alle angenehm, ohne eine fremde Position zu übernehmen."
+    },
+    {
+      "pergunta": "Wann ist es sicher, ein Wort wie «Kansan» oder «Texan» über jemanden zu benutzen?",
+      "opcoes": [
+        "Immer, sobald du weißt, woher er kommt",
+        "Erst nachdem die Person es selbst über sich benutzt hat",
+        "Nie, unter keinen Umständen",
+        "Nur bei berühmten Personen"
+      ],
+      "correta": 1,
+      "explica": "Sobald sich jemand selbst mit einem Wort benennt, wird dieses Wort sicher zum Zurückgeben."
+    },
+    {
+      "pergunta": "Was kennzeichnet laut diesem Teil die Gastfreundschaft des Südens gegenüber dem Nordosten?",
+      "opcoes": [
+        "Der Süden ist schneller und direkter",
+        "Der Süden ist meist wärmer und gemächlicher mit Fremden; der Nordosten direkter und schneller",
+        "Es gibt keinen echten Unterschied zwischen beiden",
+        "Der Nordosten ist immer wärmer"
+      ],
+      "correta": 1,
+      "explica": "Das sind anerkannte regionale Stile, keiner davon «richtiger» als der andere."
+    }
+  ]
+}

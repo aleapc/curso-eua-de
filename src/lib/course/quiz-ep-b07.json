@@ -1,0 +1,79 @@
+{
+  "id": "q-b07",
+  "nivel": "basico",
+  "titulo": "Quiz — Der Kanal vor dem Wagen",
+  "subtitulo": "Can I zum Bezahlen, zum Quittung-Bitten und zum Anhalten am richtigen Ort",
+  "introAudioKey": "eua-b07-q-i",
+  "introPt": "Du hast schon den autorisierten Transport gewählt und bist auf dem Weg zum Hotel. Hör dir den kurzen Austausch an und achte darauf, was sich im Baustein ändert und was gleich bleibt.",
+  "cenario": "Im autorisierten Auto, auf dem Weg vom Flughafen zum Hotel.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b07-q01",
+      "voz": "target_en_f",
+      "es": "Can I pay by card?",
+      "tts": "Can I pay by card?",
+      "pinyin": "ken ai pei bai kard",
+      "pt": "Kann ich mit Karte zahlen?"
+    },
+    {
+      "audioKey": "eua-b07-q02",
+      "voz": "target_en_m",
+      "es": "Yes, card or app, either works.",
+      "tts": "Yes, card or app, either works.",
+      "pinyin": "jes, kard or ep, AI-der uorks",
+      "pt": "Ja, Karte oder App, beides geht."
+    },
+    {
+      "audioKey": "eua-b07-q03",
+      "voz": "target_en_f",
+      "es": "Can I get a receipt?",
+      "tts": "Can I get a receipt?",
+      "pinyin": "ken ai guet e ri-SIIT",
+      "pt": "Kann ich eine Quittung bekommen?"
+    },
+    {
+      "audioKey": "eua-b07-q04",
+      "voz": "target_en_m",
+      "es": "Sure, I'll send it to your email.",
+      "tts": "Sure, I'll send it to your email.",
+      "pinyin": "schur, eil send it tu jor I-meil",
+      "pt": "Klar, ich schick sie an deine E-Mail."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was bleibt im Baustein \"Can I ___?\" von einer Bitte zur nächsten gleich?",
+      "opcoes": ["Der Ort", "Die Handlung", "\"Can I\"", "Die Antwort"],
+      "correta": 2,
+      "explica": "\"Can I\" eröffnet den Baustein; das Einzige, was sich ändert, ist die Handlung, um die du bittest."
+    },
+    {
+      "pergunta": "Warum lohnt es sich, am ersten Angebot vorbeizugehen, das dich am Ankunftsgehweg anspricht?",
+      "opcoes": [
+        "Weil es immer Betrug ist",
+        "Weil es fast nie der autorisierte Kanal ist, der meist weit von der Tür entfernt liegt",
+        "Weil es unhöflich ist zu antworten",
+        "Weil es teurer ist"
+      ],
+      "correta": 1,
+      "explica": "Der autorisierte Transport oder der App-Treffpunkt liegt fast nie direkt an der Ankunftstür."
+    },
+    {
+      "pergunta": "Wofür dient es, vor dem Aussteigen um die Quittung zu bitten?",
+      "opcoes": [
+        "Um den Preis zu verhandeln",
+        "Als Beleg der abgeschlossenen Fahrt, keine Konfrontation",
+        "Es ist in allen Fällen gesetzlich vorgeschrieben",
+        "Um den Fahrer zu bewerten"
+      ],
+      "correta": 1,
+      "explica": "Die Quittung schließt die Fahrt ab und dient dazu, die Ausgabe festzuhalten, ohne Konfrontation."
+    },
+    {
+      "pergunta": "Welcher Baustein entsteht in diesem Teil und kehrt später im Kurs zurück?",
+      "opcoes": ["Do you have ___?", "Where's the ___?", "Can I ___?", "How much is ___?"],
+      "correta": 2,
+      "explica": "\"Can I ___?\" entsteht hier, auf der Fahrt vom Flughafen zum Hotel, und kehrt später mit neuen Handlungen zurück."
+    }
+  ]
+}

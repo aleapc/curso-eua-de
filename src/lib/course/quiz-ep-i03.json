@@ -1,0 +1,82 @@
+{
+  "id": "q-i03",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Das Gericht, das du nicht bestellen wolltest",
+  "subtitulo": "Zwischen zweien wählen, nicht unter zwanzig raten",
+  "introAudioKey": "eua-i03-q-i",
+  "introPt": "Eine unübersetzte Tagestafel. Hör dir an, wie der Reisende die Entscheidung an den Kellner zurückgibt.",
+  "cenario": "Ein Restaurant in den USA mit Tagestafel.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i03-q01",
+      "voz": "target_en_m",
+      "es": "Today we've got the salmon or the short rib special.",
+      "tts": "Today we've got the salmon or the short rib special.",
+      "pinyin": "tu-DEI ui gat de SA-men or de schort rib es-PE-schel",
+      "pt": "Heute haben wir das Lachs- oder das Short-Rib-Spezial."
+    },
+    {
+      "audioKey": "eua-i03-q02",
+      "voz": "target_en_f",
+      "es": "Which do you recommend: the salmon or the short rib?",
+      "tts": "Which do you recommend: the salmon or the short rib?",
+      "pinyin": "uitsch du ju re-ko-MEND de SA-men or de schort rib",
+      "pt": "Was empfehlen Sie: den Lachs oder die Short Ribs?"
+    },
+    {
+      "audioKey": "eua-i03-q03",
+      "voz": "target_en_m",
+      "es": "Honestly, the short rib. It's the one everyone's ordering tonight.",
+      "tts": "Honestly, the short rib. It's the one everyone's ordering tonight.",
+      "pinyin": "ON-est-li, de schort rib. its de uan EW-ri-uan OR-de-ring tu-NAIT",
+      "pt": "Ehrlich gesagt die Short Ribs. Die bestellt heute Abend jeder."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was bleibt beim Baustein ESCOLHA fest?",
+      "opcoes": ["Die zwei genauen Optionen", "«Which do you recommend»", "Der Name des Gerichts", "Der Preis"],
+      "correta": 1,
+      "explica": "«Which do you recommend» eröffnet den Baustein; was sich ändert, sind die zwei Dinge, zwischen denen du wählst."
+    },
+    {
+      "pergunta": "Warum verrät die Frage nach einer Empfehlung dich nicht als Touristen?",
+      "opcoes": [
+        "Weil immer dasselbe bestellt wird",
+        "Weil sich die Tagestafel täglich ändert, nicht mal Einheimische kennen sie vorher",
+        "Weil niemand zuhört",
+        "Weil es eine seltsame Frage ist"
+      ],
+      "correta": 1,
+      "explica": "Die Specials hängen davon ab, was die Küche an diesem Tag frisch hat."
+    },
+    {
+      "pergunta": "In einem Bekleidungsladen siehst du zwei T-Shirts mit demselben Design in verschiedenen Farben. Was sagst du?",
+      "opcoes": [
+        "Do you have a soup of the day?",
+        "Which do you recommend: the blue one or the black one?",
+        "Where's the specials board?",
+        "What time do you close?"
+      ],
+      "correta": 1,
+      "explica": "Derselbe ESCOLHA-Baustein funktioniert außerhalb des Restaurants, bei jedem Optionspaar."
+    },
+    {
+      "pergunta": "Du hast das Short-Rib-Special gewählt, willst aber keine Zwiebeln. Was sagst du?",
+      "opcoes": ["No onions on that, please", "Where's the onions?", "How much are onions?", "I lost my onions"],
+      "correta": 0,
+      "explica": "Das ist der WITHOUT-Baustein aus B12, mit neuem Inhalt wiederverwendet."
+    },
+    {
+      "pergunta": "Was ändert sich NICHT zwischen dem Baustein dieser Folge und dem Rest des Kurses?",
+      "opcoes": [
+        "Do you have und Where's funktionieren weiterhin gleich",
+        "Man muss neue Grammatik lernen",
+        "Der Baustein ESCOLHA ersetzt Do you have",
+        "Please wird nicht mehr benutzt"
+      ],
+      "correta": 0,
+      "explica": "ESCOLHA kombiniert sich mit den schon bekannten Bausteinen, es ersetzt sie nicht."
+    }
+  ]
+}

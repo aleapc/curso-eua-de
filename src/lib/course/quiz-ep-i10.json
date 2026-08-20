@@ -1,0 +1,87 @@
+{
+  "id": "q-i10",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Geld ohne Drama",
+  "subtitulo": "Trinkgeld am Tisch, Bildschirm am Tresen, und große Gruppen",
+  "introAudioKey": "eua-i10-q-i",
+  "introPt": "Die Rechnung kommt, und man muss entscheiden, wie viel man gibt. Hör dir an, wie der Reisende die Summe bestätigt und ob das Trinkgeld schon enthalten ist.",
+  "cenario": "Ein Restaurant in den USA, beim Anfordern der Rechnung.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i10-q01",
+      "voz": "target_en_m",
+      "es": "Here's your check whenever you're ready.",
+      "tts": "Here's your check whenever you're ready.",
+      "pinyin": "hirs jor tschek uen-EW-er jor RE-di",
+      "pt": "Hier ist eure Rechnung, wann immer ihr so weit seid."
+    },
+    {
+      "audioKey": "eua-i10-q02",
+      "voz": "target_en_f",
+      "es": "Is the tip already included?",
+      "tts": "Is the tip already included?",
+      "pinyin": "is de tip ol-RE-di in-KLU-ded",
+      "pt": "Ist das Trinkgeld schon enthalten?"
+    },
+    {
+      "audioKey": "eua-i10-q03",
+      "voz": "target_en_m",
+      "es": "Yes, for parties of six or more we add eighteen percent automatically.",
+      "tts": "Yes, for parties of six or more we add eighteen percent automatically.",
+      "pinyin": "jes, for PAR-tis of six or mor ui ed ei-TIIN per-SENT o-tou-ME-ti-ke-li",
+      "pt": "Ja, bei Gruppen ab sechs Personen fügen wir automatisch 18% hinzu."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Am Tisch eines Restaurants, was ist das Trinkgeld von 18-20%?",
+      "opcoes": [
+        "Ein optionales Extra für außergewöhnlich guten Service",
+        "Der echte Teil des Kellnergehalts",
+        "Eine staatliche Steuer",
+        "Etwas, das nur Touristen zahlen"
+      ],
+      "correta": 1,
+      "explica": "Der Grundlohn eines Kellners kann nur 2,13 $ die Stunde betragen; das Trinkgeld ist sein echtes Einkommen."
+    },
+    {
+      "pergunta": "An einem Tresen ohne Tischservice, was kannst du beim Bildschirm tun, der 25-30% verlangt?",
+      "opcoes": [
+        "Nichts, es ist verpflichtend zu zahlen",
+        "«No Tip» wählen, ohne schlechtes Gewissen",
+        "Du kannst nur die höchste Option wählen",
+        "Darum bitten, den Bildschirm auszuschalten"
+      ],
+      "correta": 1,
+      "explica": "Das ist ein neues Phänomen; sogar 72% der Amerikaner finden es übertrieben."
+    },
+    {
+      "pergunta": "Was solltest du bei der Rechnung einer Gruppe von sieben Personen prüfen?",
+      "opcoes": [
+        "Ob schon ein automatischer Servicezuschlag (auto-gratuity) enthalten ist",
+        "Den Namen des Kellners",
+        "Die Tageskarte",
+        "Nichts, Trinkgeld wird immer separat addiert"
+      ],
+      "correta": 0,
+      "explica": "Bei sechs oder mehr Personen addieren viele Orte schon automatisch 18% — man muss lesen, bevor man doppelt zahlt."
+    },
+    {
+      "pergunta": "Welcher Baustein wird benutzt, um nach der Gesamtsumme zu fragen?",
+      "opcoes": ["What time is it?", "How much is it all together?", "Do you have a menu?", "Where's the check?"],
+      "correta": 1,
+      "explica": "Das ist der HOW-MUCH-Baustein aus B15, wiederverwendet, um die Summe zu bestätigen, bevor man das Trinkgeld ausrechnet."
+    },
+    {
+      "pergunta": "Welchen rechtlichen Unterschied gibt es zwischen auto-gratuity und einem normalen Trinkgeld?",
+      "opcoes": [
+        "Keinen, es ist dasselbe",
+        "Auto-gratuity ist laut IRS ein Servicezuschlag, kein Trinkgeld",
+        "Auto-gratuity wird nie berechnet",
+        "Es gilt nur am Wochenende"
+      ],
+      "correta": 1,
+      "explica": "Es ist ein service charge, rechtlich getrennt von einem freiwilligen Trinkgeld."
+    }
+  ]
+}

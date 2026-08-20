@@ -1,0 +1,337 @@
+{
+  "id": "b11",
+  "slot": "B11",
+  "nivel": "basico",
+  "numero": 11,
+  "parte": "4A",
+  "titulo": "Sich hinsetzen und die erste Runde bestellen",
+  "subtitulo": "«Can I get ___?» am Tisch, das kostenlose Wasser, und warum das Trinkgeld kein Extra ist",
+  "cena": "Die Kellnerin kommt mit offenem Notizblock, du hast die Karte nur überflogen, und dir bleiben drei Sekunden, bevor sie fragt, was ihr trinken wollt.",
+  "moldura": "ganha",
+  "frasePiso": "Du bestellst Tisch, Getränk und Essen, ohne für jede Sache einen eigenen Satz auswendig zu lernen. Die meisten Touristen zeigen immer noch schweigend auf die Karte.",
+  "moldes": [
+    "GET"
+  ],
+  "clique": {
+    "contagem": [
+      "der Tisch für zwei",
+      "die erste Getränkerunde",
+      "der Softdrink-Refill",
+      "die Rechnung am Ende"
+    ],
+    "desconto": "Niemand hat dir einen Satz zum Tisch bestellen gegeben, einen anderen zum Getränk bestellen und einen zur Rechnung. Du hast alle drei mit «Can I get» und der Sache, die du brauchtest, gebaut.",
+    "piso": "Das nächste Mal, wenn du in einem Restaurant in den USA sitzt, wartest du nicht darauf, dass dich jemand fragt, was du willst: du bestellst es selbst, mit einem Baustein, den du schon kannst."
+  },
+  "permissao": "Du musst nicht alles auf einmal bestellen oder dir die ganze Karte merken. «Can I get» plus eine Sache nach der anderen ist ein vollständiger Satz, und du kannst ihn so oft sagen, wie du brauchst.",
+  "permissaoAudioKey": "eua-b11-n09",
+  "espelho": "Auch in jedem Restaurant in deinem Land entscheidest du, wann du die Rechnung bittest und wann nicht; das einzig Neue hier ist, dass das Trinkgeld, das du gibst, keine Belohnung für gute Laune ist, sondern das Gehalt der Person, die dich bedient hat.",
+  "fichasCulturais": [
+    {
+      "sinal": "Am Ende der Mahlzeit bringt die Kellnerin ein Gerät und zeigt dir drei Tasten: 18%, 20%, 25% — und manchmal eine kleine vierte Taste mit «no tip».",
+      "suaLeitura": "Ich muss einen der drei großen Prozentsätze wählen, das ist normal.",
+      "oQueEAli": "Der Grundlohn eines Kellners in den USA liegt bei nur 2,13 US$ die Stunde; das Trinkgeld ist das echte Einkommen, kein Bonus. Der effektive Durchschnitt am Tisch liegt bei knapp 19%, und weniger als 15% wird als Zeichen gelesen, dass etwas schiefgelaufen ist.",
+      "oQueVoceFaz": "Wähl 18–20% an einem Tisch mit vollem Service. Drück die Taste ohne Verlegenheit: so wird diese Person bezahlt.",
+      "oQueMelhora": "Du verstehst genau, was du bezahlst und warum, statt unter Druck eine zufällige Zahl zu raten.",
+      "ondeNaoVale": "Gilt nicht gleichermaßen am Tresen eines Cafés, wo du nur zahlst und gehst: dort kann der Bildschirm 25–30% für gar keinen Service verlangen, und «no tip» zu wählen ist sozial akzeptiert.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "eua-b11-n07"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "gorjeta-salario-base",
+      "afirmacao": "The federal minimum wage for a tipped worker is just $2.13 an hour. The tip is not a bonus — it is most of that person's real income.",
+      "fonte": "U.S. Department of Labor",
+      "ano": 2025,
+      "revisarAte": "2027-01-01",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "eua-b11-n07"
+      ]
+    },
+    {
+      "id": "gorjeta-media-efetiva",
+      "afirmacao": "The average tip at a full-service restaurant runs close to 19%. Anything under 15% reads as a complaint about the service.",
+      "valor": "~19%",
+      "fonte": "Toast POS, dados de transações 2024-2025",
+      "ano": 2025,
+      "revisarAte": "2027-01-01",
+      "evidencia": "FATO",
+      "risco": "baixo"
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b11-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Teil elf. Die Faust markiert die starke Silbe: get, CHECK, TEI-bel. Eine pro Wort."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b11-n02",
+      "bloco": "cena",
+      "pt": "Die Kellnerin kommt mit offenem Notizblock. Du hast die Karte nur überflogen; dir bleiben drei Sekunden, bevor sie fragt, was ihr trinken wollt."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b11-p01",
+      "promptPt": "An der Hotelrezeption hast du gestern den Aufzug gesucht, ohne das genaue Wort zu kennen. Sag, was du suchst. Sprich jetzt.",
+      "bloco": "callback",
+      "molde": "LOOKING",
+      "audioKey": "eua-b11-t01",
+      "es": "I'm looking for the elevator.",
+      "tts": "I'm looking for the elevator.",
+      "pinyin": "aim LU-king for di E-le-wei-ter",
+      "pt": "Ich suche den Aufzug."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "EXCUSE",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b11-p00",
+      "promptPt": "Das Restaurant ist voll und niemand sieht dich hereinkommen. Hol jemandes Aufmerksamkeit, bevor der falsche Kellner auf dich zukommt. Sprich jetzt.",
+      "audioKey": "eua-b11-t00",
+      "es": "Excuse me!",
+      "tts": "Excuse me!",
+      "pinyin": "eks-KJUS mi",
+      "pt": "Entschuldigung!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b11-n03",
+      "bloco": "molde",
+      "pt": "Der Baustein von heute: «Can I get» plus was du willst. Tisch, Getränk, Essen und Rechnung, mit demselben Satz."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b11-t02",
+      "es": "Can I get a table for two?",
+      "tts": "Can I get a table for two?",
+      "pinyin": "ken ai guet e TEI-bel for tu",
+      "pt": "Können wir einen Tisch für zwei haben?"
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "GET",
+      "encaixe": "a table for two",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b11-p02",
+      "promptPt": "Du kommst mit deinem Partner ohne Reservierung ins Restaurant. Bitte um einen Tisch für zwei. Sprich jetzt.",
+      "audioKey": "eua-b11-t02",
+      "es": "Can I get a table for two?",
+      "tts": "Can I get a table for two?",
+      "pinyin": "ken ai guet e TEI-bel for tu",
+      "pt": "Können wir einen Tisch für zwei haben?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b11-r01",
+      "es": "Sure, right this way.",
+      "tts": "Sure, right this way.",
+      "pinyin": "schur, rait dis uei",
+      "pt": "Klar, hier entlang."
+    },
+    {
+      "consulta": [
+        "mesa/agua-refill"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "GET",
+      "encaixe": "some water",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b11-p03",
+      "promptPt": "Bevor du entscheidest, was du trinkst, bitte um Wasser. In den USA ist Tischwasser immer kostenlos. Sprich jetzt.",
+      "audioKey": "eua-b11-t03",
+      "es": "Can I get some water?",
+      "tts": "Can I get some water?",
+      "pinyin": "ken ai guet sam UA-der",
+      "pt": "Kann ich Wasser bekommen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b11-n04",
+      "pt": "Tischwasser ist immer kostenlos, und Softdrinks haben fast immer freien Nachschlag. Heb einfach das leere Glas hoch."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "GET",
+      "encaixe": "a beer",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b11-p04",
+      "promptPt": "Bestell zum Anfangen ein Bier. Sprich jetzt.",
+      "audioKey": "eua-b11-t04",
+      "es": "Can I get a beer?",
+      "tts": "Can I get a beer?",
+      "pinyin": "ken ai guet e bir",
+      "pt": "Kann ich ein Bier bekommen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b11-r02",
+      "es": "Can I see some ID?",
+      "tts": "Can I see some ID?",
+      "pinyin": "ken ai si sam ai-DI",
+      "pt": "Kann ich einen Ausweis sehen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b11-n05",
+      "pt": "Ausweis wird verlangt, auch wenn du älter wirkst: das ist die Gewohnheit. Der physische Reisepass zählt; das Foto auf dem Handy nicht."
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "GET",
+      "encaixe": "the burger",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b11-p05",
+      "promptPt": "Du hast schon entschieden, was du isst. Bestell den Burger. Sprich jetzt.",
+      "audioKey": "eua-b11-t05",
+      "es": "Can I get the burger?",
+      "tts": "Can I get the burger?",
+      "pinyin": "ken ai guet de BER-ger",
+      "pt": "Kann ich den Burger bekommen?"
+    },
+    {
+      "consulta": [
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "GET",
+      "encaixe": "the check",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b11-p06",
+      "promptPt": "Ihr seid fertig mit Essen, und die Kellnerin kommt nicht von allein zurück. Bitte um die Rechnung. Sprich jetzt.",
+      "audioKey": "eua-b11-t06",
+      "es": "Can I get the check, please?",
+      "tts": "Can I get the check, please?",
+      "pinyin": "ken ai guet de tschek, pliis",
+      "pt": "Kann ich bitte die Rechnung bekommen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b11-n06",
+      "pt": "Die Rechnung kommt nicht von allein: in den USA bittest du selbst darum. Ohne «Can I get the check» kannst du den ganzen Nachmittag sitzen bleiben."
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "a highchair",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b11-p07",
+      "promptPt": "Du kommst mit deinem kleinen Kind, das einen Hochstuhl braucht. Frag, ob sie einen haben. Sprich jetzt.",
+      "audioKey": "eua-b11-t07",
+      "es": "Do you have a highchair?",
+      "tts": "Do you have a highchair?",
+      "pinyin": "du ju hev e HAI-tscher",
+      "pt": "Habt ihr einen Hochstuhl?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b11-n07",
+      "bloco": "capsula",
+      "pt": "Und wenn das Gerät kommt, fragt es fast immer nach Trinkgeld, bevor du die Summe siehst. Reden wir darüber."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b11-n08",
+      "pt": "Der Grundlohn eines Kellners liegt bei nur zwei Dollar dreizehn die Stunde: das Trinkgeld ist das echte Gehalt, keine Belohnung."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b11-n08b",
+      "pt": "Der Durchschnitt am Tisch liegt bei etwa neunzehn Prozent; unter fünfzehn klingt nach Beschwerde."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b11-n09",
+      "bloco": "permissao",
+      "pt": "Du musst nicht alles zusammen bestellen. «Can I get» plus eine Sache nach der anderen ist ein vollständiger Satz, und du kannst ihn wiederholen, so oft du brauchst."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b11-n10",
+      "bloco": "clique",
+      "pt": "Du hast Tisch, Wasser, Bier, Essen und Rechnung bestellt. Niemand hat dir fünf Sätze gegeben: du hast sie alle mit «Can I get» gebaut."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b11-s01",
+      "es": "Can I get a table for two? Can I get some water? Can I get the check?",
+      "tts": "Can I get a table for two? Can I get some water? Can I get the check?",
+      "pinyin": "ken ai guet e TEI-bel for tu? ken ai guet sam UA-der? ken ai guet de tschek?",
+      "pt": "Wiederhole denselben Baustein mit drei verschiedenen Dingen."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b11-n11",
+      "bloco": "recap",
+      "pt": "B11 geschafft. Tisch, Wasser, Getränk, Essen und Rechnung: fünf Schritte, ein einziger Baustein."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Das Zugpferd des Restaurants",
+    "secoes": [
+      {
+        "titulo": "Der offene Baustein",
+        "corpo": "«Can I get» plus was du willst funktioniert am Tisch, am Tresen und am Fast-Food-Schalter. Das Wort ändert seine Form nicht; du änderst nur die Sache."
+      },
+      {
+        "titulo": "Die formellere Version",
+        "corpo": "«I'd like ___» leistet dieselbe Arbeit in einem gepflegteren Register, typisch für ein elegantes Lokal. Du erkennst sie, wenn du sie hörst, brauchst sie aber nicht zum Überleben."
+      },
+      {
+        "titulo": "Das Wasser und der Refill",
+        "corpo": "Tischwasser ist in fast den ganzen USA gewohnheitsmäßig kostenlos, und viele Softdrinks haben freien Nachschlag. Du musst nicht zweimal fragen: heb einfach das Glas."
+      },
+      {
+        "titulo": "Warum das Trinkgeld am Tisch nicht optional ist",
+        "corpo": "Der Bundeslohn eines Kellners mit Trinkgeld liegt bei 2,13 US$ die Stunde — das Trinkgeld vervollständigt das echte Gehalt. An einem Tisch mit vollem Service sind 18–20% die soziale Norm, kein höfliches Extra."
+      }
+    ]
+  }
+}

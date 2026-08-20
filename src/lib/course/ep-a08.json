@@ -1,0 +1,256 @@
+{
+  "id": "a08",
+  "slot": "A08",
+  "nivel": "avancado",
+  "numero": 36,
+  "parte": "A08",
+  "titulo": "Der Abschied",
+  "subtitulo": "Wie du gehst, damit man dich wieder einlädt — und die Notfallliste, die dir bleibt, wenn du alles andere vergisst",
+  "cena": "Du hast die Tasche schon über der Schulter und die Tür in Sicht, und siehst, wie die halbe Tafel nur die Hand hebt und weiterredet, ohne sich einzeln zu verabschieden.",
+  "moldura": "ganha",
+  "frasePiso": "Geh ruhig, nenn etwas Konkretes, und schließe mit einem echten «danke». Das ist der Unterschied zwischen einem Besuch und einer Freundschaft.",
+  "fatosDatados": [
+    {
+      "id": "eua-despedida-informal",
+      "afirmacao": "In casual American gatherings, a general wave or a shouted 'bye, thanks for coming!' toward the room is a widely accepted way to leave, especially among friends of friends; it doesn't require an individual goodbye to every person the way more formal or more collectivist etiquette traditions expect.",
+      "fonte": "Consenso de fontes de etiqueta social estadounidense",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": ["eua-a08-n04"]
+    },
+    {
+      "id": "eua-mensagem-agradecimento",
+      "afirmacao": "Sending a short thank-you text or message the same day or the next day after being hosted for a meal is a common and appreciated gesture in American social etiquette, even when a verbal thank-you was already given on the way out.",
+      "fonte": "Consenso de fontes de etiqueta social (Emily Post Institute — «Being a Good Guest»)",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": ["eua-a08-n08"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a08-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Letzter Teil. Der Abschied ist keine Formsache: er entscheidet, ob es ein nächstes Mal gibt, und das geht hier schneller als du denkst."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-a08-n02",
+      "bloco": "callback",
+      "pt": "Wiederholung von gestern. Jemand sagt, man sollte sich mal treffen, ohne Datum. Antworte warmherzig, wie gestern."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-a08-p01",
+      "promptPt": "Sprich jetzt.",
+      "audioKey": "eua-a08-t01",
+      "es": "Yeah, that'd be great!",
+      "tts": "Yeah, that'd be great!",
+      "pinyin": "je, dets greit",
+      "pt": "Ja, das wäre toll!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a08-n03",
+      "bloco": "cena",
+      "pt": "Tasche über der Schulter, Tür in Sicht. Die halbe Tafel hebt nur die Hand und redet weiter, ohne aufzustehen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a08-o01",
+      "es": "Thanks so much for coming!",
+      "tts": "Thanks so much for coming!",
+      "pt": "Danke, dass du gekommen bist!",
+      "pinyin": "tsenks sou matsch for KA-ming"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-a08-n04",
+      "bloco": "corpo",
+      "pt": "Anders als in Mexiko reicht hier ein allgemeines Tschüss an den ganzen Tisch. Du musst dich nicht von jeder Person einzeln verabschieden."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-a08-p02",
+      "promptPt": "Verabschiede dich vom Gastgeber, warmherzig und ohne Drama. Sprich jetzt.",
+      "audioKey": "eua-a08-t02",
+      "es": "I should get going, but thank you so much.",
+      "tts": "I should get going, but thank you so much.",
+      "pinyin": "ai schud guet GOU-ing, bat tsenk ju sou matsch",
+      "pt": "Ich sollte langsam los, aber vielen, vielen Dank."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a08-o02",
+      "es": "Of course! So glad you came.",
+      "tts": "Of course! So glad you came.",
+      "pt": "Aber klar! Schön, dass du da warst.",
+      "pinyin": "of kors! sou glad ju keim"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a08-n05",
+      "bloco": "capsula",
+      "pt": "Jetzt die Bewegung, die dir wirklich eine neue Einladung einbringt: nenn etwas Konkretes. Nicht «es war schön» — was genau."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-a08-p03",
+      "promptPt": "Nenn, was du von diesem Abend wirklich in Erinnerung behalten wirst. Sprich jetzt.",
+      "audioKey": "eua-a08-t03",
+      "es": "Your lasagna was seriously the best I've had.",
+      "tts": "Your lasagna was seriously the best I've had.",
+      "pinyin": "jor la-SA-nja uas SI-ries-li de best aiw hed",
+      "pt": "Deine Lasagne war wirklich die beste, die ich je hatte."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a08-o03",
+      "es": "Aw, I'll tell my mom, she'll be so happy.",
+      "tts": "Aw, I'll tell my mom, she'll be so happy.",
+      "pt": "Ach, das erzähl ich meiner Mutter, sie wird sich so freuen.",
+      "pinyin": "a, eil tel mai mam, schil bi sou HE-pi"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-a08-n06",
+      "pt": "Dieser Satz ist gerade zu jemandem gereist, der gar nicht im Raum war. Das konkrete Lob wird weitergegeben; das allgemeine bleibt hier stehen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-a08-p04",
+      "promptPt": "Schlag vor, in Kontakt zu bleiben, ohne dass es nach reiner Höflichkeit klingt. Sprich jetzt.",
+      "audioKey": "eua-a08-t04",
+      "es": "We should definitely keep in touch — can I get your number?",
+      "tts": "We should definitely keep in touch — can I get your number?",
+      "pinyin": "ui schud DE-fi-nit-li kip in tatsch — kn ai guet jor NAM-ber",
+      "pt": "Wir sollten unbedingt in Kontakt bleiben — kann ich deine Nummer haben?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a08-o04",
+      "es": "For sure, here you go.",
+      "tts": "For sure, here you go.",
+      "pt": "Klar, hier bitte.",
+      "pinyin": "for schur, hir ju gou"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a08-n07",
+      "pt": "Noch ein Detail: eine Dankesnachricht am selben Tag zu schicken, auch wenn du dich schon beim Rausgehen bedankt hast, kommt immer gut an."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-a08-n08",
+      "bloco": "capsula",
+      "pt": "Sie muss nicht lang sein. Eine Zeile, dass du es genossen hast, erfüllt schon ihren Zweck."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-a08-p05",
+      "promptPt": "Schließe den Abend mit dem letzten Dank, von Angesicht zu Angesicht. Sprich jetzt.",
+      "audioKey": "eua-a08-t05",
+      "es": "Thanks again, this was really great.",
+      "tts": "Thanks again, this was really great.",
+      "pinyin": "tsenks e-GEN, dis uas RI-e-li greit",
+      "pt": "Nochmal danke, das war wirklich toll."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a08-n09",
+      "bloco": "capsula",
+      "pt": "Die Notfallliste, falls du alles andere vergisst: do you have, can I, where's the, can I get, no ___ please, how much is."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-a08-s01",
+      "es": "I should get going, but thank you so much. Your lasagna was seriously the best. We should definitely keep in touch.",
+      "tts": "I should get going, but thank you so much. Your lasagna was seriously the best. We should definitely keep in touch.",
+      "pinyin": "ai schud guet GOU-ing, bat tsenk ju sou matsch. jor la-SA-nja uas SI-ries-li de best. ui schud DE-fi-nit-li kip in tatsch",
+      "pt": "Wiederhole den ganzen Abschied: den Dank, das konkrete Lob und die Einladung, in Kontakt zu bleiben."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-a08-n10",
+      "bloco": "recap",
+      "pt": "A08 geschafft, und der Kurs mit ihr. Ein allgemeines Tschüss, etwas Konkretes, und in Kontakt bleiben. Das bringt dich wieder her."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Das Gehen ist der Teil, der über das nächste Mal entscheidet",
+    "secoes": [
+      {
+        "titulo": "Ein allgemeines Tschüss reicht",
+        "corpo": "Anders als in Mexiko, wo ein individueller Abschied von jeder Person erwartet wird, reicht in den USA meist ein Tschüss an den ganzen Raum, besonders bei lockeren Treffen mit Freunden von Freunden. Das ist keine Unhöflichkeit: es ist einfach eine andere Konvention."
+      },
+      {
+        "titulo": "Das konkrete Lob reist weiter",
+        "corpo": "«Es war schön» bleibt bei der Person, der du es gesagt hast. «Deine Lasagne» erreicht sogar die Küche. Etwas Konkretes zu nennen ist der Unterschied zwischen einem höflichen Gast und einem Gast, den man wirklich wieder einladen will."
+      },
+      {
+        "titulo": "Die Nachricht danach",
+        "corpo": "Eine kurze Dankesnachricht am selben Tag, auch wenn du dich schon beim Rausgehen bedankt hast, ist eine kleine Geste, die auffällt und geschätzt wird — sie kostet eine Zeile und hinterlässt einen guten letzten Eindruck."
+      },
+      {
+        "titulo": "Die Notfallliste",
+        "corpo": "Wenn dir auf dem Rückflug der ganze Kurs entfällt, überleben sechs Bausteine, und sie reichen, um überall gut behandelt zu werden: do you have ___ für das, was du brauchst, can I ___ für das, was du tun willst, where's the ___ für das, was du suchst, can I get ___ zum Bestellen, no ___ please, um etwas wegzulassen, und how much is ___, bevor du dich festlegst."
+      }
+    ]
+  },
+  "permissao": "Es ist völlig in Ordnung, sich beim Gehen etwas Zeit zu lassen, und es ist genauso in Ordnung, nur die Hand zu heben und dem ganzen Raum Tschüss zu sagen — beide Formen sind hier richtig, und keine lässt dich schlecht dastehen, weil du dich nicht von jeder Person einzeln verabschiedet hast.",
+  "permissaoAudioKey": "eua-a08-n04",
+  "espelho": "Jeder, der schon einmal Gastgeber war, kennt den Unterschied zwischen dem Gast, der sich von der Tür aus verabschiedet hat, und dem, der extra kam, um sich für genau die Lasagne zu bedanken. Du warst schon auf der Gastgeberseite; A08 bittet dich nur, jetzt der zweite Gast zu sein, auf Englisch.",
+  "fichasCulturais": [
+    {
+      "sinal": "Du willst dich von jeder Person am Tisch einzeln verabschieden und siehst, dass die meisten nur mit der Hand der ganzen Gruppe zuwinken.",
+      "suaLeitura": "Ich bin der Einzige, der förmlich ist, oder ich brauche vielleicht länger als erwartet.",
+      "oQueEAli": "Der individuelle, ausgedehnte Abschied ist mexikanische Gewohnheit; in den USA ist ein allgemeines Tschüss an den Raum genauso gültig, besonders bei informellen Treffen. Keine der beiden Formen ist falsch — es sind einfach unterschiedliche Gewohnheiten.",
+      "oQueVoceFaz": "Mach, was sich natürlich anfühlt: verabschiede dich direkt vom Gastgeber, und vom Rest mit einem allgemeinen Tschüss, wenn die Stimmung locker ist.",
+      "oQueMelhora": "Du gehst, ohne das Gefühl zu haben, eine Regel gebrochen zu haben, die sonst niemand im Raum überhaupt befolgt hat.",
+      "ondeNaoVale": "Nicht bei einem formellen oder kleinen Abendessen mit wenigen Gästen — dort ist ein direkter Abschied von jeder Person angebracht, genau wie zu Hause.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a08-n04"]
+    },
+    {
+      "sinal": "Du hast dich beim Verlassen des Abendessens schon bedankt und weißt nicht, ob eine Nachricht danach nötig oder übertrieben ist.",
+      "suaLeitura": "Ich habe mich schon persönlich bedankt, eine Nachricht danach wäre zu viel des Guten.",
+      "oQueEAli": "Eine kurze Dankesnachricht am selben Tag ist eine gern gesehene zusätzliche Geste, keine unnötige Wiederholung — sie verstärkt den mündlichen Dank und hinterlässt einen letzten Eindruck, an den sich der Gastgeber meist gern erinnert.",
+      "oQueVoceFaz": "Schick eine kurze, ehrliche Zeile, ohne zu rechtfertigen, warum du es tust.",
+      "oQueMelhora": "Du hältst die Beziehung offen für die nächste Einladung, mit sehr wenig Aufwand deinerseits.",
+      "ondeNaoVale": "Nicht nötig bei sehr lockeren Treffen, wie einem schnellen Essen mit neuen Bekannten ohne größere Nähe — dort schließt der mündliche Dank den Moment schon ab.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a08-n08"]
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "id": "b05",
+  "slot": "B05",
+  "nivel": "basico",
+  "numero": 5,
+  "parte": "2A",
+  "titulo": "Drei Antworten, und du hörst auf",
+  "subtitulo": "Grund, Dauer und Unterkunft vor dem Einreisebeamten: kurz, wahr und mit Beleg",
+  "cena": "Der Einreisebeamte hält den Stift schon über deinem Formular, und zwischen dir und dem Stempel stehen nur noch drei kurze, wahre Sätze.",
+  "moldura": "protege",
+  "frasePiso": "Beantworte nur, was gefragt wurde; die gespeicherte Reservierung trägt den Rest.",
+  "permissao": "Es ist völlig in Ordnung, in drei Wörtern zu antworten und dabei aufzuhören. Eine kurze, wahre Antwort klingt hier nicht verdächtig; sie mit Details zu verlängern, nach denen niemand gefragt hat, ist genau das, was den Schalter langsamer macht.",
+  "permissaoAudioKey": "eua-b05-n01",
+  "fichasCulturais": [
+    {
+      "sinal": "Der Beamte stellt eine kurze Frage, und du merkst, wie du eine Erklärung hinzufügst, nach der niemand gefragt hat: warum du diese Reise gewählt hast, was du letztes Mal gemacht hast, wie aufgeregt du bist.",
+      "suaLeitura": "Mehr Details klingen freundlicher, oder zeigen, dass ich nichts zu verbergen habe.",
+      "oQueEAli": "Der Schalter verarbeitet den ganzen Tag eine Reihe kurzer, passender Antworten; eine Antwort, die über das Gefragte hinausgeht, wirkt wie etwas, das man zweimal prüfen muss, nicht wie Wärme.",
+      "oQueVoceFaz": "Beantworte nur, was gefragt wurde, und halte dann inne und warte auf die nächste Frage.",
+      "oQueMelhora": "Der Austausch läuft im Tempo, das der Beamte schon vorgibt, und du verlässt den Schalter schneller, nicht langsamer.",
+      "ondeNaoVale": "Gilt nicht, wenn der Beamte ausdrücklich eine zusammengesetzte Frage stellt oder dich zu mehr Details einlädt; dann ist alles zu beantworten, was er gefragt hat, die richtige Antwort, keine Ausnahme.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-b05-n01"]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "eua-cbp-decide-estadia",
+      "afirmacao": "Der Beamte der Grenzbehörde (CBP) entscheidet im Moment deiner Einreise, bis wann du bleiben darfst. Eine gültige ESTA-Genehmigung legt dieses Datum nicht automatisch fest: der Beamte setzt es, je nachdem, was du antwortest und zeigst.",
+      "fonte": "U.S. Customs and Border Protection (CBP) — Admission and Parole",
+      "ano": 2026,
+      "revisarAte": "2026-12-01",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": ["eua-b05-n02"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b05-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Keine Englischprüfung. Der Beamte entscheidet, wie lange du bleibst. Drei Aufgaben: warum, wie lange, wo. Kurz und wahr, dann Stopp."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b05-r01",
+      "es": "What's the purpose of your visit?",
+      "tts": "What's the purpose of your visit?",
+      "pinyin": "uats de PER-pes of jor WI-sit",
+      "pt": "Was ist der Zweck Ihres Besuchs?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b05-p01",
+      "promptPt": "Der Beamte fragt nach dem Grund deiner Reise. Du bist im Urlaub. Antworte in einem einzigen kurzen Satz. Sprich jetzt.",
+      "audioKey": "eua-b05-t01",
+      "es": "I'm here on vacation.",
+      "tts": "I'm here on vacation.",
+      "pinyin": "aim hir on we-KEI-schen",
+      "pt": "Ich bin im Urlaub hier."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b05-r02",
+      "es": "How many days will you be staying?",
+      "tts": "How many days will you be staying?",
+      "pinyin": "hau ME-ni deis uil ju bi STEI-ing",
+      "pt": "Wie viele Tage bleiben Sie?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b05-n02",
+      "bloco": "corpo",
+      "pt": "Benutze deine echte Zahl, nicht die aus dem Beispiel. Der Beamte vergleicht sie mit deiner Reservierung und legt die Frist fest."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b05-p02",
+      "promptPt": "Dein echter Reiseplan sieht zehn Tage vor. Nenn nur die Dauer. Sprich jetzt.",
+      "audioKey": "eua-b05-t02",
+      "es": "Ten days.",
+      "tts": "Ten days.",
+      "pinyin": "ten deis",
+      "pt": "Zehn Tage."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b05-r03",
+      "es": "Where will you be staying?",
+      "tts": "Where will you be staying?",
+      "pinyin": "uer uil ju bi STEI-ing",
+      "pt": "Wo werden Sie übernachten?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b05-n03",
+      "pt": "Überspring die Geschichte, wie du das Hotel gefunden hast: nenn nur den Namen. Die gespeicherte Reservierung trägt die volle Adresse."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b05-p03",
+      "promptPt": "Der Beamte fragt, wo du übernachtest. Deine bestätigte Unterkunft ist das Hotel deiner gespeicherten Reservierung. Antworte kurz. Sprich jetzt.",
+      "audioKey": "eua-b05-t03",
+      "es": "I'm staying at this hotel.",
+      "tts": "I'm staying at this hotel.",
+      "pinyin": "aim STEI-ing et dis ho-TEL",
+      "pt": "Ich übernachte in diesem Hotel."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b05-r04",
+      "es": "Do you have the reservation?",
+      "tts": "Do you have the reservation?",
+      "pinyin": "du ju hev de re-ser-WEI-schen",
+      "pt": "Haben Sie die Reservierung?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b05-p04",
+      "promptPt": "Der Beamte will den Beleg. Zeig die gespeicherte Bestätigung, ohne Erklärung dazuzufügen. Sprich jetzt.",
+      "audioKey": "eua-b05-t04",
+      "es": "Yes. Here it is.",
+      "tts": "Yes. Here it is.",
+      "pinyin": "jes. hir it is",
+      "pt": "Ja. Hier ist sie."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b05-r05",
+      "es": "Thank you. Welcome.",
+      "tts": "Thank you. Welcome.",
+      "pinyin": "tsenk ju. UEL-kam",
+      "pt": "Danke. Willkommen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b05-px1",
+      "promptPt": "Du hast nicht genau verstanden, was der Beamte gefragt hat. Bitte um Wiederholung, klar und ohne übermäßige Entschuldigung. Sprich jetzt.",
+      "audioKey": "eua-b05-x1",
+      "es": "Could you repeat the question, please?",
+      "tts": "Could you repeat the question, please?",
+      "pinyin": "kud ju ri-PIIT de KUES-tschen, pliis",
+      "pt": "Könnten Sie bitte die Frage wiederholen?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b05-px2",
+      "promptPt": "Du brauchst zwei Sekunden, um die Reservierung auf deinem Handy zu finden. Bitte um einen Moment. Sprich jetzt.",
+      "audioKey": "eua-b05-x2",
+      "es": "One moment, please.",
+      "tts": "One moment, please.",
+      "pinyin": "uan MOU-ment, pliis",
+      "pt": "Einen Moment, bitte."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b05-px3",
+      "promptPt": "Der Beamte fragt, ob noch jemand mit dir reist. Antworte kurz: du reist allein. Sprich jetzt.",
+      "audioKey": "eua-b05-x3",
+      "es": "I'm traveling alone.",
+      "tts": "I'm traveling alone.",
+      "pinyin": "aim TRE-we-ling e-LOUN",
+      "pt": "Ich reise allein."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b05-px4",
+      "promptPt": "Bevor er deinen Pass stempelt, fragt der Beamte, ob du etwas zu verzollen hast. Antworte kurz und wahr. Sprich jetzt.",
+      "audioKey": "eua-b05-x4",
+      "es": "No, nothing to declare.",
+      "tts": "No, nothing to declare.",
+      "pinyin": "nou, NA-tsing tu di-KLER",
+      "pt": "Nein, nichts zu verzollen."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b05-s01",
+      "es": "I'm here on vacation. Ten days. I'm staying at this hotel.",
+      "tts": "I'm here on vacation. Ten days. I'm staying at this hotel.",
+      "pinyin": "aim hir on we-KEI-schen. ten deis. aim STEI-ing et dis ho-TEL",
+      "pt": "Wiederhole die drei Antworten mit einem klaren Schnitt nach jeder."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b05-n04",
+      "bloco": "recap",
+      "pt": "B05 geschafft. Grund, Dauer, Unterkunft, Beleg falls gefragt: drei kurze Antworten. Kurz ist nicht ausweichend, sondern verlangt."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Der Einreiseschalter ist eine Zuordnungsübung",
+    "secoes": [
+      {
+        "titulo": "Wahr schlägt flüssig",
+        "corpo": "Kopiere nie die Zahl aus diesem Kurs, wenn dein Reiseplan etwas anderes sagt. Tausch die Zahl gegen die echte aus; die Struktur bleibt gleich."
+      },
+      {
+        "titulo": "Eine Frage, eine Antwort",
+        "corpo": "Grund, Dauer und Unterkunft sind getrennte Daten. Fass sie nicht auf einmal zusammen, außer der Beamte fragt ausdrücklich nach allen zusammen."
+      },
+      {
+        "titulo": "Lass das Dokument sprechen",
+        "corpo": "Wenn nach dem Beleg gefragt wird, verschiebt \"Yes. Here it is\" den Austausch vom Gedächtnis zum Beweis.",
+        "exemplos": [
+          { "es": "Do you have the reservation?", "pt": "Haben Sie die Reservierung?" },
+          { "es": "Yes. Here it is.", "pt": "Ja. Hier ist sie." }
+        ]
+      },
+      {
+        "titulo": "Prüf die Regel noch einmal",
+        "corpo": "Die Einreiseverfahren können sich ändern. Prüf die offizielle Anleitung der CBP und der Botschaft vor der Reise."
+      }
+    ]
+  }
+}

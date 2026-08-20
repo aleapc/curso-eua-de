@@ -1,0 +1,84 @@
+{
+  "id": "q-b12",
+  "nivel": "basico",
+  "titulo": "Quiz — Bestellen, was du wirklich willst",
+  "subtitulo": "«No ___, please» und «___ without ___», um die Bestellung anzupassen",
+  "introAudioKey": "eua-b12-q-i",
+  "introPt": "Der Taco kam mit Koriander, und du hattest ihn ohne bestellt. Hör dir die Korrektur am Tisch an und entscheide, was zutrifft.",
+  "cenario": "Am Tisch, während der Kellner die Bestellung aufnimmt.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b12-q01",
+      "voz": "target_en_f",
+      "es": "A taco without cilantro, please.",
+      "tts": "A taco without cilantro, please.",
+      "pinyin": "e TA-kou uit-AUT si-LAN-trou, pliis",
+      "pt": "Einen Taco ohne Koriander, bitte."
+    },
+    {
+      "audioKey": "eua-b12-q02",
+      "voz": "target_en_m",
+      "es": "Got it — one taco, no cilantro.",
+      "tts": "Got it — one taco, no cilantro.",
+      "pinyin": "gat it — uan TA-kou, nou si-LAN-trou",
+      "pt": "Verstanden: ein Taco, ohne Koriander."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was ist die kürzeste Form, um etwas von einer Bestellung zu entfernen?",
+      "opcoes": [
+        "___ without ___",
+        "No ___, please",
+        "Do you have ___?",
+        "Can I get ___?"
+      ],
+      "correta": 1,
+      "explica": "«No ___, please» ist die schnelle Version: dient dazu, etwas direkt zu entfernen, wie Eis oder Zwiebeln."
+    },
+    {
+      "pergunta": "Welcher Baustein baut die ganze Bestellung von Anfang an ohne eine Zutat auf?",
+      "opcoes": [
+        "___ without ___",
+        "No ___, please",
+        "I'm looking for ___",
+        "How much is ___?"
+      ],
+      "correta": 0,
+      "explica": "«A burger without cheese, please» baut die ganze Bestellung von Anfang an ohne die Zutat auf."
+    },
+    {
+      "pergunta": "Der Kellner wiederholt deine ganze Bestellung laut. Was bedeutet das?",
+      "opcoes": [
+        "Dass er an deinem Englisch zweifelt",
+        "Das ist die Standardbestätigung, passiert bei jedem Gast",
+        "Dass du etwas falsch gemacht hast",
+        "Dass er dir extra berechnen wird"
+      ],
+      "correta": 1,
+      "explica": "Die Bestellung laut zu wiederholen ist normaler Teil des amerikanischen Tischservices, kein Zweifel an deiner Sprache."
+    },
+    {
+      "pergunta": "Warum funktioniert dieser Baustein nicht, um eine Allergie zu kommunizieren?",
+      "opcoes": [
+        "Weil er nur bei Getränken funktioniert",
+        "Weil er eine Vorliebe entfernt, kein Gesundheitsrisiko kommuniziert",
+        "Weil er zu förmlich ist",
+        "Weil die Küche ihn nicht versteht"
+      ],
+      "correta": 1,
+      "explica": "«No ___, please» entfernt etwas, das dir nicht gefällt. Für eine Allergie braucht es einen anderen, gewichtigeren Satz, den du in B13 lernst."
+    },
+    {
+      "pergunta": "Welches Wort übernimmt im Englischen die Arbeit, die im Deutschen der Ton oder das «bitte» übernimmt?",
+      "opcoes": [
+        "Please",
+        "Can",
+        "Get",
+        "Have"
+      ],
+      "correta": 0,
+      "explica": "Am Ende fast jeder Bestellung mildert «please» den Satz. Ohne es klingt «No ice» wie ein trockener Befehl."
+    }
+  ]
+}

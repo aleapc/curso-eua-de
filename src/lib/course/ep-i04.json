@@ -1,0 +1,241 @@
+{
+  "id": "i04",
+  "slot": "I04",
+  "nivel": "intermediario",
+  "numero": 4,
+  "parte": "I04",
+  "titulo": "Die letzte Runde",
+  "subtitulo": "Last call kommt früher als du denkst, und eine Tab an der Bar zu eröffnen erspart dir, jedes Mal die Karte zu zücken",
+  "cena": "Die Lichter der Bar gehen um zwei Uhr morgens plötzlich an, jemand ruft «last call», und du weißt immer noch nicht, ob deine Karte an der Bar offen geblieben oder schon zu einem anderen Gast gewandert ist.",
+  "decisao": "wie lange du bleibst und wie du die Rechnung abschließt — beim Ankommen eine Tab zu eröffnen erspart dir, jede Runde einzeln zu zahlen, und last call markiert, wann wirklich Schluss ist",
+  "emJogo": "tempo",
+  "moldura": "ganha",
+  "frasePiso": "Du eröffnest deine Tab beim Ankommen und schließt sie selbst, bevor die Lichter angehen, ohne um zwei Uhr morgens den Barkeeper zu suchen.",
+  "fichasCulturais": [
+    {
+      "sinal": "Die Lichter der Bar gehen plötzlich an, und jemand ruft «last call», und du hast noch ein halbes Bier in der Hand.",
+      "suaLeitura": "Die schließen jetzt schon, ich muss sofort raus.",
+      "oQueEAli": "«Last call» ist die Ankündigung, dass keine Bestellungen mehr angenommen werden, nicht, dass der Ort in dieser Sekunde schließt — normalerweise bleiben noch etwa fünfzehn bis zwanzig Minuten, um dein Getränk auszutrinken und die Rechnung abzuschließen.",
+      "oQueVoceFaz": "Willst du noch ein letztes Getränk, bestell es sofort bei «last call»; sonst fang in Ruhe an, deine Tab zu schließen.",
+      "oQueMelhora": "Du beendest den Abend ohne Eile und ohne Überraschung, statt beim Lichtanschalten noch mit dem Glas dazustehen.",
+      "ondeNaoVale": "Gilt nicht in Bars mit früherer, an der Tür ausgeschilderter Schließzeit, wo die echte Ankündigung schon vor Mitternacht kommen kann.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-i04-n04"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i04-n01",
+      "gesto": 4,
+      "bloco": "aquecimento",
+      "pt": "Heute der Flick, der Tap am Ende: last CALL, nicht last cal. Der Endkonsonant klingt wirklich."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i04-p01",
+      "promptPt": "Gestern hast du gefragt, ab wann Frühstück serviert wird. Heute benutzt du denselben Baustein für die Bar. Frag, wann sie schließt. Sprich jetzt.",
+      "bloco": "callback",
+      "molde": "WHAT-TIME",
+      "encaixe": "does the bar close",
+      "audioKey": "eua-i04-t01",
+      "es": "What time does the bar close?",
+      "tts": "What time does the bar close?",
+      "pinyin": "uat taim das de bar klous",
+      "pt": "Wann schließt die Bar?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i04-n02",
+      "bloco": "cena",
+      "pt": "Es ist zwei Uhr morgens, die Lichter gehen plötzlich an, und du weißt noch nicht, ob deine Karte an der Bar noch offen ist."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i04-n03",
+      "bloco": "corpo",
+      "pt": "Davor, beim Ankommen, gibt es einen Schritt, der dir erspart, bei jeder Runde die Karte zu zücken: eine Tab eröffnen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i04-r01",
+      "es": "Would you like to start a tab?",
+      "tts": "Would you like to start a tab?",
+      "pinyin": "uud ju laik tu start e teb",
+      "pt": "Möchten Sie eine Tab eröffnen?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i04-p02",
+      "promptPt": "Du nimmst an: du willst die Karte den ganzen Abend hinterlegt lassen. Bestätige. Sprich jetzt.",
+      "audioKey": "eua-i04-t02",
+      "es": "Yes, please. Here's my card.",
+      "tts": "Yes, please. Here's my card.",
+      "pinyin": "jes, pliis. hirs mai kard",
+      "pt": "Ja, bitte. Hier ist meine Karte."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i04-p03",
+      "promptPt": "Du gehst von einer Bar zur nächsten und willst wissen, ob die Zeit noch reicht vor der letzten Runde. Frag, wann last call ist. Sprich jetzt.",
+      "molde": "WHAT-TIME",
+      "encaixe": "is last call",
+      "audioKey": "eua-i04-t03",
+      "es": "What time is last call?",
+      "tts": "What time is last call?",
+      "pinyin": "uat taim is last kol",
+      "pt": "Wann ist last call?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i04-r02",
+      "es": "One forty-five. We close at two.",
+      "tts": "One forty-five. We close at two.",
+      "pinyin": "uan FOR-ti-faiw. ui klous et tu",
+      "pt": "Ein Uhr fünfundvierzig. Wir schließen um zwei."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i04-n04",
+      "bloco": "capsula",
+      "pt": "Wenn last call gerufen wird, hast du Minuten, keine Sekunden. Das ist dein Signal, das letzte zu bestellen oder anzufangen zu schließen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i04-p04",
+      "promptPt": "Du hast last call gehört und willst wirklich noch eins. Bestell es. Sprich jetzt.",
+      "audioKey": "eua-i04-t04",
+      "es": "I'll take one more, please.",
+      "tts": "I'll take one more, please.",
+      "pinyin": "eil teik uan mor, pliis",
+      "pt": "Ich nehme noch eins, bitte."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i04-p05",
+      "promptPt": "Es ist Zeit, die Rechnung zu schließen. Bitte darum, deine Tab abzuschließen. Sprich jetzt.",
+      "audioKey": "eua-i04-t05",
+      "es": "Can I close out my tab?",
+      "tts": "Can I close out my tab?",
+      "pinyin": "ken ai klous aut mai teb",
+      "pt": "Kann ich meine Tab abschließen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i04-r03",
+      "es": "Sure, one second.",
+      "tts": "Sure, one second.",
+      "pinyin": "schur, uan SE-kend",
+      "pt": "Klar, einen Moment."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i04-p06",
+      "promptPt": "Ein Freund lädt dich morgen zu einem anderen Ort ein. Frag, wann sie öffnen, um nicht zu früh zu kommen. Sprich jetzt.",
+      "molde": "WHAT-TIME",
+      "encaixe": "do you guys open",
+      "audioKey": "eua-i04-t06",
+      "es": "What time do you guys open?",
+      "tts": "What time do you guys open?",
+      "pinyin": "uat taim du ju gais OU-pen",
+      "pt": "Wann macht ihr auf?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i04-r04",
+      "es": "You're all set. Have a good night.",
+      "tts": "You're all set. Have a good night.",
+      "pinyin": "jor ol set. hev e gud nait",
+      "pt": "Alles erledigt. Noch eine schöne Nacht."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-i04-p07",
+      "promptPt": "Verabschiede dich beim Barkeeper, bevor du gehst. Sprich jetzt.",
+      "audioKey": "eua-i04-t07",
+      "es": "Thanks, you too.",
+      "tts": "Thanks, you too.",
+      "pinyin": "tsenks, ju tu",
+      "pt": "Danke, dir auch."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-i04-p08",
+      "promptPt": "Ein Freund lädt dich zu einer anderen Bar davor ein. Frag, wann sie öffnet. Sprich jetzt.",
+      "molde": "WHAT-TIME",
+      "encaixe": "does that place open",
+      "audioKey": "eua-i04-t08",
+      "es": "What time does that place open?",
+      "tts": "What time does that place open?",
+      "pinyin": "uat taim das det pleis OU-pen",
+      "pt": "Wann öffnet dieser Ort?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-i04-n05",
+      "bloco": "permissao",
+      "pt": "Du musst das Trinkgeld nicht bei jeder Runde an der Bar ausrechnen. Du kannst es beim Abschließen der ganzen Rechnung geben, ein einziges Mal."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-i04-s01",
+      "es": "What time is last call? Can I close out my tab?",
+      "tts": "What time is last call? Can I close out my tab?",
+      "pinyin": "uat taim is last kol? ken ai klous aut mai teb",
+      "pt": "Wiederhole nach der Uhrzeit fragen und die Rechnung schließen."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "eua-i04-n06",
+      "bloco": "recap",
+      "pt": "I04 geschafft. Start a tab eröffnet die Rechnung, last call sagt dir, dass Minuten bleiben, close out my tab schließt sie — die Uhr aus B18, wieder."
+    }
+  ],
+  "permissao": "Du musst nicht sofort rennen, wenn du last call hörst. Dir bleiben noch mehrere Minuten, um dein letztes Getränk zu bestellen oder in Ruhe die Rechnung zu schließen — das ist kein Feueralarm.",
+  "permissaoAudioKey": "eua-i04-n05",
+  "espelho": "Jeder, der schon in seiner eigenen Stadt eine Tab an einer Bar eröffnet hat, um nicht bei jeder Runde die Karte zu zücken, kennt dieses System schon; das einzig Neue hier ist das Wort tab und die Ankündigung last call.",
+  "aprofundar": {
+    "titulo": "Die Tab und die Uhr der Bar",
+    "secoes": [
+      {
+        "titulo": "Die Tab erspart rundenweises Zahlen",
+        "corpo": "Die Karte beim Ankommen zu hinterlegen («start a tab») ist normal und erwartet in amerikanischen Bars; du zahlst alles zusammen am Ende, mit einem einzigen Trinkgeld."
+      },
+      {
+        "titulo": "Last call ist keine sofortige Schließung",
+        "corpo": "Es ist die letzte Ankündigung zum Bestellen; meist bleiben noch fünfzehn bis zwanzig Minuten, bevor wirklich geschlossen und das Licht angemacht wird."
+      },
+      {
+        "titulo": "What time bleibt derselbe Baustein",
+        "corpo": "Bar, Check-out, Küche, Frühstück — der Baustein aus B18 ändert sich nicht; nur was du fragst, ändert sich."
+      }
+    ]
+  }
+}

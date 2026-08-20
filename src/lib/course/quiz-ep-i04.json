@@ -1,0 +1,82 @@
+{
+  "id": "q-i04",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Die letzte Runde",
+  "subtitulo": "Die Tab eröffnen, last call hören, die Rechnung schließen",
+  "introAudioKey": "eua-i04-q-i",
+  "introPt": "Eine Bar um zwei Uhr morgens. Hör dir an, wie der Reisende die Rechnung eröffnet, das letzte Getränk bestellt und rechtzeitig abschließt.",
+  "cenario": "Eine Bar in den USA, kurz vor Schließzeit.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i04-q01",
+      "voz": "target_en_m",
+      "es": "Would you like to start a tab?",
+      "tts": "Would you like to start a tab?",
+      "pinyin": "uud ju laik tu start e teb",
+      "pt": "Möchten Sie eine Tab eröffnen?"
+    },
+    {
+      "audioKey": "eua-i04-q02",
+      "voz": "target_en_f",
+      "es": "Yes, please. Here's my card.",
+      "tts": "Yes, please. Here's my card.",
+      "pinyin": "jes, pliis. hirs mai kard",
+      "pt": "Ja, bitte. Hier ist meine Karte."
+    },
+    {
+      "audioKey": "eua-i04-q03",
+      "voz": "target_en_m",
+      "es": "One forty-five. We close at two.",
+      "tts": "One forty-five. We close at two.",
+      "pinyin": "uan FOR-ti-faiw. ui klous et tu",
+      "pt": "Ein Uhr fünfundvierzig. Wir schließen um zwei."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was ist eine «tab» in einer amerikanischen Bar?",
+      "opcoes": [
+        "Die ab deiner Ankunft mit deiner Karte offene Rechnung",
+        "Eine App, um Getränke zu bestellen",
+        "Die Cocktailkarte",
+        "Ein reservierter Tisch"
+      ],
+      "correta": 0,
+      "explica": "Du hinterlegst beim Ankommen die Karte und zahlst am Ende alles zusammen."
+    },
+    {
+      "pergunta": "Was bedeutet es, wenn «last call» gerufen wird?",
+      "opcoes": [
+        "Die Bar schließt in diesem Moment",
+        "Das ist die letzte Ankündigung zum Bestellen; es bleiben noch Minuten",
+        "Du kannst deine Rechnung nicht mehr zahlen",
+        "Es ist Zeit zu tanzen"
+      ],
+      "correta": 1,
+      "explica": "Meist bleiben noch fünfzehn bis zwanzig Minuten vor der wirklichen Schließung."
+    },
+    {
+      "pergunta": "Du willst wissen, wann die letzte Runde ist. Was fragst du?",
+      "opcoes": ["Can I close out my tab?", "What time is last call?", "Do you have a tab?", "Where's the bar?"],
+      "correta": 1,
+      "explica": "Das ist derselbe WHAT-TIME-Baustein aus B18, mit «last call» darin."
+    },
+    {
+      "pergunta": "Du beendest den Abend. Was sagst du, um alles zusammen zu bezahlen?",
+      "opcoes": ["Can I close out my tab?", "Excuse me?", "Do you have wifi?", "No ice, please"],
+      "correta": 0,
+      "explica": "Das schließt die ganze Rechnung ab, die du beim Ankommen eröffnet hast, mit einem einzigen Trinkgeld."
+    },
+    {
+      "pergunta": "Warum lohnt es sich, beim Ankommen eine Tab zu eröffnen?",
+      "opcoes": [
+        "Um nicht bei jeder Runde die Karte zu zücken",
+        "Weil es Pflicht ist",
+        "Um teurer zu zahlen",
+        "Es hat keinen Vorteil"
+      ],
+      "correta": 0,
+      "explica": "Es vereinfacht das Bezahlen: eine einzige Karte, ein einziges Trinkgeld, am Ende."
+    }
+  ]
+}

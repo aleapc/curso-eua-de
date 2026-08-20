@@ -1,0 +1,84 @@
+{
+  "id": "q-b14",
+  "nivel": "basico",
+  "titulo": "Quiz — Die Rechnung ist nie die Zahl von der Karte",
+  "subtitulo": "Die Steuer, die an der Kasse steigt, und der Service, der bei großen Gruppen schon enthalten ist",
+  "introAudioKey": "eua-b14-q-i",
+  "introPt": "Vier Personen sitzen am Tisch und wollen getrennt zahlen. Hör dir an, wie sie darum bitten und was der Kellner antwortet.",
+  "cenario": "Am Ende des Essens, mit dem Zahlgerät auf dem Tisch.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b14-q01",
+      "voz": "target_en_f",
+      "es": "Can I get separate checks?",
+      "tts": "Can I get separate checks?",
+      "pinyin": "ken ai guet SE-pe-ret tscheks",
+      "pt": "Können wir getrennte Rechnungen bekommen?"
+    },
+    {
+      "audioKey": "eua-b14-q02",
+      "voz": "target_en_m",
+      "es": "Sure, four ways?",
+      "tts": "Sure, four ways?",
+      "pinyin": "schur, for ueis",
+      "pt": "Klar, in vier Teile?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Die Karte sagte $48, und das Gerät zeigt $54.12. Warum?",
+      "opcoes": [
+        "Man hat dir irrtümlich zu viel berechnet",
+        "Der Kartenpreis enthält nie die Verkaufssteuer",
+        "Das ist eine Gebühr fürs Deutschsprechen",
+        "Du hast unbemerkt das Gericht gewechselt"
+      ],
+      "correta": 1,
+      "explica": "Die Verkaufssteuer kommt erst an der Kasse oder mit der Rechnung dazu, sie erscheint nie im gedruckten Kartenpreis."
+    },
+    {
+      "pergunta": "Wie hoch ist der nationale Durchschnitt der Verkaufssteuer?",
+      "opcoes": [
+        "0% im ganzen Land",
+        "Etwa 7,5%, mit Unterschieden je Bundesstaat",
+        "Immer genau 10%",
+        "25%"
+      ],
+      "correta": 1,
+      "explica": "Im Schnitt etwa 7,5%, bis fast 10% in Städten wie Los Angeles oder Chicago, und 0% in wenigen Bundesstaaten."
+    },
+    {
+      "pergunta": "Ihr seid acht Personen, und die Rechnung sagt schon «Gratuity (18%) included». Was tust du?",
+      "opcoes": [
+        "Du fügst wie immer weitere 18-20% hinzu",
+        "Du fügst nichts mehr hinzu: dieser Posten deckt den Service schon ab",
+        "Du weigerst dich zu zahlen, das ist illegal",
+        "Du bittest grundlos darum, es zu streichen"
+      ],
+      "correta": 1,
+      "explica": "Bei sechs oder mehr Personen ist der Servicezuschlag meist schon enthalten. Noch ein Trinkgeld draufzulegen zahlt zweimal für dasselbe."
+    },
+    {
+      "pergunta": "Was ist dieses automatische 18% bei großen Gruppen rechtlich gesehen?",
+      "opcoes": [
+        "Ein freiwilliges Trinkgeld (tip)",
+        "Ein verpflichtender Servicezuschlag (service charge)",
+        "Eine Bundessteuer",
+        "Ein Rabatt"
+      ],
+      "correta": 1,
+      "explica": "Die Steuerbehörde IRS unterscheidet zwischen tip und service charge. Der automatische Zuschlag bei großen Gruppen ist Letzteres: schon festgelegt, nicht von dir gewählt."
+    },
+    {
+      "pergunta": "Wann lohnt es sich, um getrennte Rechnungen zu bitten?",
+      "opcoes": [
+        "Nachdem sie schon als eine einzige gedruckt wurde",
+        "Bevor die Rechnung kommt",
+        "Das kann man nie verlangen",
+        "Nur bei mehr als zehn Personen"
+      ],
+      "correta": 1,
+      "explica": "Vorher darum zu bitten, bevor die Rechnung gedruckt wird, spart Zeit; eine schon gedruckte Rechnung zu teilen ist für alle umständlicher."
+    }
+  ]
+}

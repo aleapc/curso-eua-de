@@ -1,0 +1,89 @@
+{
+  "id": "q-a06",
+  "nivel": "avancado",
+  "titulo": "Quiz — Ihr Kalender",
+  "subtitulo": "Bundesfeiertage, Thanksgiving und die zwei Fragen, die jede geschlossene Tür öffnen",
+  "introAudioKey": "eua-a06-q-i",
+  "introPt": "Du hast das Museum für einen Tag geplant, der sich als Feiertag entpuppt. Hör dir den Austausch an und antworte.",
+  "cenario": "Der Eingang eines Museums, ein ganz normaler Montag.",
+  "dialogo": [
+    {
+      "audioKey": "eua-a06-q01",
+      "voz": "target_en_m",
+      "es": "Sorry, we're closed today — it's Presidents' Day.",
+      "tts": "Sorry, we're closed today — it's Presidents' Day.",
+      "pt": "Tut mir leid, heute haben wir geschlossen — es ist Presidents' Day."
+    },
+    {
+      "audioKey": "eua-a06-q02",
+      "voz": "target_en_f",
+      "es": "Is the mall open today?",
+      "tts": "Is the mall open today?",
+      "pt": "Hat das Einkaufszentrum heute geöffnet?"
+    },
+    {
+      "audioKey": "eua-a06-q03",
+      "voz": "target_en_m",
+      "es": "Yeah, everything's open except government stuff.",
+      "tts": "Yeah, everything's open except government stuff.",
+      "pt": "Ja, alles hat offen, außer den Behörden."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Wie viele bundesweite Feiertage begehen die USA pro Jahr?",
+      "opcoes": [
+        "Fünf",
+        "Elf",
+        "Zwanzig",
+        "Keinen offiziellen"
+      ],
+      "correta": 1,
+      "explica": "Elf Termine im Jahr schließen die Bundesbehörden, Banken und die Post."
+    },
+    {
+      "pergunta": "Das Museum ist wegen eines Feiertags geschlossen. Was bedeutet das für normale Läden?",
+      "opcoes": [
+        "Die schließen auch alle",
+        "Die meisten bleiben offen, außer an Thanksgiving und Weihnachten",
+        "Nur die Banken schließen",
+        "Das lässt sich nicht wissen"
+      ],
+      "correta": 1,
+      "explica": "Der Handel folgt der Feiertagsliste fast nie, außer an diesen beiden Terminen."
+    },
+    {
+      "pergunta": "Wann ist Thanksgiving?",
+      "opcoes": [
+        "Am ersten Montag im November",
+        "Am vierten Donnerstag im November",
+        "Am 25. Dezember",
+        "Am letzten Freitag im November"
+      ],
+      "correta": 1,
+      "explica": "Thanksgiving ist immer der vierte Donnerstag im November."
+    },
+    {
+      "pergunta": "Was ist Black Friday?",
+      "opcoes": [
+        "Ein weiterer Bundesfeiertag",
+        "Der Tag nach Thanksgiving, mit großen Rabatten schon früh am Morgen",
+        "Der Tag, an dem der Staat schließt",
+        "Ein religiöses Fest"
+      ],
+      "correta": 1,
+      "explica": "Es ist der traditionelle Start der Weihnachts-Einkaufssaison, mit Läden, die vor Sonnenaufgang öffnen."
+    },
+    {
+      "pergunta": "Welche zwei Fragen geben dir den echten Kalender eines Ortes?",
+      "opcoes": [
+        "Was kostet das? und Wo ist das?",
+        "Ist Feiertag? und Habt ihr geöffnet?",
+        "Wann schließt ihr? und Nehmt ihr Karte?",
+        "Gibt's Rabatt? und Habt ihr Parkplätze?"
+      ],
+      "correta": 1,
+      "explica": "Die erste gibt dir die nationale Regel; die zweite die echte Antwort für genau dieses Geschäft."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "q-b04",
+  "nivel": "basico",
+  "titulo": "Quiz — Die vier Dateien vor dem Abflug",
+  "subtitulo": "ESTA, Reisepass, Reservierung und Adresse, geklärt vor dem Schlafengehen",
+  "introAudioKey": "eua-b04-q-i",
+  "introPt": "Am Abend vor dem Flug bestätigst du deine Reservierung telefonisch mit dem Hotel. Hör dir den Austausch an und achte darauf, wer was fragt.",
+  "cenario": "Am Telefon, am Abend vor dem Abflug, beim Bestätigen der Hotelreservierung.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b04-q01",
+      "voz": "target_en_f",
+      "es": "I'd like to confirm my reservation.",
+      "tts": "I'd like to confirm my reservation.",
+      "pinyin": "aid laik tu ken-FERM mai re-ser-WEI-schen",
+      "pt": "Ich möchte meine Reservierung bestätigen."
+    },
+    {
+      "audioKey": "eua-b04-q02",
+      "voz": "target_en_m",
+      "es": "Sure, what name is it under?",
+      "tts": "Sure, what name is it under?",
+      "pinyin": "schur, uat neim is it AN-der",
+      "pt": "Klar, auf welchen Namen läuft sie?"
+    },
+    {
+      "audioKey": "eua-b04-q03",
+      "voz": "target_en_f",
+      "es": "What's the full address?",
+      "tts": "What's the full address?",
+      "pinyin": "uats de ful e-DRES",
+      "pt": "Wie lautet die vollständige Adresse?"
+    },
+    {
+      "audioKey": "eua-b04-q04",
+      "voz": "target_en_m",
+      "es": "Yes, we're open all night. You're all set.",
+      "tts": "Yes, we're open all night. You're all set.",
+      "pinyin": "jes, uir OU-pen ol nait. jor ol set",
+      "pt": "Ja, wir haben die ganze Nacht geöffnet. Alles klar bei Ihnen."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Als deutscher Staatsbürger, was brauchst du, um touristisch in die USA zu fliegen?",
+      "opcoes": [
+        "Ein Touristenvisum, das vorher beantragt wird",
+        "Eine gültige ESTA-Genehmigung über das Visa Waiver Program",
+        "Nichts, der Personalausweis reicht",
+        "Eine Sondergenehmigung nur bei mehr als zehn Tagen Aufenthalt"
+      ],
+      "correta": 1,
+      "explica": "Deutschland ist Teil des Visa Waiver Program; du brauchst eine gültige ESTA-Genehmigung und einen biometrischen Reisepass, kein Visum."
+    },
+    {
+      "pergunta": "Warum die Reservierungsbestätigung per E-Mail anfordern, statt sich nur auf die App zu verlassen?",
+      "opcoes": [
+        "Weil Apps immer versagen",
+        "Um etwas Gespeichertes zu haben, das ohne Internet funktioniert",
+        "Weil es gesetzlich vorgeschrieben ist",
+        "Um Geld zu sparen"
+      ],
+      "correta": 1,
+      "explica": "Eine außerhalb der App gespeicherte Bestätigung übersteht ausgefallenes WLAN oder einen leeren Akku."
+    },
+    {
+      "pergunta": "Was erstellt die Grenzbehörde (CBP) bei der Ankunft per Flugzeug?",
+      "opcoes": [
+        "Ein Papierformular, das du vor dem Flug ausfüllst",
+        "Die Einreiseerfassung I-94, elektronisch",
+        "Ein neues Visum am Flughafen",
+        "Nichts, es gibt keine Erfassung"
+      ],
+      "correta": 1,
+      "explica": "Es gibt kein Papier, das man vorher ausfüllt; das I-94 wird bei der Einreise elektronisch erstellt."
+    },
+    {
+      "pergunta": "Warum fragt man, ob die Hotelrezeption vierundzwanzig Stunden geöffnet hat?",
+      "opcoes": [
+        "Um den Preis zu verhandeln",
+        "Weil eine gültige Reservierung scheitern kann, wenn nachts niemand den Reisenden empfängt",
+        "Es ist immer verpflichtend zu fragen",
+        "Um ein größeres Zimmer zu bekommen"
+      ],
+      "correta": 1,
+      "explica": "Die Uhrzeit zu bestätigen verhindert, dass eine späte Ankunft auf eine geschlossene Rezeption trifft."
+    }
+  ]
+}

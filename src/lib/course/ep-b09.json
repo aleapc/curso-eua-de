@@ -1,0 +1,258 @@
+{
+  "id": "b09",
+  "slot": "B09",
+  "nivel": "basico",
+  "numero": 9,
+  "parte": "3B",
+  "titulo": "Ticket, Regel, Fahrzeug, in dieser Reihenfolge",
+  "subtitulo": "Bestätige das Ziel, kauf das Ticket, finde die Regel deiner Karte heraus und bestätige das Fahrzeug, bevor du einsteigst",
+  "cena": "Das Ticket ist schon in deiner Hand, noch warm vom Automaten, und es hat dir noch nichts über die eine Regel gesagt, die entscheidet, ob es wirklich funktioniert.",
+  "moldura": "ganha",
+  "frasePiso": "Ein Ticket nützt nichts, bis du weißt, wohin es geht und was du vor dem Einsteigen tun musst.",
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b09-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Es gibt kein einziges Transportsystem in den USA: jede Stadt hat ihr eigenes. Was gleich bleibt, ist deine Abfolge: Ziel, Ticket, Regel, Bahnsteig, Fahrzeug."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHERE",
+      "encaixe": "ticket machine",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b09-p00",
+      "promptPt": "Du steigst aus der U-Bahn und musst zuerst dein Ticket kaufen. Frag, wo der Automat ist. Sprich jetzt.",
+      "audioKey": "eua-b09-x0",
+      "es": "Where's the ticket machine?",
+      "tts": "Where's the ticket machine?",
+      "pinyin": "uers de TI-ket me-SCHIIN",
+      "pt": "Wo ist der Ticketautomat?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b09-t01",
+      "es": "Does this train go downtown?",
+      "tts": "Does this train go downtown?",
+      "pinyin": "das dis trein gou daun-TAUN",
+      "pt": "Fährt dieser Zug in die Innenstadt?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b09-p01",
+      "promptPt": "Bevor du irgendetwas kaufst, bestätige, ob diese Verbindung in die Innenstadt fährt. Sprich jetzt.",
+      "audioKey": "eua-b09-t01",
+      "es": "Does this train go downtown?",
+      "tts": "Does this train go downtown?",
+      "pinyin": "das dis trein gou daun-TAUN",
+      "pt": "Fährt dieser Zug in die Innenstadt?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b09-r01",
+      "es": "Yes, but you'll need to transfer once.",
+      "tts": "Yes, but you'll need to transfer once.",
+      "pinyin": "jes, bat jul niid tu TRENS-fer uans",
+      "pt": "Ja, aber du musst einmal umsteigen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b09-n02",
+      "bloco": "corpo",
+      "pt": "Kauf mit dem Ziel im Kopf, nicht mit einem festen Tarifwort: jede Stadt nennt ihr Ticket anders."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b09-p02",
+      "promptPt": "Am besetzten Schalter bitte um ein Ticket in die Innenstadt. Sprich jetzt.",
+      "audioKey": "eua-b09-t02",
+      "es": "One ticket downtown, please.",
+      "tts": "One ticket downtown, please.",
+      "pinyin": "uan TI-ket daun-TAUN, pliis",
+      "pt": "Ein Ticket in die Innenstadt, bitte."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b09-r02",
+      "es": "Here you go.",
+      "tts": "Here you go.",
+      "pinyin": "hir ju gou",
+      "pt": "Bitte sehr."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b09-n03",
+      "bloco": "molde",
+      "pt": "Ticket in der Hand, Regel immer noch unbekannt. Do I need to fragt nach der Pflicht, egal welche Handlung."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b09-t03",
+      "es": "Do I need to tap this card?",
+      "tts": "Do I need to tap this card?",
+      "pinyin": "du ai niid tu tep dis kard",
+      "pt": "Muss ich diese Karte antippen?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b09-p03",
+      "promptPt": "Du hast schon das Ticket, aber vor dem Bahnsteig steht ein Lesegerät. Frag, ob du es antippen musst. Sprich jetzt.",
+      "audioKey": "eua-b09-t03",
+      "es": "Do I need to tap this card?",
+      "tts": "Do I need to tap this card?",
+      "pinyin": "du ai niid tu tep dis kard",
+      "pt": "Muss ich diese Karte antippen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b09-r03",
+      "es": "Yes, right there at the gate.",
+      "tts": "Yes, right there at the gate.",
+      "pinyin": "jes, rait der et de gueit",
+      "pt": "Ja, genau dort am Drehkreuz."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHERE",
+      "encaixe": "platform",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b09-p04",
+      "promptPt": "Das Ticket ist schon gültig, aber du brauchst noch den richtigen Bahnsteig. Frag, wo er ist. Sprich jetzt.",
+      "audioKey": "eua-b09-t04",
+      "es": "Where's the platform?",
+      "tts": "Where's the platform?",
+      "pinyin": "uers de PLET-form",
+      "pt": "Wo ist der Bahnsteig?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b09-r04",
+      "es": "Down these stairs, to your right.",
+      "tts": "Down these stairs, to your right.",
+      "pinyin": "daun dis sters, tu jor rait",
+      "pt": "Diese Treppe runter, rechts."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b09-n04",
+      "bloco": "capsula",
+      "pt": "Derselbe Baustein, eine andere Handlung: du weißt schon, dass es einen Umstieg gibt, jetzt frag, ob er für deine Strecke gilt."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b09-p05",
+      "promptPt": "Auf dem Bahnsteig frag, ob du umsteigen musst, um in die Innenstadt zu kommen. Sprich jetzt.",
+      "audioKey": "eua-b09-t05",
+      "es": "Do I need to transfer?",
+      "tts": "Do I need to transfer?",
+      "pinyin": "du ai niid tu TRENS-fer",
+      "pt": "Muss ich umsteigen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b09-r05",
+      "es": "Yes, one stop from here.",
+      "tts": "Yes, one stop from here.",
+      "pinyin": "jes, uan stap from hir",
+      "pt": "Ja, eine Station von hier."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "eua-b09-n05",
+      "pt": "Letzte Prüfung, an der Tür: bestätige, dass dieser Zug oder Bus wirklich dahin fährt, wo du hinwillst, auch wenn die Nummer schon am Schild steht."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "eua-b09-p06",
+      "promptPt": "Der Zug kommt am Bahnsteig an. Bevor du einsteigst, bestätige, dass er in die Innenstadt fährt. Sprich jetzt.",
+      "audioKey": "eua-b09-t06",
+      "es": "Does this train go downtown?",
+      "tts": "Does this train go downtown?",
+      "pinyin": "das dis trein gou daun-TAUN",
+      "pt": "Fährt dieser Zug in die Innenstadt?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b09-r06",
+      "es": "Yes, hop on.",
+      "tts": "Yes, hop on.",
+      "pinyin": "jes, hap on",
+      "pt": "Ja, steig ein."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "eua-b09-px1",
+      "promptPt": "Dieser Zug ist voll. Frag, ob es später noch einen gibt. Sprich jetzt.",
+      "audioKey": "eua-b09-x1",
+      "es": "Is there another one later?",
+      "tts": "Is there another one later?",
+      "pinyin": "is der e-NA-der uan LEI-ter",
+      "pt": "Gibt es später noch einen?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b09-s01",
+      "es": "Do I need to tap this card? Do I need to transfer?",
+      "tts": "Do I need to tap this card? Do I need to transfer?",
+      "pinyin": "du ai niid tu tep dis kard? du ai niid tu TRENS-fer",
+      "pt": "Wiederhole dieselbe Pflichtfrage mit zwei verschiedenen Handlungen."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "eua-b09-n06",
+      "bloco": "recap",
+      "pt": "B09 geschafft. Ziel, Ticket, Kartenregel, Bahnsteig, Umstieg, Fahrzeug bestätigt: die Reihenfolge ist deine Aufgabe."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Entdecke die Regel; importier keine",
+    "secoes": [
+      {
+        "titulo": "Es gibt kein landesweites System",
+        "corpo": "Jede US-Stadt hat ihr eigenes Transportsystem, mit eigener Karte, eigenem Ticket oder eigener App. Nützlich ist es, nach dem Ziel zu fragen, statt ein bestimmtes Tarifprodukt vorauszusetzen."
+      },
+      {
+        "titulo": "Do I need to, plus die Handlung",
+        "corpo": "Benutze dieselbe Eröffnung, um jede Pflicht des Systems herauszufinden.",
+        "exemplos": [
+          { "es": "Do I need to tap this card?", "pt": "Muss ich diese Karte antippen?" },
+          { "es": "Do I need to transfer?", "pt": "Muss ich umsteigen?" }
+        ]
+      },
+      {
+        "titulo": "Zahlen bleiben an der Oberfläche",
+        "corpo": "Lies die Liniennummer oder den Bahnsteig vom Bildschirm ab und zeig darauf, wenn nötig. Zahlen aktiv zu produzieren ist nicht der Preis dafür, ins richtige Fahrzeug zu steigen."
+      }
+    ]
+  }
+}
