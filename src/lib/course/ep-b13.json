@@ -58,7 +58,7 @@
       "voz": "target_en_m",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "eua-b13-p01",
-      "promptPt": "Gestern hast du den Kaffee ohne Zucker bestellt. Wiederhole diesen Baustein jetzt mit den Zwiebeln. Sprich jetzt.",
+      "promptPt": "Gestern hast du den Kaffee ohne Zucker bestellt. Sag denselben Baustein für die Zwiebeln. Sprich jetzt.",
       "bloco": "callback",
       "molde": "WITHOUT",
       "audioKey": "eua-b13-t01",
