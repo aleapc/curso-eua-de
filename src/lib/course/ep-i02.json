@@ -59,7 +59,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-i02-n03",
       "bloco": "corpo",
-      "pt": "Hier wird die Schlange still respektiert. Excuse me benutzt man nur, um durchzugehen oder Aufmerksamkeit zu bekommen, nicht um sich vorzudrängen."
+      "pt": "Hier wird die Schlange still respektiert. Excuse me nur zum Durchgehen oder für Aufmerksamkeit, nie zum Vordrängeln."
     },
     {
       "tipo": "ouvir",
@@ -216,7 +216,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-i02-n06",
       "bloco": "permissao",
-      "pt": "Du brauchst keinen langen Gruß oder eine zusätzliche Entschuldigung, um zu bestellen. Direkt und in normaler Lautstärke ist das Erwartete, nicht unhöflich."
+      "pt": "Du brauchst keinen langen Gruß, um zu bestellen. Direkt und normal laut ist das Erwartete, nicht unhöflich."
     },
     {
       "tipo": "shadow",
@@ -232,7 +232,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-i02-n07",
       "bloco": "recap",
-      "pt": "I02 geschafft. Excuse me bestätigt die Schlange, can I get bestellt, no ___ please entfernt, was du nicht willst — nichts Neues, nur die richtige Reihenfolge."
+      "pt": "I02 geschafft. Excuse me für die Schlange, can I get zum Bestellen, no ___ please zum Entfernen — nichts Neues, nur die Reihenfolge."
     }
   ],
   "permissao": "Du musst nicht laut sprechen oder dich zu früh zum Tresen begeben. Dich anzustellen und still zu warten ist genau das, was hier von dir erwartet wird — es ist die Handlung, nicht die Passivität.",

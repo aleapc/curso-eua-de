@@ -77,7 +77,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b11-n02",
       "bloco": "cena",
-      "pt": "Die Kellnerin kommt mit offenem Notizblock. Du hast die Karte nur überflogen; dir bleiben drei Sekunden, bevor sie fragt, was ihr trinken wollt."
+      "pt": "Die Kellnerin kommt mit offenem Notizblock. Du hast die Karte nur überflogen; drei Sekunden, bevor sie nach Getränken fragt."
     },
     {
       "tipo": "responde",
@@ -204,7 +204,7 @@
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-b11-n05",
-      "pt": "Ausweis wird verlangt, auch wenn du älter wirkst: das ist die Gewohnheit. Der physische Reisepass zählt; das Foto auf dem Handy nicht."
+      "pt": "Ausweis wird verlangt, auch wenn du älter wirkst — reine Gewohnheit. Der physische Reisepass zählt, das Handyfoto nicht."
     },
     {
       "consulta": [
@@ -244,7 +244,7 @@
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-b11-n06",
-      "pt": "Die Rechnung kommt nicht von allein: in den USA bittest du selbst darum. Ohne «Can I get the check» kannst du den ganzen Nachmittag sitzen bleiben."
+      "pt": "Die Rechnung kommt nicht von allein: du bittest selbst darum. Ohne «Can I get the check» sitzt du den ganzen Nachmittag."
     },
     {
       "consulta": [
@@ -287,14 +287,14 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b11-n09",
       "bloco": "permissao",
-      "pt": "Du musst nicht alles zusammen bestellen. «Can I get» plus eine Sache nach der anderen ist ein vollständiger Satz, und du kannst ihn wiederholen, so oft du brauchst."
+      "pt": "Du musst nicht alles zusammen bestellen: «Can I get» plus eine Sache ist ein vollständiger Satz, wiederholbar so oft nötig."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-b11-n10",
       "bloco": "clique",
-      "pt": "Du hast Tisch, Wasser, Bier, Essen und Rechnung bestellt. Niemand hat dir fünf Sätze gegeben: du hast sie alle mit «Can I get» gebaut."
+      "pt": "Du hast Tisch, Wasser, Bier, Essen und Rechnung bestellt — nicht mit fünf Sätzen, sondern mit «Can I get»."
     },
     {
       "tipo": "shadow",

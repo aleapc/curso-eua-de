@@ -84,14 +84,14 @@
       "voz": "guide_de_m",
       "audioKey": "eua-i10-n02",
       "bloco": "cena",
-      "pt": "Die Rechnung kommt und sagt «suggested tip: 18% / 20% / 22%» — das ist nicht dekorativ, das ist das echte Gehalt des Kellners."
+      "pt": "Die Rechnung sagt «suggested tip: 18% / 20% / 22%» — nicht dekorativ, sondern das echte Gehalt des Kellners."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-i10-n03",
       "bloco": "corpo",
-      "pt": "Der Grundlohn eines Kellners kann nur zwei Dollar die Stunde betragen. Das Trinkgeld am Tisch ist kein Extra: es ist sein Gehalt."
+      "pt": "Der Grundlohn eines Kellners kann nur zwei Dollar die Stunde betragen — das Trinkgeld am Tisch ist kein Extra, es ist Gehalt."
     },
     {
       "tipo": "ouvir",
@@ -121,7 +121,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-i10-n04",
       "bloco": "capsula",
-      "pt": "Am Tresen ist es anders: der Bildschirm, der 25 oder 30% für einen Kaffee zum Mitnehmen verlangt, ist neu. Dort darfst du nein sagen."
+      "pt": "Am Tresen anders: der Bildschirm, der 25 oder 30% für einen Kaffee to go verlangt, ist neu — dort darfst du nein sagen."
     },
     {
       "tipo": "ouvir",
@@ -148,7 +148,7 @@
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-i10-n05",
-      "pt": "Bei sechs oder mehr Personen addieren viele Orte schon 18% Servicezuschlag — lies die Rechnung, bevor du dein Trinkgeld obendrauf gibst."
+      "pt": "Bei sechs oder mehr Personen addieren viele Orte schon 18% Servicezuschlag — lies die Rechnung, bevor du extra gibst."
     },
     {
       "tipo": "responde",
@@ -228,7 +228,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-i10-n06",
       "bloco": "permissao",
-      "pt": "Du musst das Trinkgeld nicht unter Druck ausrechnen. Lies die Rechnung in Ruhe, und sag am Tresen ohne schlechtes Gewissen nein."
+      "pt": "Du musst das Trinkgeld nicht unter Druck ausrechnen: lies die Rechnung in Ruhe, sag am Tresen ruhig nein."
     },
     {
       "tipo": "shadow",

@@ -59,7 +59,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-b07-n02",
       "bloco": "cena",
-      "pt": "Ein halbes Dutzend Fahrer bearbeiten den Gehweg. Der einzige, der zählt, ist der, den du noch nicht gefunden hast: der autorisierte."
+      "pt": "Ein halbes Dutzend Fahrer bearbeiten den Gehweg. Der einzige, der zählt, ist der autorisierte — den du noch nicht gefunden hast."
     },
     {
       "tipo": "intro",
@@ -106,14 +106,14 @@
       "audioKey": "eua-b07-n04",
       "bloco": "corpo",
       "tom": "protege",
-      "pt": "Vorsicht bei dem ersten Angebot, das dich anspricht, bevor du selbst gefragt hast: der autorisierte Transport steht fast nie direkt an der Ankunftstür."
+      "pt": "Vorsicht beim ersten Angebot, das dich vor deiner Frage anspricht: der autorisierte Transport steht fast nie direkt an der Ankunftstür."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-b07-n05",
       "tom": "ganha",
-      "pt": "Bei einem über die App bestätigten Fahrer, bitte um den genauen Treffpunkt und akzeptiere nicht, dass er unterwegs geändert wird."
+      "pt": "Bei einem über die App bestätigten Fahrer: bitte um den genauen Treffpunkt, akzeptiere keine Änderung unterwegs."
     },
     {
       "tipo": "responde",
@@ -157,7 +157,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b07-n06",
       "bloco": "capsula",
-      "pt": "Bei der Ankunft im Hotel schließe zuerst die Route ab: sag, wo er halten soll, und erst dann bitte um die Quittung, falls sie noch nicht geschickt wurde."
+      "pt": "Bei Ankunft im Hotel schließe zuerst die Route ab: sag, wo er halten soll, dann erst die Quittung, falls noch nicht geschickt."
     },
     {
       "tipo": "responde",
@@ -239,7 +239,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b07-n07",
       "bloco": "recap",
-      "pt": "B07 geschafft. Kanal vor Wagen, Can I für das, was du tun musst, Quittung aufbewahrt. B08 macht weiter mit wo sich was befindet."
+      "pt": "B07 geschafft. Kanal vor Wagen, Can I für das, was du brauchst, Quittung aufbewahrt. B08 macht weiter."
     }
   ],
   "aprofundar": {

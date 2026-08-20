@@ -64,7 +64,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-b16-n02",
       "bloco": "cena",
-      "pt": "Du bist an der Rezeption, die Schlange wächst, und du weißt nicht: bittest du um etwas Besseres, bevor du den Schlüssel bekommst?"
+      "pt": "An der Rezeption wächst die Schlange, und du weißt nicht: bittest du um etwas Besseres, bevor du den Schlüssel bekommst?"
     },
     {
       "tipo": "responde",
@@ -244,14 +244,14 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b16-n09",
       "bloco": "capsula",
-      "pt": "Siehst du gefaltete Scheine auf dem Kissen, ist das kein vergessenes Geld: das Trinkgeld für die Reinigung, ein bis zwei Dollar pro Nacht."
+      "pt": "Gefaltete Scheine auf dem Kissen sind kein vergessenes Geld: Trinkgeld für die Reinigung, ein bis zwei Dollar pro Nacht."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-b16-n10",
       "bloco": "permissao",
-      "pt": "Du musst dich nicht entschuldigen, wenn etwas nicht funktioniert. Das Hotel erwartet diese Information, keine übertriebene Beschwerde."
+      "pt": "Du musst dich nicht entschuldigen, wenn etwas nicht funktioniert: das Hotel erwartet diese Information, keine Beschwerde."
     },
     {
       "tipo": "intro",
@@ -274,7 +274,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-b16-n12",
       "bloco": "recap",
-      "pt": "B16 geschafft. Erst gebeten, dann gemeldet: kaputte Karte, defekte Klimaanlage, ein einziger Baustein für wenn etwas ausfällt."
+      "pt": "B16 geschafft. Erst gebeten, dann gemeldet: kaputte Karte, defekte Klimaanlage, ein Baustein für Ausfälle."
     }
   ],
   "aprofundar": {

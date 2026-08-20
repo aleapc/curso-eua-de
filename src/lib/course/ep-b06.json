@@ -53,7 +53,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-b06-n02",
       "bloco": "cena",
-      "pt": "Das Band ist schon stehengeblieben, dein Koffer kam nicht raus, und die Person mit dem Namensschild ist weit weg. Zuerst, was nicht warten kann."
+      "pt": "Das Band steht schon, dein Koffer kam nicht raus, die Person mit Namensschild ist weit weg. Zuerst, was nicht warten kann."
     },
     {
       "tipo": "responde",
@@ -252,21 +252,21 @@
       "voz": "guide_de_m",
       "audioKey": "eua-b06-n05",
       "bloco": "capsula",
-      "pt": "Die Person am Schalter sagt «how are you?», ohne dich anzusehen. Das fragt nicht, wie es dir geht: es ist ein Gruß. Du antwortest kurz."
+      "pt": "Die Person am Schalter sagt «how are you?», ohne dich anzusehen. Kein echtes Fragen — nur ein Gruß. Antworte kurz."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-b06-n06",
       "bloco": "permissao",
-      "pt": "Du brauchst keinen Satz pro Schalter. «Do you have» plus die Sache ist schon eine vollständige Frage, wie auch immer sie klingt."
+      "pt": "Du brauchst keinen Satz pro Schalter: «Do you have» plus die Sache ist schon eine vollständige Frage."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-b06-n07",
       "bloco": "clique",
-      "pt": "Du hast nach WLAN, Toilette, Geldautomat und SIM-Karte gefragt. Niemand hat dir vier Sätze gegeben: du hast sie mit einem Baustein gebaut."
+      "pt": "Du hast nach WLAN, Toilette, Geldautomat und SIM-Karte gefragt — nicht mit vier Sätzen, sondern mit einem Baustein."
     },
     {
       "tipo": "shadow",

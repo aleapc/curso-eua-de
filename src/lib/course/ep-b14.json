@@ -96,7 +96,7 @@
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-b14-n04",
-      "pt": "Sie steigt im Schnitt um etwa siebeneinhalb Prozent, fast zehn in Städten wie Los Angeles, null in wenigen Bundesstaaten."
+      "pt": "Im Schnitt etwa 7,5 Prozent, fast zehn in Städten wie Los Angeles, null in wenigen Bundesstaaten."
     },
     {
       "tipo": "ouvir",
@@ -154,13 +154,13 @@
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-b14-n05",
-      "pt": "Am besten darum bitten, bevor die Rechnung kommt. Ist sie erst gedruckt, wird das Teilen am Tisch für alle umständlicher."
+      "pt": "Am besten vor der Rechnung darum bitten. Ist sie gedruckt, wird Teilen am Tisch für alle umständlicher."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-b14-n06",
-      "pt": "Bei sechs oder mehr Personen ist fast immer schon achtzehn Prozent Service enthalten. Lies die Rechnung, bevor du noch ein Trinkgeld dazurechnest."
+      "pt": "Bei sechs oder mehr Personen ist fast immer schon 18 Prozent Service enthalten. Lies die Rechnung, bevor du extra Trinkgeld gibst."
     },
     {
       "consulta": [
@@ -244,7 +244,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b14-n07",
       "bloco": "capsula",
-      "pt": "Dieser Zuschlag bei großen Gruppen ist rechtlich kein Trinkgeld, sondern ein Servicezuschlag. Er erfüllt denselben Zweck, ist aber schon festgelegt und du entscheidest nicht selbst."
+      "pt": "Dieser Zuschlag bei großen Gruppen ist rechtlich kein Trinkgeld, sondern ein Servicezuschlag: gleicher Zweck, aber schon festgelegt."
     },
     {
       "tipo": "intro",
@@ -258,7 +258,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b14-n09",
       "bloco": "recap",
-      "pt": "B14 geschafft. Die Steuer erhöht die Summe, und bei großen Gruppen kann der Service schon enthalten sein: lies die Rechnung, bevor du zu viel dazurechnest."
+      "pt": "B14 geschafft. Die Steuer erhöht die Summe; bei großen Gruppen kann Service schon enthalten sein — lies die Rechnung genau."
     }
   ],
   "aprofundar": {

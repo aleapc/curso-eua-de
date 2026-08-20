@@ -44,7 +44,7 @@
       "gesto": 1,
       "mapaGestos": true,
       "bloco": "aquecimento",
-      "pt": "Teil eins. Vier Gesten: Schlag für den Rhythmus, lockere Handfläche für den Vokal, Faust auf der betonten Silbe, Biss für das th."
+      "pt": "Teil eins, vier Gesten: Schlag für Rhythmus, lockere Hand für den Vokal, Faust auf der betonten Silbe, Biss für das th."
     },
     {
       "tipo": "ouvir",
@@ -74,7 +74,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-b01-n02",
       "gesto": 1,
-      "pt": "Englisch verteilt die Zeit nicht gleichmäßig auf Silben. Die starke dehnt sich, andere werden gestaucht: ex-CUSE me, nicht EX-kjus-mi."
+      "pt": "Englisch verteilt Zeit ungleich auf Silben: die starke dehnt sich, andere stauchen sich — ex-CUSE me, nicht EX-kjus-mi."
     },
     {
       "tipo": "ouvir",
@@ -163,7 +163,7 @@
       "audioKey": "eua-b01-n05",
       "gesto": 4,
       "bloco": "capsula",
-      "pt": "Der Biss ist das th: die Zunge kommt leicht zwischen die Zähne. Kein f, kein s — ein neuer Laut, und die Annäherung reicht schon."
+      "pt": "Der Biss ist das th: Zunge leicht zwischen die Zähne. Kein f, kein s — ein neuer Laut, Annäherung reicht schon."
     },
     {
       "tipo": "ouvir",

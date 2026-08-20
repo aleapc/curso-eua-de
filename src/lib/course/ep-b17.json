@@ -65,7 +65,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b17-n02",
       "bloco": "cena",
-      "pt": "Dein Magen tut seit gestern Abend weh. Du weißt nicht, ob das ein Fall für die Apotheke oder den Arzt ist, und die Uhr läuft weiter."
+      "pt": "Dein Magen tut seit gestern Abend weh. Apotheke oder Arzt? Du weißt es nicht, und die Uhr läuft weiter."
     },
     {
       "tipo": "responde",
@@ -211,14 +211,14 @@
       "voz": "guide_de_m",
       "audioKey": "eua-b17-n05",
       "bloco": "capsula",
-      "pt": "Für etwas, das dein Leben nicht gefährdet — starker Husten, verstauchter Knöchel — ist die Notfallklinik schneller und billiger als die Notaufnahme."
+      "pt": "Für Ungefährliches — starker Husten, verstauchter Knöchel — ist die Notfallklinik schneller und billiger als die Notaufnahme."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-b17-n06",
       "tom": "protege",
-      "pt": "Ohne Reiseversicherung kann ein einziger Besuch in der Notaufnahme zwischen fünfzehnhundert und dreitausend Dollar kosten, noch vor jeder Behandlung."
+      "pt": "Ohne Reiseversicherung kostet ein Besuch in der Notaufnahme zwischen 1.500 und 3.000 Dollar, noch vor jeder Behandlung."
     },
     {
       "tipo": "intro",
@@ -255,14 +255,14 @@
       "voz": "guide_de_m",
       "audioKey": "eua-b17-n09",
       "bloco": "permissao",
-      "pt": "Du musst dich nicht selbst diagnostizieren. Mit der Apotheke anzufangen ist gültig; wird es nicht besser, ist um einen Arzt zu bitten keine Übertreibung."
+      "pt": "Du musst dich nicht selbst diagnostizieren. Mit der Apotheke anzufangen ist gültig; wird es nicht besser, bitte um einen Arzt."
     },
     {
       "tipo": "recap",
       "voz": "guide_de_f",
       "audioKey": "eua-b17-n10",
       "bloco": "recap",
-      "pt": "B17 geschafft. Erst die Apotheke, die Notfallklinik für das, was nicht warten kann, die Notaufnahme nur fürs Schwerwiegende, und 911, wenn es wirklich ernst ist."
+      "pt": "B17 geschafft. Erst Apotheke, dann Notfallklinik, Notaufnahme nur fürs Schwerwiegende, 911 nur wenn es wirklich ernst ist."
     }
   ],
   "aprofundar": {

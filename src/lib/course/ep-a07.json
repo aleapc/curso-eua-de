@@ -38,7 +38,7 @@
       "audioKey": "eua-a07-n01",
       "gesto": 3,
       "bloco": "aquecimento",
-      "pt": "Heute geht es vor allem ums Zuhören. Die Signale werden bereits gesendet — die Aufgabe ist, sie als Information zu lesen, nicht als verwirrende Botschaften."
+      "pt": "Heute geht's vor allem ums Zuhören. Die Signale werden längst gesendet — lies sie als Information, nicht als Verwirrung."
     },
     {
       "tipo": "intro",
@@ -64,7 +64,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-a07-n03",
       "bloco": "cena",
-      "pt": "An der Kasse verlangt der Bildschirm fünfundzwanzig Prozent Trinkgeld für einen Kaffee, den man dir in einem Einwegbecher gereicht hat."
+      "pt": "An der Kasse verlangt der Bildschirm 25 Prozent Trinkgeld für einen Kaffee im Einwegbecher."
     },
     {
       "tipo": "ouvir",
@@ -80,7 +80,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-a07-n04",
       "bloco": "corpo",
-      "pt": "Dieser Bildschirm am Tresen, ohne Tischservice, ist selbst für viele Amerikaner neu. Nein zu sagen ist völlig akzeptiert."
+      "pt": "Dieser Bildschirm am Tresen ist selbst für viele Amerikaner neu. Nein zu sagen ist völlig akzeptiert."
     },
     {
       "tipo": "responde",
@@ -114,7 +114,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-a07-n06",
       "bloco": "capsula",
-      "pt": "Jetzt der Körper. Hier hält man mehr Abstand als in Mexiko, und jemanden zu berühren, den man gerade erst kennengelernt hat, ist seltener."
+      "pt": "Zum Körper: Hier hält man mehr Abstand als in Mexiko; jemanden gerade erst Kennengelernten zu berühren ist seltener."
     },
     {
       "tipo": "ouvir",
@@ -142,7 +142,7 @@
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-a07-n07",
-      "pt": "Letztes Signal des Tages: der halbe Abschied. Klingt nach Plan, ist aber oft nur eine warme Art, das Gespräch zu beenden."
+      "pt": "Letztes Signal: der halbe Abschied. Klingt nach Plan, ist oft nur eine warme Art, das Gespräch zu beenden."
     },
     {
       "tipo": "ouvir",
@@ -159,7 +159,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-a07-n08",
       "bloco": "capsula",
-      "pt": "«Sometime», ohne Datum oder Uhrzeit, ist das Signal. Dräng nicht — antworte einfach warmherzig, und wenn es dich wirklich interessiert, frag nach etwas Konkretem."
+      "pt": "«Sometime», ohne Datum, ist das Signal. Antworte warmherzig; interessiert es dich wirklich, frag nach etwas Konkretem."
     },
     {
       "tipo": "responde",
@@ -208,7 +208,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-a07-n09",
       "bloco": "recap",
-      "pt": "A07 geschafft. Der Bildschirm schlägt vor, du entscheidest. Abstand ist keine Kühle. Und «sometime» ohne Datum ist ein Abschluss, kein Versprechen."
+      "pt": "A07 geschafft. Der Bildschirm schlägt vor, du entscheidest. Abstand ist keine Kühle. «Sometime» ist ein Abschluss, kein Versprechen."
     }
   ],
   "aprofundar": {

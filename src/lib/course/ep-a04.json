@@ -38,14 +38,14 @@
       "audioKey": "eua-a04-n01",
       "gesto": 3,
       "bloco": "aquecimento",
-      "pt": "Jedes Land hat eine Linie, über die man sich intern lustig macht und die ein Besucher besser nicht anfasst. Heute lernst du, sie auf Englisch zu hören."
+      "pt": "Jedes Land hat interne Witze, die ein Besucher besser nicht anfasst. Heute lernst du, sie auf Englisch zu erkennen."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-a04-n02",
       "bloco": "callback",
-      "pt": "Wiederholung von gestern. Jemand fängt an, dir eine lange Familiengeschichte zu erzählen. Ermutige ihn weiterzumachen, wie gestern."
+      "pt": "Wiederholung: Jemand erzählt dir eine lange Familiengeschichte. Ermutige ihn weiterzumachen, wie gestern."
     },
     {
       "tipo": "responde",
@@ -81,7 +81,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-a04-n04",
       "bloco": "corpo",
-      "pt": "«Flyover country» benennt die Mitte des Landes. Für manche an der Küste ist es ein Witz; für wer dort lebt, tut es manchmal weh."
+      "pt": "«Flyover country» meint die Mitte des Landes: für Küstenbewohner oft ein Witz, für Einheimische manchmal wund."
     },
     {
       "tipo": "responde",
@@ -109,7 +109,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-a04-n05",
       "bloco": "capsula",
-      "pt": "Er hat sich selbst benannt, also ist dieses Wort jetzt sicher. Die Wurzel ist echt: kleine Orte gegen große Städte, seit jeher."
+      "pt": "Er hat sich selbst so benannt, das Wort ist also sicher. Die Wurzel: kleine Orte gegen große Städte, seit jeher."
     },
     {
       "tipo": "responde",
@@ -136,7 +136,7 @@
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-a04-n06",
-      "pt": "Jetzt die wichtige Bewegung. Wenn du eingeladen wirst, dich über eine Region lustig zu machen, kannst du ablehnen, ohne ernst zu werden."
+      "pt": "Wichtige Bewegung: Wirst du eingeladen, über eine Region zu lästern, kannst du ablehnen, ohne ernst zu werden."
     },
     {
       "tipo": "responde",
@@ -197,7 +197,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-a04-n07",
       "bloco": "recap",
-      "pt": "A04 geschafft. Überspring beide Etiketten. Frag, woher sie kommen, benutze das Wort, das sie dir geben, und ergreife keine Partei."
+      "pt": "A04 geschafft. Frag, woher sie kommen, benutze ihr eigenes Wort dafür, und ergreife keine Partei."
     }
   ],
   "aprofundar": {

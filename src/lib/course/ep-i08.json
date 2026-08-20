@@ -52,7 +52,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-i08-n02",
       "bloco": "cena",
-      "pt": "Du hast gerade eine Essenseinladung bei jemandem für heute Abend angenommen, und was du in den nächsten dreißig Sekunden tust, prägt den ganzen Abend."
+      "pt": "Du hast eine Essenseinladung für heute Abend angenommen — was du in den nächsten dreißig Sekunden tust, prägt den ganzen Abend."
     },
     {
       "tipo": "ouvir",
@@ -108,7 +108,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-i08-n04",
       "bloco": "capsula",
-      "pt": "Fünfzehn Minuten nach der genannten Uhrzeit anzukommen ist bei einem Abendessen unter Freunden normal — das ist keine Nachlässigkeit, das ist der erwartete Spielraum."
+      "pt": "15 Minuten nach der Uhrzeit anzukommen ist bei Freunden normal — keine Nachlässigkeit, sondern erwarteter Spielraum."
     },
     {
       "tipo": "ouvir",
@@ -211,7 +211,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-i08-n05",
       "bloco": "permissao",
-      "pt": "Du musst nicht raten, was richtig ist mitzubringen oder wann genau du kommen sollst. Direkt zu fragen ist das Erwartete, kein Mangel an Fingerspitzengefühl."
+      "pt": "Du musst nicht raten, was du mitbringst oder wann genau du kommst. Direkt zu fragen ist das Erwartete, kein Fauxpas."
     },
     {
       "tipo": "shadow",
@@ -227,7 +227,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-i08-n06",
       "bloco": "recap",
-      "pt": "I08 geschafft. What can I bring löst das Mitbringsel, fünfzehn Minuten Spielraum sind normal, und Hilfe anzubieten schließt den Abend gut ab."
+      "pt": "I08 geschafft. What can I bring löst das Mitbringsel, 15 Minuten Spielraum sind normal, Hilfe anbieten schließt den Abend gut ab."
     }
   ],
   "permissao": "Du musst nicht exakt zur genannten Zeit ankommen oder raten, was du mitbringen sollst. «What can I bring?» zu fragen und ein paar Minuten nach der Zeit anzukommen ist genau das, was bei einem Abendessen unter Freunden hier erwartet wird.",

@@ -53,7 +53,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-b10-n02",
       "bloco": "cena",
-      "pt": "Drei Türen vor dir, die Hände voll, und der einzige Hinweis, welche du nehmen sollst, steht auf einem kleinen Schild darüber."
+      "pt": "Drei Türen, die Hände voll, und der einzige Hinweis steht auf einem kleinen Schild darüber."
     },
     {
       "tipo": "responde",
@@ -74,7 +74,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b10-n03",
       "bloco": "corpo",
-      "pt": "Achtung bei diesem: EXIT klingt nicht wie ein deutsches Wort, das du schon kennst. Exit ist der Ausgang, die Tür, durch die du rausgehst."
+      "pt": "Achtung: EXIT klingt nicht wie ein bekanntes deutsches Wort. Exit ist der Ausgang, die Tür nach draußen."
     },
     {
       "tipo": "ouvir",
@@ -129,7 +129,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-b10-n06",
       "bloco": "molde",
-      "pt": "Und für wenn es kein Schild gibt, der Baustein: «I'm looking for» und was du suchst. Du musst den genauen Namen nicht kennen."
+      "pt": "Gibt es kein Schild, der Baustein: «I'm looking for» und was du suchst — den genauen Namen musst du nicht kennen."
     },
     {
       "tipo": "ouvir",
@@ -265,7 +265,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b10-n07",
       "bloco": "capsula",
-      "pt": "Ohne Schlange-Schild bilden sich Leute trotzdem: die zuletzt stehende Person ist das Ende der Reihe. Frag nach, bevor du zum Schalter gehst."
+      "pt": "Ohne Schlange-Schild bilden sich Leute trotzdem: die zuletzt stehende Person ist das Ende. Frag nach, bevor du zum Schalter gehst."
     },
     {
       "tipo": "intro",
@@ -279,7 +279,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b10-n09",
       "bloco": "clique",
-      "pt": "Du hast dein Gate, eine Apotheke, den Mietwagenschalter und eine Umkleidekabine gesucht. Niemand hat dir vier Sätze gegeben: du hast sie mit einem Baustein gebaut."
+      "pt": "Du hast Gate, Apotheke, Mietwagenschalter und Umkleidekabine gesucht — nicht mit vier Sätzen, sondern mit einem Baustein."
     },
     {
       "consulta": ["reparo/apontar"],

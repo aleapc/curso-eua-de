@@ -45,7 +45,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b08-n02",
       "bloco": "cena",
-      "pt": "Ein Fremder wird dir mit drei Straßen und beiden Händen in der Luft antworten. Fang kleiner an: where's the passt schon in deinen Kopf."
+      "pt": "Ein Fremder antwortet dir mit drei Straßen und beiden Händen in der Luft. Fang kleiner an: where's the reicht schon."
     },
     {
       "tipo": "intro",
@@ -135,7 +135,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b08-n05",
       "bloco": "capsula",
-      "pt": "Manchmal suchst du etwas und kennst nicht mal das englische Wort dafür. Dann erzwing nicht den Baustein: zeig die Absicht und lass den anderen ergänzen."
+      "pt": "Manchmal kennst du nicht mal das englische Wort für das Gesuchte. Dann erzwing nicht den Baustein: zeig die Absicht, lass den anderen ergänzen."
     },
     {
       "tipo": "ouvir",
@@ -235,7 +235,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b08-n06",
       "bloco": "recap",
-      "pt": "B08 geschafft. Where's the für einen bekannten Ort, is it far um die Antwort zu kürzen, die Karte, wenn es immer noch nicht klar ist."
+      "pt": "B08 geschafft. Where's the für einen bekannten Ort, is it far zum Kürzen, die Karte, wenn es noch nicht klar ist."
     }
   ],
   "aprofundar": {

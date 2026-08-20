@@ -64,7 +64,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-a02-n03",
       "bloco": "cena",
-      "pt": "Grillfest im Hinterhof. Jemand verbrennt das Fleisch und sagt völlig ernst, es sei perfekt geworden. Der Tisch lacht."
+      "pt": "Grillfest im Hinterhof. Jemand verbrennt das Fleisch und behauptet todernst, es sei perfekt. Der Tisch lacht."
     },
     {
       "tipo": "ouvir",
@@ -81,13 +81,13 @@
       "voz": "guide_de_m",
       "audioKey": "eua-a02-n04",
       "bloco": "corpo",
-      "pt": "Das ist Sarkasmus: das Gegenteil sagen, mit ernstem Gesicht. Der häufigste Witz im lockeren Englisch — und der meistübersehene."
+      "pt": "Das ist Sarkasmus: das Gegenteil sagen, mit ernstem Gesicht. Der häufigste Witz im Englisch — und der meistübersehene."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-a02-n05",
-      "pt": "Du musst ihn nicht sofort im Flug erkennen. Das ehrliche Signal ist, ein bisschen spät zu lachen oder einfach nachzufragen."
+      "pt": "Du musst ihn nicht sofort erkennen. Ehrliches Signal: etwas spät lachen oder einfach nachfragen."
     },
     {
       "tipo": "responde",
@@ -142,7 +142,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-a02-n07",
       "bloco": "capsula",
-      "pt": "Witze über dich selbst funktionieren immer. Witze über Politik, Religion oder Gehalt, bei Leuten, die du gerade erst kennst — nicht."
+      "pt": "Witze über dich selbst funktionieren immer. Politik, Religion oder Gehalt meidest du bei Leuten, die du gerade erst kennst."
     },
     {
       "tipo": "responde",
@@ -194,7 +194,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-a02-n08",
       "bloco": "recap",
-      "pt": "A02 geschafft. Sarkasmus erkennt man, man übersetzt ihn nicht. Witze über dich selbst gehen immer; über Politik lieber nicht."
+      "pt": "A02 geschafft. Sarkasmus erkennt man, man übersetzt ihn nicht. Witze über dich selbst gehen immer, über Politik nicht."
     }
   ],
   "aprofundar": {

@@ -46,14 +46,14 @@
       "audioKey": "eua-b12-n01",
       "gesto": 4,
       "bloco": "aquecimento",
-      "pt": "Teil zwölf. Der Flick markiert den englischen Endkonsonanten: ohne ihn zu ziehen, ohne Vokal dranzuhängen. Withou-T. Plate-S."
+      "pt": "Teil zwölf. Der Flick markiert den Endkonsonanten: kein Ziehen, kein angehängter Vokal. Withou-T. Plate-S."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-b12-n02",
       "bloco": "cena",
-      "pt": "Der Kellner wiederholt deine Bestellung laut, mit den Zwiebeln, die du nicht bestellt hast. Du musst ihn korrigieren, bevor er in die Küche geht."
+      "pt": "Der Kellner wiederholt deine Bestellung laut, mit Zwiebeln, die du nicht bestellt hast. Korrigier ihn, bevor er zur Küche geht."
     },
     {
       "tipo": "responde",
@@ -74,7 +74,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b12-n03",
       "bloco": "molde",
-      "pt": "Der Baustein von heute hat zwei Formen: «No ___, please», um etwas zu entfernen, und «___ without ___», um es von Anfang an so zu bestellen."
+      "pt": "Baustein von heute, zwei Formen: «No ___, please» zum Entfernen, «___ without ___» um es gleich so zu bestellen."
     },
     {
       "tipo": "ouvir",
@@ -220,34 +220,34 @@
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-b12-n04",
-      "pt": "Achtung: dieser Baustein entfernt eine Vorliebe, kommuniziert kein Gesundheitsrisiko. Dafür lehrt B13 einen anderen Satz."
+      "pt": "Achtung: dieser Baustein entfernt eine Vorliebe, kein Gesundheitsrisiko. B13 lehrt dafür einen anderen Satz."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-b12-n05",
-      "pt": "«Please» kommt an fast alles ans Ende: es übernimmt die Arbeit, die im Deutschen der Ton oder das \"bitte\" übernehmen würde."
+      "pt": "«Please» kommt fast überall ans Ende: es übernimmt, was im Deutschen Ton oder «bitte» übernehmen würde."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-b12-n06",
       "bloco": "capsula",
-      "pt": "Wenn der Kellner deine Bestellung laut wiederholt, zweifelt er nicht an deinem Englisch: das ist die Standardbestätigung im Tischservice."
+      "pt": "Wiederholt der Kellner deine Bestellung laut, zweifelt er nicht an deinem Englisch: das ist die Standardbestätigung."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-b12-n07",
       "bloco": "permissao",
-      "pt": "Du musst nicht erklären, warum du etwas nicht willst. «No ___, please» ist schon ein vollständiger Satz; niemand erwartet einen Grund dahinter."
+      "pt": "Du musst nicht erklären, warum. «No ___, please» ist schon ein vollständiger Satz — niemand erwartet einen Grund."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-b12-n08",
       "bloco": "clique",
-      "pt": "Du hast Eis, Zwiebeln, Zucker und Koriander entfernt. Niemand hat dir vier Sätze gegeben: du hast sie mit einem einzigen Baustein gebaut."
+      "pt": "Du hast Eis, Zwiebeln, Zucker und Koriander entfernt — nicht mit vier Sätzen, sondern mit einem Baustein."
     },
     {
       "tipo": "shadow",
@@ -263,7 +263,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-b12-n09",
       "bloco": "recap",
-      "pt": "B12 geschafft. Eis, Zwiebeln, Zucker, Koriander: vier Anpassungen mit einem einzigen Baustein, und «please» am Ende von jeder."
+      "pt": "B12 geschafft. Eis, Zwiebeln, Zucker, Koriander: vier Anpassungen, ein Baustein, «please» am Ende von jeder."
     }
   ],
   "aprofundar": {

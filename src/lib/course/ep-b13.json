@@ -51,7 +51,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b13-n02",
       "bloco": "cena",
-      "pt": "Das Gericht ist schon unterwegs, und du weißt nicht, ob Erdnüsse drin sind. Du musst es sagen, bevor es am Tisch ankommt, nicht danach."
+      "pt": "Das Gericht ist schon unterwegs, und du weißt nicht, ob Erdnüsse drin sind. Sag es, bevor es ankommt, nicht danach."
     },
     {
       "tipo": "responde",
@@ -72,7 +72,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-b13-n03",
       "tom": "protege",
-      "pt": "Dieser Satz wird nicht angepasst oder gekürzt: er ist ein Hammer, kein Baustein. Er wird vollständig gesagt, immer gleich."
+      "pt": "Dieser Satz wird nicht angepasst: er ist ein Hammer, kein Baustein — immer vollständig, immer gleich."
     },
     {
       "tipo": "ouvir",
@@ -177,7 +177,7 @@
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-b13-n05",
-      "pt": "Und die Stimme ist nicht das Einzige, was du dabeihast: die schriftliche Karte mit deiner Allergie auf Englisch hängt nicht davon ab, dass deine Aussprache im ungünstigsten Moment klappt."
+      "pt": "Die Stimme ist nicht alles: die schriftliche Karte mit deiner Allergie auf Englisch hängt nicht von deiner Aussprache im ungünstigsten Moment ab."
     },
     {
       "tipo": "responde",
@@ -197,14 +197,14 @@
       "audioKey": "eua-b13-n06",
       "bloco": "capsula",
       "tom": "ganha",
-      "pt": "Wenn der Kellner sofort in die Küche rennt oder mit dem Koch zurückkommt, übertreibt er nicht: gesetzlich behandeln Restaurants eine angegebene Allergie als kritische Information."
+      "pt": "Rennt der Kellner sofort in die Küche oder holt den Koch, übertreibt er nicht: gesetzlich gilt eine angegebene Allergie als kritische Information."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-b13-n07",
       "bloco": "permissao",
-      "pt": "Du musst die Reaktion nicht erklären oder dich rechtfertigen. Es einmal klar zu sagen reicht schon. Wiederhole es, bis man dir bestätigt."
+      "pt": "Du musst die Reaktion nicht erklären. Einmal klar sagen reicht; wiederhole es, bis man dir bestätigt."
     },
     {
       "tipo": "recap",

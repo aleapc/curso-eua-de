@@ -38,14 +38,14 @@
       "audioKey": "eua-a06-n01",
       "gesto": 3,
       "bloco": "aquecimento",
-      "pt": "Du wirst nicht den ganzen Kalender der USA auswendig lernen. Du lernst zwei Fragen, die den Kalender von selbst sprechen lassen."
+      "pt": "Du lernst nicht den ganzen US-Kalender auswendig, sondern zwei Fragen, die ihn von selbst verraten."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-a06-n02",
       "bloco": "callback",
-      "pt": "Wiederholung von gestern. Jemand bot dir die Speisekarte auf Spanisch an, und du wolltest lieber bei Englisch bleiben. Sag es noch einmal, warmherzig."
+      "pt": "Wiederholung: Jemand bot dir die Karte auf Spanisch an, du wolltest lieber Englisch. Sag es noch einmal, warmherzig."
     },
     {
       "tipo": "responde",
@@ -107,14 +107,14 @@
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-a06-n05",
-      "pt": "Diese zweite Hälfte bekommst du nur, wenn du fragst. Der offizielle Kalender und der echte Kalender sind nicht dieselbe Liste."
+      "pt": "Diese zweite Hälfte bekommst du nur durch Fragen: der offizielle und der echte Kalender sind nicht dieselbe Liste."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-a06-n06",
       "bloco": "capsula",
-      "pt": "Die große Ausnahme ist Thanksgiving: der vierte Donnerstag im November. An diesem Tag schließt tatsächlich fast alles, wirklich."
+      "pt": "Große Ausnahme: Thanksgiving, vierter Donnerstag im November. An diesem Tag schließt wirklich fast alles."
     },
     {
       "tipo": "ouvir",
@@ -193,7 +193,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-a06-n08",
       "bloco": "recap",
-      "pt": "A06 geschafft. Frag, ob Feiertag ist, frag, ob sie geöffnet haben, und frag, was sie an diesem Tag machen. Das dreht jede Schließung um."
+      "pt": "A06 geschafft. Frag, ob Feiertag ist, ob geöffnet ist, und was sie an dem Tag machen. Das dreht jede Schließung um."
     }
   ],
   "aprofundar": {

@@ -39,14 +39,14 @@
       "audioKey": "eua-b03-n01",
       "gesto": 3,
       "bloco": "aquecimento",
-      "pt": "Faust auf cuse: ex-CUSE me. Es ist das Wort, das fast jede Tür öffnet, und heute benutzt du es auf drei verschiedene Arten."
+      "pt": "Faust auf cuse: ex-CUSE me. Das Wort öffnet fast jede Tür, heute auf drei verschiedene Arten."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-b03-n02",
       "bloco": "cena",
-      "pt": "Der Agent hat die Abflugzeit blitzschnell gesagt, zweimal, und die Schlange hinter dir wird immer länger. Zuerst brauchst du seine Aufmerksamkeit wieder."
+      "pt": "Der Agent nennt die Abflugzeit blitzschnell, zweimal, die Schlange hinter dir wächst. Zuerst brauchst du seine Aufmerksamkeit."
     },
     {
       "tipo": "intro",
@@ -150,7 +150,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b03-n05",
       "bloco": "capsula",
-      "pt": "Auch langsamer kann bei einer Zahl oder einem Namen noch scheitern. Vergeude dann keinen weiteren Versuch mit Zuhören: bitte darum, es aufzuschreiben."
+      "pt": "Auch langsamer kann bei einer Zahl oder einem Namen scheitern. Dann nicht weiter zuhören: bitte darum, es aufzuschreiben."
     },
     {
       "tipo": "responde",
@@ -232,7 +232,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b03-n06",
       "bloco": "recap",
-      "pt": "B03 geschafft. Excuse me öffnet die Tür, und die Treppe — nicht verstanden, langsamer, aufschreiben — holt dich raus, wenn dir die Antwort entgleitet."
+      "pt": "B03 geschafft. Excuse me öffnet die Tür; die Treppe — nicht verstanden, langsamer, aufschreiben — holt dich raus."
     }
   ],
   "aprofundar": {

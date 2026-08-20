@@ -29,7 +29,7 @@
       "audioKey": "eua-b02-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Höflichkeit im Englischen ist Timing: du grüßt, bevor du schaust, sagst excuse me, bevor du dich bewegst, dankst beim Rausgehen."
+      "pt": "Höflichkeit im Englischen ist Timing: grüßen vorm Schauen, excuse me vorm Bewegen, danken beim Rausgehen."
     },
     {
       "tipo": "ouvir",
@@ -65,7 +65,7 @@
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-b02-n02",
-      "pt": "\"Let me know\" ist kein Verhör: es ist die offene Tür, damit du sprichst, wann du willst. Wenn du nur schaust, sag genau das."
+      "pt": "«Let me know» ist kein Verhör, sondern die offene Tür, damit du sprichst, wann du willst. Schaust du nur, sag genau das."
     },
     {
       "tipo": "responde",
@@ -84,7 +84,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b02-n03",
       "bloco": "corpo",
-      "pt": "Voller Aufzug, enger Flur: du sagst excuse me, bevor du dich bewegst, nicht als Entschuldigung, sondern als Ankündigung, dass du durchgehst."
+      "pt": "Voller Aufzug, enger Flur: excuse me kommt vor der Bewegung, nicht als Entschuldigung, sondern als Ankündigung."
     },
     {
       "tipo": "ouvir",
@@ -133,7 +133,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-b02-n04",
       "bloco": "capsula",
-      "pt": "Have a good one verspricht nicht, dass man dich vermissen wird: es ist der normale Abschluss, wie \"tschüss\" an jedem Tresen."
+      "pt": "Have a good one verspricht nichts: es ist nur der normale Abschluss, wie «tschüss» an jedem Tresen."
     },
     {
       "tipo": "responde",
@@ -206,7 +206,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b02-n05",
       "bloco": "recap",
-      "pt": "B02 geschafft. Hi bevor du schaust, excuse me bevor du dich bewegst, thanks beim Rausgehen: kurze Bausteine, einen Moment vor deinem Instinkt."
+      "pt": "B02 geschafft. Hi vorm Schauen, excuse me vorm Bewegen, thanks beim Rausgehen: kurze Bausteine, einen Moment vor deinem Instinkt."
     }
   ],
   "aprofundar": {

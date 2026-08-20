@@ -16,7 +16,7 @@
       "audioKey": "eua-b09-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Es gibt kein einziges Transportsystem in den USA: jede Stadt hat ihr eigenes. Was gleich bleibt, ist deine Abfolge: Ziel, Ticket, Regel, Bahnsteig, Fahrzeug."
+      "pt": "Kein einziges Transportsystem in den USA: jede Stadt hat ihr eigenes. Gleich bleibt deine Abfolge: Ziel, Ticket, Regel, Bahnsteig, Fahrzeug."
     },
     {
       "tipo": "responde",
@@ -155,7 +155,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b09-n04",
       "bloco": "capsula",
-      "pt": "Derselbe Baustein, eine andere Handlung: du weißt schon, dass es einen Umstieg gibt, jetzt frag, ob er für deine Strecke gilt."
+      "pt": "Derselbe Baustein, andere Handlung: du weißt schon, es gibt einen Umstieg — frag, ob er für deine Strecke gilt."
     },
     {
       "tipo": "responde",
@@ -182,7 +182,7 @@
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-b09-n05",
-      "pt": "Letzte Prüfung, an der Tür: bestätige, dass dieser Zug oder Bus wirklich dahin fährt, wo du hinwillst, auch wenn die Nummer schon am Schild steht."
+      "pt": "Letzte Prüfung an der Tür: bestätige, dass dieser Zug oder Bus wirklich dahin fährt, auch wenn die Nummer schon am Schild steht."
     },
     {
       "tipo": "responde",

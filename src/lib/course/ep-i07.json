@@ -55,7 +55,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-i07-n02",
       "bloco": "cena",
-      "pt": "Der Teller ist leer, der Koch ist durch das Küchenfenster zu sehen, und ein einziger Satz ist dabei, den Rest des Abends zu verändern."
+      "pt": "Der Teller ist leer, der Koch ist durchs Küchenfenster zu sehen — ein einziger Satz verändert gleich den Rest des Abends."
     },
     {
       "tipo": "ouvir",
@@ -129,7 +129,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-i07-n04",
       "bloco": "corpo",
-      "pt": "Jetzt die andere Bewegung: etwas ist schiefgelaufen. Nenn den Gegenstand und das Problem, ruhig — das ist derselbe Baustein aus B16."
+      "pt": "Andere Bewegung: etwas ist schiefgelaufen. Nenn Gegenstand und Problem, ruhig — derselbe Baustein aus B16."
     },
     {
       "tipo": "responde",
@@ -171,7 +171,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-i07-n05",
       "bloco": "capsula",
-      "pt": "Excuse me eröffnet die Korrektur, ohne jemandem die Schuld zu geben — den Gegenstand und das genaue Problem zu nennen ist es, was es wirklich schnell löst."
+      "pt": "Excuse me eröffnet die Korrektur, ohne Schuld zuzuweisen — Gegenstand und genaues Problem zu nennen löst es wirklich schnell."
     },
     {
       "tipo": "responde",
@@ -202,14 +202,14 @@
       "voz": "guide_de_m",
       "audioKey": "eua-i07-n06",
       "bloco": "permissao",
-      "pt": "Du brauchst keine lange Entschuldigungsrede, bevor du sagst, dass etwas nicht stimmt. Excuse me plus das genaue Problem ist der schnellste Weg, es zu lösen."
+      "pt": "Du brauchst keine lange Entschuldigung, bevor du sagst, dass etwas nicht stimmt. Excuse me plus das genaue Problem löst es am schnellsten."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-i07-n07",
       "bloco": "clique",
-      "pt": "Du hast das Mole, den Cocktail und den Pullover gelobt. Niemand hat dir diese drei Sätze gegeben: du hast sie mit einem einzigen Baustein gebaut."
+      "pt": "Du hast Mole, Cocktail und Pullover gelobt — nicht mit drei Sätzen, sondern mit einem einzigen Baustein."
     },
     {
       "tipo": "shadow",

@@ -50,7 +50,7 @@
       "audioKey": "eua-b04-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Der Flug morgen beginnt heute Abend. Vier Punkte am Tisch, nicht in der Schlange: Reisepass, ESTA, Verbindung, Reservierung."
+      "pt": "Der Flug morgen beginnt heute Abend: vier Punkte am Tisch, nicht in der Schlange — Pass, ESTA, Verbindung, Reservierung."
     },
     {
       "tipo": "intro",
@@ -64,13 +64,13 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b04-n03",
       "bloco": "corpo",
-      "pt": "Als Deutscher reist du mit ESTA, nicht mit Visum: biometrischer Reisepass, gültig für die ganze Reise, plus ESTA-Genehmigung vorher online."
+      "pt": "Als Deutscher reist du mit ESTA, nicht Visum: biometrischer Reisepass plus ESTA-Genehmigung vorher online."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-b04-n04",
-      "pt": "Bei der Ankunft erstellt die Einreisebehörde dein I-94 im System; kein Papier vorher. Notier dir die Nummer, wenn du sie siehst."
+      "pt": "Bei Ankunft erstellt die Einreisebehörde dein I-94 im System, kein Papier vorher. Notier die Nummer, wenn du sie siehst."
     },
     {
       "tipo": "ouvir",
@@ -106,7 +106,7 @@
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-b04-n05",
-      "pt": "Gib dich nicht mit einem grünen Häkchen in der App zufrieden: bitte um eine Bestätigung, die du außerhalb davon speichern kannst."
+      "pt": "Gib dich nicht mit einem grünen App-Häkchen zufrieden: bitte um eine Bestätigung, die du separat speichern kannst."
     },
     {
       "tipo": "responde",
@@ -143,7 +143,7 @@
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-b04-n07",
-      "pt": "Letzte Prüfung: eine gültige Reservierung scheitert, wenn die Rezeption vor deiner späten Landung schließt. Sag ihnen jetzt Bescheid."
+      "pt": "Letzte Prüfung: Eine Reservierung nützt nichts, wenn die Rezeption vor deiner späten Landung schließt. Sag jetzt Bescheid."
     },
     {
       "tipo": "responde",
@@ -228,7 +228,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b04-n08",
       "bloco": "recap",
-      "pt": "B04 geschafft. Reisepass, ESTA, Verbindung, Zahlung offline geprüft; Reservierung und Adresse vor dem Schlafengehen bestätigt."
+      "pt": "B04 geschafft. Reisepass, ESTA, Verbindung, Zahlung offline geprüft; Reservierung und Adresse vorm Schlafengehen bestätigt."
     }
   ],
   "aprofundar": {

@@ -52,7 +52,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-i04-n02",
       "bloco": "cena",
-      "pt": "Es ist zwei Uhr morgens, die Lichter gehen plötzlich an, und du weißt noch nicht, ob deine Karte an der Bar noch offen ist."
+      "pt": "Zwei Uhr morgens, die Lichter gehen plötzlich an, und du weißt nicht, ob deine Karte an der Bar noch offen ist."
     },
     {
       "tipo": "intro",
@@ -110,7 +110,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-i04-n04",
       "bloco": "capsula",
-      "pt": "Wenn last call gerufen wird, hast du Minuten, keine Sekunden. Das ist dein Signal, das letzte zu bestellen oder anzufangen zu schließen."
+      "pt": "Ruft man last call, hast du Minuten, keine Sekunden — dein Signal, das Letzte zu bestellen oder abzuschließen."
     },
     {
       "tipo": "responde",
@@ -199,7 +199,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-i04-n05",
       "bloco": "permissao",
-      "pt": "Du musst das Trinkgeld nicht bei jeder Runde an der Bar ausrechnen. Du kannst es beim Abschließen der ganzen Rechnung geben, ein einziges Mal."
+      "pt": "Du musst das Trinkgeld nicht bei jeder Runde ausrechnen: gib es beim Abschließen der ganzen Rechnung, ein einziges Mal."
     },
     {
       "tipo": "shadow",
@@ -215,7 +215,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-i04-n06",
       "bloco": "recap",
-      "pt": "I04 geschafft. Start a tab eröffnet die Rechnung, last call sagt dir, dass Minuten bleiben, close out my tab schließt sie — die Uhr aus B18, wieder."
+      "pt": "I04 geschafft. Start a tab eröffnet die Rechnung, last call heißt: Minuten bleiben, close out my tab schließt sie."
     }
   ],
   "permissao": "Du musst nicht sofort rennen, wenn du last call hörst. Dir bleiben noch mehrere Minuten, um dein letztes Getränk zu bestellen oder in Ruhe die Rechnung zu schließen — das ist kein Feueralarm.",

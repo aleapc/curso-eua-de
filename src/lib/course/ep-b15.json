@@ -85,7 +85,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-b15-n03",
       "bloco": "molde",
-      "pt": "Der Baustein von heute: «How much is» plus die Sache. Funktioniert für ein einzelnes T-Shirt oder für das ganze Paket an der Kasse."
+      "pt": "Baustein von heute: «How much is» plus die Sache — für ein T-Shirt oder das ganze Paket an der Kasse."
     },
     {
       "tipo": "ouvir",
@@ -160,7 +160,7 @@
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-b15-n04",
-      "pt": "Small, medium, large stimmt nicht Zahl für Zahl mit deiner Größe von zu Hause überein. Anprobieren löst den Zweifel schneller als Umrechnen."
+      "pt": "Small, medium, large stimmt nicht Zahl für Zahl mit deiner Heimatgröße überein. Anprobieren löst den Zweifel schneller als Umrechnen."
     },
     {
       "consulta": [
@@ -232,20 +232,20 @@
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-b15-n06",
-      "pt": "Der Alkoholverkauf ändert sich je nach Bundesstaat: in manchen gibt es Bier sogar im Supermarkt, in anderen nur in lizenzierten Läden."
+      "pt": "Alkoholverkauf ändert sich je nach Bundesstaat: mal gibt es Bier im Supermarkt, mal nur in lizenzierten Läden."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-b15-n07",
       "bloco": "capsula",
-      "pt": "Und heb die Quittung auf: änderst du deine Meinung, nehmen viele Läden Rückgaben bis zu einem Monat später zurück, mit oder ohne Etikett."
+      "pt": "Heb die Quittung auf: änderst du deine Meinung, nehmen viele Läden Rückgaben bis zu einem Monat später zurück."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-b15-n08",
-      "pt": "Das ist kein besonders kulanter Einzelfall: das ist die Standardpolitik des Handels hier. Die Quittung ist fast das Einzige, was verlangt wird."
+      "pt": "Das ist kein Einzelfall, sondern Standardpolitik des Handels hier. Die Quittung ist fast das Einzige, was verlangt wird."
     },
     {
       "tipo": "intro",
@@ -259,7 +259,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-b15-n10",
       "bloco": "clique",
-      "pt": "Du hast den Preis des T-Shirts und den der Gesamtsumme gefragt. Niemand hat dir zwei Sätze gegeben: du hast sie mit einem einzigen Baustein gebaut."
+      "pt": "Du hast den Preis des T-Shirts und den der Gesamtsumme gefragt — nicht mit zwei Sätzen, sondern mit einem Baustein."
     },
     {
       "consulta": ["compras/pagar"],
@@ -290,7 +290,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b15-n11",
       "bloco": "recap",
-      "pt": "B15 geschafft. Preis, Größe, Anprobe und Quittung: vier Schritte, ein Baustein, und die Steuer, die am Ende immer draufkommt."
+      "pt": "B15 geschafft. Preis, Größe, Anprobe, Quittung: vier Schritte, ein Baustein, plus Steuer, die immer draufkommt."
     }
   ],
   "aprofundar": {

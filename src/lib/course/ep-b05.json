@@ -42,7 +42,7 @@
       "audioKey": "eua-b05-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Keine Englischprüfung. Der Beamte entscheidet, wie lange du bleibst. Drei Aufgaben: warum, wie lange, wo. Kurz und wahr, dann Stopp."
+      "pt": "Keine Englischprüfung: der Beamte entscheidet, wie lange du bleibst. Drei Aufgaben: warum, wie lange, wo — kurz und wahr."
     },
     {
       "tipo": "ouvir",
@@ -79,7 +79,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-b05-n02",
       "bloco": "corpo",
-      "pt": "Benutze deine echte Zahl, nicht die aus dem Beispiel. Der Beamte vergleicht sie mit deiner Reservierung und legt die Frist fest."
+      "pt": "Benutze deine echte Zahl, nicht die aus dem Beispiel: der Beamte vergleicht sie mit der Reservierung."
     },
     {
       "tipo": "responde",
@@ -106,7 +106,7 @@
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-b05-n03",
-      "pt": "Überspring die Geschichte, wie du das Hotel gefunden hast: nenn nur den Namen. Die gespeicherte Reservierung trägt die volle Adresse."
+      "pt": "Überspring die Geschichte, wie du das Hotel gefunden hast: nenn nur den Namen, die Reservierung trägt die volle Adresse."
     },
     {
       "tipo": "responde",
@@ -212,7 +212,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-b05-n04",
       "bloco": "recap",
-      "pt": "B05 geschafft. Grund, Dauer, Unterkunft, Beleg falls gefragt: drei kurze Antworten. Kurz ist nicht ausweichend, sondern verlangt."
+      "pt": "B05 geschafft. Grund, Dauer, Unterkunft, Beleg falls gefragt: kurze Antworten sind hier verlangt, nicht ausweichend."
     }
   ],
   "aprofundar": {

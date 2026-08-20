@@ -72,7 +72,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-i03-n03",
       "bloco": "molde",
-      "pt": "Der Baustein: du fragst nicht, was gut ist, du wählst zwischen zwei Sachen, die dir schon genannt wurden. Which do you recommend, plus die beiden."
+      "pt": "Der Baustein: nicht fragen, was gut ist, sondern zwischen zwei genannten Sachen wählen. Which do you recommend, plus die beiden."
     },
     {
       "tipo": "ouvir",
@@ -197,7 +197,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-i03-n05",
       "bloco": "capsula",
-      "pt": "Der Kellner hat dir schon die beiden Specials genannt. Das ist keine Prüfung: sogar Einheimische fragen jeden Abend dasselbe."
+      "pt": "Der Kellner nannte dir schon die beiden Specials. Das ist keine Prüfung: Einheimische fragen jeden Abend dasselbe."
     },
     {
       "tipo": "responde",
@@ -216,14 +216,14 @@
       "voz": "guide_de_m",
       "audioKey": "eua-i03-n06",
       "bloco": "permissao",
-      "pt": "Du musst nicht die ganze Karte kennen. Zwischen zwei Optionen zu wählen, die sie dir selbst gegeben haben, ist schon eine vollständige Entscheidung."
+      "pt": "Du musst nicht die ganze Karte kennen: zwischen zwei selbst genannten Optionen zu wählen ist schon eine vollständige Entscheidung."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-i03-n07",
       "bloco": "clique",
-      "pt": "Du hast zwischen zwei Gerichten und zwischen zwei T-Shirts gewählt. Niemand hat dir diese Sätze gegeben: du hast sie mit einer einzigen Frage gebaut."
+      "pt": "Du hast zwischen zwei Gerichten und zwei T-Shirts gewählt — nicht mit vielen Sätzen, sondern mit einer einzigen Frage."
     },
     {
       "tipo": "shadow",

@@ -52,14 +52,14 @@
       "voz": "guide_de_m",
       "audioKey": "eua-i01-n02",
       "bloco": "cena",
-      "pt": "Es ist Viertel nach neun, die Kellnerin stellt die Stühle auf die leeren Tische, und das Schild an der Tür sagt etwas, das du beim Reingehen nicht gesehen hast."
+      "pt": "Viertel nach neun: die Kellnerin stellt Stühle auf leere Tische. Das Schild an der Tür hattest du beim Reingehen nicht gesehen."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "eua-i01-n03",
       "bloco": "corpo",
-      "pt": "Hier zieht sich das Abendessen nicht bis elf. Die Stoßzeit ist zwischen sechs und acht, und die Küche schließt früher als du denkst."
+      "pt": "Hier zieht sich das Abendessen nicht bis elf: Stoßzeit ist zwischen sechs und acht, die Küche schließt früher als du denkst."
     },
     {
       "tipo": "ouvir",
@@ -200,7 +200,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-i01-n05",
       "bloco": "permissao",
-      "pt": "Du musst nicht jede Öffnungszeit des Landes auswendig lernen. Mit einer einzigen, an den Ort angepassten Frage löst du jeden Zweifel."
+      "pt": "Du musst nicht jede Öffnungszeit auswendig lernen: eine einzige, an den Ort angepasste Frage löst jeden Zweifel."
     },
     {
       "tipo": "responde",
@@ -230,7 +230,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-i01-n06",
       "bloco": "recap",
-      "pt": "I01 geschafft. What time plus Verb löst Küche, Frühstück, Happy Hour und Brunch — derselbe Baustein wie in B18, mit etwas anderem drin."
+      "pt": "I01 geschafft. What time plus Verb löst Küche, Frühstück, Happy Hour und Brunch — derselbe Baustein wie in B18."
     }
   ],
   "permissao": "Du musst niemandes Öffnungszeit raten. What time plus Verb ist schon eine vollständige Frage für Küche, Frühstück, Happy Hour oder Brunch — du änderst sie, du erfindest sie nicht neu.",

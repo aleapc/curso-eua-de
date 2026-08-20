@@ -38,14 +38,14 @@
       "audioKey": "eua-a03-n01",
       "gesto": 3,
       "bloco": "aquecimento",
-      "pt": "Heute hörst du auf, Tourist im Gespräch zu sein — nicht weil du mehr weißt, sondern weil du besser fragst und länger zuhörst."
+      "pt": "Heute hörst du auf, Tourist im Gespräch zu sein: du fragst besser und hörst länger zu."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-a03-n02",
       "bloco": "callback",
-      "pt": "Kurze Wiederholung von gestern. Der Flug war anstrengend und jemand fragt, wie es dir geht. Antworte mit Humor, ohne dich zu sehr zu beschweren."
+      "pt": "Kurze Wiederholung: Der Flug war anstrengend, jemand fragt, wie es dir geht. Antworte mit Humor, ohne zu jammern."
     },
     {
       "tipo": "responde",
@@ -64,7 +64,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-a03-n03",
       "bloco": "cena",
-      "pt": "Am Tisch sagt jemand «ich bin Italiener». Zwei Sätze später wird klar, dass er in Ohio geboren wurde und nie im Ausland war."
+      "pt": "Am Tisch sagt jemand «ich bin Italiener». Zwei Sätze später: geboren in Ohio, nie im Ausland gewesen."
     },
     {
       "tipo": "ouvir",
@@ -80,7 +80,7 @@
       "voz": "guide_de_m",
       "audioKey": "eua-a03-n04",
       "bloco": "corpo",
-      "pt": "Er ist nicht verwirrt: Hier ist es normal, sich über die Herkunft der Familie zu beschreiben, auch wenn man das Land nie betreten hat."
+      "pt": "Er ist nicht verwirrt: Hier beschreibt man sich normal über die Herkunft der Familie, auch ohne das Land je betreten zu haben."
     },
     {
       "tipo": "responde",
@@ -108,7 +108,7 @@
       "voz": "guide_de_f",
       "audioKey": "eua-a03-n05",
       "bloco": "capsula",
-      "pt": "Beachte, was du nicht getan hast: Du hast nicht gesagt, das sei seltsam, traurig oder komisch. Es ist nicht deine Aufgabe, es zu bewerten."
+      "pt": "Beachte, was du nicht getan hast: nicht gesagt, das sei seltsam oder komisch. Es zu bewerten ist nicht deine Aufgabe."
     },
     {
       "tipo": "responde",
@@ -126,7 +126,7 @@
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "eua-a03-n06",
-      "pt": "Die andere Seite derselben Medaille: Hier wächst man mit dem Satz auf, dass die Herkunft nicht begrenzen sollte, wie weit man kommt."
+      "pt": "Die andere Seite derselben Medaille: Man wächst hier mit dem Satz auf, Herkunft solle einen nicht begrenzen."
     },
     {
       "tipo": "responde",
