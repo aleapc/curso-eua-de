@@ -168,7 +168,7 @@
     },
     {
       "consulta": [
-        "saude/farmacia"
+        "saude/guardia"
       ],
       "tipo": "responde",
       "voz": "target_en_f",
@@ -185,7 +185,7 @@
     },
     {
       "consulta": [
-        "taxi/renta"
+        "taxi/locadora"
       ],
       "tipo": "responde",
       "voz": "target_en_f",
@@ -228,7 +228,7 @@
     },
     {
       "consulta": [
-        "chegar/embarque"
+        "chegar/bagagem"
       ],
       "tipo": "responde",
       "voz": "target_en_f",
@@ -282,7 +282,9 @@
       "pt": "Du hast Gate, Apotheke, Mietwagenschalter und Umkleidekabine gesucht — nicht mit vier Sätzen, sondern mit einem Baustein."
     },
     {
-      "consulta": ["reparo/apontar"],
+      "consulta": [
+        "reparo/apontar"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "LOOKING",

@@ -49,6 +49,10 @@ export const FOLHAS: Folha[] = [
   { id: 'chegar/ultimo', tile: 'chegar', rotulo: '"Who\'s last?"' },
   { id: 'chegar/sair', tile: 'chegar', rotulo: 'Leaving' },
   { id: 'chegar/tu-usted', tile: 'chegar', rotulo: 'Formal or casual, in one line' },
+  { id: 'chegar/servicos', tile: 'chegar', rotulo: 'Wifi, a charger, a SIM card' },
+  { id: 'chegar/banheiro', tile: 'chegar', rotulo: "Where's the restroom?" },
+  { id: 'chegar/bagagem', tile: 'chegar', rotulo: 'Luggage carts & baggage claim' },
+  { id: 'chegar/embarque', tile: 'chegar', rotulo: 'Finding the gate' },
 
   // 2 · mesa
   { id: 'mesa/mesa', tile: 'mesa', rotulo: 'A table' },
@@ -103,6 +107,7 @@ export const FOLHAS: Folha[] = [
   { id: 'compras/balcao', tile: 'compras', rotulo: 'At the counter' },
   { id: 'compras/quanto', tile: 'compras', rotulo: 'How much / what size' },
   { id: 'compras/so-olhando', tile: 'compras', rotulo: 'Just looking' },
+  { id: 'compras/probador', tile: 'compras', rotulo: 'Trying it on' },
   { id: 'compras/pagar', tile: 'compras', rotulo: 'Paying & the receipt' },
   { id: 'compras/devolver', tile: 'compras', rotulo: 'Taking it back', reativa: true },
 

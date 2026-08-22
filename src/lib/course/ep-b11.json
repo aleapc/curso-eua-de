@@ -153,7 +153,7 @@
     },
     {
       "consulta": [
-        "mesa/agua-refill"
+        "mesa/agua-pao"
       ],
       "tipo": "responde",
       "voz": "target_en_f",

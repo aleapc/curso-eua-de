@@ -109,7 +109,7 @@
     },
     {
       "consulta": [
-        "pagar/dividir"
+        "pagar/rachar"
       ],
       "tipo": "responde",
       "voz": "target_en_f",
@@ -180,7 +180,9 @@
       "pt": "Kann ich das noch mal sehen?"
     },
     {
-      "consulta": ["mesa/conta"],
+      "consulta": [
+        "mesa/conta"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "EXCUSE",
@@ -195,7 +197,9 @@
       "pt": "Entschuldigung."
     },
     {
-      "consulta": ["mesa/conta"],
+      "consulta": [
+        "mesa/conta"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "HAVE",
@@ -210,7 +214,9 @@
       "pt": "Habt ihr einen Stift?"
     },
     {
-      "consulta": ["pagar/dinheiro"],
+      "consulta": [
+        "pagar/dinheiro"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "CAN-I",
@@ -225,7 +231,9 @@
       "pt": "Kann ich stattdessen bar zahlen?"
     },
     {
-      "consulta": ["pagar/pedir"],
+      "consulta": [
+        "pagar/pedir"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "GET",

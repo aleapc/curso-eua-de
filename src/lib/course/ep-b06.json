@@ -93,7 +93,7 @@
     },
     {
       "consulta": [
-        "chegar/conexao"
+        "chegar/servicos"
       ],
       "tipo": "responde",
       "voz": "target_en_f",
@@ -145,8 +145,7 @@
     },
     {
       "consulta": [
-        "pagar/caixa",
-        "chegar/dinheiro"
+        "pagar/dinheiro"
       ],
       "tipo": "responde",
       "voz": "target_en_f",
@@ -172,7 +171,7 @@
     },
     {
       "consulta": [
-        "chegar/conexao"
+        "chegar/servicos"
       ],
       "tipo": "responde",
       "voz": "target_en_f",
@@ -189,7 +188,7 @@
     },
     {
       "consulta": [
-        "chegar/conexao"
+        "chegar/servicos"
       ],
       "tipo": "responde",
       "voz": "target_en_f",
@@ -215,7 +214,7 @@
     },
     {
       "consulta": [
-        "compras/tienda"
+        "compras/balcao"
       ],
       "tipo": "responde",
       "voz": "target_en_f",
